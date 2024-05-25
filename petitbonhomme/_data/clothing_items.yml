@@ -1,0 +1,28 @@
+
+- name: "Balloon Leg Black"
+  brand: "Levi's"
+  colors:
+    - "black"
+  materials:
+    - "denim"
+  size: 28
+  category: "pants"
+  multiplicity: 2
+  buying_price: 40
+  buying_place: Vinted
+  bought_new: false
+  not_logged_wear: 0
+
+- name: "Balloon Leg Light Blue"
+  brand: "Levi's"
+  colors:
+    - "blue"
+  materials:
+    - "denim"
+  size: 27
+  category: "pants"
+  multiplicity: 2
+  buying_price: 40
+  buying_place: Vinted
+  bought_new: false
+  not_logged_wear: 0
