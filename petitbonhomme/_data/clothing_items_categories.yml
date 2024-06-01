@@ -1,0 +1,83 @@
+- name: "Top"
+  children:
+    - name: "Shirt"
+      children:
+        - name: "Long sleeved shirt"
+        - name: "Short sleeved shirt"
+        - name: "Blouse"
+    - name: "T-Shirt"
+      children:
+        - name: "T-shirt"
+        - name: "Polo shirt"
+        - name: "Long sleeved T-shirt"
+    - name: "Jumper"
+      children:
+        - name: "Jumper"
+        - name: "Zip-up sweater"
+        - name: "Turtleneck"
+- name: "Bottom"
+  children:
+    - name: "Pants"
+      children:
+        - name: "Jeans"
+        - name: "Casual trousers"
+        - name: "Suit trousers"
+        - name: "Sports pants"
+    - name: "Shorts"
+      children:
+        - name: "Jeans shorts"
+        - name: "Casual shorts"
+        - name: "Sports shorts"
+    - name: "Skirt"
+      children:
+        - name: "A-line skirt"
+        - name: "Pencil skirt"
+        - name: "Pleated skirt"
+- name: "Full body"
+  children:
+    - name: "Dress"
+      children:
+        - name: "Summer dress"
+        - name: "Formal dress"
+    - name: "Jumpsuit"
+    - name: "Dungaree"
+- name: "Outerwear"
+  children:
+    - name: "Jacket"
+      children:
+        - name: "Jacket"
+        - name: "Coat"
+        - name: "Rain coat"
+    - name: "Cape"
+    - name: "Blazer"
+- name: "Footwear"
+  children:
+    - name: "Sneakers"
+      children:
+        - name: "Running shoes"
+        - name: "City sneakers"
+        - name: "Hiking shoes"
+    - name: "Boots"
+      children:
+        - name: "Ankle boots"
+        - name: "Knee-high boots"
+    - name: "Sandals"
+      children:
+        - name: "Flip-flops"
+        - name: "Slide sandals"
+- name: "Accessory"
+  children:
+    - name: "Hats"
+      children:
+        - name: "Bucket hat"
+        - name: "Cap"
+    - name: "Scarf"
+    - name: "Gloves"
+    - name: "Bag"
+      children:
+        - name: "Bun bag"
+        - name: "Backpack"
+    - name: "Sunglasses"
+    - name: "Belt"
+    - name: "Watch"
+    - name: "Nail polish"

@@ -10,8 +10,10 @@
   multiplicity: 2
   buying_price: 40
   buying_place: Vinted
+  buying_date:
   bought_new: false
   not_logged_wear: 0
+  image: "balloon_black.png"
 
 - name: "Balloon Leg Light Blue"
   brand: "Levi's"
@@ -24,5 +26,24 @@
   multiplicity: 2
   buying_price: 40
   buying_place: Vinted
+  buying_date:
   bought_new: false
   not_logged_wear: 0
+  image: "balloon_blue.png"
+
+- name: "Volcom Swimming Trunks"
+  brand: "Volcom"
+  colors:
+    - "blue"
+    - "grey"
+  materials:
+    - "polyester"
+  size:
+  category: "activity/swimwear"
+  multiplicity: 1
+  buying_price: 40
+  buying_place: Ventes Privées
+  buying_date:
+  bought_new: true
+  not_logged_wear:
+  image: "volcom_swim.png"

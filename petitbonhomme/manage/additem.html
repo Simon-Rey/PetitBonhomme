@@ -1,0 +1,136 @@
+---
+layout: default
+---
+
+<h1>Add a New Item</h1>
+
+<div class="side-by-side-centered-wrapper">
+  <div class="add-item-form-container">
+    <form id="item-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="brand">Brand:</label>
+      <select id="brand" name="brand">
+        {% for brand in site.data.clothing_items_brands %}
+          <option value="{{ brand.name }}">{{ brand.name }}</option>
+        {% endfor %}
+      </select><br>
+
+      <label for="colors">Colors:</label>
+      <select id="colors" name="colors" multiple>
+        {% for color in site.data.clothing_items_colours %}
+          <option value="{{ color.name }}">{{ color.name }}</option>
+        {% endfor %}
+      </select><br>
+
+      <label for="materials">Materials:</label>
+      <select id="materials" name="materials" multiple>
+        {% for material in site.data.clothing_items_materials %}
+          <option value="{{ material }}">{{ material }}</option>
+        {% endfor %}
+      </select><br>
+
+      <label for="size">Size:</label>
+      <select id="size" name="size">
+        {% for size in site.data.clothing_items_sizes %}
+          <option value="{{ size }}">{{ size }}</option>
+        {% endfor %}
+      </select><br>
+
+      <label for="category">Category:</label>
+      <select id="category" name="category">
+        {% for main_category in site.data.clothing_items_categories %}
+          <optgroup label="{{ main_category.name }}">
+            {% if main_category.children %}
+              {% for sub_category in main_category.children %}
+                {% if sub_category.children %}
+                  <optgroup label="&nbsp;&nbsp;&nbsp;&nbsp;{{ sub_category.name }}">
+                    {% for item in sub_category.children %}
+                      <option value="{{ item.name }}">&nbsp;&nbsp;&nbsp;&nbsp;{{ item.name }}</option>
+                    {% endfor %}
+                  </optgroup>
+                {% else %}
+                  <option value="{{ sub_category.name }}">&nbsp;&nbsp;&nbsp;&nbsp;{{ sub_category.name }}</option>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          </optgroup>
+        {% endfor %}
+      </select><br>
+
+      <label for="multiplicity">Multiplicity:</label>
+      <input type="number" id="multiplicity" name="multiplicity"><br>
+
+      <label for="buying_price">Buying Price:</label>
+      <input type="number" id="buying_price" name="buying_price"><br>
+
+      <label for="buying_place">Buying Place:</label>
+      <input type="text" id="buying_place" name="buying_place"><br>
+
+      <label for="buying_date">Buying Date:</label>
+      <input type="date" id="buying_date" name="buying_date"><br>
+
+      <label for="bought_new">Bought New:</label>
+      <input type="checkbox" id="bought_new" name="bought_new"><br>
+
+      <label for="not_logged_wear">Not Logged Wear:</label>
+      <input type="number" id="not_logged_wear" name="not_logged_wear"><br>
+
+      <label for="image">Image File name:</label>
+      <input type="text" id="image" name="image"><br>
+    </form>
+  </div>
+
+  <div class="add-item-yaml-container" id="yaml-container">
+    <div id="yaml-output"></div>
+  </div>
+</div>
+
+<script>
+  function updateYAML() {
+    const name = document.getElementById('name').value;
+    const brand = document.getElementById('brand').value;
+    const colors = Array.from(document.getElementById('colors').selectedOptions).map(option => option.value);
+    const materials = document.getElementById('materials').value;
+    const size = document.getElementById('size').value;
+    const category = document.getElementById('category').value;
+    const multiplicity = document.getElementById('multiplicity').value;
+    const buying_price = document.getElementById('buying_price').value;
+    const buying_place = document.getElementById('buying_place').value;
+    const buying_date = document.getElementById('buying_date').value;
+    const bought_new = document.getElementById('bought_new').checked;
+    const not_logged_wear = document.getElementById('not_logged_wear').value;
+    const image = document.getElementById('image').value;
+
+    const yaml = `- name: "${name}"
+  brand: "${brand}"
+  colors:
+    - "${colors.join('",\n    - "')}"
+  materials:
+    - "${materials}"
+  size: "${size}"
+  category: "${category}"
+  multiplicity: ${multiplicity}
+  buying_price: ${buying_price}
+  buying_place: "${buying_place}"
+  buying_date: "${buying_date}"
+  bought_new: ${bought_new}
+  not_logged_wear: ${not_logged_wear}
+  image: "${image}"
+`;
+
+    document.getElementById('yaml-output').textContent = yaml;
+  }
+
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const inputs = document.querySelectorAll('#item-form input, #item-form select');
+    inputs.forEach(input => {
+      input.addEventListener('input', updateYAML);
+      input.addEventListener('change', updateYAML); // For select and checkbox inputs
+    });
+
+    // Initial call to display default values
+    updateYAML();
+  });
+</script>
