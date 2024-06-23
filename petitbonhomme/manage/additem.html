@@ -12,7 +12,8 @@ layout: default
 
       <label for="brand">Brand:</label>
       <select id="brand" name="brand">
-        {% for brand in site.data.clothing_items_brands %}
+        {% assign sorted_brands = site.data.clothing_items_brands | sort: "name" %}
+        {% for brand in sorted_brands %}
           <option value="{{ brand.name }}">{{ brand.name }}</option>
         {% endfor %}
       </select><br>
@@ -92,7 +93,7 @@ layout: default
     const name = document.getElementById('name').value;
     const brand = document.getElementById('brand').value;
     const colors = Array.from(document.getElementById('colors').selectedOptions).map(option => option.value);
-    const materials = document.getElementById('materials').value;
+    const materials = Array.from(document.getElementById('materials').selectedOptions).map(option => option.value);
     const size = document.getElementById('size').value;
     const category = document.getElementById('category').value;
     const multiplicity = document.getElementById('multiplicity').value;
@@ -106,9 +107,9 @@ layout: default
     const yaml = `- name: "${name}"
   brand: "${brand}"
   colors:
-    - "${colors.join('",\n    - "')}"
+    - "${colors.join('"\n    - "')}"
   materials:
-    - "${materials}"
+    - "${materials.join('"\n    - "')}"
   size: "${size}"
   category: "${category}"
   multiplicity: ${multiplicity}
