@@ -19,11 +19,15 @@ layout: default
       </select><br>
 
       <label for="colors">Colors:</label>
-      <select id="colors" name="colors" multiple>
+      <div id="color-selector" class="color-selector">
         {% for color in site.data.clothing_items_colours %}
-          <option value="{{ color.name }}">{{ color.name }}</option>
+          <div id="color-circle-{{ color.name }}" class="color-circle" data-color="{{ color.name }}" style="background-color: #{{ color.HTML_code }};" title="{{ color.name }}" onclick="toggleColorSelection('color-circle-{{ color.name }}')">
+            <div class='color-circle-inner'>
+              <span class="color-circle-checkmark">&#10003;</span>
+            </div>
+          </div>
         {% endfor %}
-      </select><br>
+      </div><br>
 
       <label for="materials">Materials:</label>
       <select id="materials" name="materials" multiple>
@@ -61,7 +65,7 @@ layout: default
       </select><br>
 
       <label for="multiplicity">Multiplicity:</label>
-      <input type="number" id="multiplicity" name="multiplicity"><br>
+      <input type="number" id="multiplicity" name="multiplicity" value="1"><br>
 
       <label for="buying_price">Buying Price:</label>
       <input type="number" id="buying_price" name="buying_price"><br>
@@ -76,23 +80,25 @@ layout: default
       <input type="checkbox" id="bought_new" name="bought_new"><br>
 
       <label for="not_logged_wear">Not Logged Wear:</label>
-      <input type="number" id="not_logged_wear" name="not_logged_wear"><br>
+      <input type="number" id="not_logged_wear" name="not_logged_wear" value="0"><br>
 
       <label for="image">Image File name:</label>
-      <input type="text" id="image" name="image"><br>
+      <input type="file" id="image" name="image"><br>
     </form>
   </div>
 
   <div class="add-item-yaml-container" id="yaml-container">
     <div id="yaml-output"></div>
+    <button id="yaml-copy-button" onclick="copyToClipboard()">Copy</button>
   </div>
 </div>
 
 <script>
   function updateYAML() {
-    const name = document.getElementById('name').value;
+    const nameElement = document.getElementById('name');
+    const name = nameElement.value;
     const brand = document.getElementById('brand').value;
-    const colors = Array.from(document.getElementById('colors').selectedOptions).map(option => option.value);
+    const colors = Array.from(document.querySelectorAll('.color-circle.selected')).map(circle => circle.getAttribute('data-color'));
     const materials = Array.from(document.getElementById('materials').selectedOptions).map(option => option.value);
     const size = document.getElementById('size').value;
     const category = document.getElementById('category').value;
@@ -102,9 +108,18 @@ layout: default
     const buying_date = document.getElementById('buying_date').value;
     const bought_new = document.getElementById('bought_new').checked;
     const not_logged_wear = document.getElementById('not_logged_wear').value;
-    const image = document.getElementById('image').value;
+    const imagePath = document.getElementById('image').value;
+    const image = imagePath ? imagePath.split('\\').pop().split('/').pop() : '';
 
-    const yaml = `- name: "${name}"
+    const existingItems = {{ site.data.clothing_items | jsonify }};
+    const duplicateItem = existingItems.find(item => item.name.trim().toLowerCase() === name.trim().toLowerCase());
+    if (duplicateItem) {
+      nameElement.style.border = "4px solid red";
+    } else {
+      nameElement.style.border = null;
+    }
+
+    document.getElementById('yaml-output').textContent = `- name: "${name.trim()}"
   brand: "${brand}"
   colors:
     - "${colors.join('"\n    - "')}"
@@ -120,8 +135,6 @@ layout: default
   not_logged_wear: ${not_logged_wear}
   image: "${image}"
 `;
-
-    document.getElementById('yaml-output').textContent = yaml;
   }
 
   document.addEventListener('DOMContentLoaded', (event) => {
@@ -134,4 +147,19 @@ layout: default
     // Initial call to display default values
     updateYAML();
   });
+
+  function copyToClipboard() {
+    const yamlOutput = document.getElementById('yaml-output').textContent;
+    const yamlCopyButton = document.getElementById('yaml-copy-button');
+    navigator.clipboard.writeText(yamlOutput).then(() => {
+        yamlCopyButton.style.border = "2px solid green";
+    }).catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+  }
+
+  function toggleColorSelection(element_id) {
+    document.getElementById(element_id).classList.toggle('selected');
+    updateYAML();
+  }
 </script>

@@ -1,49 +1,180 @@
-
-- name: "Balloon Leg Black"
-  brand: "Levi's"
+- name: "Birkenstock"
+  brand: "Birkenstock"
   colors:
-    - "black"
+    - "Black"
+    - "Brown"
   materials:
-    - "denim"
-  size: 28
-  category: "pants"
-  multiplicity: 2
-  buying_price: 40
-  buying_place: Vinted
-  buying_date:
+    - "Leather"
+  size: "EUR 41"
+  category: "Slide sandals"
+  multiplicity: 1
+  buying_price: 20
+  buying_place: "Vinted"
+  buying_date: "2023-06-01"
+  bought_new: false
+  not_logged_wear: 30
+  image: "2023 - Clothes - 0A252564-570D-49AC-AF77-79917A646629.png"
+
+- name: "Orange Corduroy Shirt"
+  brand: "No Brand"
+  colors:
+    - "Orange"
+  materials:
+    - "Corduroy"
+  size: "Woman -- S"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 25
+  buying_place: "Vienna"
+  buying_date: "2023-08-23"
+  bought_new: false
+  not_logged_wear: 5
+  image: "2023 - Clothes - 0ABEAD0D-93C7-4B6D-AAE2-ABC10952FDCA.png"
+
+- name: "Sweater Col-V Jules"
+  brand: "Jules"
+  colors:
+    - "Blue"
+    - "Navy"
+  materials:
+    - "Cotton"
+  size: "Man -- M"
+  category: "Long sleeved T-shirt"
+  multiplicity: 1
+  buying_price: 30
+  buying_place: "Toulouse"
+  buying_date: "2016-01-01"
+  bought_new: true
+  not_logged_wear: 50
+  image: "2023 - Clothes - 0BA4FDB4-FD0B-4725-94A6-C134478B0C2F.png"
+
+- name: "Blue Basic T-Shirt"
+  brand: "No Brand"
+  colors:
+    - "Blue"
+  materials:
+    - "Cotton"
+  size: "Man -- S"
+  category: "T-shirt"
+  multiplicity: 1
+  buying_price: 15
+  buying_place: "Episode - Amsterdam"
+  buying_date: "2022-05-01"
+  bought_new: false
+  not_logged_wear: 5
+  image: "2023 - Clothes - 0C63585D-DC32-4D1A-92D3-09FF987F2D06.png"
+
+- name: "Sandro Fluffy Top"
+  brand: "Sandro"
+  colors:
+    - "Black"
+  materials:
+    - "Polyester & Plastics"
+  size: "Woman -- M"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 15
+  buying_place: "Vinted"
+  buying_date: "2023-10-12"
+  bought_new: false
+  not_logged_wear: 2
+  image: "2023 - Clothes - 0E5AC46D-A0BA-4A55-8F5E-9889AF908250.png"
+
+- name: "Stories Sheer Top"
+  brand: "Other Stories"
+  colors:
+    - "Red"
+    - "Black"
+  materials:
+    - "Polyester & Plastics"
+  size: "Woman -- M"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 10
+  buying_place: "Vinted"
+  buying_date: "2023-09-21"
   bought_new: false
   not_logged_wear: 0
-  image: "balloon_black.png"
+  image: "2023 - Clothes - 1C986E52-7E17-4337-ABBC-B0E0C9361099.png"
 
-- name: "Balloon Leg Light Blue"
-  brand: "Levi's"
-  colors:
-    - "blue"
-  materials:
-    - "denim"
-  size: 27
-  category: "pants"
-  multiplicity: 2
-  buying_price: 40
-  buying_place: Vinted
-  buying_date:
-  bought_new: false
-  not_logged_wear: 0
-  image: "balloon_blue.png"
-
-- name: "Volcom Swimming Trunks"
+- name: "Volcom Grey Vest"
   brand: "Volcom"
   colors:
-    - "blue"
-    - "grey"
+    - "Gray"
   materials:
-    - "polyester"
-  size:
-  category: "activity/swimwear"
+    - "Cotton"
+  size: "Man -- M"
+  category: "Zip-up sweater"
   multiplicity: 1
-  buying_price: 40
-  buying_place: Ventes Privées
-  buying_date:
+  buying_price: 55
+  buying_place: "Okla - Toulouse"
+  buying_date: "2011-01-01"
   bought_new: true
-  not_logged_wear:
-  image: "volcom_swim.png"
+  not_logged_wear: 100
+  image: "2023 - Clothes - 1CF747A2-0F62-4C34-8042-42C91C5164A4.png"
+
+- name: "Levi's Denim Shirt"
+  brand: "Levi's"
+  colors:
+    - "Gray"
+  materials:
+    - "Cotton"
+  size: "Man -- M"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 75
+  buying_place: "Gallerie Lafayette - Toulouse"
+  buying_date: "2016-01-01"
+  bought_new: true
+  not_logged_wear: 20
+  image: "2023 - Clothes - 1E2FF71C-1758-4802-A93D-4E78F68409C1.png"
+
+- name: "Brown Heel Boot"
+  brand: "Vagabond"
+  colors:
+    - "Brown"
+  materials:
+    - "Polyester & Plastics"
+  size: "EUR 41"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 60
+  buying_place: "Zalando"
+  buying_date: "2022-05-01"
+  bought_new: true
+  not_logged_wear: 15
+  image: "2023 - Clothes - 1F3066AA-B4A9-475C-B1DA-F9DFF4E7CA81.png"
+
+- name: "Pink Basic T-Shirt"
+  brand: "No Brand"
+  colors:
+    - "Pink"
+  materials:
+    - "Cotton"
+  size: "Man -- S"
+  category: "T-shirt"
+  multiplicity: 1
+  buying_price: 10
+  buying_place: "Oxfam - London"
+  buying_date: "2023-06-22"
+  bought_new: false
+  not_logged_wear: 5
+  image: "2023 - Clothes - 2F24B324-0F64-4F20-865A-2F7EFABA3702.png"
+
+- name: "Sessun Wide Skirt"
+  brand: "Sessun"
+  colors:
+    - "Green"
+    - "Blue"
+    - "Teal"
+  materials:
+    - "Cotton"
+  size: "Woman -- M"
+  category: "A-line skirt"
+  multiplicity: 1
+  buying_price: 11
+  buying_place: "Vinted"
+  buying_date: "2023-09-21"
+  bought_new: false
+  not_logged_wear: 0
+  image: "2023 - Clothes - 2FDFFC22-F46A-4AAA-90F9-EA37857ADBDD.png"
