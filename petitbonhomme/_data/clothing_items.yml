@@ -248,8 +248,8 @@
   colors:
     - "Black"
   materials:
-    - "Wool"
-  size: "Woman - M"
+    - "Polyester & Plastics"
+  size: "Woman - 38"
   category: "Pencil skirt"
   multiplicity: 1
   buying_price: 16
@@ -258,4 +258,173 @@
   bought_new: false
   not_logged_wear: 0
   image: "2023 - Clothes - 10DA5530-9ADE-496A-88EA-901E47D7D711.png"
+
+- name: "T-Shirt Celio Rouge Bordeaux"
+  brand: "Celio"
+  colors:
+    - "Red"
+  materials:
+    - "Cotton"
+  size: "Man - S"
+  category: "T-shirt"
+  multiplicity: 1
+  buying_price: 20
+  buying_place: "Toulouse"
+  buying_date: "2018-08-01"
+  bought_new: true
+  not_logged_wear: 50
+  image: "2023 - Clothes - 110684FF-DF48-4727-9388-B3AF86A0EB18.png"
+
+- name: "Bonnet Mélina"
+  brand: "No Brand"
+  colors:
+    - "Yellow"
+    - "Gray"
+  materials:
+    - "Wool"
+  size: "Unique Size"
+  category: "Hat"
+  multiplicity: 1
+  buying_price: 0
+  buying_place: "Gift"
+  buying_date: "2012-09-01"
+  bought_new: true
+  not_logged_wear: 100
+  image: "2023 - Clothes - 131600D7-0D85-43FA-A7CF-9A6CBC1D3BBC.png"
+
+- name: "Golden Vintage Vest"
+  brand: "No Brand"
+  colors:
+    - "Yellow"
+    - "Olive"
+    - "Brown"
+  materials:
+    - "Polyester & Plastics"
+  size: "Woman - M"
+  category: "Blazer"
+  multiplicity: 1
+  buying_price: 28
+  buying_place: "Humana Berlin"
+  buying_date: "2023-10-11"
+  bought_new: false
+  not_logged_wear: 0
+  image: "2023 - Clothes - 18676829-D230-4E4B-A9F8-D03F7F66C5C4.png"
+
+- name: "Crop Top Pink Zara"
+  brand: "Zara"
+  colors:
+    - "Pink"
+  materials:
+    - "Polyester & Plastics"
+  size: "Woman - L"
+  category: "Tank Top"
+  multiplicity: 1
+  buying_price: 5
+  buying_place: "Istanbul"
+  buying_date: "2023-08-17"
+  bought_new: true
+  not_logged_wear: 0
+  image: "2023 - Clothes - 18723282-0F59-424A-9129-7C7EC42AECC3.png"
+
+- name: "Cropped Blazer Cos"
+  brand: "Cos"
+  colors:
+    - "Black"
+  materials:
+    - "Polyester & Plastics"
+    - "Wool"
+  size: "Woman - 36"
+  category: "Blazer"
+  multiplicity: 1
+  buying_price: 150
+  buying_place: "Cos Amsterdam"
+  buying_date: "2023-09-20"
+  bought_new: true
+  not_logged_wear: 0
+  image: "2023 - Clothes - 18CE9F95-4B63-47BD-9E07-6108E9C5C7E0.png"
+
+- name: "Pull Motif Pull & Bear"
+  brand: "Pull and Bear"
+  colors:
+    - "Blue"
+    - "White"
+    - "Maroon"
+    - "Navy"
+  materials:
+    - "Polyester & Plastics"
+  size: "Man - M"
+  category: "Jumper"
+  multiplicity: 1
+  buying_price: 35
+  buying_place: "Pull & Bear Paris"
+  buying_date: "2016-10-20"
+  bought_new: true
+  not_logged_wear: 20
+  image: "2023 - Clothes - 18DB6FAC-FA90-4DC5-AAF7-A328C5F8D7BE.png"
+
+- name: "Levi's Balloon Leg Light"
+  brand: "Levi's"
+  colors:
+    - "Blue"
+    - "Cyan"
+  materials:
+    - "Cotton"
+  size: "Pants US 27"
+  category: "Jeans"
+  multiplicity: 2
+  buying_price: 50
+  buying_place: "Vinted"
+  buying_date: "2023-01-11"
+  bought_new: false
+  not_logged_wear: 20
+  image: "2023 - Clothes - 190468CB-52C6-434A-821D-4BBA920B139D.png"
+
+- name: "Lucy & Yak Dungaree Short Black"
+  brand: "Lucy and Yak"
+  colors:
+    - "Black"
+  materials:
+    - "Cotton"
+  size: "Woman - UK 10"
+  category: "Jumpsuit"
+  multiplicity: 1
+  buying_price: 45
+  buying_place: "Lucy & Jak Webshop"
+  buying_date: "2022-05-25"
+  bought_new: true
+  not_logged_wear: 20
+  image: "2023 - Clothes - 1988FFE1-FE96-4C45-A87F-C1E9CE111BFB.png"
+
+- name: "Long Sleeve Black T-Shirt Tico"
+  brand: "No Brand"
+  colors:
+    - "Black"
+  materials:
+    - "Cotton"
+  size: "Man - M"
+  category: "Long sleeved T-shirt"
+  multiplicity: 1
+  buying_price: 0
+  buying_place: "Paris"
+  buying_date: "2023-02-16"
+  bought_new: false
+  not_logged_wear: 0
+  image: "2023 - Clothes - 19C615DD-DC24-4253-8C89-7ED9DE57B8B6.png"
+
+- name: "Suit Pant Black"
+  brand: "Celio"
+  colors:
+    - "Black"
+  materials:
+    - "Polyester & Plastics"
+    - "Wool"
+  size: "Pants EUR 40"
+  category: "Suit trousers"
+  multiplicity: 1
+  buying_price: 70
+  buying_place: "Celio Toulouse"
+  buying_date: "2013-11-06"
+  bought_new: true
+  not_logged_wear: 5
+  image: "2023 - Clothes - 20169583-E247-4E7B-A8E2-341D4AFA47C8.png"
 

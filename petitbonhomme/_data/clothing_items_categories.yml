@@ -68,10 +68,7 @@
         - name: "Slide sandals"
 - name: "Accessory"
   children:
-    - name: "Hats"
-      children:
-        - name: "Bucket hat"
-        - name: "Cap"
+    - name: "Hat"
     - name: "Scarf"
     - name: "Gloves"
     - name: "Bag"
