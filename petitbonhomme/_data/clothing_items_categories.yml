@@ -7,6 +7,7 @@
         - name: "Blouse"
     - name: "T-Shirt"
       children:
+        - name: "Tank Top"
         - name: "T-shirt"
         - name: "Polo shirt"
         - name: "Long sleeved T-shirt"

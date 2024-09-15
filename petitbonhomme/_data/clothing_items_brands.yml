@@ -138,3 +138,6 @@
 - name: "Sessun"
   url: "https://www.sessun.com"
   country: "France"
+- name: "Honest Basics"
+  url: "https://www.honest-basics.com"
+  country: "Germany"

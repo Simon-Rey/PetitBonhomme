@@ -4,7 +4,24 @@ layout: default
 
 <h1>Add a New Item</h1>
 
+{% assign used_images = '' %}
+{% for item in site.data.clothing_items %}
+{% assign used_images = used_images | append: item.image %}
+{% endfor %}
 <div class="side-by-side-centered-wrapper">
+    <div>
+        {% for static_file in site.static_files %}
+          {% if static_file.path contains '/assets/img/clothes' %}
+            {% unless used_images contains static_file.basename %}
+                <img width="200px" src="{{ static_file.path | relative_url }}" alt="{{ static_file.basename }}">
+                {% assign image_basename = static_file.basename %}
+                {% assign image_extension = static_file.extname %}
+                {% break %}
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+        {{ static_file }}
+    </div>
   <div class="add-item-form-container">
     <form id="item-form">
       <label for="name">Name:</label>
@@ -83,7 +100,8 @@ layout: default
       <input type="number" id="not_logged_wear" name="not_logged_wear" value="0"><br>
 
       <label for="image">Image File name:</label>
-      <input type="file" id="image" name="image"><br>
+      <input type="text" id="image" name="image" value="{{ image_basename }}{{ image_extension }}"><br>
+      <input type="file" id="image_input" name="image"><br>
     </form>
   </div>
 
@@ -136,6 +154,18 @@ layout: default
   image: "${image}"
 `;
   }
+
+  const imageFileInput = document.getElementById('image_input');
+  const imageTextInput = document.getElementById('image');
+
+  imageFileInput.addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (file) {
+      imageTextInput.value = file.name;
+    } else {
+      imageTextInput.value = '';
+    }
+  });
 
   document.addEventListener('DOMContentLoaded', (event) => {
     const inputs = document.querySelectorAll('#item-form input, #item-form select');

@@ -21,7 +21,7 @@
     - "Orange"
   materials:
     - "Corduroy"
-  size: "Woman -- S"
+  size: "Woman - S"
   category: "Long sleeved shirt"
   multiplicity: 1
   buying_price: 25
@@ -38,7 +38,7 @@
     - "Navy"
   materials:
     - "Cotton"
-  size: "Man -- M"
+  size: "Man - M"
   category: "Long sleeved T-shirt"
   multiplicity: 1
   buying_price: 30
@@ -54,7 +54,7 @@
     - "Blue"
   materials:
     - "Cotton"
-  size: "Man -- S"
+  size: "Man - S"
   category: "T-shirt"
   multiplicity: 1
   buying_price: 15
@@ -70,7 +70,7 @@
     - "Black"
   materials:
     - "Polyester & Plastics"
-  size: "Woman -- M"
+  size: "Woman - M"
   category: "Long sleeved shirt"
   multiplicity: 1
   buying_price: 15
@@ -87,7 +87,7 @@
     - "Black"
   materials:
     - "Polyester & Plastics"
-  size: "Woman -- M"
+  size: "Woman - M"
   category: "Long sleeved shirt"
   multiplicity: 1
   buying_price: 10
@@ -103,7 +103,7 @@
     - "Gray"
   materials:
     - "Cotton"
-  size: "Man -- M"
+  size: "Man - M"
   category: "Zip-up sweater"
   multiplicity: 1
   buying_price: 55
@@ -119,7 +119,7 @@
     - "Gray"
   materials:
     - "Cotton"
-  size: "Man -- M"
+  size: "Man - M"
   category: "Long sleeved shirt"
   multiplicity: 1
   buying_price: 75
@@ -151,7 +151,7 @@
     - "Pink"
   materials:
     - "Cotton"
-  size: "Man -- S"
+  size: "Man - S"
   category: "T-shirt"
   multiplicity: 1
   buying_price: 10
@@ -169,7 +169,7 @@
     - "Teal"
   materials:
     - "Cotton"
-  size: "Woman -- M"
+  size: "Woman - M"
   category: "A-line skirt"
   multiplicity: 1
   buying_price: 11
@@ -178,3 +178,84 @@
   bought_new: false
   not_logged_wear: 0
   image: "2023 - Clothes - 2FDFFC22-F46A-4AAA-90F9-EA37857ADBDD.png"
+
+- name: "Combinaison Moulante"
+  brand: "Maje"
+  colors:
+    - "Black"
+  materials:
+    - "Polyester & Plastics"
+  size: "Woman - M"
+  category: "Jumpsuit"
+  multiplicity: 1
+  buying_price: 7
+  buying_place: "Vinted"
+  buying_date: "2023-10-11"
+  bought_new: false
+  not_logged_wear: 0
+  image: "2023 - Clothes - 019ED493-B3CF-43BD-95BD-E6136A727845.png"
+
+- name: "Débardeur Blanc Honest Basics"
+  brand: "Honest Basics"
+  colors:
+    - "White"
+  materials:
+    - "Cotton"
+  size: "Man - M"
+  category: "Tank Top"
+  multiplicity: 1
+  buying_price: 10
+  buying_place: "Honest Basic Webshop"
+  buying_date: "2023-11-22"
+  bought_new: true
+  not_logged_wear: 0
+  image: "2023 - Clothes - 04ABCDE2-A665-481D-A917-7E99AB4F9649.png"
+
+- name: "Costa Rica T-Shirt"
+  brand: "No Brand"
+  colors:
+    - "Gray"
+  materials:
+    - "Cotton"
+  size: "Man - S"
+  category: "T-shirt"
+  multiplicity: 1
+  buying_price: 0
+  buying_place: "Webshop"
+  buying_date: "2018-11-01"
+  bought_new: true
+  not_logged_wear: 15
+  image: "2023 - Clothes - 083913E8-794A-4F00-A790-7678C94130EE.png"
+
+- name: "Decathlon Grey Sport T-Shirt"
+  brand: "Decathlon"
+  colors:
+    - "Gray"
+  materials:
+    - "Polyester & Plastics"
+  size: "Man - S"
+  category: "T-shirt"
+  multiplicity: 2
+  buying_price: 15
+  buying_place: "Paris"
+  buying_date: "2018-04-01"
+  bought_new: true
+  not_logged_wear: 30
+  image: "2023 - Clothes - 10CCF4CB-1BD8-4F9F-ABC7-A906DE60412F.png"
+
+- name: "Jupe Maje Double Zips"
+  brand: "Maje"
+  colors:
+    - "Black"
+  materials:
+    - "Wool"
+  size: "Woman - M"
+  category: "Pencil skirt"
+  multiplicity: 1
+  buying_price: 16
+  buying_place: "Vinted"
+  buying_date: "2023-11-04"
+  bought_new: false
+  not_logged_wear: 0
+  image: "2023 - Clothes - 10DA5530-9ADE-496A-88EA-901E47D7D711.png"
+

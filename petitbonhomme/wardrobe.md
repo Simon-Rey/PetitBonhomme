@@ -24,7 +24,9 @@ Hello
 
 <div>
 <h3>{{ item.name }}</h3>
-<p><img src="{{ item.image }}" alt="Image for the item {{ item.name }}"></p>
+
+{% assign full_image_path = "/assets/img/clothes/" | append: item.image %}
+<p><img src="{{ full_image_path | relative_url }}" alt="Image for the item {{ item.name }}"></p>
 <p>Worn: {{ wear_count }}</p>
 <p>Price per wear: {{ price_per_wear }}</p>
 </div>
