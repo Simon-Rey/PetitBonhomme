@@ -7,15 +7,17 @@
         - name: "Blouse"
     - name: "T-Shirt"
       children:
-        - name: "Tank Top"
         - name: "T-shirt"
         - name: "Polo shirt"
         - name: "Long sleeved T-shirt"
+        - name: "Tank Top"
+        - name: "Crop Top"
     - name: "Jumper"
       children:
         - name: "Jumper"
         - name: "Zip-up sweater"
         - name: "Turtleneck"
+        - name: "Hoodie"
 - name: "Bottom"
   children:
     - name: "Pants"
@@ -34,6 +36,9 @@
         - name: "A-line skirt"
         - name: "Pencil skirt"
         - name: "Pleated skirt"
+        - name: "Skort"
+    - name: "Legging"
+    - name: "Tights"
 - name: "Full body"
   children:
     - name: "Dress"
@@ -79,3 +84,4 @@
     - name: "Belt"
     - name: "Watch"
     - name: "Nail polish"
+    - name: "Bow Tie"
