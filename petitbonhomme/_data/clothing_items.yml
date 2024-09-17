@@ -80,8 +80,8 @@
   not_logged_wear: 2
   image: "2023 - Clothes - 0E5AC46D-A0BA-4A55-8F5E-9889AF908250.png"
 
-- name: "Stories Sheer Top"
-  brand: "Other Stories"
+- name: "& Other Stories Sheer Red Top"
+  brand: "& Other Stories"
   colors:
     - "Red"
     - "Black"
@@ -1653,4 +1653,232 @@
   bought_new: false
   not_logged_wear: 5
   image: "2023 - Clothes - 7D1C7A9E-2AA3-43E2-BE0C-F3E97E6CB9BA.png"
+
+- name: "Jumpsuit Blue"
+  brand: "No Brand"
+  colors:
+    - "Blue"
+  materials:
+    - "Cotton"
+  size: "Unique Size"
+  category: "Jumpsuit"
+  multiplicity: 1
+  buying_price: 35
+  buying_place: "Episode Amsterdam"
+  buying_date: "2022-10-21"
+  bought_new: false
+  not_logged_wear: 10
+  image: "2023 - Clothes - 7D3CC9C2-E291-456E-9EFB-3E5B06DAFB2C.png"
+
+- name: "Maje Fluid Dress"
+  brand: "Maje"
+  colors:
+    - "Blue"
+    - "Black"
+    - "White"
+  materials:
+    - "Polyester & Plastics"
+  size: "Woman - 38"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 295
+  buying_place: "Maje Amsterdam"
+  buying_date: "2023-10-07"
+  bought_new: true
+  not_logged_wear: 1
+  image: "2023 - Clothes - 8349C9DF-C17A-4C48-9588-55C47830F2EA.png"
+
+- name: "Gray Volcom Shorts"
+  brand: "Volcom"
+  colors:
+    - "Gray"
+  materials:
+    - "Cotton"
+  size: "Man - M"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 60
+  buying_place: "Okla Toulouse"
+  buying_date: "2017-06-15"
+  bought_new: true
+  not_logged_wear: 50
+  image: "2023 - Clothes - 85FE4229-2237-448D-AE2F-6261C2079D8C.png"
+
+- name: "Long Sleeve T-Shirt Gray Only & Sons"
+  brand: "Only and Sons"
+  colors:
+    - "Gray"
+  materials:
+    - "Cotton"
+  size: "Man - M"
+  category: "Long sleeved T-shirt"
+  multiplicity: 1
+  buying_price: 50
+  buying_place: "Toulouse"
+  buying_date: "2016-08-18"
+  bought_new: true
+  not_logged_wear: 30
+  image: "2023 - Clothes - 8656F3A9-DC30-484F-B804-489A5FF6ECD1.png"
+
+- name: "Sirin Black Shorts"
+  brand: "No Brand"
+  colors:
+    - "Black"
+  materials:
+    - "Cotton"
+  size: "Woman - M"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 0
+  buying_place: "Sydney"
+  buying_date: "2023-01-11"
+  bought_new: false
+  not_logged_wear: 5
+  image: "2023 - Clothes - 88E4F6F5-F981-4D3D-9E9C-0686D8ABB129.png"
+
+- name: "Teym White Sweater"
+  brand: "Teym"
+  colors:
+    - "White"
+  materials:
+    - "Wool"
+  size: "Man - XS"
+  category: "Jumper"
+  multiplicity: 1
+  buying_price: 15
+  buying_place: "King's Day"
+  buying_date: "2024-04-27"
+  bought_new: false
+  not_logged_wear: 0
+  image: "2023 - Clothes - 8A4EE9DB-69C5-44C1-BB28-0A0BB598D380.png"
+
+- name: "Uniqlo Black Shirt"
+  brand: "Uniqlo"
+  colors:
+    - "Black"
+  materials:
+    - "Cotton"
+  size: "Man - S"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 30
+  buying_place: "Uniqlo Amsterdam"
+  buying_date: "2022-09-14"
+  bought_new: true
+  not_logged_wear: 3
+  image: "2023 - Clothes - 8AD125CA-FE56-4BA1-9CB3-B8E65B65B85E.png"
+
+- name: "Blue Chinese Vest Episode"
+  brand: "No Brand"
+  colors:
+    - "Blue"
+  materials:
+    - "Cotton"
+  size: "Man - S"
+  category: "Jacket"
+  multiplicity: 1
+  buying_price: 35
+  buying_place: "Episode Amsterdam"
+  buying_date: "2022-05-18"
+  bought_new: false
+  not_logged_wear: 50
+  image: "2023 - Clothes - 8B1F3602-B19F-472D-813A-3473EE64ADA7.png"
+
+- name: "Dark Blue The Kooples Skirt"
+  brand: "The Kooples"
+  colors:
+    - "Blue"
+    - "Navy"
+  materials:
+    - "Polyester & Plastics"
+    - "Wool"
+  size: "Woman - 38"
+  category: "Pencil skirt"
+  multiplicity: 1
+  buying_price: 19
+  buying_place: "Vinted"
+  buying_date: "2023-11-06"
+  bought_new: false
+  not_logged_wear: 0
+  image: "2023 - Clothes - 8B3D179F-A797-41EF-A216-7BEBAF740876.png"
+
+- name: "Gray Shiny & Other Stories Skirt"
+  brand: "& Other Stories"
+  colors:
+    - "Gray"
+  materials:
+    - "Polyester & Plastics"
+  size: "Woman - 38"
+  category: "Pencil skirt"
+  multiplicity: 1
+  buying_price: 45
+  buying_place: "& Other Stories Amsterdam"
+  buying_date: "2022-05-06"
+  bought_new: true
+  not_logged_wear: 5
+  image: "2023 - Clothes - 8D1F38DC-7011-448A-8F57-445F489BBCE8.png"
+
+- name: "Blue Cachemire Zipped Jumper"
+  brand: "No Brand"
+  colors:
+    - "Blue"
+  materials:
+    - "Wool"
+  size: "Man - M"
+  category: "Zip-up sweater"
+  multiplicity: 1
+  buying_price: 0
+  buying_place: "Shanghai"
+  buying_date: "2020-12-24"
+  bought_new: false
+  not_logged_wear: 30
+  image: "2023 - Clothes - 903735CA-66EB-4B9A-92E4-D1F1972489C3.png"
+
+- name: "Green Zara Crop Top"
+  brand: "Zara"
+  colors:
+    - "Teal"
+  materials:
+    - "Cotton"
+  size: "Woman - M"
+  category: "Crop Top"
+  multiplicity: 1
+  buying_price: 9
+  buying_place: "Vinted"
+  buying_date: "2023-06-23"
+  bought_new: false
+  not_logged_wear: 5
+  image: "2023 - Clothes - 90B9AD50-530E-49F5-B10D-965811CF2CC6.png"
+
+- name: "Denim Blue Dungarees"
+  brand: "No Brand"
+  colors:
+    - "Blue"
+  materials:
+    - "Cotton"
+  size: "Unique Size"
+  category: "Dungaree"
+  multiplicity: 1
+  buying_price: 35
+  buying_place: "Episode Amsterdam"
+  buying_date: "2022-04-15"
+  bought_new: false
+  not_logged_wear: 20
+  image: "2023 - Clothes - 9110D79A-F971-4D71-9DCE-724E5B1C7A77.png"
+
+- name: "Beige Cachemire Turtle Neck"
+  brand: "No Brand"
+  colors:
+    - "Beige"
+  materials:
+    - "Wool"
+  size: "Woman - M"
+  category: "Turtleneck"
+  multiplicity: 1
+  buying_price: 25
+  buying_place: "Episode Amsterdam"
+  buying_date: "2021-11-19"
+  bought_new: false
+  not_logged_wear: 40
+  image: "2023 - Clothes - 9138479B-1C59-461D-A4D0-49C15B39B953.png"
 
