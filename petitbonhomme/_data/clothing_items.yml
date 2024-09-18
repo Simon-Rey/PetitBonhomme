@@ -179,7 +179,7 @@
   not_logged_wear: 0
   image: "2023 - Clothes - 2FDFFC22-F46A-4AAA-90F9-EA37857ADBDD.png"
 
-- name: "Débardeur Blanc Honest Basics"
+- name: "White Ribbed Tank Top Honest Basics"
   brand: "Honest Basics"
   colors:
     - "White"
@@ -1881,4 +1881,184 @@
   bought_new: false
   not_logged_wear: 40
   image: "2023 - Clothes - 9138479B-1C59-461D-A4D0-49C15B39B953.png"
+
+- name: "Black Ribbed Tank Top Honest Basics"
+  brand: "Honest Basics"
+  colors:
+    - "Black"
+  materials:
+    - "Cotton"
+  size: "Man - M"
+  category: "Tank Top"
+  multiplicity: 1
+  buying_price: 10
+  buying_place: "Honest Basic Webshop"
+  buying_date: "2023-11-22"
+  bought_new: true
+  not_logged_wear: 0
+  image: "2023 - Clothes - 96BF3E5A-F0C8-4549-BD90-467AE57440BE.png"
+
+- name: "T-Shirt Sew to Perfection Jack & Jones"
+  brand: "Jack & Jones"
+  colors:
+    - "Orange"
+  materials:
+    - "Cotton"
+  size: "Man - M"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 0
+  buying_place: "Toulouse"
+  buying_date: "2012-03-05"
+  bought_new: true
+  not_logged_wear: 50
+  image: "2023 - Clothes - 96D72E94-CC90-46D7-9D38-CD4E60F1F82E.png"
+
+- name: "Gray Denim Shirt Pull & Bear"
+  brand: "Pull and Bear"
+  colors:
+    - "Gray"
+  materials:
+    - "Cotton"
+  size: "Man - M"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 10
+  buying_place: "Pull & Bear Paris"
+  buying_date: "2017-12-14"
+  bought_new: true
+  not_logged_wear: 30
+  image: "2023 - Clothes - 984CC79C-4886-4E6F-AAA7-F036F67A1762.png"
+
+- name: "White Tank Top"
+  brand: "No Brand"
+  colors:
+    - "White"
+  materials:
+    - "Cotton"
+  size: "Man - S"
+  category: "Tank Top"
+  multiplicity: 1
+  buying_price: 20
+  buying_place: "Sydney"
+  buying_date: "2023-12-16"
+  bought_new: true
+  not_logged_wear: 10
+  image: "2023 - Clothes - 9B13DFE9-6916-4E29-8692-84C82CBA2757.png"
+
+- name: "Dark Blue DC Shoes Pants"
+  brand: "DC Shoes"
+  colors:
+    - "Blue"
+  materials:
+    - "Cotton"
+    - "Polyester & Plastics"
+  size: "Pants US 30"
+  category: "Casual trousers"
+  multiplicity: 1
+  buying_price: 60
+  buying_place: "Toulouse"
+  buying_date: "2017-06-28"
+  bought_new: true
+  not_logged_wear: 40
+  image: "2023 - Clothes - 9C0A6DB3-70AC-4B72-AA29-69523B1F4A60.png"
+
+- name: "Black Levi's Long Shorts"
+  brand: "Levi's"
+  colors:
+    - "Black"
+  materials:
+    - "Cotton"
+  size: "Pants US 30"
+  category: "Casual shorts"
+  multiplicity: 1
+  buying_price: 0
+  buying_place: "Boston"
+  buying_date: "2010-07-24"
+  bought_new: true
+  not_logged_wear: 10
+  image: "2023 - Clothes - 9C56682F-E739-4E39-A8C3-E4A8C1370FF8.png"
+
+- name: "Purple Tank Top & Other Stories"
+  brand: "& Other Stories"
+  colors:
+    - "Purple"
+  materials:
+    - "Cotton"
+  size: "Woman - XS"
+  category: "Tank Top"
+  multiplicity: 1
+  buying_price: 0
+  buying_place: "& Other Stories Amsterdam"
+  buying_date: "2023-11-04"
+  bought_new: true
+  not_logged_wear: 0
+  image: "2023 - Clothes - 9CB6C3DF-45E1-4EF0-A192-A13848878467.png"
+
+- name: "Strap Dress Green Corduroy Lucy & Yak"
+  brand: "Lucy and Yak"
+  colors:
+    - "Green"
+    - "Olive"
+  materials:
+    - "Cotton"
+  size: "Woman - M"
+  category: "Summer dress"
+  multiplicity: 1
+  buying_price: 25
+  buying_place: "Vinted"
+  buying_date: "2022-05-07"
+  bought_new: false
+  not_logged_wear: 10
+  image: "2023 - Clothes - A095019D-5C24-4AC5-B633-2D7D529BA7B2.png"
+
+- name: "Wool Gray Turtleneck Sweater & Other Stories"
+  brand: "& Other Stories"
+  colors:
+    - "Gray"
+  materials:
+    - "Polyester & Plastics"
+    - "Wool"
+  size: "Woman - L"
+  category: "Jumper"
+  multiplicity: 1
+  buying_price: 95
+  buying_place: "& Other Stories Amsterdam"
+  buying_date: "2022-09-10"
+  bought_new: true
+  not_logged_wear: 25
+  image: "2023 - Clothes - A233BC82-B623-4E45-934E-CFE52C0CEC9B.png"
+
+- name: "Red Shirt with Pattern"
+  brand: "No Brand"
+  colors:
+    - "Red"
+  materials:
+    - "Cotton"
+    - "Linen"
+  size: "Man - M"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 20
+  buying_place: "Vienna"
+  buying_date: "2022-08-17"
+  bought_new: false
+  not_logged_wear: 5
+  image: "2023 - Clothes - A27DE13E-26DA-4E0B-97DD-EA8BF91F199A.png"
+
+- name: "Black Top Flower Pattern"
+  brand: "No Brand"
+  colors:
+    - "Black"
+  materials:
+    - "Cotton"
+  size: "Woman - M"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 0
+  buying_place: "Brussels"
+  buying_date: "2019-09-20"
+  bought_new: false
+  not_logged_wear: 0
+  image: "2023 - Clothes - A4A61808-87AB-45C9-A926-0B281BDF5514.png"
 
