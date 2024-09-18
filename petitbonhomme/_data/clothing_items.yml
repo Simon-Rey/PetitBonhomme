@@ -2062,3 +2062,36 @@
   not_logged_wear: 0
   image: "2023 - Clothes - A4A61808-87AB-45C9-A926-0B281BDF5514.png"
 
+- name: "Sport T-Shirt Under Armour UNSW"
+  brand: "Under Armour"
+  colors:
+    - "Black"
+    - "Gray"
+  materials:
+    - "Polyester & Plastics"
+  size: "Man - M"
+  category: "Sport T-shirt"
+  multiplicity: 1
+  buying_price: 0
+  buying_place: "Sydney"
+  buying_date: "2019-06-14"
+  bought_new: true
+  not_logged_wear: 20
+  image: "2023 - Clothes - A64B4883-9816-4130-AF48-48A4ABAD2655.png"
+
+- name: "Falke Light Tight"
+  brand: "Falke"
+  colors:
+    - "Black"
+  materials:
+    - "Polyester & Plastics"
+  size: "Woman - M"
+  category: "Tights"
+  multiplicity: 1
+  buying_price: 30
+  buying_place: "Falke Amsterdam"
+  buying_date: "2023-10-07"
+  bought_new: true
+  not_logged_wear: 0
+  image: "2023 - Clothes - A7779EA1-DEEA-4644-848C-B69FEEC45818.png"
+
