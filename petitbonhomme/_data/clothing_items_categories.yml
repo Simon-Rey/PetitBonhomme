@@ -63,7 +63,6 @@
       children:
         - name: "Running shoes"
         - name: "City sneakers"
-        - name: "Hiking shoes"
     - name: "Boots"
       children:
         - name: "Ankle boots"
@@ -72,6 +71,8 @@
       children:
         - name: "Flip-flops"
         - name: "Slide sandals"
+    - name: "City shoes"
+    - name: "Hiking shoes"
 - name: "Accessory"
   children:
     - name: "Hat"
