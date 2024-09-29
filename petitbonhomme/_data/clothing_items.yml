@@ -2095,3 +2095,234 @@
   not_logged_wear: 0
   image: "2023 - Clothes - A7779EA1-DEEA-4644-848C-B69FEEC45818.png"
 
+- name: "Long Sleeve Celio Club Dark Blue Shirt"
+  brand: "Celio"
+  colors:
+    - "Blue"
+    - "Navy"
+  materials:
+    - "Cotton"
+  size: "Man - S"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 40
+  buying_place: "Celio Toulouse"
+  buying_date: "2015-05-02"
+  bought_new: true
+  not_logged_wear: 15
+  image: "2023 - Clothes - A7CE22BB-3424-4428-BF26-79E493141877.png"
+
+- name: "Puff Jacket Rab"
+  brand: "Rab"
+  colors:
+    - "Blue"
+    - "Navy"
+  materials:
+    - "Polyester & Plastics"
+  size: "Man - S"
+  category: "Jacket"
+  multiplicity: 1
+  buying_price: 0
+  buying_place: "Toulouse"
+  buying_date: "2022-12-24"
+  bought_new: true
+  not_logged_wear: 5
+  image: "2023 - Clothes - A83D8973-E854-48F1-858E-19A901F9E230.png"
+
+- name: "White and Gray H&M Skirt"
+  brand: "H&M"
+  colors:
+    - "Gray"
+  materials:
+    - "Polyester & Plastics"
+  size: "Woman - 38"
+  category: "Pencil skirt"
+  multiplicity: 1
+  buying_price: 8
+  buying_place: "Humana Berlin"
+  buying_date: "2023-09-23"
+  bought_new: false
+  not_logged_wear: 0
+  image: "2023 - Clothes - A8D27A60-8DE4-457D-BA21-D1E13A28C855.png"
+
+- name: "Green Woolen Sweater"
+  brand: "No Brand"
+  colors:
+    - "Green"
+  materials:
+    - "Wool"
+  size: "Woman - M"
+  category: "Jumper"
+  multiplicity: 1
+  buying_price: 15
+  buying_place: "Amsterdam"
+  buying_date: "2022-11-27"
+  bought_new: false
+  not_logged_wear: 20
+  image: "2023 - Clothes - A965DB68-C645-4E7E-9C49-B226C2C92F52.png"
+
+- name: "Skirt IKKS Double Matter"
+  brand: "IKKS"
+  colors:
+    - "Black"
+    - "Gray"
+  materials:
+    - "Cotton"
+  size: "Woman - 38"
+  category: "Pencil skirt"
+  multiplicity: 1
+  buying_price: 12
+  buying_place: "Vinted"
+  buying_date: "2023-11-09"
+  bought_new: false
+  not_logged_wear: 0
+  image: "2023 - Clothes - A9EBF690-C9BE-4467-9457-9DE24B21F8D2.png"
+
+- name: "Light Dark Blue Sweater V-neck Celio"
+  brand: "Celio"
+  colors:
+    - "Blue"
+    - "Navy"
+  materials:
+    - "Cotton"
+  size: "Man - S"
+  category: "Jumper"
+  multiplicity: 1
+  buying_price: 35
+  buying_place: "Celio Toulouse"
+  buying_date: "2016-05-21"
+  bought_new: true
+  not_logged_wear: 40
+  image: "2023 - Clothes - AE1E589D-E9F7-4A6D-8DEC-8EB136F803F3.png"
+
+- name: "Dark Blue Heel Boot Anna Field"
+  brand: "Anna Field"
+  colors:
+    - "Blue"
+    - "Navy"
+  materials:
+    - "Polyester & Plastics"
+  size: "Shoe EUR 42"
+  category: "Ankle boots"
+  multiplicity: 1
+  buying_price: 65
+  buying_place: "Zalando"
+  buying_date: "2022-09-10"
+  bought_new: true
+  not_logged_wear: 15
+  image: "2023 - Clothes - AF86F7D8-4402-4DED-88C2-7997BA408F76.png"
+
+- name: "Rain Jacket Ayacucho"
+  brand: "Ayacucho"
+  colors:
+    - "Blue"
+  materials:
+    - "Polyester & Plastics"
+  size: "Man - M"
+  category: "Rain coat"
+  multiplicity: 1
+  buying_price: 10
+  buying_place: "King's Day"
+  buying_date: "2024-04-27"
+  bought_new: false
+  not_logged_wear: 0
+  image: "2023 - Clothes - B14AF070-51AF-47E7-9572-5171A050F7B0.png"
+
+- name: "Gray Long Sleeve T-Shirt"
+  brand: "Esprit"
+  colors:
+    - "Gray"
+  materials:
+    - "Cotton"
+  size: "Man - S"
+  category: "Long sleeved T-shirt"
+  multiplicity: 1
+  buying_price: 25
+  buying_place: "Esprit Paris"
+  buying_date: "2018-06-09"
+  bought_new: true
+  not_logged_wear: 30
+  image: "2023 - Clothes - B3A61D89-39A3-4112-9F51-2362313C9BBC.png"
+
+- name: "Crop Top Pink Lucy & yak"
+  brand: "Lucy and Yak"
+  colors:
+    - "Pink"
+  materials:
+    - "Cotton"
+  size: "Woman - M"
+  category: "Crop Top"
+  multiplicity: 1
+  buying_price: 14
+  buying_place: "Vinted"
+  buying_date: "2023-12-11"
+  bought_new: false
+  not_logged_wear: 0
+  image: "2023 - Clothes - B4699DFE-1624-40D0-869E-24F781A90245.png"
+
+- name: "Blue Volcom T-Shirt Pattern"
+  brand: "Volcom"
+  colors:
+    - "Blue"
+  materials:
+    - "Cotton"
+  size: "Man - M"
+  category: "T-shirt"
+  multiplicity: 1
+  buying_price: 35
+  buying_place: "Ventes Privées"
+  buying_date: "2015-05-14"
+  bought_new: true
+  not_logged_wear: 40
+  image: "2023 - Clothes - B4DB7E2F-2517-4EB1-A77D-10ACDD027EDD.png"
+
+- name: "Red Long Sleeve T-Shirt Esprit"
+  brand: "Esprit"
+  colors:
+    - "Red"
+    - "White"
+    - "Pink"
+  materials:
+    - "Cotton"
+  size: "Man - S"
+  category: "Long sleeved shirt"
+  multiplicity: 1
+  buying_price: 20
+  buying_place: "Oxfam London"
+  buying_date: "2023-06-23"
+  bought_new: false
+  not_logged_wear: 10
+  image: "2023 - Clothes - B589233C-1817-4433-BCBA-69AA4137D445.png"
+
+- name: "Green Chino Pants Jules"
+  brand: "Jules"
+  colors:
+    - "Green"
+  materials:
+    - "Cotton"
+  size: "Pants EUR 40"
+  category: "Casual trousers"
+  multiplicity: 1
+  buying_price: 45
+  buying_place: "Jules Toulouse"
+  buying_date: "2016-07-23"
+  bought_new: true
+  not_logged_wear: 20
+  image: "2023 - Clothes - B8EFDE1A-CB59-468D-ACD5-5CEBDE5BE34A.png"
+
+- name: "Levi's Gray Jacket"
+  brand: "Levi's"
+  colors:
+    - "Gray"
+  materials:
+    - "Cotton"
+  size: "Man - S"
+  category: "Jacket"
+  multiplicity: 1
+  buying_price: 20
+  buying_place: "Paris"
+  buying_date: "2024-04-04"
+  bought_new: false
+  not_logged_wear: 0
+  image: "2023 - Clothes - B90DF7F1-EDC9-437A-8985-C218DD00AAA1.png"
+
