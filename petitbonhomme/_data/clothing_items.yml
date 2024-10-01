@@ -778,7 +778,7 @@
   not_logged_wear: 25
   image: "2023 - Clothes - 532DCD88-FF40-4EFA-B6DC-F6054BC39FD7.png"
 
-- name: "Black Light Falke Tights"
+- name: "Black Thick Falke Tights"
   brand: "Falke"
   colors:
     - "Black"
@@ -2062,7 +2062,7 @@
   not_logged_wear: 20
   image: "2023 - Clothes - A64B4883-9816-4130-AF48-48A4ABAD2655.png"
 
-- name: "Falke Light Tight"
+- name: "Black Light Falke Tight"
   brand: "Falke"
   colors:
     - "Black"

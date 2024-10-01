@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>My Wardrobe</h1>
+<h1>Wardrobe</h1>
 
 <!-- Search and Filter Controls -->
 <div class="filters">
@@ -35,14 +35,29 @@ layout: default
 
 <!-- Wardrobe Items Display -->
 <div class="wardrobe-container" id="wardrobe-container">
-  {% for item in site.data.clothing_items %}
-  {% assign wear_count = 0 %}
-{% for outfit in site.data.outfits %}
-{% for cloth_name in outfit.clothes %}
+{% for item in site.data.clothing_items %}
+{% assign wear_count = 0 %}
+{% for day in site.data.day_logs %}
+{% assign worn_this_day = false %}
+{% for outfit in day.outfits %}
+{% for cloth_name in outfit.items %}
+{% if item.name == cloth_name %}
+{% assign worn_this_day = true %}
+{% break %}
+{% endif %}
+{% endfor %}
+{% if worn_this_day %}
+{% break %}
+{% endif %}
+{% endfor %}
+{% for cloth_name in day.non-outfit-items %}
 {% if item.name == cloth_name %}
 {% assign wear_count = wear_count | plus: 1 %}
 {% endif %}
 {% endfor %}
+{% if worn_this_day %}
+{% assign wear_count = wear_count | plus: 1 %}
+{% endif %}
 {% endfor %}
 
 {% if wear_count > 0 %}
@@ -51,14 +66,14 @@ layout: default
 {% assign price_per_wear = item.buying_price %}
 {% endif %}
 
-  <div class="wardrobe-item" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-category="{{ item.category }}" data-name="{{ item.name }}">
-    {% assign full_image_path = "/assets/img/clothes/" | append: item.image %}
-    <h3>{{ item.name }}</h3>
-    <img src="{{ full_image_path | relative_url }}" alt="{{ item.name }}">
-    <p>Worn: {{ wear_count }}</p>
-    <p>Price per wear: {{ price_per_wear }}</p>
-  </div>
-  {% endfor %}
+<div class="wardrobe-item" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-category="{{ item.category }}" data-name="{{ item.name }}">
+{% assign full_image_path = "/assets/img/clothes/" | append: item.image %}
+<h3>{{ item.name }}</h3>
+<img src="{{ full_image_path | relative_url }}" alt="{{ item.name }}">
+<p>Worn: {{ wear_count }}</p>
+<p>Price per wear: {{ price_per_wear }}</p>
+</div>
+{% endfor %}
 </div>
 
 <script>
