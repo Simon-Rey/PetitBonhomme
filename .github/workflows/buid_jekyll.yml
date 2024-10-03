@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  push_docs:
+  build:
     runs-on: ubuntu-latest
 
     permissions:
@@ -43,8 +43,16 @@ jobs:
           cd petitbonhomme
           bundle exec jekyll build --baseurl "https://simon-rey.github.io/PetitBonhomme"
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
-        with:
-          branch: main
-          folder: ./_site
+        id: deployment
+        uses: actions/deploy-pages@v4
