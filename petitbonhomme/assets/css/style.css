@@ -237,6 +237,20 @@ Typical layouts
 }
 
 /* ==========
+General Stuff
+========== */
+
+.checkmark {
+    color: var(--color-success-dark);
+    font-size: 24px;
+}
+
+.crossmark {
+    color: var(--color-error-dark);
+    font-size: 24px;
+}
+
+/* ==========
 Add Item Page
 ========== */
 
@@ -263,10 +277,14 @@ Add Item Page
 
 .color-circle {
   border: 2px solid #fff;
-  cursor: pointer;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  display: inline-block;
+}
+
+.color-selector .color-circle {
+  cursor: pointer;
   display: flex; /* Use flexbox for centering */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */

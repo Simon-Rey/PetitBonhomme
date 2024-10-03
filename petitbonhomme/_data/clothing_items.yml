@@ -1,2971 +1,3152 @@
-- name: "Birkenstock"
-  brand: "Birkenstock"
+- name: Birkenstock
+  brand: Birkenstock
   colors:
-    - "Black"
-    - "Brown"
+  - Black
+  - Brown
   materials:
-    - "Leather"
-  size: "EUR 41"
-  category: "Slide sandals"
+  - Leather
+  size: EUR 41
+  category: Slide sandals
   multiplicity: 1
   buying_price: 20
-  buying_place: "Vinted"
-  buying_date: "2023-06-01"
+  buying_place: Vinted
+  buying_date: '2023-06-01'
   bought_new: false
   not_logged_wear: 30
-  image: "2023 - Clothes - 0A252564-570D-49AC-AF77-79917A646629.png"
-
-- name: "Orange Corduroy Shirt"
-  brand: "No Brand"
+  image: 2023 - Clothes - 0A252564-570D-49AC-AF77-79917A646629.png
+  worn_image: 2023 - Clothes - 0A252564-570D-49AC-AF77-79917A646629.png
+  id: 1
+- name: Orange Corduroy Shirt
+  brand: No Brand
   colors:
-    - "Orange"
+  - Orange
   materials:
-    - "Corduroy"
-  size: "Woman - S"
-  category: "Long sleeved shirt"
+  - Corduroy
+  size: Woman - S
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 25
-  buying_place: "Vienna"
-  buying_date: "2023-08-23"
+  buying_place: Vienna
+  buying_date: '2023-08-23'
   bought_new: false
   not_logged_wear: 5
-  image: "2023 - Clothes - 0ABEAD0D-93C7-4B6D-AAE2-ABC10952FDCA.png"
-
-- name: "Sweater Col-V Jules"
-  brand: "Jules"
+  image: 2023 - Clothes - 0ABEAD0D-93C7-4B6D-AAE2-ABC10952FDCA.png
+  worn_image: 2023 - Clothes - 0ABEAD0D-93C7-4B6D-AAE2-ABC10952FDCA.png
+  id: 2
+- name: Sweater Col-V Jules
+  brand: Jules
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Long sleeved T-shirt"
+  - Cotton
+  size: Man - M
+  category: Long sleeved T-shirt
   multiplicity: 1
   buying_price: 30
-  buying_place: "Toulouse"
-  buying_date: "2016-01-01"
+  buying_place: Toulouse
+  buying_date: '2016-01-01'
   bought_new: true
   not_logged_wear: 50
-  image: "2023 - Clothes - 0BA4FDB4-FD0B-4725-94A6-C134478B0C2F.png"
-
-- name: "Blue Basic T-Shirt"
-  brand: "No Brand"
+  image: 2023 - Clothes - 0BA4FDB4-FD0B-4725-94A6-C134478B0C2F.png
+  worn_image: 2023 - Clothes - 0BA4FDB4-FD0B-4725-94A6-C134478B0C2F.png
+  id: 3
+- name: Blue Basic T-Shirt
+  brand: No Brand
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "T-shirt"
+  - Cotton
+  size: Man - S
+  category: T-shirt
   multiplicity: 1
   buying_price: 15
-  buying_place: "Episode - Amsterdam"
-  buying_date: "2022-05-01"
+  buying_place: Episode - Amsterdam
+  buying_date: '2022-05-01'
   bought_new: false
   not_logged_wear: 5
-  image: "2023 - Clothes - 0C63585D-DC32-4D1A-92D3-09FF987F2D06.png"
-
-- name: "Sandro Fluffy Top"
-  brand: "Sandro"
+  image: 2023 - Clothes - 0C63585D-DC32-4D1A-92D3-09FF987F2D06.png
+  worn_image: 2023 - Clothes - 0C63585D-DC32-4D1A-92D3-09FF987F2D06.png
+  id: 4
+- name: Sandro Fluffy Top
+  brand: Sandro
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - M"
-  category: "Long sleeved shirt"
+  - Polyester & Plastics
+  size: Woman - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 15
-  buying_place: "Vinted"
-  buying_date: "2023-10-12"
+  buying_place: Vinted
+  buying_date: '2023-10-12'
   bought_new: false
   not_logged_wear: 2
-  image: "2023 - Clothes - 0E5AC46D-A0BA-4A55-8F5E-9889AF908250.png"
-
-- name: "& Other Stories Sheer Red Top"
-  brand: "& Other Stories"
+  image: 2023 - Clothes - 0E5AC46D-A0BA-4A55-8F5E-9889AF908250.png
+  worn_image: 2023 - Clothes - 0E5AC46D-A0BA-4A55-8F5E-9889AF908250.png
+  id: 5
+- name: '& Other Stories Sheer Red Top'
+  brand: '& Other Stories'
   colors:
-    - "Red"
-    - "Black"
+  - Red
+  - Black
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - M"
-  category: "Long sleeved shirt"
+  - Polyester & Plastics
+  size: Woman - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 10
-  buying_place: "Vinted"
-  buying_date: "2023-09-21"
+  buying_place: Vinted
+  buying_date: '2023-09-21'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 1C986E52-7E17-4337-ABBC-B0E0C9361099.png"
-
-- name: "Volcom Zipped Gray Vest"
-  brand: "Volcom"
+  image: 2023 - Clothes - 1C986E52-7E17-4337-ABBC-B0E0C9361099.png
+  worn_image: 2023 - Clothes - 1C986E52-7E17-4337-ABBC-B0E0C9361099.png
+  id: 6
+- name: Volcom Zipped Gray Vest
+  brand: Volcom
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Hoodie"
+  - Cotton
+  size: Man - M
+  category: Hoodie
   multiplicity: 1
   buying_price: 55
-  buying_place: "Okla - Toulouse"
-  buying_date: "2011-01-01"
+  buying_place: Okla - Toulouse
+  buying_date: '2011-01-01'
   bought_new: true
   not_logged_wear: 100
-  image: "2023 - Clothes - 1CF747A2-0F62-4C34-8042-42C91C5164A4.png"
-
-- name: "Levi's Denim Shirt"
-  brand: "Levi's"
+  image: 2023 - Clothes - 1CF747A2-0F62-4C34-8042-42C91C5164A4.png
+  worn_image: 2023 - Clothes - 1CF747A2-0F62-4C34-8042-42C91C5164A4.png
+  id: 7
+- name: Levi's Denim Shirt
+  brand: Levi's
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Man - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 75
-  buying_place: "Gallerie Lafayette - Toulouse"
-  buying_date: "2016-01-01"
+  buying_place: Gallerie Lafayette - Toulouse
+  buying_date: '2016-01-01'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - 1E2FF71C-1758-4802-A93D-4E78F68409C1.png"
-
-- name: "Timberland Boots"
-  brand: "Timberland"
+  image: 2023 - Clothes - 1E2FF71C-1758-4802-A93D-4E78F68409C1.png
+  worn_image: 2023 - Clothes - 1E2FF71C-1758-4802-A93D-4E78F68409C1.png
+  id: 8
+- name: Timberland Boots
+  brand: Timberland
   colors:
-    - "Brown"
+  - Brown
   materials:
-    - "Leather"
-  size: "EUR 41"
-  category: ""
+  - Leather
+  size: EUR 41
+  category: ''
   multiplicity: 1
   buying_price: 170
-  buying_place: "Timberland Lyon"
-  buying_date: "2020-05-01"
+  buying_place: Timberland Lyon
+  buying_date: '2020-05-01'
   bought_new: true
   not_logged_wear: 60
-  image: "2023 - Clothes - 1F3066AA-B4A9-475C-B1DA-F9DFF4E7CA81.png"
-
-- name: "Pink Basic T-Shirt"
-  brand: "No Brand"
+  image: 2023 - Clothes - 1F3066AA-B4A9-475C-B1DA-F9DFF4E7CA81.png
+  worn_image: 2023 - Clothes - 1F3066AA-B4A9-475C-B1DA-F9DFF4E7CA81.png
+  id: 9
+- name: Pink Basic T-Shirt
+  brand: No Brand
   colors:
-    - "Pink"
+  - Pink
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "T-shirt"
+  - Cotton
+  size: Man - S
+  category: T-shirt
   multiplicity: 1
   buying_price: 10
-  buying_place: "Oxfam London"
-  buying_date: "2023-06-23"
+  buying_place: Oxfam London
+  buying_date: '2023-06-23'
   bought_new: false
   not_logged_wear: 5
-  image: "2023 - Clothes - 2F24B324-0F64-4F20-865A-2F7EFABA3702.png"
-
-- name: "Sessun Wide Skirt"
-  brand: "Sessun"
+  image: 2023 - Clothes - 2F24B324-0F64-4F20-865A-2F7EFABA3702.png
+  worn_image: 2023 - Clothes - 2F24B324-0F64-4F20-865A-2F7EFABA3702.png
+  id: 10
+- name: Sessun Wide Skirt
+  brand: Sessun
   colors:
-    - "Green"
-    - "Blue"
-    - "Teal"
+  - Green
+  - Blue
+  - Teal
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "A-line skirt"
+  - Cotton
+  size: Woman - M
+  category: A-line skirt
   multiplicity: 1
   buying_price: 11
-  buying_place: "Vinted"
-  buying_date: "2023-09-21"
+  buying_place: Vinted
+  buying_date: '2023-09-21'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 2FDFFC22-F46A-4AAA-90F9-EA37857ADBDD.png"
-
-- name: "White Ribbed Tank Top Honest Basics"
-  brand: "Honest Basics"
+  image: 2023 - Clothes - 2FDFFC22-F46A-4AAA-90F9-EA37857ADBDD.png
+  worn_image: 2023 - Clothes - 2FDFFC22-F46A-4AAA-90F9-EA37857ADBDD.png
+  id: 11
+- name: White Ribbed Tank Top Honest Basics
+  brand: Honest Basics
   colors:
-    - "White"
+  - White
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Tank top"
+  - Cotton
+  size: Man - M
+  category: Tank top
   multiplicity: 1
   buying_price: 10
-  buying_place: "Honest Basic Webshop"
-  buying_date: "2023-11-22"
+  buying_place: Honest Basic Webshop
+  buying_date: '2023-11-22'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - 04ABCDE2-A665-481D-A917-7E99AB4F9649.png"
-
-- name: "Costa Rica T-Shirt"
-  brand: "No Brand"
+  image: 2023 - Clothes - 04ABCDE2-A665-481D-A917-7E99AB4F9649.png
+  worn_image: 2023 - Clothes - 04ABCDE2-A665-481D-A917-7E99AB4F9649.png
+  id: 12
+- name: Costa Rica T-Shirt
+  brand: No Brand
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "T-shirt"
+  - Cotton
+  size: Man - S
+  category: T-shirt
   multiplicity: 1
   buying_price: 0
-  buying_place: "Webshop"
-  buying_date: "2018-11-01"
+  buying_place: Webshop
+  buying_date: '2018-11-01'
   bought_new: true
   not_logged_wear: 15
-  image: "2023 - Clothes - 083913E8-794A-4F00-A790-7678C94130EE.png"
-
-- name: "Decathlon Gray Sport T-Shirt"
-  brand: "Decathlon"
+  image: 2023 - Clothes - 083913E8-794A-4F00-A790-7678C94130EE.png
+  worn_image: 2023 - Clothes - 083913E8-794A-4F00-A790-7678C94130EE.png
+  id: 13
+- name: Decathlon Gray Sport T-Shirt
+  brand: Decathlon
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Polyester & Plastics"
-  size: "Man - S"
-  category: "T-shirt"
+  - Polyester & Plastics
+  size: Man - S
+  category: T-shirt
   multiplicity: 2
   buying_price: 15
-  buying_place: "Paris"
-  buying_date: "2018-04-01"
+  buying_place: Paris
+  buying_date: '2018-04-01'
   bought_new: true
   not_logged_wear: 30
-  image: "2023 - Clothes - 10CCF4CB-1BD8-4F9F-ABC7-A906DE60412F.png"
-
-- name: "Jupe Maje Double Zips"
-  brand: "Maje"
+  image: 2023 - Clothes - 10CCF4CB-1BD8-4F9F-ABC7-A906DE60412F.png
+  worn_image: 2023 - Clothes - 10CCF4CB-1BD8-4F9F-ABC7-A906DE60412F.png
+  id: 14
+- name: Jupe Maje Double Zips
+  brand: Maje
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - 38"
-  category: "Mini skirt"
+  - Polyester & Plastics
+  size: Woman - 38
+  category: Mini skirt
   multiplicity: 1
   buying_price: 16
-  buying_place: "Vinted"
-  buying_date: "2023-11-04"
+  buying_place: Vinted
+  buying_date: '2023-11-04'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 10DA5530-9ADE-496A-88EA-901E47D7D711.png"
-
-- name: "T-Shirt Celio Rouge Bordeaux"
-  brand: "Celio"
+  image: 2023 - Clothes - 10DA5530-9ADE-496A-88EA-901E47D7D711.png
+  worn_image: 2023 - Clothes - 10DA5530-9ADE-496A-88EA-901E47D7D711.png
+  id: 15
+- name: T-Shirt Celio Rouge Bordeaux
+  brand: Celio
   colors:
-    - "Red"
+  - Red
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "T-shirt"
+  - Cotton
+  size: Man - S
+  category: T-shirt
   multiplicity: 1
   buying_price: 20
-  buying_place: "Toulouse"
-  buying_date: "2018-08-01"
+  buying_place: Toulouse
+  buying_date: '2018-08-01'
   bought_new: true
   not_logged_wear: 50
-  image: "2023 - Clothes - 110684FF-DF48-4727-9388-B3AF86A0EB18.png"
-
-- name: "Knitted Hat Mélina"
-  brand: "No Brand"
+  image: 2023 - Clothes - 110684FF-DF48-4727-9388-B3AF86A0EB18.png
+  worn_image: 2023 - Clothes - 110684FF-DF48-4727-9388-B3AF86A0EB18.png
+  id: 16
+- name: Knitted Hat Mélina
+  brand: No Brand
   colors:
-    - "Yellow"
-    - "Gray"
+  - Yellow
+  - Gray
   materials:
-    - "Wool"
-  size: "Unique Size"
-  category: "Hat"
+  - Wool
+  size: Unique Size
+  category: Hat
   multiplicity: 1
   buying_price: 0
-  buying_place: "Gift"
-  buying_date: "2012-12-01"
+  buying_place: Gift
+  buying_date: '2012-12-01'
   bought_new: true
   not_logged_wear: 100
-  image: "2023 - Clothes - 131600D7-0D85-43FA-A7CF-9A6CBC1D3BBC.png"
-
-- name: "Golden Vintage Vest"
-  brand: "No Brand"
+  image: 2023 - Clothes - 131600D7-0D85-43FA-A7CF-9A6CBC1D3BBC.png
+  worn_image: 2023 - Clothes - 131600D7-0D85-43FA-A7CF-9A6CBC1D3BBC.png
+  id: 17
+- name: Golden Vintage Vest
+  brand: No Brand
   colors:
-    - "Yellow"
-    - "Olive"
-    - "Brown"
+  - Yellow
+  - Olive
+  - Brown
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - M"
-  category: "Blazer"
+  - Polyester & Plastics
+  size: Woman - M
+  category: Blazer
   multiplicity: 1
   buying_price: 28
-  buying_place: "Humana Berlin"
-  buying_date: "2023-10-11"
+  buying_place: Humana Berlin
+  buying_date: '2023-10-11'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 18676829-D230-4E4B-A9F8-D03F7F66C5C4.png"
-
-- name: "Crop Top Pink Zara"
-  brand: "Zara"
+  image: 2023 - Clothes - 18676829-D230-4E4B-A9F8-D03F7F66C5C4.png
+  worn_image: 2023 - Clothes - 18676829-D230-4E4B-A9F8-D03F7F66C5C4.png
+  id: 18
+- name: Crop Top Pink Zara
+  brand: Zara
   colors:
-    - "Pink"
+  - Pink
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - L"
-  category: "T-shirt"
+  - Polyester & Plastics
+  size: Woman - L
+  category: T-shirt
   multiplicity: 1
   buying_price: 5
-  buying_place: "Istanbul"
-  buying_date: "2023-08-17"
+  buying_place: Istanbul
+  buying_date: '2023-08-17'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - 18723282-0F59-424A-9129-7C7EC42AECC3.png"
-
-- name: "Cropped Blazer Cos"
-  brand: "Cos"
+  image: 2023 - Clothes - 18723282-0F59-424A-9129-7C7EC42AECC3.png
+  worn_image: 2023 - Clothes - 18723282-0F59-424A-9129-7C7EC42AECC3.png
+  id: 19
+- name: Cropped Blazer Cos
+  brand: Cos
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Polyester & Plastics"
-    - "Wool"
-  size: "Woman - 36"
-  category: "Blazer"
+  - Polyester & Plastics
+  - Wool
+  size: Woman - 36
+  category: Blazer
   multiplicity: 1
   buying_price: 150
-  buying_place: "Cos Amsterdam"
-  buying_date: "2023-09-20"
+  buying_place: Cos Amsterdam
+  buying_date: '2023-09-20'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - 18CE9F95-4B63-47BD-9E07-6108E9C5C7E0.png"
-
-- name: "Pull Motif Pull & Bear"
-  brand: "Pull and Bear"
+  image: 2023 - Clothes - 18CE9F95-4B63-47BD-9E07-6108E9C5C7E0.png
+  worn_image: 2023 - Clothes - 18CE9F95-4B63-47BD-9E07-6108E9C5C7E0.png
+  id: 20
+- name: Pull Motif Pull & Bear
+  brand: Pull and Bear
   colors:
-    - "Blue"
-    - "White"
-    - "Maroon"
-    - "Navy"
+  - Blue
+  - White
+  - Maroon
+  - Navy
   materials:
-    - "Polyester & Plastics"
-  size: "Man - M"
-  category: "Jumper"
+  - Polyester & Plastics
+  size: Man - M
+  category: Jumper
   multiplicity: 1
   buying_price: 35
-  buying_place: "Pull & Bear Paris"
-  buying_date: "2016-10-20"
+  buying_place: Pull & Bear Paris
+  buying_date: '2016-10-20'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - 18DB6FAC-FA90-4DC5-AAF7-A328C5F8D7BE.png"
-
-- name: "Levi's Balloon Leg Light"
-  brand: "Levi's"
+  image: 2023 - Clothes - 18DB6FAC-FA90-4DC5-AAF7-A328C5F8D7BE.png
+  worn_image: 2023 - Clothes - 18DB6FAC-FA90-4DC5-AAF7-A328C5F8D7BE.png
+  id: 21
+- name: Levi's Balloon Leg Light
+  brand: Levi's
   colors:
-    - "Blue"
-    - "Cyan"
+  - Blue
+  - Cyan
   materials:
-    - "Cotton"
-  size: "Pants US 27"
-  category: "Jeans"
+  - Cotton
+  size: Pants US 27
+  category: Jeans
   multiplicity: 2
   buying_price: 50
-  buying_place: "Vinted"
-  buying_date: "2023-01-11"
+  buying_place: Vinted
+  buying_date: '2023-01-11'
   bought_new: false
   not_logged_wear: 20
-  image: "2023 - Clothes - 190468CB-52C6-434A-821D-4BBA920B139D.png"
-
-- name: "Lucy & Yak Dungaree Short Black"
-  brand: "Lucy and Yak"
+  image: 2023 - Clothes - 190468CB-52C6-434A-821D-4BBA920B139D.png
+  worn_image: 2023 - Clothes - 190468CB-52C6-434A-821D-4BBA920B139D.png
+  id: 22
+- name: Lucy & Yak Dungaree Short Black
+  brand: Lucy and Yak
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-  size: "Woman - UK 10"
-  category: "Jumpsuit"
+  - Cotton
+  size: Woman - UK 10
+  category: Jumpsuit
   multiplicity: 1
   buying_price: 45
-  buying_place: "Lucy & Jak Webshop"
-  buying_date: "2022-05-25"
+  buying_place: Lucy & Jak Webshop
+  buying_date: '2022-05-25'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - 1988FFE1-FE96-4C45-A87F-C1E9CE111BFB.png"
-
-- name: "Long Sleeve Black T-Shirt Tico"
-  brand: "No Brand"
+  image: 2023 - Clothes - 1988FFE1-FE96-4C45-A87F-C1E9CE111BFB.png
+  worn_image: 2023 - Clothes - 1988FFE1-FE96-4C45-A87F-C1E9CE111BFB.png
+  id: 23
+- name: Long Sleeve Black T-Shirt Tico
+  brand: No Brand
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Long sleeved T-shirt"
+  - Cotton
+  size: Man - M
+  category: Long sleeved T-shirt
   multiplicity: 1
   buying_price: 0
-  buying_place: "Paris"
-  buying_date: "2023-02-16"
+  buying_place: Paris
+  buying_date: '2023-02-16'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 19C615DD-DC24-4253-8C89-7ED9DE57B8B6.png"
-
-- name: "Suit Pant Black"
-  brand: "Celio"
+  image: 2023 - Clothes - 19C615DD-DC24-4253-8C89-7ED9DE57B8B6.png
+  worn_image: 2023 - Clothes - 19C615DD-DC24-4253-8C89-7ED9DE57B8B6.png
+  id: 24
+- name: Suit Pant Black
+  brand: Celio
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Polyester & Plastics"
-    - "Wool"
-  size: "Pants EUR 40"
-  category: "Suit pants"
+  - Polyester & Plastics
+  - Wool
+  size: Pants EUR 40
+  category: Suit pants
   multiplicity: 1
   buying_price: 70
-  buying_place: "Celio Toulouse"
-  buying_date: "2013-11-06"
+  buying_place: Celio Toulouse
+  buying_date: '2013-11-06'
   bought_new: true
   not_logged_wear: 5
-  image: "2023 - Clothes - 20169583-E247-4E7B-A8E2-341D4AFA47C8.png"
-
-- name: "Short Jules Beige"
-  brand: "Jules"
+  image: 2023 - Clothes - 20169583-E247-4E7B-A8E2-341D4AFA47C8.png
+  worn_image: 2023 - Clothes - 20169583-E247-4E7B-A8E2-341D4AFA47C8.png
+  id: 25
+- name: Short Jules Beige
+  brand: Jules
   colors:
-    - "Beige"
+  - Beige
   materials:
-    - "Cotton"
-  size: "Pants EUR 40"
-  category: "Casual shorts"
+  - Cotton
+  size: Pants EUR 40
+  category: Casual shorts
   multiplicity: 1
   buying_price: 30
-  buying_place: "Jules Toulouse"
-  buying_date: "2011-05-19"
+  buying_place: Jules Toulouse
+  buying_date: '2011-05-19'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - 20275B4F-7D4C-4971-B23A-4E7381BA3F7A.png"
-
-- name: "Zara Crop Top Knitted"
-  brand: "Zara"
+  image: 2023 - Clothes - 20275B4F-7D4C-4971-B23A-4E7381BA3F7A.png
+  worn_image: 2023 - Clothes - 20275B4F-7D4C-4971-B23A-4E7381BA3F7A.png
+  id: 26
+- name: Zara Crop Top Knitted
+  brand: Zara
   colors:
-    - "Red"
-    - "White"
-    - "Orange"
+  - Red
+  - White
+  - Orange
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - M"
-  category: "T-shirt"
+  - Polyester & Plastics
+  size: Woman - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 0
-  buying_place: "Amsterdam"
-  buying_date: "2023-07-01"
+  buying_place: Amsterdam
+  buying_date: '2023-07-01'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 24FC9AD3-2940-4F51-8718-794A953989E4.png"
-
-- name: "Vagabond Heel Brown Boots"
-  brand: "Vagabond"
+  image: 2023 - Clothes - 24FC9AD3-2940-4F51-8718-794A953989E4.png
+  worn_image: 2023 - Clothes - 24FC9AD3-2940-4F51-8718-794A953989E4.png
+  id: 27
+- name: Vagabond Heel Brown Boots
+  brand: Vagabond
   colors:
-    - "Brown"
+  - Brown
   materials:
-    - "Polyester & Plastics"
-  size: "Shoe EUR 41"
-  category: "Ankle boots"
+  - Polyester & Plastics
+  size: Shoe EUR 41
+  category: Ankle boots
   multiplicity: 1
   buying_price: 60
-  buying_place: "Zalando"
-  buying_date: "2022-06-05"
+  buying_place: Zalando
+  buying_date: '2022-06-05'
   bought_new: true
   not_logged_wear: 10
-  image: "2023 - Clothes - 2550D065-AFCE-47BA-9B7D-D5C837E949FC.png"
-
-- name: "Sweater Volcom Blue and Gray"
-  brand: "Volcom"
+  image: 2023 - Clothes - 2550D065-AFCE-47BA-9B7D-D5C837E949FC.png
+  worn_image: 2023 - Clothes - 2550D065-AFCE-47BA-9B7D-D5C837E949FC.png
+  id: 28
+- name: Sweater Volcom Blue and Gray
+  brand: Volcom
   colors:
-    - "Blue"
-    - "Gray"
+  - Blue
+  - Gray
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Jumper"
+  - Cotton
+  size: Man - S
+  category: Jumper
   multiplicity: 1
   buying_price: 50
-  buying_place: "Ventes Privées"
-  buying_date: "2016-04-01"
+  buying_place: Ventes Privées
+  buying_date: '2016-04-01'
   bought_new: true
   not_logged_wear: 30
-  image: "2023 - Clothes - 312AD1BC-B750-4425-B045-9BA459987E57.png"
-
-- name: "Balloon Leg Black Levi's"
-  brand: "Levi's"
+  image: 2023 - Clothes - 312AD1BC-B750-4425-B045-9BA459987E57.png
+  worn_image: 2023 - Clothes - 312AD1BC-B750-4425-B045-9BA459987E57.png
+  id: 29
+- name: Balloon Leg Black Levi's
+  brand: Levi's
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-  size: "Pants US 28"
-  category: "Jeans"
+  - Cotton
+  size: Pants US 28
+  category: Jeans
   multiplicity: 2
   buying_price: 50
-  buying_place: "Vinted"
-  buying_date: "2022-11-01"
+  buying_place: Vinted
+  buying_date: '2022-11-01'
   bought_new: false
   not_logged_wear: 25
-  image: "2023 - Clothes - 38E6D793-D69F-43B5-85B6-D613773CD40F.png"
-
-- name: "Pattern Shirt Abel"
-  brand: "No Brand"
+  image: 2023 - Clothes - 38E6D793-D69F-43B5-85B6-D613773CD40F.png
+  worn_image: 2023 - Clothes - 38E6D793-D69F-43B5-85B6-D613773CD40F.png
+  id: 30
+- name: Pattern Shirt Abel
+  brand: No Brand
   colors:
-    - "Green"
-    - "White"
-    - "Olive"
+  - Green
+  - White
+  - Olive
   materials:
-    - "Polyester & Plastics"
-  size: "Man - M"
-  category: "Long sleeved shirt"
+  - Polyester & Plastics
+  size: Man - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 0
-  buying_place: "Amsterdam"
-  buying_date: "2023-10-01"
+  buying_place: Amsterdam
+  buying_date: '2023-10-01'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - 3915D3A2-5C5E-420E-8D4B-EC3075C822FD.png"
-
-- name: "Dark Blue Denim Short"
-  brand: "No Brand"
+  image: 2023 - Clothes - 3915D3A2-5C5E-420E-8D4B-EC3075C822FD.png
+  worn_image: 2023 - Clothes - 3915D3A2-5C5E-420E-8D4B-EC3075C822FD.png
+  id: 31
+- name: Dark Blue Denim Short
+  brand: No Brand
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Woman - 40"
-  category: "Jeans shorts"
+  - Cotton
+  size: Woman - 40
+  category: Jeans shorts
   multiplicity: 1
   buying_price: 25
-  buying_place: "Episode Amsterdam"
-  buying_date: "2023-06-01"
+  buying_place: Episode Amsterdam
+  buying_date: '2023-06-01'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 39F0B699-876E-488D-A2E2-AB6CF17C7DC6.png"
-
-- name: "Sweater Celio Gray with White Collar"
-  brand: "Celio"
+  image: 2023 - Clothes - 39F0B699-876E-488D-A2E2-AB6CF17C7DC6.png
+  worn_image: 2023 - Clothes - 39F0B699-876E-488D-A2E2-AB6CF17C7DC6.png
+  id: 32
+- name: Sweater Celio Gray with White Collar
+  brand: Celio
   colors:
-    - "White"
-    - "Gray"
+  - White
+  - Gray
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Jumper"
+  - Cotton
+  size: Man - S
+  category: Jumper
   multiplicity: 1
   buying_price: 35
-  buying_place: "Celio Toulouse"
-  buying_date: "2014-04-01"
+  buying_place: Celio Toulouse
+  buying_date: '2014-04-01'
   bought_new: true
   not_logged_wear: 30
-  image: "2023 - Clothes - 3B928400-2EFF-4F4D-9CD8-B3DC4474E1E8.png"
-
-- name: "Bash Cropped Bomber Pacino"
-  brand: "B&sh"
+  image: 2023 - Clothes - 3B928400-2EFF-4F4D-9CD8-B3DC4474E1E8.png
+  worn_image: 2023 - Clothes - 3B928400-2EFF-4F4D-9CD8-B3DC4474E1E8.png
+  id: 33
+- name: Bash Cropped Bomber Pacino
+  brand: B&sh
   colors:
-    - "White"
-    - "Pink"
+  - White
+  - Pink
   materials:
-    - "Cotton"
-    - "Polyester & Plastics"
-  size: "Woman - 0"
-  category: "Jacket"
+  - Cotton
+  - Polyester & Plastics
+  size: Woman - 0
+  category: Jacket
   multiplicity: 1
   buying_price: 150
-  buying_place: "B&sh Webshop"
-  buying_date: "2023-06-01"
+  buying_place: B&sh Webshop
+  buying_date: '2023-06-01'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - 3CB46FAF-ABC7-4D43-B325-1817E6DE516A.png"
-
-- name: "Blue Shirt Corderoy American Today"
-  brand: "American Today"
+  image: 2023 - Clothes - 3CB46FAF-ABC7-4D43-B325-1817E6DE516A.png
+  worn_image: 2023 - Clothes - 3CB46FAF-ABC7-4D43-B325-1817E6DE516A.png
+  id: 34
+- name: Blue Shirt Corderoy American Today
+  brand: American Today
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Man - XS"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Man - XS
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 55
-  buying_place: "American Today Amsterdam"
-  buying_date: "2019-11-15"
+  buying_place: American Today Amsterdam
+  buying_date: '2019-11-15'
   bought_new: true
   not_logged_wear: 15
-  image: "2023 - Clothes - 40092F8A-FC24-4041-94F3-06497DF55E05.png"
-
-- name: "Blue T-Shirt Cos"
-  brand: "Cos"
+  image: 2023 - Clothes - 40092F8A-FC24-4041-94F3-06497DF55E05.png
+  worn_image: 2023 - Clothes - 40092F8A-FC24-4041-94F3-06497DF55E05.png
+  id: 35
+- name: Blue T-Shirt Cos
+  brand: Cos
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "T-shirt"
+  - Cotton
+  size: Man - S
+  category: T-shirt
   multiplicity: 1
   buying_price: 10
-  buying_place: "Oxfam London"
-  buying_date: "2023-06-23"
+  buying_place: Oxfam London
+  buying_date: '2023-06-23'
   bought_new: false
   not_logged_wear: 5
-  image: "2023 - Clothes - 45ED35CB-0594-41A9-B6C1-64F33CCFC4FE.png"
-
-- name: "Uniqlo Underwear Legging"
-  brand: "Uniqlo"
+  image: 2023 - Clothes - 45ED35CB-0594-41A9-B6C1-64F33CCFC4FE.png
+  worn_image: 2023 - Clothes - 45ED35CB-0594-41A9-B6C1-64F33CCFC4FE.png
+  id: 36
+- name: Uniqlo Underwear Legging
+  brand: Uniqlo
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Polyester & Plastics"
-  size: "Man - S"
-  category: "Legging"
+  - Polyester & Plastics
+  size: Man - S
+  category: Legging
   multiplicity: 1
   buying_price: 25
-  buying_place: "Uniqlo Amsterdam"
-  buying_date: "2020-01-01"
+  buying_place: Uniqlo Amsterdam
+  buying_date: '2020-01-01'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - 4693DD5A-B591-4153-93CE-10271C46DF7F.png"
-
-- name: "Orange Zara Crop Top"
-  brand: "Zara"
+  image: 2023 - Clothes - 4693DD5A-B591-4153-93CE-10271C46DF7F.png
+  worn_image: 2023 - Clothes - 4693DD5A-B591-4153-93CE-10271C46DF7F.png
+  id: 37
+- name: Orange Zara Crop Top
+  brand: Zara
   colors:
-    - "Orange"
+  - Orange
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - M"
-  category: "T-shirt"
+  - Polyester & Plastics
+  size: Woman - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 10
-  buying_place: "Vinted"
-  buying_date: "2023-05-16"
+  buying_place: Vinted
+  buying_date: '2023-05-16'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 47B7332E-EB88-4908-94CE-9237909E692E.png"
-
-- name: "Maje Dress White and Black"
-  brand: "Maje"
+  image: 2023 - Clothes - 47B7332E-EB88-4908-94CE-9237909E692E.png
+  worn_image: 2023 - Clothes - 47B7332E-EB88-4908-94CE-9237909E692E.png
+  id: 38
+- name: Maje Dress White and Black
+  brand: Maje
   colors:
-    - "Black"
-    - "White"
+  - Black
+  - White
   materials:
-    - "Cotton"
-    - "Polyester & Plastics"
-  size: "Woman - 38"
-  category: "Formal dress"
+  - Cotton
+  - Polyester & Plastics
+  size: Woman - 38
+  category: Formal dress
   multiplicity: 1
   buying_price: 15
-  buying_place: "Vinted"
-  buying_date: "2022-07-01"
+  buying_place: Vinted
+  buying_date: '2022-07-01'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 47D19170-E833-4C87-A451-947A55F38B8E.png"
-
-- name: "T-Shirt Roger Waters"
-  brand: "No Brand"
+  image: 2023 - Clothes - 47D19170-E833-4C87-A451-947A55F38B8E.png
+  worn_image: 2023 - Clothes - 47D19170-E833-4C87-A451-947A55F38B8E.png
+  id: 39
+- name: T-Shirt Roger Waters
+  brand: No Brand
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "T-shirt"
+  - Cotton
+  size: Man - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 35
-  buying_place: "Webshop"
-  buying_date: "2016-06-02"
+  buying_place: Webshop
+  buying_date: '2016-06-02'
   bought_new: true
   not_logged_wear: 30
-  image: "2023 - Clothes - 4A0C3427-0837-4DD9-9BD4-9452D8234A4E.png"
-
-- name: "Sneakers Karhu"
-  brand: "Karhu"
+  image: 2023 - Clothes - 4A0C3427-0837-4DD9-9BD4-9452D8234A4E.png
+  worn_image: 2023 - Clothes - 4A0C3427-0837-4DD9-9BD4-9452D8234A4E.png
+  id: 40
+- name: Sneakers Karhu
+  brand: Karhu
   colors:
-    - "Red"
+  - Red
   materials:
-    - "Cotton"
-    - "Polyester & Plastics"
-  size: "Shoe EUR 41"
-  category: "City sneakers"
+  - Cotton
+  - Polyester & Plastics
+  size: Shoe EUR 41
+  category: City sneakers
   multiplicity: 1
   buying_price: 120
-  buying_place: "Amsterdam"
-  buying_date: "2021-10-07"
+  buying_place: Amsterdam
+  buying_date: '2021-10-07'
   bought_new: true
   not_logged_wear: 150
-  image: "2023 - Clothes - 4BEC2224-B83F-4F10-BDE9-6BC123D52678.png"
-
-- name: "Blue Polo Volcom"
-  brand: "Volcom"
+  image: 2023 - Clothes - 4BEC2224-B83F-4F10-BDE9-6BC123D52678.png
+  worn_image: 2023 - Clothes - 4BEC2224-B83F-4F10-BDE9-6BC123D52678.png
+  id: 41
+- name: Blue Polo Volcom
+  brand: Volcom
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Polo shirt"
+  - Cotton
+  size: Man - S
+  category: Polo shirt
   multiplicity: 1
   buying_price: 20
-  buying_place: "Ventes Privées"
-  buying_date: "2017-06-13"
+  buying_place: Ventes Privées
+  buying_date: '2017-06-13'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - 4D25A353-43FF-4B8A-BA5C-1CB1B1271F5D.png"
-
-- name: "Dark Blue Long Sleeve Selected"
-  brand: "Selected"
+  image: 2023 - Clothes - 4D25A353-43FF-4B8A-BA5C-1CB1B1271F5D.png
+  worn_image: 2023 - Clothes - 4D25A353-43FF-4B8A-BA5C-1CB1B1271F5D.png
+  id: 42
+- name: Dark Blue Long Sleeve Selected
+  brand: Selected
   colors:
-    - "Navy"
+  - Navy
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Long sleeved T-shirt"
+  - Cotton
+  size: Man - S
+  category: Long sleeved T-shirt
   multiplicity: 1
   buying_price: 7
-  buying_place: "King's Day"
-  buying_date: "2024-04-27"
+  buying_place: King's Day
+  buying_date: '2024-04-27'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 4D47FF7B-659B-47BD-BAF6-535DC50D9C8F.png"
-
-- name: "Yellow Sailor Rain Jacket"
-  brand: "No Brand"
+  image: 2023 - Clothes - 4D47FF7B-659B-47BD-BAF6-535DC50D9C8F.png
+  worn_image: 2023 - Clothes - 4D47FF7B-659B-47BD-BAF6-535DC50D9C8F.png
+  id: 43
+- name: Yellow Sailor Rain Jacket
+  brand: No Brand
   colors:
-    - "Yellow"
+  - Yellow
   materials:
-    - "Polyester & Plastics"
-  size: "Man - S"
-  category: "Rain coat"
+  - Polyester & Plastics
+  size: Man - S
+  category: Rain coat
   multiplicity: 1
   buying_price: 35
-  buying_place: "Episode Amsterdam"
-  buying_date: "2023-09-20"
+  buying_place: Episode Amsterdam
+  buying_date: '2023-09-20'
   bought_new: false
   not_logged_wear: 5
-  image: "2023 - Clothes - 5003FE9A-6351-4EF6-ABE3-6980CB38FBAE.png"
-
-- name: "Blue Celio T-Shirt V-Neck"
-  brand: "Celio"
+  image: 2023 - Clothes - 5003FE9A-6351-4EF6-ABE3-6980CB38FBAE.png
+  worn_image: 2023 - Clothes - 5003FE9A-6351-4EF6-ABE3-6980CB38FBAE.png
+  id: 44
+- name: Blue Celio T-Shirt V-Neck
+  brand: Celio
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "T-shirt"
+  - Cotton
+  size: Man - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 20
-  buying_place: "Celio Toulouse"
-  buying_date: "2011-05-10"
+  buying_place: Celio Toulouse
+  buying_date: '2011-05-10'
   bought_new: true
   not_logged_wear: 70
-  image: "2023 - Clothes - 520E9DF8-2E92-4FB8-B5C4-CC91E88D8545.png"
-
-- name: "Black Sport Shorts Domyos"
-  brand: "Decathlon"
+  image: 2023 - Clothes - 520E9DF8-2E92-4FB8-B5C4-CC91E88D8545.png
+  worn_image: 2023 - Clothes - 520E9DF8-2E92-4FB8-B5C4-CC91E88D8545.png
+  id: 45
+- name: Black Sport Shorts Domyos
+  brand: Decathlon
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Polyester & Plastics"
-  size: "Man - M"
-  category: "Sports shorts"
+  - Polyester & Plastics
+  size: Man - M
+  category: Sports shorts
   multiplicity: 1
   buying_price: 25
-  buying_place: "Decathlon Paris"
-  buying_date: "2018-10-10"
+  buying_place: Decathlon Paris
+  buying_date: '2018-10-10'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - 527FA817-C5BB-4AD7-9DD9-49676B23655B.png"
-
-- name: "Ribbed Red Crop Top Uniqlo"
-  brand: "Uniqlo"
+  image: 2023 - Clothes - 527FA817-C5BB-4AD7-9DD9-49676B23655B.png
+  worn_image: 2023 - Clothes - 527FA817-C5BB-4AD7-9DD9-49676B23655B.png
+  id: 46
+- name: Ribbed Red Crop Top Uniqlo
+  brand: Uniqlo
   colors:
-    - "Red"
+  - Red
   materials:
-    - "Cotton"
-  size: "Woman - L"
-  category: "Tank top"
+  - Cotton
+  size: Woman - L
+  category: Tank top
   multiplicity: 1
   buying_price: 25
-  buying_place: "Uniqlo Sydney"
-  buying_date: "2022-12-13"
+  buying_place: Uniqlo Sydney
+  buying_date: '2022-12-13'
   bought_new: true
   not_logged_wear: 25
-  image: "2023 - Clothes - 532DCD88-FF40-4EFA-B6DC-F6054BC39FD7.png"
-
-- name: "Black Thick Falke Tights"
-  brand: "Falke"
+  image: 2023 - Clothes - 532DCD88-FF40-4EFA-B6DC-F6054BC39FD7.png
+  worn_image: 2023 - Clothes - 532DCD88-FF40-4EFA-B6DC-F6054BC39FD7.png
+  id: 47
+- name: Black Thick Falke Tights
+  brand: Falke
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - M"
-  category: "Tights"
+  - Polyester & Plastics
+  size: Woman - M
+  category: Tights
   multiplicity: 1
   buying_price: 30
-  buying_place: "Falke Amsterdam"
-  buying_date: "2023-09-27"
+  buying_place: Falke Amsterdam
+  buying_date: '2023-09-27'
   bought_new: true
   not_logged_wear: 15
-  image: "2023 - Clothes - 551E746C-F001-4622-93F2-BC3EB4578025.png"
-
-- name: "T-Shirt New-York Celio"
-  brand: "Celio"
+  image: 2023 - Clothes - 551E746C-F001-4622-93F2-BC3EB4578025.png
+  worn_image: 2023 - Clothes - 551E746C-F001-4622-93F2-BC3EB4578025.png
+  id: 48
+- name: T-Shirt New-York Celio
+  brand: Celio
   colors:
-    - "Orange"
+  - Orange
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "T-shirt"
+  - Cotton
+  size: Man - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 25
-  buying_place: "Celio Toulouse"
-  buying_date: "2011-03-18"
+  buying_place: Celio Toulouse
+  buying_date: '2011-03-18'
   bought_new: true
   not_logged_wear: 70
-  image: "2023 - Clothes - 55738E61-F380-495E-843F-A771343B0196.png"
-
-- name: "Red Sport T-Shirt Decathlon"
-  brand: "Decathlon"
+  image: 2023 - Clothes - 55738E61-F380-495E-843F-A771343B0196.png
+  worn_image: 2023 - Clothes - 55738E61-F380-495E-843F-A771343B0196.png
+  id: 49
+- name: Red Sport T-Shirt Decathlon
+  brand: Decathlon
   colors:
-    - "Red"
+  - Red
   materials:
-    - "Polyester & Plastics"
-  size: "Man - M"
-  category: "T-shirt"
+  - Polyester & Plastics
+  size: Man - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 25
-  buying_place: "Decathlon Paris"
-  buying_date: "2015-03-11"
+  buying_place: Decathlon Paris
+  buying_date: '2015-03-11'
   bought_new: true
   not_logged_wear: 40
-  image: "2023 - Clothes - 55CF56DB-15D4-4FCF-A326-E3205AE09BD2.png"
-
-- name: "Black Sport Long Sleeve Kathmandu"
-  brand: "Kathmandu"
+  image: 2023 - Clothes - 55CF56DB-15D4-4FCF-A326-E3205AE09BD2.png
+  worn_image: 2023 - Clothes - 55CF56DB-15D4-4FCF-A326-E3205AE09BD2.png
+  id: 50
+- name: Black Sport Long Sleeve Kathmandu
+  brand: Kathmandu
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Polyester & Plastics"
-  size: "Man - M"
-  category: "Long sleeved T-shirt"
+  - Polyester & Plastics
+  size: Man - M
+  category: Long sleeved T-shirt
   multiplicity: 1
   buying_price: 0
-  buying_place: "Melbourne Australia"
-  buying_date: "2020-11-13"
+  buying_place: Melbourne Australia
+  buying_date: '2020-11-13'
   bought_new: true
   not_logged_wear: 50
-  image: "2023 - Clothes - 56B1DA67-9BE0-40D6-BECD-7756BB590A35.png"
-
-- name: "Light Blue Strap Dress Pull & Bear"
-  brand: "Pull and Bear"
+  image: 2023 - Clothes - 56B1DA67-9BE0-40D6-BECD-7756BB590A35.png
+  worn_image: 2023 - Clothes - 56B1DA67-9BE0-40D6-BECD-7756BB590A35.png
+  id: 51
+- name: Light Blue Strap Dress Pull & Bear
+  brand: Pull and Bear
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "Casual dress"
+  - Cotton
+  size: Woman - M
+  category: Casual dress
   multiplicity: 1
   buying_price: 10
-  buying_place: "Vinted"
-  buying_date: "2023-04-11"
+  buying_place: Vinted
+  buying_date: '2023-04-11'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 56B605A9-86D0-43C7-836D-F17D790CA338.png"
-
-- name: "Nike Trail Sneakers"
-  brand: "Nike"
+  image: 2023 - Clothes - 56B605A9-86D0-43C7-836D-F17D790CA338.png
+  worn_image: 2023 - Clothes - 56B605A9-86D0-43C7-836D-F17D790CA338.png
+  id: 52
+- name: Nike Trail Sneakers
+  brand: Nike
   colors:
-    - "Purple"
-    - "Orange"
-    - "Pink"
+  - Purple
+  - Orange
+  - Pink
   materials:
-    - "Polyester & Plastics"
-  size: "Shoe EUR 41"
-  category: "Long sleeved shirt"
+  - Polyester & Plastics
+  size: Shoe EUR 41
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 43
-  buying_place: "Vinted"
-  buying_date: "2023-06-02"
+  buying_place: Vinted
+  buying_date: '2023-06-02'
   bought_new: false
   not_logged_wear: 30
-  image: "2023 - Clothes - 56DC006C-23A6-4C96-AAA3-B4747DB26656.png"
-
-- name: "Knitted Scarf Mélina"
-  brand: "No Brand"
+  image: 2023 - Clothes - 56DC006C-23A6-4C96-AAA3-B4747DB26656.png
+  worn_image: 2023 - Clothes - 56DC006C-23A6-4C96-AAA3-B4747DB26656.png
+  id: 53
+- name: Knitted Scarf Mélina
+  brand: No Brand
   colors:
-    - "Yellow"
-    - "White"
+  - Yellow
+  - White
   materials:
-    - "Wool"
-  size: "Unique Size"
-  category: "Scarf"
+  - Wool
+  size: Unique Size
+  category: Scarf
   multiplicity: 1
   buying_price: 0
-  buying_place: "Toulouse"
-  buying_date: "2012-12-01"
+  buying_place: Toulouse
+  buying_date: '2012-12-01'
   bought_new: true
   not_logged_wear: 60
-  image: "2023 - Clothes - 5773DD17-CF3F-497D-B270-CE3E8E2405E8.png"
-
-- name: "Sweater Gradient ERL"
-  brand: "ERL"
+  image: 2023 - Clothes - 5773DD17-CF3F-497D-B270-CE3E8E2405E8.png
+  worn_image: 2023 - Clothes - 5773DD17-CF3F-497D-B270-CE3E8E2405E8.png
+  id: 54
+- name: Sweater Gradient ERL
+  brand: ERL
   colors:
-    - "Blue"
-    - "Yellow"
-    - "Orange"
-    - "Pink"
+  - Blue
+  - Yellow
+  - Orange
+  - Pink
   materials:
-    - "Polyester & Plastics"
-    - "Wool"
-  size: "Man - S"
-  category: "Jumper"
+  - Polyester & Plastics
+  - Wool
+  size: Man - S
+  category: Jumper
   multiplicity: 1
   buying_price: 200
-  buying_place: "Vinted"
-  buying_date: "2024-11-13"
+  buying_place: Vinted
+  buying_date: '2024-11-13'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 58676F7A-6F54-402E-9050-6FA09D5526DF.png"
-
-- name: "White Ribbed Crop Top Uniqlo"
-  brand: "Uniqlo"
+  image: 2023 - Clothes - 58676F7A-6F54-402E-9050-6FA09D5526DF.png
+  worn_image: 2023 - Clothes - 58676F7A-6F54-402E-9050-6FA09D5526DF.png
+  id: 55
+- name: White Ribbed Crop Top Uniqlo
+  brand: Uniqlo
   colors:
-    - "White"
+  - White
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "Tank top"
+  - Cotton
+  size: Woman - M
+  category: Tank top
   multiplicity: 2
   buying_price: 50
-  buying_place: "Uniqlo Sydney & Amsterdam"
-  buying_date: "2022-12-07"
+  buying_place: Uniqlo Sydney & Amsterdam
+  buying_date: '2022-12-07'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - 588C0E99-8185-4A7F-9207-211FDB5ECF55.png"
-
-- name: "Green Denim Dungarees"
-  brand: "No Brand"
+  image: 2023 - Clothes - 588C0E99-8185-4A7F-9207-211FDB5ECF55.png
+  worn_image: 2023 - Clothes - 588C0E99-8185-4A7F-9207-211FDB5ECF55.png
+  id: 56
+- name: Green Denim Dungarees
+  brand: No Brand
   colors:
-    - "Green"
+  - Green
   materials:
-    - "Cotton"
-  size: "Unique Size"
-  category: "Dungaree"
+  - Cotton
+  size: Unique Size
+  category: Dungaree
   multiplicity: 1
   buying_price: 35
-  buying_place: "Episode Amsterdam"
-  buying_date: "2022-10-12"
+  buying_place: Episode Amsterdam
+  buying_date: '2022-10-12'
   bought_new: false
   not_logged_wear: 5
-  image: "2023 - Clothes - 59CE6686-8A3D-4DDE-9DAE-5F78CBA17416.png"
-
-- name: "Black Top the Kooples Sport"
-  brand: "The Kooples"
+  image: 2023 - Clothes - 59CE6686-8A3D-4DDE-9DAE-5F78CBA17416.png
+  worn_image: 2023 - Clothes - 59CE6686-8A3D-4DDE-9DAE-5F78CBA17416.png
+  id: 57
+- name: Black Top the Kooples Sport
+  brand: The Kooples
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-    - "Polyester & Plastics"
-  size: "Woman - L"
-  category: "Tank top"
+  - Cotton
+  - Polyester & Plastics
+  size: Woman - L
+  category: Tank top
   multiplicity: 1
   buying_price: 6
-  buying_place: "Vinted"
-  buying_date: "2024-03-02"
+  buying_place: Vinted
+  buying_date: '2024-03-02'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 5BB5EA58-2989-4B7B-80B3-3179D8A103E9.png"
-
-- name: "Dark Red Pants"
-  brand: "No Brand"
+  image: 2023 - Clothes - 5BB5EA58-2989-4B7B-80B3-3179D8A103E9.png
+  worn_image: 2023 - Clothes - 5BB5EA58-2989-4B7B-80B3-3179D8A103E9.png
+  id: 58
+- name: Dark Red Pants
+  brand: No Brand
   colors:
-    - "Red"
+  - Red
   materials:
-    - "Cotton"
-    - "Polyester & Plastics"
-  size: "Pants US 30"
-  category: "Casual pants"
+  - Cotton
+  - Polyester & Plastics
+  size: Pants US 30
+  category: Casual pants
   multiplicity: 1
   buying_price: 65
-  buying_place: "New York"
-  buying_date: "2011-08-03"
+  buying_place: New York
+  buying_date: '2011-08-03'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - 5BC9612A-E2F7-43BD-808C-8912B992AC15.png"
-
-- name: "T-Shirt Hollister Green & Blue Patterns"
-  brand: "Hollister"
+  image: 2023 - Clothes - 5BC9612A-E2F7-43BD-808C-8912B992AC15.png
+  worn_image: 2023 - Clothes - 5BC9612A-E2F7-43BD-808C-8912B992AC15.png
+  id: 59
+- name: T-Shirt Hollister Green & Blue Patterns
+  brand: Hollister
   colors:
-    - "Green"
-    - "Blue"
+  - Green
+  - Blue
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "T-shirt"
+  - Cotton
+  size: Man - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 0
-  buying_place: "Lyon"
-  buying_date: "2015-12-24"
+  buying_place: Lyon
+  buying_date: '2015-12-24'
   bought_new: true
   not_logged_wear: 30
-  image: "2023 - Clothes - 5D44FADC-5B28-450B-AB8F-24BF60A4DEB9.png"
-
-- name: "Blue/Gray Celio Shirt"
-  brand: "Celio"
+  image: 2023 - Clothes - 5D44FADC-5B28-450B-AB8F-24BF60A4DEB9.png
+  worn_image: 2023 - Clothes - 5D44FADC-5B28-450B-AB8F-24BF60A4DEB9.png
+  id: 60
+- name: Blue/Gray Celio Shirt
+  brand: Celio
   colors:
-    - "Blue"
-    - "Gray"
+  - Blue
+  - Gray
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Man - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 30
-  buying_place: "Celio Toulouse"
-  buying_date: "2014-10-29"
+  buying_place: Celio Toulouse
+  buying_date: '2014-10-29'
   bought_new: true
   not_logged_wear: 15
-  image: "2023 - Clothes - 4AA7D260-AAF8-43A7-A23D-1C00F22403B3.png"
-
-- name: "Light Blue Celio Shirt"
-  brand: "Celio"
+  image: 2023 - Clothes - 4AA7D260-AAF8-43A7-A23D-1C00F22403B3.png
+  worn_image: 2023 - Clothes - 4AA7D260-AAF8-43A7-A23D-1C00F22403B3.png
+  id: 61
+- name: Light Blue Celio Shirt
+  brand: Celio
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Man - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 30
-  buying_place: "Celio Toulouse"
-  buying_date: "2014-10-29"
+  buying_place: Celio Toulouse
+  buying_date: '2014-10-29'
   bought_new: true
   not_logged_wear: 15
-  image: "2023 - Clothes - 5F311F35-1131-4133-996F-0022BDAB6D6A.png"
-
-- name: "Pink Sweater with Print"
-  brand: "No Brand"
+  image: 2023 - Clothes - 5F311F35-1131-4133-996F-0022BDAB6D6A.png
+  worn_image: 2023 - Clothes - 5F311F35-1131-4133-996F-0022BDAB6D6A.png
+  id: 62
+- name: Pink Sweater with Print
+  brand: No Brand
   colors:
-    - "Pink"
+  - Pink
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Woman - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 16
-  buying_place: "Humana Berlin"
-  buying_date: "2023-10-11"
+  buying_place: Humana Berlin
+  buying_date: '2023-10-11'
   bought_new: false
   not_logged_wear: 2
-  image: "2023 - Clothes - 5FE85E66-1CB2-4D4C-9A15-AB91413B99BE.png"
-
-- name: "Cape Marianne"
-  brand: "Marianne"
+  image: 2023 - Clothes - 5FE85E66-1CB2-4D4C-9A15-AB91413B99BE.png
+  worn_image: 2023 - Clothes - 5FE85E66-1CB2-4D4C-9A15-AB91413B99BE.png
+  id: 63
+- name: Cape Marianne
+  brand: Marianne
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Wool"
-  size: "Woman - M"
-  category: "Cape"
+  - Wool
+  size: Woman - M
+  category: Cape
   multiplicity: 1
   buying_price: 0
-  buying_place: "Marianne Webshop"
-  buying_date: "2023-12-24"
+  buying_place: Marianne Webshop
+  buying_date: '2023-12-24'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - 60610F00-D3BF-4CE5-928A-DECBF91951A5.png"
-
-- name: "Uniqlo White Long Sleeve Sweatshirt"
-  brand: "Uniqlo"
+  image: 2023 - Clothes - 60610F00-D3BF-4CE5-928A-DECBF91951A5.png
+  worn_image: 2023 - Clothes - 60610F00-D3BF-4CE5-928A-DECBF91951A5.png
+  id: 64
+- name: Uniqlo White Long Sleeve Sweatshirt
+  brand: Uniqlo
   colors:
-    - "White"
+  - White
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - M"
-  category: "Long sleeved T-shirt"
+  - Polyester & Plastics
+  size: Woman - M
+  category: Long sleeved T-shirt
   multiplicity: 1
   buying_price: 25
-  buying_place: "Uniqlo Amsterdam"
-  buying_date: "2024-02-06"
+  buying_place: Uniqlo Amsterdam
+  buying_date: '2024-02-06'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - 61DC5DED-A196-461C-9A08-3F9FE455CECE.png"
-
-- name: "Dark Blue Denim Dungarees"
-  brand: "No Brand"
+  image: 2023 - Clothes - 61DC5DED-A196-461C-9A08-3F9FE455CECE.png
+  worn_image: 2023 - Clothes - 61DC5DED-A196-461C-9A08-3F9FE455CECE.png
+  id: 65
+- name: Dark Blue Denim Dungarees
+  brand: No Brand
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-  size: "Unique Size"
-  category: "Dungaree"
+  - Cotton
+  size: Unique Size
+  category: Dungaree
   multiplicity: 1
   buying_price: 35
-  buying_place: "Episode Amsterdam"
-  buying_date: "2022-11-26"
+  buying_place: Episode Amsterdam
+  buying_date: '2022-11-26'
   bought_new: false
   not_logged_wear: 10
-  image: "2023 - Clothes - 62DCB5C7-4275-41EE-852C-26D725AD9F3A.png"
-
-- name: "Jacket Luka Bonsini"
-  brand: "Luka Bonsini"
+  image: 2023 - Clothes - 62DCB5C7-4275-41EE-852C-26D725AD9F3A.png
+  worn_image: 2023 - Clothes - 62DCB5C7-4275-41EE-852C-26D725AD9F3A.png
+  id: 66
+- name: Jacket Luka Bonsini
+  brand: Luka Bonsini
   colors:
-    - "Purple"
+  - Purple
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Jacket"
+  - Cotton
+  size: Man - S
+  category: Jacket
   multiplicity: 1
   buying_price: 120
-  buying_place: "Kiliwatch Paris"
-  buying_date: "2024-04-11"
+  buying_place: Kiliwatch Paris
+  buying_date: '2024-04-11'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - 632D4D44-76CF-41B0-8B01-2F469471B327.png"
-
-- name: "Dress with Straps Stradivarius"
-  brand: "Stradivarius"
+  image: 2023 - Clothes - 632D4D44-76CF-41B0-8B01-2F469471B327.png
+  worn_image: 2023 - Clothes - 632D4D44-76CF-41B0-8B01-2F469471B327.png
+  id: 67
+- name: Dress with Straps Stradivarius
+  brand: Stradivarius
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-  size: "Woman - 40"
-  category: "Casual dress"
+  - Cotton
+  size: Woman - 40
+  category: Casual dress
   multiplicity: 1
   buying_price: 10
-  buying_place: "Vinted"
-  buying_date: "2023-06-23"
+  buying_place: Vinted
+  buying_date: '2023-06-23'
   bought_new: false
   not_logged_wear: 10
-  image: "2023 - Clothes - 6497F37F-CBE8-42AF-910D-8D9F18ABA045.png"
-
-- name: "Black Crop Top Maje"
-  brand: "Maje"
+  image: 2023 - Clothes - 6497F37F-CBE8-42AF-910D-8D9F18ABA045.png
+  worn_image: 2023 - Clothes - 6497F37F-CBE8-42AF-910D-8D9F18ABA045.png
+  id: 68
+- name: Black Crop Top Maje
+  brand: Maje
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-    - "Polyester & Plastics"
-  size: "Woman - 38"
-  category: "T-shirt"
+  - Cotton
+  - Polyester & Plastics
+  size: Woman - 38
+  category: T-shirt
   multiplicity: 1
   buying_price: 0
-  buying_place: "Maje Amsterdam"
-  buying_date: "2023-09-23"
+  buying_place: Maje Amsterdam
+  buying_date: '2023-09-23'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - 656F30FE-5608-46EB-A558-40C848A34C03.png"
-
-- name: "Sweater Olow Beach"
-  brand: "Olow"
+  image: 2023 - Clothes - 656F30FE-5608-46EB-A558-40C848A34C03.png
+  worn_image: 2023 - Clothes - 656F30FE-5608-46EB-A558-40C848A34C03.png
+  id: 69
+- name: Sweater Olow Beach
+  brand: Olow
   colors:
-    - "White"
+  - White
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Jumper"
+  - Cotton
+  size: Man - S
+  category: Jumper
   multiplicity: 1
   buying_price: 10
-  buying_place: "Vinted"
-  buying_date: "2023-10-16"
+  buying_place: Vinted
+  buying_date: '2023-10-16'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 66823201-97B0-49AD-BD31-984A247C70FD.png"
-
-- name: "T-Shirt Zara White with Dots"
-  brand: "Zara"
+  image: 2023 - Clothes - 66823201-97B0-49AD-BD31-984A247C70FD.png
+  worn_image: 2023 - Clothes - 66823201-97B0-49AD-BD31-984A247C70FD.png
+  id: 70
+- name: T-Shirt Zara White with Dots
+  brand: Zara
   colors:
-    - "White"
+  - White
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "T-shirt"
+  - Cotton
+  size: Man - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 30
-  buying_place: "Zara Paris"
-  buying_date: "2020-10-07"
+  buying_place: Zara Paris
+  buying_date: '2020-10-07'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - 6746B210-A784-429E-8F5D-5251FDCE33D5.png"
-
-- name: "Brick Red Coat"
-  brand: "No Brand"
+  image: 2023 - Clothes - 6746B210-A784-429E-8F5D-5251FDCE33D5.png
+  worn_image: 2023 - Clothes - 6746B210-A784-429E-8F5D-5251FDCE33D5.png
+  id: 71
+- name: Brick Red Coat
+  brand: No Brand
   colors:
-    - "Red"
+  - Red
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Coat"
+  - Cotton
+  size: Man - S
+  category: Coat
   multiplicity: 1
   buying_price: 10
-  buying_place: "King's Day"
-  buying_date: "2024-04-27"
+  buying_place: King's Day
+  buying_date: '2024-04-27'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 67F21D00-A2F4-4ADF-B495-430636F345AC.png"
-
-- name: "Red Small Hat"
-  brand: "No Brand"
+  image: 2023 - Clothes - 67F21D00-A2F4-4ADF-B495-430636F345AC.png
+  worn_image: 2023 - Clothes - 67F21D00-A2F4-4ADF-B495-430636F345AC.png
+  id: 72
+- name: Red Small Hat
+  brand: No Brand
   colors:
-    - "Red"
+  - Red
   materials:
-    - "Wool"
-  size: "Unique Size"
-  category: "Hat"
+  - Wool
+  size: Unique Size
+  category: Hat
   multiplicity: 1
   buying_price: 0
-  buying_place: "Berlin"
-  buying_date: "2022-01-05"
+  buying_place: Berlin
+  buying_date: '2022-01-05'
   bought_new: false
   not_logged_wear: 30
-  image: "2023 - Clothes - 698AF769-B7F7-4920-8CAC-D27DA86040B2.png"
-
-- name: "Gray Shirt Celio"
-  brand: "Celio"
+  image: 2023 - Clothes - 698AF769-B7F7-4920-8CAC-D27DA86040B2.png
+  worn_image: 2023 - Clothes - 698AF769-B7F7-4920-8CAC-D27DA86040B2.png
+  id: 73
+- name: Gray Shirt Celio
+  brand: Celio
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Man - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 30
-  buying_place: "Celio Toulouse"
-  buying_date: "2011-03-14"
+  buying_place: Celio Toulouse
+  buying_date: '2011-03-14'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - 69FC038F-8D0E-4E3C-B679-94CD69C6AB93.png"
-
-- name: "Red and Black Stripes Crop Top"
-  brand: "No Brand"
+  image: 2023 - Clothes - 69FC038F-8D0E-4E3C-B679-94CD69C6AB93.png
+  worn_image: 2023 - Clothes - 69FC038F-8D0E-4E3C-B679-94CD69C6AB93.png
+  id: 74
+- name: Red and Black Stripes Crop Top
+  brand: No Brand
   colors:
-    - "Red"
-    - "Black"
-    - "White"
+  - Red
+  - Black
+  - White
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - L"
-  category: "T-shirt"
+  - Polyester & Plastics
+  size: Woman - L
+  category: T-shirt
   multiplicity: 1
   buying_price: 20
-  buying_place: "London"
-  buying_date: "2023-06-23"
+  buying_place: London
+  buying_date: '2023-06-23'
   bought_new: false
   not_logged_wear: 4
-  image: "2023 - Clothes - 6A3AFE70-7392-4C12-A1BD-E519321903C1.png"
-
-- name: "Hiking Pants Decathlon"
-  brand: "Decathlon"
+  image: 2023 - Clothes - 6A3AFE70-7392-4C12-A1BD-E519321903C1.png
+  worn_image: 2023 - Clothes - 6A3AFE70-7392-4C12-A1BD-E519321903C1.png
+  id: 75
+- name: Hiking Pants Decathlon
+  brand: Decathlon
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Polyester & Plastics"
-  size: "Man - M"
-  category: "Sports pants"
+  - Polyester & Plastics
+  size: Man - M
+  category: Sports pants
   multiplicity: 1
   buying_price: 30
-  buying_place: "Decathlon Paris"
-  buying_date: "2017-05-17"
+  buying_place: Decathlon Paris
+  buying_date: '2017-05-17'
   bought_new: true
   not_logged_wear: 40
-  image: "2023 - Clothes - 6BD3B25B-5A2F-4540-9062-584E44E3FB35.png"
-
-- name: "Skort Maje Green Flower Pattern"
-  brand: "Maje"
+  image: 2023 - Clothes - 6BD3B25B-5A2F-4540-9062-584E44E3FB35.png
+  worn_image: 2023 - Clothes - 6BD3B25B-5A2F-4540-9062-584E44E3FB35.png
+  id: 76
+- name: Skort Maje Green Flower Pattern
+  brand: Maje
   colors:
-    - "Green"
-    - "Blue"
+  - Green
+  - Blue
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - 38"
-  category: "Skort"
+  - Polyester & Plastics
+  size: Woman - 38
+  category: Skort
   multiplicity: 1
   buying_price: 42
-  buying_place: "Vinted"
-  buying_date: "2023-09-21"
+  buying_place: Vinted
+  buying_date: '2023-09-21'
   bought_new: false
   not_logged_wear: 3
-  image: "2023 - Clothes - 6C5E4254-ACE5-4824-9B6E-7EEC35C08F8A.png"
-
-- name: "Orange Crop Top Lucy & Yak"
-  brand: "Lucy and Yak"
+  image: 2023 - Clothes - 6C5E4254-ACE5-4824-9B6E-7EEC35C08F8A.png
+  worn_image: 2023 - Clothes - 6C5E4254-ACE5-4824-9B6E-7EEC35C08F8A.png
+  id: 77
+- name: Orange Crop Top Lucy & Yak
+  brand: Lucy and Yak
   colors:
-    - "Orange"
+  - Orange
   materials:
-    - "Cotton"
-    - "Polyester & Plastics"
-  size: "Woman - M"
-  category: "Tank top"
+  - Cotton
+  - Polyester & Plastics
+  size: Woman - M
+  category: Tank top
   multiplicity: 1
   buying_price: 14
-  buying_place: "Vinted"
-  buying_date: "2023-12-11"
+  buying_place: Vinted
+  buying_date: '2023-12-11'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 6CFDDD4E-F609-4C2D-B420-679901655E41.png"
-
-- name: "Purple Hat"
-  brand: "No Brand"
+  image: 2023 - Clothes - 6CFDDD4E-F609-4C2D-B420-679901655E41.png
+  worn_image: 2023 - Clothes - 6CFDDD4E-F609-4C2D-B420-679901655E41.png
+  id: 78
+- name: Purple Hat
+  brand: No Brand
   colors:
-    - "Purple"
+  - Purple
   materials:
-    - "Wool"
-  size: "Unique Size"
-  category: "Hat"
+  - Wool
+  size: Unique Size
+  category: Hat
   multiplicity: 1
   buying_price: 0
-  buying_place: "Amsterdam"
-  buying_date: "2023-04-26"
+  buying_place: Amsterdam
+  buying_date: '2023-04-26'
   bought_new: false
   not_logged_wear: 5
-  image: "2023 - Clothes - 6D3FB90A-02F7-45AA-ACE0-FC5EEE7814C6.png"
-
-- name: "Kenzo Cropped Tiger Sweater"
-  brand: "Kenzo"
+  image: 2023 - Clothes - 6D3FB90A-02F7-45AA-ACE0-FC5EEE7814C6.png
+  worn_image: 2023 - Clothes - 6D3FB90A-02F7-45AA-ACE0-FC5EEE7814C6.png
+  id: 79
+- name: Kenzo Cropped Tiger Sweater
+  brand: Kenzo
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Woman - XS"
-  category: "Jumper"
+  - Cotton
+  size: Woman - XS
+  category: Jumper
   multiplicity: 1
   buying_price: 10
-  buying_place: "King's Day"
-  buying_date: "2023-04-27"
+  buying_place: King's Day
+  buying_date: '2023-04-27'
   bought_new: false
   not_logged_wear: 5
-  image: "2023 - Clothes - 6EF0455C-1D86-4ACB-9C22-8FE39F498D8E.png"
-
-- name: "Orange Lucy & Yak Jumpsuit"
-  brand: "Lucy and Yak"
+  image: 2023 - Clothes - 6EF0455C-1D86-4ACB-9C22-8FE39F498D8E.png
+  worn_image: 2023 - Clothes - 6EF0455C-1D86-4ACB-9C22-8FE39F498D8E.png
+  id: 80
+- name: Orange Lucy & Yak Jumpsuit
+  brand: Lucy and Yak
   colors:
-    - "Orange"
+  - Orange
   materials:
-    - "Cotton"
-  size: "Woman - UK 12"
-  category: "Jumpsuit"
+  - Cotton
+  size: Woman - UK 12
+  category: Jumpsuit
   multiplicity: 1
   buying_price: 70
-  buying_place: "Lucy & Yak Webshop"
-  buying_date: "2022-05-27"
+  buying_place: Lucy & Yak Webshop
+  buying_date: '2022-05-27'
   bought_new: true
   not_logged_wear: 15
-  image: "2023 - Clothes - 6F063A4F-58A1-4D79-8069-CD5E74AEBFA0.png"
-
-- name: "Heel Boot Dr. Martens"
-  brand: "Dr. Martens"
+  image: 2023 - Clothes - 6F063A4F-58A1-4D79-8069-CD5E74AEBFA0.png
+  worn_image: 2023 - Clothes - 6F063A4F-58A1-4D79-8069-CD5E74AEBFA0.png
+  id: 81
+- name: Heel Boot Dr. Martens
+  brand: Dr. Martens
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Leather"
-  size: "Shoe EUR 41"
-  category: "Ankle boots"
+  - Leather
+  size: Shoe EUR 41
+  category: Ankle boots
   multiplicity: 1
   buying_price: 205
-  buying_place: "Dr. Martens Amsterdam"
-  buying_date: "2023-09-16"
+  buying_place: Dr. Martens Amsterdam
+  buying_date: '2023-09-16'
   bought_new: true
   not_logged_wear: 2
-  image: "2023 - Clothes - 6F1DF304-0634-4280-8943-EBA6D77C9BF5.png"
-
-- name: "Red Oversized Lucy & Yak Shirt"
-  brand: "Lucy and Yak"
+  image: 2023 - Clothes - 6F1DF304-0634-4280-8943-EBA6D77C9BF5.png
+  worn_image: 2023 - Clothes - 6F1DF304-0634-4280-8943-EBA6D77C9BF5.png
+  id: 82
+- name: Red Oversized Lucy & Yak Shirt
+  brand: Lucy and Yak
   colors:
-    - "Red"
+  - Red
   materials:
-    - "Cotton"
-  size: "Woman - S"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Woman - S
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 41
-  buying_place: "Lucy & Yak Webshop"
-  buying_date: "2023-11-20"
+  buying_place: Lucy & Yak Webshop
+  buying_date: '2023-11-20'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - 70B9E0F5-69BD-4452-933E-C218491B9C59.png"
-
-- name: "Running Legging Decathlon"
-  brand: "Decathlon"
+  image: 2023 - Clothes - 70B9E0F5-69BD-4452-933E-C218491B9C59.png
+  worn_image: 2023 - Clothes - 70B9E0F5-69BD-4452-933E-C218491B9C59.png
+  id: 83
+- name: Running Legging Decathlon
+  brand: Decathlon
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Polyester & Plastics"
-  size: "Man - S"
-  category: "Legging"
+  - Polyester & Plastics
+  size: Man - S
+  category: Legging
   multiplicity: 1
   buying_price: 20
-  buying_place: "Decathlon Amsterdam"
-  buying_date: "2020-10-05"
+  buying_place: Decathlon Amsterdam
+  buying_date: '2020-10-05'
   bought_new: true
   not_logged_wear: 40
-  image: "2023 - Clothes - 7138B80D-B2BA-489A-B453-40CAA9802C3C.png"
-
-- name: "Dark Blue Ribbed Monoprix Shirt"
-  brand: "Monoprix"
+  image: 2023 - Clothes - 7138B80D-B2BA-489A-B453-40CAA9802C3C.png
+  worn_image: 2023 - Clothes - 7138B80D-B2BA-489A-B453-40CAA9802C3C.png
+  id: 84
+- name: Dark Blue Ribbed Monoprix Shirt
+  brand: Monoprix
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Man - S
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 15
-  buying_place: "Paris"
-  buying_date: "2018-02-13"
+  buying_place: Paris
+  buying_date: '2018-02-13'
   bought_new: false
   not_logged_wear: 10
-  image: "2023 - Clothes - 71B8FFAA-E399-41E7-908C-1D5955DA3CA2.png"
-
-- name: "Seksi T-Shirt"
-  brand: "No Brand"
+  image: 2023 - Clothes - 71B8FFAA-E399-41E7-908C-1D5955DA3CA2.png
+  worn_image: 2023 - Clothes - 71B8FFAA-E399-41E7-908C-1D5955DA3CA2.png
+  id: 85
+- name: Seksi T-Shirt
+  brand: No Brand
   colors:
-    - "White"
+  - White
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "T-shirt"
+  - Cotton
+  size: Man - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 20
-  buying_place: "Cachan"
-  buying_date: "2016-03-04"
+  buying_place: Cachan
+  buying_date: '2016-03-04'
   bought_new: true
   not_logged_wear: 30
-  image: "2023 - Clothes - FD013990-891D-4D65-BCFB-6FA632B2E7EC.png"
-
-- name: "Vintage Hiking Boot Adidas"
-  brand: "Adidas"
+  image: 2023 - Clothes - FD013990-891D-4D65-BCFB-6FA632B2E7EC.png
+  worn_image: 2023 - Clothes - FD013990-891D-4D65-BCFB-6FA632B2E7EC.png
+  id: 86
+- name: Vintage Hiking Boot Adidas
+  brand: Adidas
   colors:
-    - "Yellow"
-    - "Magenta"
-    - "Purple"
-    - "Pink"
+  - Yellow
+  - Magenta
+  - Purple
+  - Pink
   materials:
-    - "Polyester & Plastics"
-  size: "Shoe EUR 41.5"
-  category: "Ankle boots"
+  - Polyester & Plastics
+  size: Shoe EUR 41.5
+  category: Ankle boots
   multiplicity: 1
   buying_price: 75
-  buying_place: "Candy Shop Amsterdam"
-  buying_date: "2022-11-12"
+  buying_place: Candy Shop Amsterdam
+  buying_date: '2022-11-12'
   bought_new: false
   not_logged_wear: 20
-  image: "2023 - Clothes - 722FE3D9-59A2-40F2-89C0-DD47F24FE0FA.png"
-
-- name: "Zara White and Blue T-Shirt"
-  brand: "Zara"
+  image: 2023 - Clothes - 722FE3D9-59A2-40F2-89C0-DD47F24FE0FA.png
+  worn_image: 2023 - Clothes - 722FE3D9-59A2-40F2-89C0-DD47F24FE0FA.png
+  id: 87
+- name: Zara White and Blue T-Shirt
+  brand: Zara
   colors:
-    - "Blue"
-    - "White"
+  - Blue
+  - White
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Man - S
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 25
-  buying_place: "Zara Paris"
-  buying_date: "2016-10-22"
+  buying_place: Zara Paris
+  buying_date: '2016-10-22'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - 72C8F44A-F65A-48D9-AE2B-B09504F3084D.png"
-
-- name: "Tommy Hilfiger Gren Polo"
-  brand: "Tommy Hilfiger"
+  image: 2023 - Clothes - 72C8F44A-F65A-48D9-AE2B-B09504F3084D.png
+  worn_image: 2023 - Clothes - 72C8F44A-F65A-48D9-AE2B-B09504F3084D.png
+  id: 88
+- name: Tommy Hilfiger Gren Polo
+  brand: Tommy Hilfiger
   colors:
-    - "Green"
+  - Green
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Polo shirt"
+  - Cotton
+  size: Man - M
+  category: Polo shirt
   multiplicity: 1
   buying_price: 30
-  buying_place: "Tommy Hilfiger Toulouse"
-  buying_date: "2015-05-23"
+  buying_place: Tommy Hilfiger Toulouse
+  buying_date: '2015-05-23'
   bought_new: true
   not_logged_wear: 15
-  image: "2023 - Clothes - 73449630-A9CA-48AB-8197-B14F81B12C66.png"
-
-- name: "Black Lucy & Yak Jumpsuit"
-  brand: "Lucy and Yak"
+  image: 2023 - Clothes - 73449630-A9CA-48AB-8197-B14F81B12C66.png
+  worn_image: 2023 - Clothes - 73449630-A9CA-48AB-8197-B14F81B12C66.png
+  id: 89
+- name: Black Lucy & Yak Jumpsuit
+  brand: Lucy and Yak
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-  size: "Woman - UK 14"
-  category: "Jumpsuit"
+  - Cotton
+  size: Woman - UK 14
+  category: Jumpsuit
   multiplicity: 1
   buying_price: 73
-  buying_place: "Lucy & Yak Webshop"
-  buying_date: "2023-11-20"
+  buying_place: Lucy & Yak Webshop
+  buying_date: '2023-11-20'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - 73612153-818B-4E0C-82AF-E713210824E5.png"
-
-- name: "Light Blue Levi's Mini Shorts"
-  brand: "Levi's"
+  image: 2023 - Clothes - 73612153-818B-4E0C-82AF-E713210824E5.png
+  worn_image: 2023 - Clothes - 73612153-818B-4E0C-82AF-E713210824E5.png
+  id: 90
+- name: Light Blue Levi's Mini Shorts
+  brand: Levi's
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-  size: "Pants US 30"
-  category: "Jeans shorts"
+  - Cotton
+  size: Pants US 30
+  category: Jeans shorts
   multiplicity: 1
   buying_price: 20
-  buying_place: "Episode Amsterdam"
-  buying_date: "2023-05-20"
+  buying_place: Episode Amsterdam
+  buying_date: '2023-05-20'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 74D7F374-275A-44C5-B2FD-EF0BAA8F7610.png"
-
-- name: "White Fila Sneakers"
-  brand: "Fila"
+  image: 2023 - Clothes - 74D7F374-275A-44C5-B2FD-EF0BAA8F7610.png
+  worn_image: 2023 - Clothes - 74D7F374-275A-44C5-B2FD-EF0BAA8F7610.png
+  id: 91
+- name: White Fila Sneakers
+  brand: Fila
   colors:
-    - "White"
+  - White
   materials:
-    - "Polyester & Plastics"
-  size: "Shoe EUR 41"
-  category: "City sneakers"
+  - Polyester & Plastics
+  size: Shoe EUR 41
+  category: City sneakers
   multiplicity: 1
   buying_price: 5
-  buying_place: "King's Day"
-  buying_date: "2024-04-27"
+  buying_place: King's Day
+  buying_date: '2024-04-27'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 7678A4DB-6074-480C-B8A5-F90C79DEAD1B.png"
-
-- name: "Red Volcom Hoodie"
-  brand: "Volcom"
+  image: 2023 - Clothes - 7678A4DB-6074-480C-B8A5-F90C79DEAD1B.png
+  worn_image: 2023 - Clothes - 7678A4DB-6074-480C-B8A5-F90C79DEAD1B.png
+  id: 92
+- name: Red Volcom Hoodie
+  brand: Volcom
   colors:
-    - "Red"
+  - Red
   materials:
-    - "Cotton"
-    - "Polyester & Plastics"
-  size: "Man - M"
-  category: "Long sleeved shirt"
+  - Cotton
+  - Polyester & Plastics
+  size: Man - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 60
-  buying_place: "Okla Toulouse"
-  buying_date: "2014-07-09"
+  buying_place: Okla Toulouse
+  buying_date: '2014-07-09'
   bought_new: true
   not_logged_wear: 50
-  image: "2023 - Clothes - 76955F25-2261-4433-9122-03C2EEA596ED.png"
-
-- name: "Adidas Cropped Sweater"
-  brand: "Adidas"
+  image: 2023 - Clothes - 76955F25-2261-4433-9122-03C2EEA596ED.png
+  worn_image: 2023 - Clothes - 76955F25-2261-4433-9122-03C2EEA596ED.png
+  id: 93
+- name: Adidas Cropped Sweater
+  brand: Adidas
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - 36"
-  category: "Hoodie"
+  - Polyester & Plastics
+  size: Woman - 36
+  category: Hoodie
   multiplicity: 1
   buying_price: 15
-  buying_place: "Oxfam London"
-  buying_date: "2023-06-23"
+  buying_place: Oxfam London
+  buying_date: '2023-06-23'
   bought_new: false
   not_logged_wear: 10
-  image: "2023 - Clothes - 76F716C1-2A49-448C-AECC-DCCEEB324A82.png"
-
-- name: "Levi's Denim Blue Mini Shorts"
-  brand: "Levi's"
+  image: 2023 - Clothes - 76F716C1-2A49-448C-AECC-DCCEEB324A82.png
+  worn_image: 2023 - Clothes - 76F716C1-2A49-448C-AECC-DCCEEB324A82.png
+  id: 94
+- name: Levi's Denim Blue Mini Shorts
+  brand: Levi's
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "Jeans shorts"
+  - Cotton
+  size: Woman - M
+  category: Jeans shorts
   multiplicity: 1
   buying_price: 20
-  buying_place: "Episode Amsterdam"
-  buying_date: "2024-05-20"
+  buying_place: Episode Amsterdam
+  buying_date: '2024-05-20'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 770C8260-E393-4CBD-BBE9-E9765028AF47.png"
-
-- name: "Brick Red Bow Tie"
-  brand: "No Brand"
+  image: 2023 - Clothes - 770C8260-E393-4CBD-BBE9-E9765028AF47.png
+  worn_image: 2023 - Clothes - 770C8260-E393-4CBD-BBE9-E9765028AF47.png
+  id: 95
+- name: Brick Red Bow Tie
+  brand: No Brand
   colors:
-    - "Red"
-    - "Orange"
-    - "Brown"
+  - Red
+  - Orange
+  - Brown
   materials:
-    - "Cotton"
-  size: "Unique Size"
-  category: "Bow Tie"
+  - Cotton
+  size: Unique Size
+  category: Bow Tie
   multiplicity: 1
   buying_price: 25
-  buying_place: "Webshop"
-  buying_date: "2022-10-06"
+  buying_place: Webshop
+  buying_date: '2022-10-06'
   bought_new: true
   not_logged_wear: 2
-  image: "2023 - Clothes - 7B248220-7642-40CD-81BA-FFAFC19DB59A.png"
-
-- name: "Dark Blue Dickies Trouwers"
-  brand: "Dickies"
+  image: 2023 - Clothes - 7B248220-7642-40CD-81BA-FFAFC19DB59A.png
+  worn_image: 2023 - Clothes - 7B248220-7642-40CD-81BA-FFAFC19DB59A.png
+  id: 96
+- name: Dark Blue Dickies Trouwers
+  brand: Dickies
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Pants US 30"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Pants US 30
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 25
-  buying_place: "Episode Amsterdam"
-  buying_date: "2021-06-02"
+  buying_place: Episode Amsterdam
+  buying_date: '2021-06-02'
   bought_new: false
   not_logged_wear: 20
-  image: "2023 - Clothes - 7BB648B7-8D4B-4C00-AD03-8544CDF23594.png"
-
-- name: "Long Sleeve Dark Blue Jules T-Shirt"
-  brand: "Jules"
+  image: 2023 - Clothes - 7BB648B7-8D4B-4C00-AD03-8544CDF23594.png
+  worn_image: 2023 - Clothes - 7BB648B7-8D4B-4C00-AD03-8544CDF23594.png
+  id: 97
+- name: Long Sleeve Dark Blue Jules T-Shirt
+  brand: Jules
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Long sleeved T-shirt"
+  - Cotton
+  size: Man - M
+  category: Long sleeved T-shirt
   multiplicity: 1
   buying_price: 25
-  buying_place: "Jules Toulouse"
-  buying_date: "2011-05-12"
+  buying_place: Jules Toulouse
+  buying_date: '2011-05-12'
   bought_new: true
   not_logged_wear: 70
-  image: "2023 - Clothes - 7C7C4E66-6807-4046-93C5-6A9B01C6F00F.png"
-
-- name: "White and Blue Light Sweater"
-  brand: "No Brand"
+  image: 2023 - Clothes - 7C7C4E66-6807-4046-93C5-6A9B01C6F00F.png
+  worn_image: 2023 - Clothes - 7C7C4E66-6807-4046-93C5-6A9B01C6F00F.png
+  id: 98
+- name: White and Blue Light Sweater
+  brand: No Brand
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-  size: "Man - XS"
-  category: "Jumper"
+  - Cotton
+  size: Man - XS
+  category: Jumper
   multiplicity: 1
   buying_price: 15
-  buying_place: "Oxfam London"
-  buying_date: "2023-06-23"
+  buying_place: Oxfam London
+  buying_date: '2023-06-23'
   bought_new: false
   not_logged_wear: 5
-  image: "2023 - Clothes - 7D1C7A9E-2AA3-43E2-BE0C-F3E97E6CB9BA.png"
-
-- name: "Jumpsuit Blue"
-  brand: "No Brand"
+  image: 2023 - Clothes - 7D1C7A9E-2AA3-43E2-BE0C-F3E97E6CB9BA.png
+  worn_image: 2023 - Clothes - 7D1C7A9E-2AA3-43E2-BE0C-F3E97E6CB9BA.png
+  id: 99
+- name: Jumpsuit Blue
+  brand: No Brand
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-  size: "Unique Size"
-  category: "Jumpsuit"
+  - Cotton
+  size: Unique Size
+  category: Jumpsuit
   multiplicity: 1
   buying_price: 35
-  buying_place: "Episode Amsterdam"
-  buying_date: "2022-10-21"
+  buying_place: Episode Amsterdam
+  buying_date: '2022-10-21'
   bought_new: false
   not_logged_wear: 10
-  image: "2023 - Clothes - 7D3CC9C2-E291-456E-9EFB-3E5B06DAFB2C.png"
-
-- name: "Maje Fluid Dress"
-  brand: "Maje"
+  image: 2023 - Clothes - 7D3CC9C2-E291-456E-9EFB-3E5B06DAFB2C.png
+  worn_image: 2023 - Clothes - 7D3CC9C2-E291-456E-9EFB-3E5B06DAFB2C.png
+  id: 100
+- name: Maje Fluid Dress
+  brand: Maje
   colors:
-    - "Blue"
-    - "Black"
-    - "White"
+  - Blue
+  - Black
+  - White
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - 38"
-  category: "Long sleeved shirt"
+  - Polyester & Plastics
+  size: Woman - 38
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 295
-  buying_place: "Maje Amsterdam"
-  buying_date: "2023-10-07"
+  buying_place: Maje Amsterdam
+  buying_date: '2023-10-07'
   bought_new: true
   not_logged_wear: 1
-  image: "2023 - Clothes - 8349C9DF-C17A-4C48-9588-55C47830F2EA.png"
-
-- name: "Gray Volcom Shorts"
-  brand: "Volcom"
+  image: 2023 - Clothes - 8349C9DF-C17A-4C48-9588-55C47830F2EA.png
+  worn_image: 2023 - Clothes - 8349C9DF-C17A-4C48-9588-55C47830F2EA.png
+  id: 101
+- name: Gray Volcom Shorts
+  brand: Volcom
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Man - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 60
-  buying_place: "Okla Toulouse"
-  buying_date: "2017-06-15"
+  buying_place: Okla Toulouse
+  buying_date: '2017-06-15'
   bought_new: true
   not_logged_wear: 50
-  image: "2023 - Clothes - 85FE4229-2237-448D-AE2F-6261C2079D8C.png"
-
-- name: "Long Sleeve T-Shirt Gray Only & Sons"
-  brand: "Only and Sons"
+  image: 2023 - Clothes - 85FE4229-2237-448D-AE2F-6261C2079D8C.png
+  worn_image: 2023 - Clothes - 85FE4229-2237-448D-AE2F-6261C2079D8C.png
+  id: 102
+- name: Long Sleeve T-Shirt Gray Only & Sons
+  brand: Only and Sons
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Long sleeved T-shirt"
+  - Cotton
+  size: Man - M
+  category: Long sleeved T-shirt
   multiplicity: 1
   buying_price: 50
-  buying_place: "Toulouse"
-  buying_date: "2016-08-18"
+  buying_place: Toulouse
+  buying_date: '2016-08-18'
   bought_new: true
   not_logged_wear: 30
-  image: "2023 - Clothes - 8656F3A9-DC30-484F-B804-489A5FF6ECD1.png"
-
-- name: "Sirin Black Shorts"
-  brand: "No Brand"
+  image: 2023 - Clothes - 8656F3A9-DC30-484F-B804-489A5FF6ECD1.png
+  worn_image: 2023 - Clothes - 8656F3A9-DC30-484F-B804-489A5FF6ECD1.png
+  id: 103
+- name: Sirin Black Shorts
+  brand: No Brand
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Woman - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 0
-  buying_place: "Sydney"
-  buying_date: "2023-01-11"
+  buying_place: Sydney
+  buying_date: '2023-01-11'
   bought_new: false
   not_logged_wear: 5
-  image: "2023 - Clothes - 88E4F6F5-F981-4D3D-9E9C-0686D8ABB129.png"
-
-- name: "Teym White Sweater"
-  brand: "Teym"
+  image: 2023 - Clothes - 88E4F6F5-F981-4D3D-9E9C-0686D8ABB129.png
+  worn_image: 2023 - Clothes - 88E4F6F5-F981-4D3D-9E9C-0686D8ABB129.png
+  id: 104
+- name: Teym White Sweater
+  brand: Teym
   colors:
-    - "White"
+  - White
   materials:
-    - "Wool"
-  size: "Man - XS"
-  category: "Jumper"
+  - Wool
+  size: Man - XS
+  category: Jumper
   multiplicity: 1
   buying_price: 15
-  buying_place: "King's Day"
-  buying_date: "2024-04-27"
+  buying_place: King's Day
+  buying_date: '2024-04-27'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 8A4EE9DB-69C5-44C1-BB28-0A0BB598D380.png"
-
-- name: "Uniqlo Black Shirt"
-  brand: "Uniqlo"
+  image: 2023 - Clothes - 8A4EE9DB-69C5-44C1-BB28-0A0BB598D380.png
+  worn_image: 2023 - Clothes - 8A4EE9DB-69C5-44C1-BB28-0A0BB598D380.png
+  id: 105
+- name: Uniqlo Black Shirt
+  brand: Uniqlo
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Man - S
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 30
-  buying_place: "Uniqlo Amsterdam"
-  buying_date: "2022-09-14"
+  buying_place: Uniqlo Amsterdam
+  buying_date: '2022-09-14'
   bought_new: true
   not_logged_wear: 3
-  image: "2023 - Clothes - 8AD125CA-FE56-4BA1-9CB3-B8E65B65B85E.png"
-
-- name: "Blue Chinese Vest Episode"
-  brand: "No Brand"
+  image: 2023 - Clothes - 8AD125CA-FE56-4BA1-9CB3-B8E65B65B85E.png
+  worn_image: 2023 - Clothes - 8AD125CA-FE56-4BA1-9CB3-B8E65B65B85E.png
+  id: 106
+- name: Blue Chinese Vest Episode
+  brand: No Brand
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Jacket"
+  - Cotton
+  size: Man - S
+  category: Jacket
   multiplicity: 1
   buying_price: 35
-  buying_place: "Episode Amsterdam"
-  buying_date: "2022-05-18"
+  buying_place: Episode Amsterdam
+  buying_date: '2022-05-18'
   bought_new: false
   not_logged_wear: 50
-  image: "2023 - Clothes - 8B1F3602-B19F-472D-813A-3473EE64ADA7.png"
-
-- name: "Dark Blue The Kooples Skirt"
-  brand: "The Kooples"
+  image: 2023 - Clothes - 8B1F3602-B19F-472D-813A-3473EE64ADA7.png
+  worn_image: 2023 - Clothes - 8B1F3602-B19F-472D-813A-3473EE64ADA7.png
+  id: 107
+- name: Dark Blue The Kooples Skirt
+  brand: The Kooples
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Polyester & Plastics"
-    - "Wool"
-  size: "Woman - 38"
-  category: "Mini skirt"
+  - Polyester & Plastics
+  - Wool
+  size: Woman - 38
+  category: Mini skirt
   multiplicity: 1
   buying_price: 19
-  buying_place: "Vinted"
-  buying_date: "2023-11-06"
+  buying_place: Vinted
+  buying_date: '2023-11-06'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - 8B3D179F-A797-41EF-A216-7BEBAF740876.png"
-
-- name: "Gray Shiny & Other Stories Skirt"
-  brand: "& Other Stories"
+  image: 2023 - Clothes - 8B3D179F-A797-41EF-A216-7BEBAF740876.png
+  worn_image: 2023 - Clothes - 8B3D179F-A797-41EF-A216-7BEBAF740876.png
+  id: 108
+- name: Gray Shiny & Other Stories Skirt
+  brand: '& Other Stories'
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - 38"
-  category: "Mini skirt"
+  - Polyester & Plastics
+  size: Woman - 38
+  category: Mini skirt
   multiplicity: 1
   buying_price: 45
-  buying_place: "& Other Stories Amsterdam"
-  buying_date: "2022-05-06"
+  buying_place: '& Other Stories Amsterdam'
+  buying_date: '2022-05-06'
   bought_new: true
   not_logged_wear: 5
-  image: "2023 - Clothes - 8D1F38DC-7011-448A-8F57-445F489BBCE8.png"
-
-- name: "Blue Cashmere Zipped Hoodie"
-  brand: "No Brand"
+  image: 2023 - Clothes - 8D1F38DC-7011-448A-8F57-445F489BBCE8.png
+  worn_image: 2023 - Clothes - 8D1F38DC-7011-448A-8F57-445F489BBCE8.png
+  id: 109
+- name: Blue Cashmere Zipped Hoodie
+  brand: No Brand
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Wool"
-  size: "Man - M"
-  category: "Hoodie"
+  - Wool
+  size: Man - M
+  category: Hoodie
   multiplicity: 1
   buying_price: 0
-  buying_place: "Shanghai"
-  buying_date: "2020-12-24"
+  buying_place: Shanghai
+  buying_date: '2020-12-24'
   bought_new: false
   not_logged_wear: 30
-  image: "2023 - Clothes - 903735CA-66EB-4B9A-92E4-D1F1972489C3.png"
-
-- name: "Green Zara Crop Top"
-  brand: "Zara"
+  image: 2023 - Clothes - 903735CA-66EB-4B9A-92E4-D1F1972489C3.png
+  worn_image: 2023 - Clothes - 903735CA-66EB-4B9A-92E4-D1F1972489C3.png
+  id: 110
+- name: Green Zara Crop Top
+  brand: Zara
   colors:
-    - "Teal"
+  - Teal
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "T-shirt"
+  - Cotton
+  size: Woman - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 9
-  buying_place: "Vinted"
-  buying_date: "2023-06-23"
+  buying_place: Vinted
+  buying_date: '2023-06-23'
   bought_new: false
   not_logged_wear: 5
-  image: "2023 - Clothes - 90B9AD50-530E-49F5-B10D-965811CF2CC6.png"
-
-- name: "Denim Blue Dungarees"
-  brand: "No Brand"
+  image: 2023 - Clothes - 90B9AD50-530E-49F5-B10D-965811CF2CC6.png
+  worn_image: 2023 - Clothes - 90B9AD50-530E-49F5-B10D-965811CF2CC6.png
+  id: 111
+- name: Denim Blue Dungarees
+  brand: No Brand
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-  size: "Unique Size"
-  category: "Dungaree"
+  - Cotton
+  size: Unique Size
+  category: Dungaree
   multiplicity: 1
   buying_price: 35
-  buying_place: "Episode Amsterdam"
-  buying_date: "2022-04-15"
+  buying_place: Episode Amsterdam
+  buying_date: '2022-04-15'
   bought_new: false
   not_logged_wear: 20
-  image: "2023 - Clothes - 9110D79A-F971-4D71-9DCE-724E5B1C7A77.png"
-
-- name: "Beige Cachemire Turtle Neck"
-  brand: "No Brand"
+  image: 2023 - Clothes - 9110D79A-F971-4D71-9DCE-724E5B1C7A77.png
+  worn_image: 2023 - Clothes - 9110D79A-F971-4D71-9DCE-724E5B1C7A77.png
+  id: 112
+- name: Beige Cachemire Turtle Neck
+  brand: No Brand
   colors:
-    - "Beige"
+  - Beige
   materials:
-    - "Wool"
-  size: "Woman - M"
-  category: "Jumper"
+  - Wool
+  size: Woman - M
+  category: Jumper
   multiplicity: 1
   buying_price: 25
-  buying_place: "Episode Amsterdam"
-  buying_date: "2021-11-19"
+  buying_place: Episode Amsterdam
+  buying_date: '2021-11-19'
   bought_new: false
   not_logged_wear: 40
-  image: "2023 - Clothes - 9138479B-1C59-461D-A4D0-49C15B39B953.png"
-
-- name: "Black Ribbed Tank Top Honest Basics"
-  brand: "Honest Basics"
+  image: 2023 - Clothes - 9138479B-1C59-461D-A4D0-49C15B39B953.png
+  worn_image: 2023 - Clothes - 9138479B-1C59-461D-A4D0-49C15B39B953.png
+  id: 113
+- name: Black Ribbed Tank Top Honest Basics
+  brand: Honest Basics
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Tank top"
+  - Cotton
+  size: Man - M
+  category: Tank top
   multiplicity: 1
   buying_price: 10
-  buying_place: "Honest Basic Webshop"
-  buying_date: "2023-11-22"
+  buying_place: Honest Basic Webshop
+  buying_date: '2023-11-22'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - 96BF3E5A-F0C8-4549-BD90-467AE57440BE.png"
-
-- name: "T-Shirt Sew to Perfection Jack & Jones"
-  brand: "Jack & Jones"
+  image: 2023 - Clothes - 96BF3E5A-F0C8-4549-BD90-467AE57440BE.png
+  worn_image: 2023 - Clothes - 96BF3E5A-F0C8-4549-BD90-467AE57440BE.png
+  id: 114
+- name: T-Shirt Sew to Perfection Jack & Jones
+  brand: Jack & Jones
   colors:
-    - "Orange"
+  - Orange
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Man - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 0
-  buying_place: "Toulouse"
-  buying_date: "2012-03-05"
+  buying_place: Toulouse
+  buying_date: '2012-03-05'
   bought_new: true
   not_logged_wear: 50
-  image: "2023 - Clothes - 96D72E94-CC90-46D7-9D38-CD4E60F1F82E.png"
-
-- name: "Gray Denim Shirt Pull & Bear"
-  brand: "Pull and Bear"
+  image: 2023 - Clothes - 96D72E94-CC90-46D7-9D38-CD4E60F1F82E.png
+  worn_image: 2023 - Clothes - 96D72E94-CC90-46D7-9D38-CD4E60F1F82E.png
+  id: 115
+- name: Gray Denim Shirt Pull & Bear
+  brand: Pull and Bear
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Man - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 10
-  buying_place: "Pull & Bear Paris"
-  buying_date: "2017-12-14"
+  buying_place: Pull & Bear Paris
+  buying_date: '2017-12-14'
   bought_new: true
   not_logged_wear: 30
-  image: "2023 - Clothes - 984CC79C-4886-4E6F-AAA7-F036F67A1762.png"
-
-- name: "White Tank Top"
-  brand: "No Brand"
+  image: 2023 - Clothes - 984CC79C-4886-4E6F-AAA7-F036F67A1762.png
+  worn_image: 2023 - Clothes - 984CC79C-4886-4E6F-AAA7-F036F67A1762.png
+  id: 116
+- name: White Tank Top
+  brand: No Brand
   colors:
-    - "White"
+  - White
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Tank top"
+  - Cotton
+  size: Man - S
+  category: Tank top
   multiplicity: 1
   buying_price: 20
-  buying_place: "Sydney"
-  buying_date: "2023-12-16"
+  buying_place: Sydney
+  buying_date: '2023-12-16'
   bought_new: true
   not_logged_wear: 10
-  image: "2023 - Clothes - 9B13DFE9-6916-4E29-8692-84C82CBA2757.png"
-
-- name: "Dark Blue DC Shoes Pants"
-  brand: "DC Shoes"
+  image: 2023 - Clothes - 9B13DFE9-6916-4E29-8692-84C82CBA2757.png
+  worn_image: 2023 - Clothes - 9B13DFE9-6916-4E29-8692-84C82CBA2757.png
+  id: 117
+- name: Dark Blue DC Shoes Pants
+  brand: DC Shoes
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-    - "Polyester & Plastics"
-  size: "Pants US 30"
-  category: "Casual pants"
+  - Cotton
+  - Polyester & Plastics
+  size: Pants US 30
+  category: Casual pants
   multiplicity: 1
   buying_price: 60
-  buying_place: "Toulouse"
-  buying_date: "2017-06-28"
+  buying_place: Toulouse
+  buying_date: '2017-06-28'
   bought_new: true
   not_logged_wear: 40
-  image: "2023 - Clothes - 9C0A6DB3-70AC-4B72-AA29-69523B1F4A60.png"
-
-- name: "Black Levi's Long Shorts"
-  brand: "Levi's"
+  image: 2023 - Clothes - 9C0A6DB3-70AC-4B72-AA29-69523B1F4A60.png
+  worn_image: 2023 - Clothes - 9C0A6DB3-70AC-4B72-AA29-69523B1F4A60.png
+  id: 118
+- name: Black Levi's Long Shorts
+  brand: Levi's
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-  size: "Pants US 30"
-  category: "Casual shorts"
+  - Cotton
+  size: Pants US 30
+  category: Casual shorts
   multiplicity: 1
   buying_price: 0
-  buying_place: "Boston"
-  buying_date: "2010-07-24"
+  buying_place: Boston
+  buying_date: '2010-07-24'
   bought_new: true
   not_logged_wear: 10
-  image: "2023 - Clothes - 9C56682F-E739-4E39-A8C3-E4A8C1370FF8.png"
-
-- name: "Purple Tank Top & Other Stories"
-  brand: "& Other Stories"
+  image: 2023 - Clothes - 9C56682F-E739-4E39-A8C3-E4A8C1370FF8.png
+  worn_image: 2023 - Clothes - 9C56682F-E739-4E39-A8C3-E4A8C1370FF8.png
+  id: 119
+- name: Purple Tank Top & Other Stories
+  brand: '& Other Stories'
   colors:
-    - "Purple"
+  - Purple
   materials:
-    - "Cotton"
-  size: "Woman - XS"
-  category: "Tank top"
+  - Cotton
+  size: Woman - XS
+  category: Tank top
   multiplicity: 1
   buying_price: 0
-  buying_place: "& Other Stories Amsterdam"
-  buying_date: "2023-11-04"
+  buying_place: '& Other Stories Amsterdam'
+  buying_date: '2023-11-04'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - 9CB6C3DF-45E1-4EF0-A192-A13848878467.png"
-
-- name: "Strap Dress Green Corduroy Lucy & Yak"
-  brand: "Lucy and Yak"
+  image: 2023 - Clothes - 9CB6C3DF-45E1-4EF0-A192-A13848878467.png
+  worn_image: 2023 - Clothes - 9CB6C3DF-45E1-4EF0-A192-A13848878467.png
+  id: 120
+- name: Strap Dress Green Corduroy Lucy & Yak
+  brand: Lucy and Yak
   colors:
-    - "Green"
-    - "Olive"
+  - Green
+  - Olive
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "Casual dress"
+  - Cotton
+  size: Woman - M
+  category: Casual dress
   multiplicity: 1
   buying_price: 25
-  buying_place: "Vinted"
-  buying_date: "2022-05-07"
+  buying_place: Vinted
+  buying_date: '2022-05-07'
   bought_new: false
   not_logged_wear: 10
-  image: "2023 - Clothes - A095019D-5C24-4AC5-B633-2D7D529BA7B2.png"
-
-- name: "Wool Gray Turtleneck Sweater & Other Stories"
-  brand: "& Other Stories"
+  image: 2023 - Clothes - A095019D-5C24-4AC5-B633-2D7D529BA7B2.png
+  worn_image: 2023 - Clothes - A095019D-5C24-4AC5-B633-2D7D529BA7B2.png
+  id: 121
+- name: Wool Gray Turtleneck Sweater & Other Stories
+  brand: '& Other Stories'
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Polyester & Plastics"
-    - "Wool"
-  size: "Woman - L"
-  category: "Jumper"
+  - Polyester & Plastics
+  - Wool
+  size: Woman - L
+  category: Jumper
   multiplicity: 1
   buying_price: 95
-  buying_place: "& Other Stories Amsterdam"
-  buying_date: "2022-09-10"
+  buying_place: '& Other Stories Amsterdam'
+  buying_date: '2022-09-10'
   bought_new: true
   not_logged_wear: 25
-  image: "2023 - Clothes - A233BC82-B623-4E45-934E-CFE52C0CEC9B.png"
-
-- name: "Red Shirt with Pattern"
-  brand: "No Brand"
+  image: 2023 - Clothes - A233BC82-B623-4E45-934E-CFE52C0CEC9B.png
+  worn_image: 2023 - Clothes - A233BC82-B623-4E45-934E-CFE52C0CEC9B.png
+  id: 122
+- name: Red Shirt with Pattern
+  brand: No Brand
   colors:
-    - "Red"
+  - Red
   materials:
-    - "Cotton"
-    - "Linen"
-  size: "Man - M"
-  category: "Long sleeved shirt"
+  - Cotton
+  - Linen
+  size: Man - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 20
-  buying_place: "Vienna"
-  buying_date: "2022-08-17"
+  buying_place: Vienna
+  buying_date: '2022-08-17'
   bought_new: false
   not_logged_wear: 5
-  image: "2023 - Clothes - A27DE13E-26DA-4E0B-97DD-EA8BF91F199A.png"
-
-- name: "Black Top Flower Pattern"
-  brand: "No Brand"
+  image: 2023 - Clothes - A27DE13E-26DA-4E0B-97DD-EA8BF91F199A.png
+  worn_image: 2023 - Clothes - A27DE13E-26DA-4E0B-97DD-EA8BF91F199A.png
+  id: 123
+- name: Black Top Flower Pattern
+  brand: No Brand
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Woman - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 0
-  buying_place: "Brussels"
-  buying_date: "2019-09-20"
+  buying_place: Brussels
+  buying_date: '2019-09-20'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - A4A61808-87AB-45C9-A926-0B281BDF5514.png"
-
-- name: "Sport T-Shirt Under Armour UNSW"
-  brand: "Under Armour"
+  image: 2023 - Clothes - A4A61808-87AB-45C9-A926-0B281BDF5514.png
+  worn_image: 2023 - Clothes - A4A61808-87AB-45C9-A926-0B281BDF5514.png
+  id: 124
+- name: Sport T-Shirt Under Armour UNSW
+  brand: Under Armour
   colors:
-    - "Black"
-    - "Gray"
+  - Black
+  - Gray
   materials:
-    - "Polyester & Plastics"
-  size: "Man - M"
-  category: "Sport T-shirt"
+  - Polyester & Plastics
+  size: Man - M
+  category: Sport T-shirt
   multiplicity: 1
   buying_price: 0
-  buying_place: "Sydney"
-  buying_date: "2019-06-14"
+  buying_place: Sydney
+  buying_date: '2019-06-14'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - A64B4883-9816-4130-AF48-48A4ABAD2655.png"
-
-- name: "Black Light Falke Tight"
-  brand: "Falke"
+  image: 2023 - Clothes - A64B4883-9816-4130-AF48-48A4ABAD2655.png
+  worn_image: 2023 - Clothes - A64B4883-9816-4130-AF48-48A4ABAD2655.png
+  id: 125
+- name: Black Light Falke Tight
+  brand: Falke
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - M"
-  category: "Tights"
+  - Polyester & Plastics
+  size: Woman - M
+  category: Tights
   multiplicity: 1
   buying_price: 30
-  buying_place: "Falke Amsterdam"
-  buying_date: "2023-10-07"
+  buying_place: Falke Amsterdam
+  buying_date: '2023-10-07'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - A7779EA1-DEEA-4644-848C-B69FEEC45818.png"
-
-- name: "Long Sleeve Celio Club Dark Blue Shirt"
-  brand: "Celio"
+  image: 2023 - Clothes - A7779EA1-DEEA-4644-848C-B69FEEC45818.png
+  worn_image: 2023 - Clothes - A7779EA1-DEEA-4644-848C-B69FEEC45818.png
+  id: 126
+- name: Long Sleeve Celio Club Dark Blue Shirt
+  brand: Celio
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Man - S
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 40
-  buying_place: "Celio Toulouse"
-  buying_date: "2015-05-02"
+  buying_place: Celio Toulouse
+  buying_date: '2015-05-02'
   bought_new: true
   not_logged_wear: 15
-  image: "2023 - Clothes - A7CE22BB-3424-4428-BF26-79E493141877.png"
-
-- name: "Puff Jacket Rab"
-  brand: "Rab"
+  image: 2023 - Clothes - A7CE22BB-3424-4428-BF26-79E493141877.png
+  worn_image: 2023 - Clothes - A7CE22BB-3424-4428-BF26-79E493141877.png
+  id: 127
+- name: Puff Jacket Rab
+  brand: Rab
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Polyester & Plastics"
-  size: "Man - S"
-  category: "Jacket"
+  - Polyester & Plastics
+  size: Man - S
+  category: Jacket
   multiplicity: 1
   buying_price: 0
-  buying_place: "Toulouse"
-  buying_date: "2022-12-24"
+  buying_place: Toulouse
+  buying_date: '2022-12-24'
   bought_new: true
   not_logged_wear: 5
-  image: "2023 - Clothes - A83D8973-E854-48F1-858E-19A901F9E230.png"
-
-- name: "White and Gray H&M Skirt"
-  brand: "H&M"
+  image: 2023 - Clothes - A83D8973-E854-48F1-858E-19A901F9E230.png
+  worn_image: 2023 - Clothes - A83D8973-E854-48F1-858E-19A901F9E230.png
+  id: 128
+- name: White and Gray H&M Skirt
+  brand: H&M
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - 38"
-  category: "Mini skirt"
+  - Polyester & Plastics
+  size: Woman - 38
+  category: Mini skirt
   multiplicity: 1
   buying_price: 8
-  buying_place: "Humana Berlin"
-  buying_date: "2023-09-23"
+  buying_place: Humana Berlin
+  buying_date: '2023-09-23'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - A8D27A60-8DE4-457D-BA21-D1E13A28C855.png"
-
-- name: "Green Woolen Sweater"
-  brand: "No Brand"
+  image: 2023 - Clothes - A8D27A60-8DE4-457D-BA21-D1E13A28C855.png
+  worn_image: 2023 - Clothes - A8D27A60-8DE4-457D-BA21-D1E13A28C855.png
+  id: 129
+- name: Green Woolen Sweater
+  brand: No Brand
   colors:
-    - "Green"
+  - Green
   materials:
-    - "Wool"
-  size: "Woman - M"
-  category: "Jumper"
+  - Wool
+  size: Woman - M
+  category: Jumper
   multiplicity: 1
   buying_price: 15
-  buying_place: "Amsterdam"
-  buying_date: "2022-11-27"
+  buying_place: Amsterdam
+  buying_date: '2022-11-27'
   bought_new: false
   not_logged_wear: 20
-  image: "2023 - Clothes - A965DB68-C645-4E7E-9C49-B226C2C92F52.png"
-
-- name: "Skirt IKKS Double Matter"
-  brand: "IKKS"
+  image: 2023 - Clothes - A965DB68-C645-4E7E-9C49-B226C2C92F52.png
+  worn_image: 2023 - Clothes - A965DB68-C645-4E7E-9C49-B226C2C92F52.png
+  id: 130
+- name: Skirt IKKS Double Matter
+  brand: IKKS
   colors:
-    - "Black"
-    - "Gray"
+  - Black
+  - Gray
   materials:
-    - "Cotton"
-  size: "Woman - 38"
-  category: "Mini skirt"
+  - Cotton
+  size: Woman - 38
+  category: Mini skirt
   multiplicity: 1
   buying_price: 12
-  buying_place: "Vinted"
-  buying_date: "2023-11-09"
+  buying_place: Vinted
+  buying_date: '2023-11-09'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - A9EBF690-C9BE-4467-9457-9DE24B21F8D2.png"
-
-- name: "Light Dark Blue Sweater V-Neck Celio"
-  brand: "Celio"
+  image: 2023 - Clothes - A9EBF690-C9BE-4467-9457-9DE24B21F8D2.png
+  worn_image: 2023 - Clothes - A9EBF690-C9BE-4467-9457-9DE24B21F8D2.png
+  id: 131
+- name: Light Dark Blue Sweater V-Neck Celio
+  brand: Celio
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Jumper"
+  - Cotton
+  size: Man - S
+  category: Jumper
   multiplicity: 1
   buying_price: 35
-  buying_place: "Celio Toulouse"
-  buying_date: "2016-05-21"
+  buying_place: Celio Toulouse
+  buying_date: '2016-05-21'
   bought_new: true
   not_logged_wear: 40
-  image: "2023 - Clothes - AE1E589D-E9F7-4A6D-8DEC-8EB136F803F3.png"
-
-- name: "Dark Blue Heel Boot Anna Field"
-  brand: "Anna Field"
+  image: 2023 - Clothes - AE1E589D-E9F7-4A6D-8DEC-8EB136F803F3.png
+  worn_image: 2023 - Clothes - AE1E589D-E9F7-4A6D-8DEC-8EB136F803F3.png
+  id: 132
+- name: Dark Blue Heel Boot Anna Field
+  brand: Anna Field
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Polyester & Plastics"
-  size: "Shoe EUR 42"
-  category: "Ankle boots"
+  - Polyester & Plastics
+  size: Shoe EUR 42
+  category: Ankle boots
   multiplicity: 1
   buying_price: 65
-  buying_place: "Zalando"
-  buying_date: "2022-09-10"
+  buying_place: Zalando
+  buying_date: '2022-09-10'
   bought_new: true
   not_logged_wear: 15
-  image: "2023 - Clothes - AF86F7D8-4402-4DED-88C2-7997BA408F76.png"
-
-- name: "Rain Jacket Ayacucho"
-  brand: "Ayacucho"
+  image: 2023 - Clothes - AF86F7D8-4402-4DED-88C2-7997BA408F76.png
+  worn_image: 2023 - Clothes - AF86F7D8-4402-4DED-88C2-7997BA408F76.png
+  id: 133
+- name: Rain Jacket Ayacucho
+  brand: Ayacucho
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Polyester & Plastics"
-  size: "Man - M"
-  category: "Rain coat"
+  - Polyester & Plastics
+  size: Man - M
+  category: Rain coat
   multiplicity: 1
   buying_price: 10
-  buying_place: "King's Day"
-  buying_date: "2024-04-27"
+  buying_place: King's Day
+  buying_date: '2024-04-27'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - B14AF070-51AF-47E7-9572-5171A050F7B0.png"
-
-- name: "Gray Long Sleeve T-Shirt"
-  brand: "Esprit"
+  image: 2023 - Clothes - B14AF070-51AF-47E7-9572-5171A050F7B0.png
+  worn_image: 2023 - Clothes - B14AF070-51AF-47E7-9572-5171A050F7B0.png
+  id: 134
+- name: Gray Long Sleeve T-Shirt
+  brand: Esprit
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Long sleeved T-shirt"
+  - Cotton
+  size: Man - S
+  category: Long sleeved T-shirt
   multiplicity: 1
   buying_price: 25
-  buying_place: "Esprit Paris"
-  buying_date: "2018-06-09"
+  buying_place: Esprit Paris
+  buying_date: '2018-06-09'
   bought_new: true
   not_logged_wear: 30
-  image: "2023 - Clothes - B3A61D89-39A3-4112-9F51-2362313C9BBC.png"
-
-- name: "Crop Top Pink Lucy & yak"
-  brand: "Lucy and Yak"
+  image: 2023 - Clothes - B3A61D89-39A3-4112-9F51-2362313C9BBC.png
+  worn_image: 2023 - Clothes - B3A61D89-39A3-4112-9F51-2362313C9BBC.png
+  id: 135
+- name: Crop Top Pink Lucy & yak
+  brand: Lucy and Yak
   colors:
-    - "Pink"
+  - Pink
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "T-Shirt"
+  - Cotton
+  size: Woman - M
+  category: T-Shirt
   multiplicity: 1
   buying_price: 14
-  buying_place: "Vinted"
-  buying_date: "2023-12-11"
+  buying_place: Vinted
+  buying_date: '2023-12-11'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - B4699DFE-1624-40D0-869E-24F781A90245.png"
-
-- name: "Blue Volcom T-Shirt Pattern"
-  brand: "Volcom"
+  image: 2023 - Clothes - B4699DFE-1624-40D0-869E-24F781A90245.png
+  worn_image: 2023 - Clothes - B4699DFE-1624-40D0-869E-24F781A90245.png
+  id: 136
+- name: Blue Volcom T-Shirt Pattern
+  brand: Volcom
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "T-shirt"
+  - Cotton
+  size: Man - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 35
-  buying_place: "Ventes Privées"
-  buying_date: "2015-05-14"
+  buying_place: Ventes Privées
+  buying_date: '2015-05-14'
   bought_new: true
   not_logged_wear: 40
-  image: "2023 - Clothes - B4DB7E2F-2517-4EB1-A77D-10ACDD027EDD.png"
-
-- name: "Red Long Sleeve T-Shirt Esprit"
-  brand: "Esprit"
+  image: 2023 - Clothes - B4DB7E2F-2517-4EB1-A77D-10ACDD027EDD.png
+  worn_image: 2023 - Clothes - B4DB7E2F-2517-4EB1-A77D-10ACDD027EDD.png
+  id: 137
+- name: Red Long Sleeve T-Shirt Esprit
+  brand: Esprit
   colors:
-    - "Red"
-    - "White"
-    - "Pink"
+  - Red
+  - White
+  - Pink
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Man - S
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 20
-  buying_place: "Oxfam London"
-  buying_date: "2023-06-23"
+  buying_place: Oxfam London
+  buying_date: '2023-06-23'
   bought_new: false
   not_logged_wear: 10
-  image: "2023 - Clothes - B589233C-1817-4433-BCBA-69AA4137D445.png"
-
-- name: "Green Chino Pants Jules"
-  brand: "Jules"
+  image: 2023 - Clothes - B589233C-1817-4433-BCBA-69AA4137D445.png
+  worn_image: 2023 - Clothes - B589233C-1817-4433-BCBA-69AA4137D445.png
+  id: 138
+- name: Green Chino Pants Jules
+  brand: Jules
   colors:
-    - "Green"
+  - Green
   materials:
-    - "Cotton"
-  size: "Pants EUR 40"
-  category: "Casual pants"
+  - Cotton
+  size: Pants EUR 40
+  category: Casual pants
   multiplicity: 1
   buying_price: 45
-  buying_place: "Jules Toulouse"
-  buying_date: "2016-07-23"
+  buying_place: Jules Toulouse
+  buying_date: '2016-07-23'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - B8EFDE1A-CB59-468D-ACD5-5CEBDE5BE34A.png"
-
-- name: "Levi's Gray Jacket"
-  brand: "Levi's"
+  image: 2023 - Clothes - B8EFDE1A-CB59-468D-ACD5-5CEBDE5BE34A.png
+  worn_image: 2023 - Clothes - B8EFDE1A-CB59-468D-ACD5-5CEBDE5BE34A.png
+  id: 139
+- name: Levi's Gray Jacket
+  brand: Levi's
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Jacket"
+  - Cotton
+  size: Man - S
+  category: Jacket
   multiplicity: 1
   buying_price: 20
-  buying_place: "Paris"
-  buying_date: "2024-04-04"
+  buying_place: Paris
+  buying_date: '2024-04-04'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - B90DF7F1-EDC9-437A-8985-C218DD00AAA1.png"
-
-- name: "Gray Short Celio"
-  brand: "Celio"
+  image: 2023 - Clothes - B90DF7F1-EDC9-437A-8985-C218DD00AAA1.png
+  worn_image: 2023 - Clothes - B90DF7F1-EDC9-437A-8985-C218DD00AAA1.png
+  id: 140
+- name: Gray Short Celio
+  brand: Celio
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Cotton"
-  size: "Pants EUR 40"
-  category: "Casual shorts"
+  - Cotton
+  size: Pants EUR 40
+  category: Casual shorts
   multiplicity: 1
   buying_price: 30
-  buying_place: "Celio Toulouse"
-  buying_date: "2015-08-08"
+  buying_place: Celio Toulouse
+  buying_date: '2015-08-08'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - B9A14C51-BED8-4AD1-AED4-34DECC07DAB1.png"
-
-- name: "Low Black Dr Martens"
-  brand: "Dr. Martens"
+  image: 2023 - Clothes - B9A14C51-BED8-4AD1-AED4-34DECC07DAB1.png
+  worn_image: 2023 - Clothes - B9A14C51-BED8-4AD1-AED4-34DECC07DAB1.png
+  id: 141
+- name: Low Black Dr Martens
+  brand: Dr. Martens
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Polyester & Plastics"
-  size: "Shoe EUR 41"
-  category: "City shoes"
+  - Polyester & Plastics
+  size: Shoe EUR 41
+  category: City shoes
   multiplicity: 1
   buying_price: 95
-  buying_place: "Auckland"
-  buying_date: "2023-12-22"
+  buying_place: Auckland
+  buying_date: '2023-12-22'
   bought_new: true
   not_logged_wear: 5
-  image: "2023 - Clothes - C07BF082-9320-43B3-A735-C2CA90CBFC0F.png"
-
-- name: "Dark Blue Cos Sweater"
-  brand: "Cos"
+  image: 2023 - Clothes - C07BF082-9320-43B3-A735-C2CA90CBFC0F.png
+  worn_image: 2023 - Clothes - C07BF082-9320-43B3-A735-C2CA90CBFC0F.png
+  id: 142
+- name: Dark Blue Cos Sweater
+  brand: Cos
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Jumper"
+  - Cotton
+  size: Man - S
+  category: Jumper
   multiplicity: 1
   buying_price: 5
-  buying_place: "King's Day"
-  buying_date: "2024-04-27"
+  buying_place: King's Day
+  buying_date: '2024-04-27'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - C0E3CD08-F2B3-4CB3-9CD3-8D5464D617B9.png"
-
-- name: "Gray Decathlon Hiking Shorts"
-  brand: "Decathlon"
+  image: 2023 - Clothes - C0E3CD08-F2B3-4CB3-9CD3-8D5464D617B9.png
+  worn_image: 2023 - Clothes - C0E3CD08-F2B3-4CB3-9CD3-8D5464D617B9.png
+  id: 143
+- name: Gray Decathlon Hiking Shorts
+  brand: Decathlon
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Polyester & Plastics"
-  size: "Pants EUR 40"
-  category: "Sports shorts"
+  - Polyester & Plastics
+  size: Pants EUR 40
+  category: Sports shorts
   multiplicity: 1
   buying_price: 25
-  buying_place: "Decathlon Paris"
-  buying_date: "2017-11-18"
+  buying_place: Decathlon Paris
+  buying_date: '2017-11-18'
   bought_new: true
   not_logged_wear: 25
-  image: "2023 - Clothes - C1FD9943-7C37-4119-92AB-9E76420D8C43.png"
-
-- name: "Brown Volcom T-Shirt"
-  brand: "Volcom"
+  image: 2023 - Clothes - C1FD9943-7C37-4119-92AB-9E76420D8C43.png
+  worn_image: 2023 - Clothes - C1FD9943-7C37-4119-92AB-9E76420D8C43.png
+  id: 144
+- name: Brown Volcom T-Shirt
+  brand: Volcom
   colors:
-    - "Brown"
+  - Brown
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "T-shirt"
+  - Cotton
+  size: Man - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 20
-  buying_place: "Ventes Privées"
-  buying_date: "2017-12-01"
+  buying_place: Ventes Privées
+  buying_date: '2017-12-01'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - C33B1228-C88C-4104-A030-0B0ACCCD9642.png"
-
-- name: "Dark Blue Striped Zara T-Shirt"
-  brand: "Zara"
+  image: 2023 - Clothes - C33B1228-C88C-4104-A030-0B0ACCCD9642.png
+  worn_image: 2023 - Clothes - C33B1228-C88C-4104-A030-0B0ACCCD9642.png
+  id: 145
+- name: Dark Blue Striped Zara T-Shirt
+  brand: Zara
   colors:
-    - "Blue"
-    - "White"
-    - "Navy"
+  - Blue
+  - White
+  - Navy
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "T-shirt"
+  - Cotton
+  size: Man - S
+  category: T-shirt
   multiplicity: 1
   buying_price: 30
-  buying_place: "Zara Paris"
-  buying_date: "2017-02-18"
+  buying_place: Zara Paris
+  buying_date: '2017-02-18'
   bought_new: true
   not_logged_wear: 30
-  image: "2023 - Clothes - C54B49F9-FEA8-4A9D-A7BE-3B5931F4FFDF.png"
-
-- name: "Dark Blue Decathlon Sport Pants"
-  brand: "Decathlon"
+  image: 2023 - Clothes - C54B49F9-FEA8-4A9D-A7BE-3B5931F4FFDF.png
+  worn_image: 2023 - Clothes - C54B49F9-FEA8-4A9D-A7BE-3B5931F4FFDF.png
+  id: 146
+- name: Dark Blue Decathlon Sport Pants
+  brand: Decathlon
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Polyester & Plastics"
-  size: "Man - M"
-  category: "Sports pants"
+  - Polyester & Plastics
+  size: Man - M
+  category: Sports pants
   multiplicity: 1
   buying_price: 25
-  buying_place: "Decathlon Paris"
-  buying_date: "2016-06-18"
+  buying_place: Decathlon Paris
+  buying_date: '2016-06-18'
   bought_new: true
   not_logged_wear: 25
-  image: "2023 - Clothes - C7E017DF-DBF7-4562-8D7A-31FE1D25697C.png"
-
-- name: "Petrol Blue Cropped Sezane Hoodie"
-  brand: "Sezane"
+  image: 2023 - Clothes - C7E017DF-DBF7-4562-8D7A-31FE1D25697C.png
+  worn_image: 2023 - Clothes - C7E017DF-DBF7-4562-8D7A-31FE1D25697C.png
+  id: 147
+- name: Petrol Blue Cropped Sezane Hoodie
+  brand: Sezane
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "Hoodie"
+  - Cotton
+  size: Woman - M
+  category: Hoodie
   multiplicity: 1
   buying_price: 35
-  buying_place: "Vinted"
-  buying_date: "2024-01-09"
+  buying_place: Vinted
+  buying_date: '2024-01-09'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - CC5A5ECE-471F-4319-8005-676845D9AC9B.png"
-
-- name: "Orange and Gray Sweater Dedicated"
-  brand: "Dedicated"
+  image: 2023 - Clothes - CC5A5ECE-471F-4319-8005-676845D9AC9B.png
+  worn_image: 2023 - Clothes - CC5A5ECE-471F-4319-8005-676845D9AC9B.png
+  id: 148
+- name: Orange and Gray Sweater Dedicated
+  brand: Dedicated
   colors:
-    - "Gray"
-    - "Purple"
-    - "Orange"
+  - Gray
+  - Purple
+  - Orange
   materials:
-    - "Cotton"
-  size: "Man - L"
-  category: "Long sleeved shirt"
+  - Cotton
+  size: Man - L
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 5
-  buying_place: "Vinted"
-  buying_date: "2023-09-16"
+  buying_place: Vinted
+  buying_date: '2023-09-16'
   bought_new: false
   not_logged_wear: 5
-  image: "2023 - Clothes - CCE3D439-10EB-4022-8F9F-4912E2CDBC89.png"
-
-- name: "White T-Shirt Embroidered Zoé"
-  brand: "No Brand"
+  image: 2023 - Clothes - CCE3D439-10EB-4022-8F9F-4912E2CDBC89.png
+  worn_image: 2023 - Clothes - CCE3D439-10EB-4022-8F9F-4912E2CDBC89.png
+  id: 149
+- name: White T-Shirt Embroidered Zoé
+  brand: No Brand
   colors:
-    - "White"
+  - White
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "T-shirt"
+  - Cotton
+  size: Man - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 0
-  buying_place: "Valenciennes"
-  buying_date: "2023-12-24"
+  buying_place: Valenciennes
+  buying_date: '2023-12-24'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - CF1BBA88-68EC-491B-828A-FF649FE36507.png"
-
-- name: "Rain Jacket Schöffel"
-  brand: "Sessun"
+  image: 2023 - Clothes - CF1BBA88-68EC-491B-828A-FF649FE36507.png
+  worn_image: 2023 - Clothes - CF1BBA88-68EC-491B-828A-FF649FE36507.png
+  id: 150
+- name: Rain Jacket Schöffel
+  brand: Schöffel
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Polyester & Plastics"
-  size: "Man - M"
-  category: "Rain coat"
+  - Polyester & Plastics
+  size: Man - M
+  category: Rain coat
   multiplicity: 1
   buying_price: 300
-  buying_place: "Vieux Campeur Toulouse"
-  buying_date: "2015-05-16"
+  buying_place: Vieux Campeur Toulouse
+  buying_date: '2015-05-16'
   bought_new: true
   not_logged_wear: 200
-  image: "2023 - Clothes - CF674B7C-A07C-4BB2-82B3-113AC734D058.png"
-
-- name: "Dark Blue Galerie Lafayette Shoes"
-  brand: "No Brand"
+  image: 2023 - Clothes - CF674B7C-A07C-4BB2-82B3-113AC734D058.png
+  worn_image: 2023 - Clothes - CF674B7C-A07C-4BB2-82B3-113AC734D058.png
+  id: 151
+- name: Dark Blue Galerie Lafayette Shoes
+  brand: No Brand
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Leather"
-  size: "Shoe EUR 41"
-  category: "City shoes"
+  - Leather
+  size: Shoe EUR 41
+  category: City shoes
   multiplicity: 1
   buying_price: 75
-  buying_place: "Galerie Lafayette Toulouse"
-  buying_date: "2019-10-12"
+  buying_place: Galerie Lafayette Toulouse
+  buying_date: '2019-10-12'
   bought_new: true
   not_logged_wear: 150
-  image: "2023 - Clothes - CFBB9D4C-E8B7-457D-9F2A-261E678D3D51.png"
-
-- name: "Cashmere Blue Scarf"
-  brand: "No Brand"
+  image: 2023 - Clothes - CFBB9D4C-E8B7-457D-9F2A-261E678D3D51.png
+  worn_image: 2023 - Clothes - CFBB9D4C-E8B7-457D-9F2A-261E678D3D51.png
+  id: 152
+- name: Cashmere Blue Scarf
+  brand: No Brand
   colors:
-    - "Blue"
+  - Blue
   materials:
-    - "Cashmere"
-  size: "Unique Size"
-  category: "Scarf"
+  - Cashmere
+  size: Unique Size
+  category: Scarf
   multiplicity: 1
   buying_price: 0
-  buying_place: "Lyon"
-  buying_date: "2020-12-25"
+  buying_place: Lyon
+  buying_date: '2020-12-25'
   bought_new: true
   not_logged_wear: 30
-  image: "2023 - Clothes - D1DD989B-F768-4A85-B122-E30466AF2B6B.png"
-
-- name: "Dark Blue Striped Polo Volcom"
-  brand: "Volcom"
+  image: 2023 - Clothes - D1DD989B-F768-4A85-B122-E30466AF2B6B.png
+  worn_image: 2023 - Clothes - D1DD989B-F768-4A85-B122-E30466AF2B6B.png
+  id: 153
+- name: Dark Blue Striped Polo Volcom
+  brand: Volcom
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Polo shirt"
+  - Cotton
+  size: Man - S
+  category: Polo shirt
   multiplicity: 1
   buying_price: 25
-  buying_place: "Ventes Privées"
-  buying_date: "2018-05-25"
+  buying_place: Ventes Privées
+  buying_date: '2018-05-25'
   bought_new: true
   not_logged_wear: 15
-  image: "2023 - Clothes - D258798F-0257-4B44-82C1-75A9F40B98C2.png"
-
-- name: "Red Polo Volcom"
-  brand: "Volcom"
+  image: 2023 - Clothes - D258798F-0257-4B44-82C1-75A9F40B98C2.png
+  worn_image: 2023 - Clothes - D258798F-0257-4B44-82C1-75A9F40B98C2.png
+  id: 154
+- name: Red Polo Volcom
+  brand: Volcom
   colors:
-    - "Red"
+  - Red
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "Polo shirt"
+  - Cotton
+  size: Man - S
+  category: Polo shirt
   multiplicity: 1
   buying_price: 25
-  buying_place: "Ventes Privées"
-  buying_date: "2016-06-15"
+  buying_place: Ventes Privées
+  buying_date: '2016-06-15'
   bought_new: true
   not_logged_wear: 50
-  image: "2023 - Clothes - D4646449-0A96-433C-A001-D6CAB1231096.png"
-
-- name: "Black Tank Top Honest Basics"
-  brand: "Honest Basics"
+  image: 2023 - Clothes - D4646449-0A96-433C-A001-D6CAB1231096.png
+  worn_image: 2023 - Clothes - D4646449-0A96-433C-A001-D6CAB1231096.png
+  id: 155
+- name: Black Tank Top Honest Basics
+  brand: Honest Basics
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "Tank top"
+  - Cotton
+  size: Woman - M
+  category: Tank top
   multiplicity: 1
   buying_price: 12
-  buying_place: "Honest Basics Webshop"
-  buying_date: "2023-11-22"
+  buying_place: Honest Basics Webshop
+  buying_date: '2023-11-22'
   bought_new: true
   not_logged_wear: 0
-  image: "2023 - Clothes - D547E434-469E-4C88-9EA2-6B9899320095.png"
-
-- name: "Black Sport Shorts Decathlon"
-  brand: "Decathlon"
+  image: 2023 - Clothes - D547E434-469E-4C88-9EA2-6B9899320095.png
+  worn_image: 2023 - Clothes - D547E434-469E-4C88-9EA2-6B9899320095.png
+  id: 156
+- name: Black Sport Shorts Decathlon
+  brand: Decathlon
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Polyester & Plastics"
-  size: "Man - S"
-  category: "Sports shorts"
+  - Polyester & Plastics
+  size: Man - S
+  category: Sports shorts
   multiplicity: 1
   buying_price: 30
-  buying_place: "Decathlon Toulouse"
-  buying_date: "2010-09-04"
+  buying_place: Decathlon Toulouse
+  buying_date: '2010-09-04'
   bought_new: true
   not_logged_wear: 100
-  image: "2023 - Clothes - D664CF3A-9F5E-44FB-AB08-37704397A341.png"
-
-- name: "Dark Dray Decathlon Sport T-Shirt"
-  brand: "Decathlon"
+  image: 2023 - Clothes - D664CF3A-9F5E-44FB-AB08-37704397A341.png
+  worn_image: 2023 - Clothes - D664CF3A-9F5E-44FB-AB08-37704397A341.png
+  id: 157
+- name: Dark Dray Decathlon Sport T-Shirt
+  brand: Decathlon
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Polyester & Plastics"
-  size: "Man - S"
-  category: "Sport T-shirt"
+  - Polyester & Plastics
+  size: Man - S
+  category: Sport T-shirt
   multiplicity: 2
   buying_price: 40
-  buying_place: "Decathlon Toulouse"
-  buying_date: "2016-05-14"
+  buying_place: Decathlon Toulouse
+  buying_date: '2016-05-14'
   bought_new: true
   not_logged_wear: 60
-  image: "2023 - Clothes - D71D2C75-6113-4B55-8473-E83A51D1190C.png"
-
-- name: "Sport Purple Vest"
-  brand: "No Brand"
+  image: 2023 - Clothes - D71D2C75-6113-4B55-8473-E83A51D1190C.png
+  worn_image: 2023 - Clothes - D71D2C75-6113-4B55-8473-E83A51D1190C.png
+  id: 158
+- name: Sport Purple Vest
+  brand: No Brand
   colors:
-    - "Purple"
-    - "Orange"
+  - Purple
+  - Orange
   materials:
-    - "Polyester & Plastics"
-  size: "Woman - S"
-  category: "Jacket"
+  - Polyester & Plastics
+  size: Woman - S
+  category: Jacket
   multiplicity: 1
   buying_price: 20
-  buying_place: "Malmö"
-  buying_date: "2021-06-26"
+  buying_place: Malmö
+  buying_date: '2021-06-26'
   bought_new: false
   not_logged_wear: 20
-  image: "2023 - Clothes - DC762448-D9FB-4C9D-83E9-C4586CE4969D.png"
-
-- name: "YMCA T-Shirt"
-  brand: "No Brand"
+  image: 2023 - Clothes - DC762448-D9FB-4C9D-83E9-C4586CE4969D.png
+  worn_image: 2023 - Clothes - DC762448-D9FB-4C9D-83E9-C4586CE4969D.png
+  id: 159
+- name: YMCA T-Shirt
+  brand: No Brand
   colors:
-    - "Purple"
+  - Purple
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "T-shirt"
+  - Cotton
+  size: Man - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 0
-  buying_place: "Cachan"
-  buying_date: "2016-09-15"
+  buying_place: Cachan
+  buying_date: '2016-09-15'
   bought_new: true
   not_logged_wear: 10
-  image: "2023 - Clothes - E2167114-3CAD-43B0-A07E-5697A283BD58.png"
-
-- name: "Gray Denim Volcom Shorts"
-  brand: "Volcom"
+  image: 2023 - Clothes - E2167114-3CAD-43B0-A07E-5697A283BD58.png
+  worn_image: 2023 - Clothes - E2167114-3CAD-43B0-A07E-5697A283BD58.png
+  id: 160
+- name: Gray Denim Volcom Shorts
+  brand: Volcom
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Cotton"
-  size: "Pants US 30"
-  category: "Jeans shorts"
+  - Cotton
+  size: Pants US 30
+  category: Jeans shorts
   multiplicity: 1
   buying_price: 35
-  buying_place: "Ventes Privées"
-  buying_date: "2017-11-18"
+  buying_place: Ventes Privées
+  buying_date: '2017-11-18'
   bought_new: true
   not_logged_wear: 10
-  image: "2023 - Clothes - E3D058C4-6ED7-4A99-A465-B5DCD996669F.png"
-
-- name: "Orange Corduroy Maje Shorts"
-  brand: "Maje"
+  image: 2023 - Clothes - E3D058C4-6ED7-4A99-A465-B5DCD996669F.png
+  worn_image: 2023 - Clothes - E3D058C4-6ED7-4A99-A465-B5DCD996669F.png
+  id: 161
+- name: Orange Corduroy Maje Shorts
+  brand: Maje
   colors:
-    - "Orange"
+  - Orange
   materials:
-    - "Cotton"
-  size: "Woman - 40"
-  category: "Casual shorts"
+  - Cotton
+  size: Woman - 40
+  category: Casual shorts
   multiplicity: 1
   buying_price: 21
-  buying_place: "Vinted"
-  buying_date: "2024-02-09"
+  buying_place: Vinted
+  buying_date: '2024-02-09'
   bought_new: false
   not_logged_wear: 0
-  image: "2023 - Clothes - E4D37DDC-6782-4798-89AD-DF23501B0C38.png"
-
-- name: "Brick Red Dockers Pants"
-  brand: "Dockers"
+  image: 2023 - Clothes - E4D37DDC-6782-4798-89AD-DF23501B0C38.png
+  worn_image: 2023 - Clothes - E4D37DDC-6782-4798-89AD-DF23501B0C38.png
+  id: 162
+- name: Brick Red Dockers Pants
+  brand: Dockers
   colors:
-    - "Red"
+  - Red
   materials:
-    - "Cotton"
-  size: "Pants US 30"
-  category: "Casual pants"
+  - Cotton
+  size: Pants US 30
+  category: Casual pants
   multiplicity: 1
   buying_price: 55
-  buying_place: "New York"
-  buying_date: "2013-07-20"
+  buying_place: New York
+  buying_date: '2013-07-20'
   bought_new: true
   not_logged_wear: 40
-  image: "2023 - Clothes - E6E36A62-A375-4A0F-8759-281073B9FF80.png"
-
-- name: "Beige Cashmere Sweater"
-  brand: "No Brand"
+  image: 2023 - Clothes - E6E36A62-A375-4A0F-8759-281073B9FF80.png
+  worn_image: 2023 - Clothes - E6E36A62-A375-4A0F-8759-281073B9FF80.png
+  id: 163
+- name: Beige Cashmere Sweater
+  brand: No Brand
   colors:
-    - "Beige"
+  - Beige
   materials:
-    - "Cashmere"
-  size: "Woman - M"
-  category: "Jumper"
+  - Cashmere
+  size: Woman - M
+  category: Jumper
   multiplicity: 1
   buying_price: 25
-  buying_place: "Episode Amsterdam"
-  buying_date: "2021-01-23"
+  buying_place: Episode Amsterdam
+  buying_date: '2021-01-23'
   bought_new: false
   not_logged_wear: 45
-  image: "2023 - Clothes - E71D7F71-D164-4E82-885F-13DDD3A0B1AB.png"
-
-- name: "Blue Pattern Bow Tie"
-  brand: "No Brand"
+  image: 2023 - Clothes - E71D7F71-D164-4E82-885F-13DDD3A0B1AB.png
+  worn_image: 2023 - Clothes - E71D7F71-D164-4E82-885F-13DDD3A0B1AB.png
+  id: 164
+- name: Blue Pattern Bow Tie
+  brand: No Brand
   colors:
-    - "Blue"
-    - "Yellow"
-    - "White"
-    - "Brown"
+  - Blue
+  - Yellow
+  - White
+  - Brown
   materials:
-    - "Cotton"
-  size: "Unique Size"
-  category: "Bow Tie"
+  - Cotton
+  size: Unique Size
+  category: Bow Tie
   multiplicity: 1
   buying_price: 0
-  buying_place: "Paris"
-  buying_date: "2017-12-25"
+  buying_place: Paris
+  buying_date: '2017-12-25'
   bought_new: true
   not_logged_wear: 4
-  image: "2023 - Clothes - E781F996-CB3D-4CE7-B6CF-488D47A8FEA6.png"
-
-- name: "Dark Blue Hollister Hoodie"
-  brand: "Hollister"
+  image: 2023 - Clothes - E781F996-CB3D-4CE7-B6CF-488D47A8FEA6.png
+  worn_image: 2023 - Clothes - E781F996-CB3D-4CE7-B6CF-488D47A8FEA6.png
+  id: 165
+- name: Dark Blue Hollister Hoodie
+  brand: Hollister
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Hoodie"
+  - Cotton
+  size: Man - M
+  category: Hoodie
   multiplicity: 1
   buying_price: 0
-  buying_place: "Hollister Lyon"
-  buying_date: "2018-12-25"
+  buying_place: Hollister Lyon
+  buying_date: '2018-12-25'
   bought_new: true
   not_logged_wear: 100
-  image: "2023 - Clothes - EA29E772-C7C9-428C-8AE1-6B6F06786C28.png"
-
-- name: "Green Jack & Jones T-Shirt Way West Field"
-  brand: "Jack & Jones"
+  image: 2023 - Clothes - EA29E772-C7C9-428C-8AE1-6B6F06786C28.png
+  worn_image: 2023 - Clothes - EA29E772-C7C9-428C-8AE1-6B6F06786C28.png
+  id: 166
+- name: Green Jack & Jones T-Shirt Way West Field
+  brand: Jack & Jones
   colors:
-    - "Green"
+  - Green
   materials:
-    - "Cotton"
-  size: "Man - S"
-  category: "T-shirt"
+  - Cotton
+  size: Man - S
+  category: T-shirt
   multiplicity: 1
   buying_price: 0
-  buying_place: "Jack & Jones Toulouse"
-  buying_date: "2012-12-25"
+  buying_place: Jack & Jones Toulouse
+  buying_date: '2012-12-25'
   bought_new: true
   not_logged_wear: 60
-  image: "2023 - Clothes - F08B6D06-B585-4976-A1AC-78A1871BB998.png"
-
-- name: "Red High Waist Shorts"
-  brand: "No Brand"
+  image: 2023 - Clothes - F08B6D06-B585-4976-A1AC-78A1871BB998.png
+  worn_image: 2023 - Clothes - F08B6D06-B585-4976-A1AC-78A1871BB998.png
+  id: 167
+- name: Red High Waist Shorts
+  brand: No Brand
   colors:
-    - "Red"
+  - Red
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "Casual shorts"
+  - Cotton
+  size: Woman - M
+  category: Casual shorts
   multiplicity: 1
   buying_price: 35
-  buying_place: "Sydney"
-  buying_date: "2022-01-08"
+  buying_place: Sydney
+  buying_date: '2022-01-08'
   bought_new: false
   not_logged_wear: 20
-  image: "2023 - Clothes - F1176E40-62AF-45E7-916E-9572F8C15E77.png"
-
-- name: "Black Suit Blazer"
-  brand: "Celio"
+  image: 2023 - Clothes - F1176E40-62AF-45E7-916E-9572F8C15E77.png
+  worn_image: 2023 - Clothes - F1176E40-62AF-45E7-916E-9572F8C15E77.png
+  id: 168
+- name: Black Suit Blazer
+  brand: Celio
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Blazer"
+  - Cotton
+  size: Man - M
+  category: Blazer
   multiplicity: 1
   buying_price: 90
-  buying_place: "Celio Toulouse"
-  buying_date: "2011-09-30"
+  buying_place: Celio Toulouse
+  buying_date: '2011-09-30'
   bought_new: true
   not_logged_wear: 15
-  image: "2023 - Clothes - F3E3F6DC-CAC7-46F5-955C-6F558EC0F4D5.png"
-
-- name: "Dark Blue Jules Shorts"
-  brand: "Jules"
+  image: 2023 - Clothes - F3E3F6DC-CAC7-46F5-955C-6F558EC0F4D5.png
+  worn_image: 2023 - Clothes - F3E3F6DC-CAC7-46F5-955C-6F558EC0F4D5.png
+  id: 169
+- name: Dark Blue Jules Shorts
+  brand: Jules
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Pants EUR 40"
-  category: "Casual shorts"
+  - Cotton
+  size: Pants EUR 40
+  category: Casual shorts
   multiplicity: 1
   buying_price: 30
-  buying_place: "Jules Toulouse"
-  buying_date: "2012-03-23"
+  buying_place: Jules Toulouse
+  buying_date: '2012-03-23'
   bought_new: true
   not_logged_wear: 70
-  image: "2023 - Clothes - F4CD0CD6-317C-46B2-B838-4EAED4221DAE.png"
-
-- name: "Volcom Dark Gray Sweater"
-  brand: "Volcom"
+  image: 2023 - Clothes - F4CD0CD6-317C-46B2-B838-4EAED4221DAE.png
+  worn_image: 2023 - Clothes - F4CD0CD6-317C-46B2-B838-4EAED4221DAE.png
+  id: 170
+- name: Volcom Dark Gray Sweater
+  brand: Volcom
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Cotton"
-  size: "Man - M"
-  category: "Jumper"
+  - Cotton
+  size: Man - M
+  category: Jumper
   multiplicity: 1
   buying_price: 35
-  buying_place: "Ventes Privées"
-  buying_date: "2017-09-20"
+  buying_place: Ventes Privées
+  buying_date: '2017-09-20'
   bought_new: true
   not_logged_wear: 30
-  image: "2023 - Clothes - F4D3B54E-70CD-446B-AED8-8E16AA646CCA.png"
-
-- name: "Green Linen Shirt"
-  brand: "No Brand"
+  image: 2023 - Clothes - F4D3B54E-70CD-446B-AED8-8E16AA646CCA.png
+  worn_image: 2023 - Clothes - F4D3B54E-70CD-446B-AED8-8E16AA646CCA.png
+  id: 171
+- name: Green Linen Shirt
+  brand: No Brand
   colors:
-    - "Green"
-    - "Gray"
+  - Green
+  - Gray
   materials:
-    - "Linen"
-  size: "Man - M"
-  category: "Long sleeved shirt"
+  - Linen
+  size: Man - M
+  category: Long sleeved shirt
   multiplicity: 1
   buying_price: 30
-  buying_place: "Sydney"
-  buying_date: "2022-01-05"
+  buying_place: Sydney
+  buying_date: '2022-01-05'
   bought_new: false
   not_logged_wear: 30
-  image: "2023 - Clothes - F5143B7C-FAF8-40AA-AC44-5D76B7DB2BD3.png"
-
-- name: "NSW Blues Hoodie"
-  brand: "Canterbury"
+  image: 2023 - Clothes - F5143B7C-FAF8-40AA-AC44-5D76B7DB2BD3.png
+  worn_image: 2023 - Clothes - F5143B7C-FAF8-40AA-AC44-5D76B7DB2BD3.png
+  id: 172
+- name: NSW Blues Hoodie
+  brand: Canterbury
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-    - "Polyester & Plastics"
-  size: "Man - S"
-  category: "Hoodie"
+  - Cotton
+  - Polyester & Plastics
+  size: Man - S
+  category: Hoodie
   multiplicity: 1
   buying_price: 65
-  buying_place: "Sydney"
-  buying_date: "2019-06-15"
+  buying_place: Sydney
+  buying_date: '2019-06-15'
   bought_new: true
   not_logged_wear: 20
-  image: "2023 - Clothes - F5348A86-CA70-43D9-846B-0558B6A14078.png"
-
-- name: "Grey Scarf"
-  brand: "No Brand"
+  image: 2023 - Clothes - F5348A86-CA70-43D9-846B-0558B6A14078.png
+  worn_image: 2023 - Clothes - F5348A86-CA70-43D9-846B-0558B6A14078.png
+  id: 173
+- name: Grey Scarf
+  brand: No Brand
   colors:
-    - "Gray"
+  - Gray
   materials:
-    - "Polyester & Plastics"
-  size: "Unique Size"
-  category: "Scarf"
+  - Polyester & Plastics
+  size: Unique Size
+  category: Scarf
   multiplicity: 1
   buying_price: 0
-  buying_place: "Clermont-Ferrand"
-  buying_date: "2021-12-25"
+  buying_place: Clermont-Ferrand
+  buying_date: '2021-12-25'
   bought_new: true
   not_logged_wear: 5
-  image: "2023 - Clothes - F5550C2B-09EC-4B97-8184-98679410CD4D.png"
-
-- name: "Brown Carhartt Dungaree"
-  brand: "Carhartt"
+  image: 2023 - Clothes - F5550C2B-09EC-4B97-8184-98679410CD4D.png
+  worn_image: 2023 - Clothes - F5550C2B-09EC-4B97-8184-98679410CD4D.png
+  id: 174
+- name: Brown Carhartt Dungaree
+  brand: Carhartt
   colors:
-    - "Brown"
+  - Brown
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "Dungaree"
+  - Cotton
+  size: Woman - M
+  category: Dungaree
   multiplicity: 1
   buying_price: 150
-  buying_place: "Carhartt Amsterdam"
-  buying_date: "2021-04-24"
+  buying_place: Carhartt Amsterdam
+  buying_date: '2021-04-24'
   bought_new: true
   not_logged_wear: 40
-  image: "2023 - Clothes - F7C16690-95D1-4DC9-90BC-9DEC55C12403.png"
-
-- name: "Dark Blue Corduroy Jacket"
-  brand: "No Brand"
+  image: 2023 - Clothes - F7C16690-95D1-4DC9-90BC-9DEC55C12403.png
+  worn_image: 2023 - Clothes - F7C16690-95D1-4DC9-90BC-9DEC55C12403.png
+  id: 175
+- name: Dark Blue Corduroy Jacket
+  brand: No Brand
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-    - "Polyester & Plastics"
-  size: "Man - S"
-  category: "Jacket"
+  - Cotton
+  - Polyester & Plastics
+  size: Man - S
+  category: Jacket
   multiplicity: 1
   buying_price: 15
-  buying_place: "King's Day"
-  buying_date: "2022-04-27"
+  buying_place: King's Day
+  buying_date: '2022-04-27'
   bought_new: false
   not_logged_wear: 10
-  image: "2023 - Clothes - FACEC6EC-220D-4B42-AAF7-CB30AF68A78D.png"
-
-- name: "White Stree Box T-Shirt"
-  brand: "No Brand"
+  image: 2023 - Clothes - FACEC6EC-220D-4B42-AAF7-CB30AF68A78D.png
+  worn_image: 2023 - Clothes - FACEC6EC-220D-4B42-AAF7-CB30AF68A78D.png
+  id: 176
+- name: White Stree Box T-Shirt
+  brand: No Brand
   colors:
-    - "White"
+  - White
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "T-shirt"
+  - Cotton
+  size: Woman - M
+  category: T-shirt
   multiplicity: 1
   buying_price: 15
-  buying_place: "Istanbul"
-  buying_date: "2023-08-18"
+  buying_place: Istanbul
+  buying_date: '2023-08-18'
   bought_new: true
   not_logged_wear: 4
-  image: "2023 - Clothes - 71EED358-90AF-4442-AD8F-A669C1F9F2F0.png"
-
-- name: "Dark Blue Corduroy High Waist Pants"
-  brand: "No Brand"
+  image: 2023 - Clothes - 71EED358-90AF-4442-AD8F-A669C1F9F2F0.png
+  worn_image: 2023 - Clothes - 71EED358-90AF-4442-AD8F-A669C1F9F2F0.png
+  id: 177
+- name: Dark Blue Corduroy High Waist Pants
+  brand: No Brand
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "Casual pants"
+  - Cotton
+  size: Woman - M
+  category: Casual pants
   multiplicity: 1
   buying_price: 30
-  buying_place: "Episode Amsterdam"
-  buying_date: "2021-11-27"
+  buying_place: Episode Amsterdam
+  buying_date: '2021-11-27'
   bought_new: false
   not_logged_wear: 30
-  image: "2023 - Clothes - FD2FE652-FF6F-483B-ABD0-1E36784D59F1.png"
-
-- name: "Elements Coat"
-  brand: "Elements"
+  image: 2023 - Clothes - FD2FE652-FF6F-483B-ABD0-1E36784D59F1.png
+  worn_image: 2023 - Clothes - FD2FE652-FF6F-483B-ABD0-1E36784D59F1.png
+  id: 178
+- name: Elements Coat
+  brand: Elements
   colors:
-    - "Blue"
-    - "Navy"
+  - Blue
+  - Navy
   materials:
-    - "Polyester & Plastics"
-  size: "Man - M"
-  category: "Coat"
+  - Polyester & Plastics
+  size: Man - M
+  category: Coat
   multiplicity: 1
   buying_price: 120
-  buying_place: "Elements Toulouse"
-  buying_date: "2014-11-23"
+  buying_place: Elements Toulouse
+  buying_date: '2014-11-23'
   bought_new: true
   not_logged_wear: 120
-  image: "2023 - Clothes - FE4A8D1A-FE6F-42F4-862A-1B1BB956A6EF.png"
-
-- name: "Orange Knitted Scarf"
-  brand: "No Brand"
+  image: 2023 - Clothes - FE4A8D1A-FE6F-42F4-862A-1B1BB956A6EF.png
+  worn_image: 2023 - Clothes - FE4A8D1A-FE6F-42F4-862A-1B1BB956A6EF.png
+  id: 179
+- name: Orange Knitted Scarf
+  brand: No Brand
   colors:
-    - "Orange"
+  - Orange
   materials:
-    - "Wool"
-  size: "Unique Size"
-  category: "Scarf"
+  - Wool
+  size: Unique Size
+  category: Scarf
   multiplicity: 1
   buying_price: 0
-  buying_place: "Amsterdam"
-  buying_date: "2022-01-22"
+  buying_place: Amsterdam
+  buying_date: '2022-01-22'
   bought_new: true
   not_logged_wear: 50
-  image: "2023 - Clothes - FF9268D1-BB28-43EF-AA7D-FBB311D1A2E2.png"
+  image: 2023 - Clothes - FF9268D1-BB28-43EF-AA7D-FBB311D1A2E2.png
+  worn_image: 2023 - Clothes - FF9268D1-BB28-43EF-AA7D-FBB311D1A2E2.png
+  id: 180
