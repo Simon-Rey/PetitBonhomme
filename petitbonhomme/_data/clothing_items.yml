@@ -2670,8 +2670,8 @@
   not_logged_wear: 0
   image: "2023 - Clothes - E4D37DDC-6782-4798-89AD-DF23501B0C38.png"
 
-- name: "Brick Red Docker Pants"
-  brand: "Docker"
+- name: "Brick Red Dockers Pants"
+  brand: "Dockers"
   colors:
     - "Red"
   materials:

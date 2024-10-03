@@ -41,7 +41,7 @@ jobs:
       - name: Build with Jekyll
         run: |
           cd petitbonhomme
-          bundle exec jekyll build
+          rake build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
