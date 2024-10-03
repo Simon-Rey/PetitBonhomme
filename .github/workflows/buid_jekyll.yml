@@ -33,16 +33,18 @@ jobs:
 
       - name: Install Jekyll and plugins
         run: |
+          cd petitbonhomme
           gem install jekyll
           gem install bundler
           bundle install  # Assumes there is a Gemfile in the repository
 
       - name: Build with Jekyll
         run: |
-          bundle exec jekyll build --source ./petitbonhomme --destination ./docs
+          cd petitbonhomme
+          bundle exec jekyll build --baseurl "https://simon-rey.github.io/PetitBonhomme"
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
         with:
           branch: main
-          folder: ./docs
+          folder: ./_site
