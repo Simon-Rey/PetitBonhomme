@@ -11,21 +11,18 @@
         - name: "Polo shirt"
         - name: "Long sleeved T-shirt"
         - name: "Sport T-shirt"
-        - name: "Tank Top"
-        - name: "Crop Top"
+        - name: "Tank top"
     - name: "Jumper"
       children:
         - name: "Jumper"
-        - name: "Zip-up sweater"
-        - name: "Turtleneck"
         - name: "Hoodie"
 - name: "Bottom"
   children:
     - name: "Pants"
       children:
         - name: "Jeans"
-        - name: "Casual trousers"
-        - name: "Suit trousers"
+        - name: "Casual pants"
+        - name: "Suit pants"
         - name: "Sports pants"
     - name: "Shorts"
       children:
@@ -35,8 +32,7 @@
     - name: "Skirt"
       children:
         - name: "A-line skirt"
-        - name: "Pencil skirt"
-        - name: "Pleated skirt"
+        - name: "Mini skirt"
         - name: "Skort"
     - name: "Legging"
     - name: "Tights"
@@ -44,7 +40,7 @@
   children:
     - name: "Dress"
       children:
-        - name: "Summer dress"
+        - name: "Casual dress"
         - name: "Formal dress"
     - name: "Jumpsuit"
     - name: "Dungaree"

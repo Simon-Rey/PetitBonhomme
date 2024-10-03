@@ -97,14 +97,14 @@
   not_logged_wear: 0
   image: "2023 - Clothes - 1C986E52-7E17-4337-ABBC-B0E0C9361099.png"
 
-- name: "Volcom Gray Vest"
+- name: "Volcom Zipped Gray Vest"
   brand: "Volcom"
   colors:
     - "Gray"
   materials:
     - "Cotton"
   size: "Man - M"
-  category: "Zip-up sweater"
+  category: "Hoodie"
   multiplicity: 1
   buying_price: 55
   buying_place: "Okla - Toulouse"
@@ -129,20 +129,20 @@
   not_logged_wear: 20
   image: "2023 - Clothes - 1E2FF71C-1758-4802-A93D-4E78F68409C1.png"
 
-- name: "Brown Heel Boot"
-  brand: "Vagabond"
+- name: "Timberland Boots"
+  brand: "Timberland"
   colors:
     - "Brown"
   materials:
-    - "Polyester & Plastics"
+    - "Leather"
   size: "EUR 41"
-  category: "Long sleeved shirt"
+  category: ""
   multiplicity: 1
-  buying_price: 60
-  buying_place: "Zalando"
-  buying_date: "2022-05-01"
+  buying_price: 170
+  buying_place: "Timberland Lyon"
+  buying_date: "2020-05-01"
   bought_new: true
-  not_logged_wear: 15
+  not_logged_wear: 60
   image: "2023 - Clothes - 1F3066AA-B4A9-475C-B1DA-F9DFF4E7CA81.png"
 
 - name: "Pink Basic T-Shirt"
@@ -186,7 +186,7 @@
   materials:
     - "Cotton"
   size: "Man - M"
-  category: "Tank Top"
+  category: "Tank top"
   multiplicity: 1
   buying_price: 10
   buying_place: "Honest Basic Webshop"
@@ -234,7 +234,7 @@
   materials:
     - "Polyester & Plastics"
   size: "Woman - 38"
-  category: "Pencil skirt"
+  category: "Mini skirt"
   multiplicity: 1
   buying_price: 16
   buying_place: "Vinted"
@@ -301,7 +301,7 @@
   materials:
     - "Polyester & Plastics"
   size: "Woman - L"
-  category: "Tank Top"
+  category: "T-shirt"
   multiplicity: 1
   buying_price: 5
   buying_place: "Istanbul"
@@ -403,7 +403,7 @@
     - "Polyester & Plastics"
     - "Wool"
   size: "Pants EUR 40"
-  category: "Suit trousers"
+  category: "Suit pants"
   multiplicity: 1
   buying_price: 70
   buying_place: "Celio Toulouse"
@@ -437,7 +437,7 @@
   materials:
     - "Polyester & Plastics"
   size: "Woman - M"
-  category: "Crop Top"
+  category: "T-shirt"
   multiplicity: 1
   buying_price: 0
   buying_place: "Amsterdam"
@@ -446,7 +446,7 @@
   not_logged_wear: 0
   image: "2023 - Clothes - 24FC9AD3-2940-4F51-8718-794A953989E4.png"
 
-- name: "Heel Boot Brown"
+- name: "Vagabond Heel Brown Boots"
   brand: "Vagabond"
   colors:
     - "Brown"
@@ -621,7 +621,7 @@
   materials:
     - "Polyester & Plastics"
   size: "Woman - M"
-  category: "Long sleeved shirt"
+  category: "T-shirt"
   multiplicity: 1
   buying_price: 10
   buying_place: "Vinted"
@@ -730,7 +730,7 @@
   not_logged_wear: 5
   image: "2023 - Clothes - 5003FE9A-6351-4EF6-ABE3-6980CB38FBAE.png"
 
-- name: "Blue Celio T-Shirt V-Collar"
+- name: "Blue Celio T-Shirt V-Neck"
   brand: "Celio"
   colors:
     - "Blue"
@@ -769,7 +769,7 @@
   materials:
     - "Cotton"
   size: "Woman - L"
-  category: "Crop Top"
+  category: "Tank top"
   multiplicity: 1
   buying_price: 25
   buying_place: "Uniqlo Sydney"
@@ -849,7 +849,7 @@
   materials:
     - "Cotton"
   size: "Woman - M"
-  category: "Summer dress"
+  category: "Casual dress"
   multiplicity: 1
   buying_price: 10
   buying_place: "Vinted"
@@ -920,7 +920,7 @@
   materials:
     - "Cotton"
   size: "Woman - M"
-  category: "Crop Top"
+  category: "Tank top"
   multiplicity: 2
   buying_price: 50
   buying_place: "Uniqlo Sydney & Amsterdam"
@@ -953,7 +953,7 @@
     - "Cotton"
     - "Polyester & Plastics"
   size: "Woman - L"
-  category: "Tank Top"
+  category: "Tank top"
   multiplicity: 1
   buying_price: 6
   buying_place: "Vinted"
@@ -970,7 +970,7 @@
     - "Cotton"
     - "Polyester & Plastics"
   size: "Pants US 30"
-  category: "Casual trousers"
+  category: "Casual pants"
   multiplicity: 1
   buying_price: 65
   buying_place: "New York"
@@ -1116,7 +1116,7 @@
   materials:
     - "Cotton"
   size: "Woman - 40"
-  category: "Summer dress"
+  category: "Casual dress"
   multiplicity: 1
   buying_price: 10
   buying_place: "Vinted"
@@ -1125,7 +1125,7 @@
   not_logged_wear: 10
   image: "2023 - Clothes - 6497F37F-CBE8-42AF-910D-8D9F18ABA045.png"
 
-- name: "Crop Top Maje"
+- name: "Black Crop Top Maje"
   brand: "Maje"
   colors:
     - "Black"
@@ -1133,7 +1133,7 @@
     - "Cotton"
     - "Polyester & Plastics"
   size: "Woman - 38"
-  category: "Crop Top"
+  category: "T-shirt"
   multiplicity: 1
   buying_price: 0
   buying_place: "Maje Amsterdam"
@@ -1231,7 +1231,7 @@
   materials:
     - "Polyester & Plastics"
   size: "Woman - L"
-  category: "Crop Top"
+  category: "T-shirt"
   multiplicity: 1
   buying_price: 20
   buying_place: "London"
@@ -1281,7 +1281,7 @@
     - "Cotton"
     - "Polyester & Plastics"
   size: "Woman - M"
-  category: "Crop Top"
+  category: "Tank top"
   multiplicity: 1
   buying_price: 14
   buying_place: "Vinted"
@@ -1776,7 +1776,7 @@
     - "Polyester & Plastics"
     - "Wool"
   size: "Woman - 38"
-  category: "Pencil skirt"
+  category: "Mini skirt"
   multiplicity: 1
   buying_price: 19
   buying_place: "Vinted"
@@ -1792,7 +1792,7 @@
   materials:
     - "Polyester & Plastics"
   size: "Woman - 38"
-  category: "Pencil skirt"
+  category: "Mini skirt"
   multiplicity: 1
   buying_price: 45
   buying_place: "& Other Stories Amsterdam"
@@ -1801,14 +1801,14 @@
   not_logged_wear: 5
   image: "2023 - Clothes - 8D1F38DC-7011-448A-8F57-445F489BBCE8.png"
 
-- name: "Blue Cachemire Zipped Jumper"
+- name: "Blue Cashmere Zipped Hoodie"
   brand: "No Brand"
   colors:
     - "Blue"
   materials:
     - "Wool"
   size: "Man - M"
-  category: "Zip-up sweater"
+  category: "Hoodie"
   multiplicity: 1
   buying_price: 0
   buying_place: "Shanghai"
@@ -1824,7 +1824,7 @@
   materials:
     - "Cotton"
   size: "Woman - M"
-  category: "Crop Top"
+  category: "T-shirt"
   multiplicity: 1
   buying_price: 9
   buying_place: "Vinted"
@@ -1856,7 +1856,7 @@
   materials:
     - "Wool"
   size: "Woman - M"
-  category: "Turtleneck"
+  category: "Jumper"
   multiplicity: 1
   buying_price: 25
   buying_place: "Episode Amsterdam"
@@ -1872,7 +1872,7 @@
   materials:
     - "Cotton"
   size: "Man - M"
-  category: "Tank Top"
+  category: "Tank top"
   multiplicity: 1
   buying_price: 10
   buying_place: "Honest Basic Webshop"
@@ -1920,7 +1920,7 @@
   materials:
     - "Cotton"
   size: "Man - S"
-  category: "Tank Top"
+  category: "Tank top"
   multiplicity: 1
   buying_price: 20
   buying_place: "Sydney"
@@ -1937,7 +1937,7 @@
     - "Cotton"
     - "Polyester & Plastics"
   size: "Pants US 30"
-  category: "Casual trousers"
+  category: "Casual pants"
   multiplicity: 1
   buying_price: 60
   buying_place: "Toulouse"
@@ -1969,7 +1969,7 @@
   materials:
     - "Cotton"
   size: "Woman - XS"
-  category: "Tank Top"
+  category: "Tank top"
   multiplicity: 1
   buying_price: 0
   buying_place: "& Other Stories Amsterdam"
@@ -1986,7 +1986,7 @@
   materials:
     - "Cotton"
   size: "Woman - M"
-  category: "Summer dress"
+  category: "Casual dress"
   multiplicity: 1
   buying_price: 25
   buying_place: "Vinted"
@@ -2119,7 +2119,7 @@
   materials:
     - "Polyester & Plastics"
   size: "Woman - 38"
-  category: "Pencil skirt"
+  category: "Mini skirt"
   multiplicity: 1
   buying_price: 8
   buying_place: "Humana Berlin"
@@ -2152,7 +2152,7 @@
   materials:
     - "Cotton"
   size: "Woman - 38"
-  category: "Pencil skirt"
+  category: "Mini skirt"
   multiplicity: 1
   buying_price: 12
   buying_place: "Vinted"
@@ -2161,7 +2161,7 @@
   not_logged_wear: 0
   image: "2023 - Clothes - A9EBF690-C9BE-4467-9457-9DE24B21F8D2.png"
 
-- name: "Light Dark Blue Sweater V-neck Celio"
+- name: "Light Dark Blue Sweater V-Neck Celio"
   brand: "Celio"
   colors:
     - "Blue"
@@ -2234,7 +2234,7 @@
   materials:
     - "Cotton"
   size: "Woman - M"
-  category: "Crop Top"
+  category: "T-Shirt"
   multiplicity: 1
   buying_price: 14
   buying_place: "Vinted"
@@ -2284,7 +2284,7 @@
   materials:
     - "Cotton"
   size: "Pants EUR 40"
-  category: "Casual trousers"
+  category: "Casual pants"
   multiplicity: 1
   buying_price: 45
   buying_place: "Jules Toulouse"
@@ -2564,7 +2564,7 @@
   materials:
     - "Cotton"
   size: "Woman - M"
-  category: "Tank Top"
+  category: "Tank top"
   multiplicity: 1
   buying_price: 12
   buying_place: "Honest Basics Webshop"
@@ -2677,7 +2677,7 @@
   materials:
     - "Cotton"
   size: "Pants US 30"
-  category: "Casual trousers"
+  category: "Casual pants"
   multiplicity: 1
   buying_price: 55
   buying_place: "New York"
@@ -2928,7 +2928,7 @@
   materials:
     - "Cotton"
   size: "Woman - M"
-  category: "Casual trousers"
+  category: "Casual pants"
   multiplicity: 1
   buying_price: 30
   buying_place: "Episode Amsterdam"

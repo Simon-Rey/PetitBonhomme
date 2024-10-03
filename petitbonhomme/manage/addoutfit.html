@@ -8,7 +8,7 @@ layout: default
   <div>
     <div>
         {% assign most_recent_log = site.data.day_logs | sort: "date" | last %}
-        {% assign next_day_date = most_recent_log.date | date: "%s" | plus: 86400 | date: "%Y-%m-%d" %}
+        {% assign next_day_date = most_recent_log.date | date: "%s" | plus: 129600 | date: "%Y-%m-%d" %}
 
       <label for="outfit-date">Date:</label>
         <input type="date" id="outfit-date" name="date" value="{{ next_day_date }}">
@@ -21,7 +21,7 @@ layout: default
 
     <h3>Non-Outfit Items</h3>
     <div class="non-outfit-grid-section">
-      <input type="text" class="item-search" placeholder="Search Non-Outfit Items...">
+      <input id="outfit-search-non-outfit" type="text" class="item-search" placeholder="Search Non-Outfit Items...">
       <div class="item-grid" id="non-outfit-item-grid">
         {% for item in site.data.clothing_items %}
         <div class="item-grid-element item-grid-element-non-outfit" data-name="{{ item.name }}" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-materials="{{ item.materials | join: ' ' }}" data-category="{{ item.category }}" data-outfit="non-outfit">
@@ -56,7 +56,7 @@ layout: default
     newSection.setAttribute('data-outfit', outfitCount);
     newSection.innerHTML = `
       <h3>Outfit ${outfitCount}</h3>
-      <input type="text" class="item-search" placeholder="Search Outfit ${outfitCount} Items..." data-outfit="${outfitCount}">
+      <input type="text" id="outfit-search-${outfitCount}" class="item-search" placeholder="Search Outfit ${outfitCount} Items..." data-outfit="${outfitCount}">
       <div class="item-grid" id="item-grid-${outfitCount}">
         {% for item in site.data.clothing_items %}
         <div class="item-grid-element item-grid-element-${outfitCount}" data-name="{{ item.name }}" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-materials="{{ item.materials | join: ' ' }}" data-category="{{ item.category }}" data-outfit="${outfitCount}">
@@ -89,6 +89,15 @@ layout: default
     }
 
     updateYAML();
+
+    // Focus back to the search bar for the outfit
+    const searchBar = document.querySelector(`#outfit-search-${outfit}`);
+    if (searchBar) {
+        searchBar.focus();  // Set focus back to the search bar
+        searchBar.value = '';
+    }
+
+    copyToClipboard();
   }
 
   // Search functionality
@@ -163,6 +172,8 @@ ${yamlNonOutfitItems}`;
       setupItemSelection('non-outfit');
 
       document.getElementById('outfit-date').addEventListener('input', updateYAML);
+
+      document.querySelector('#outfit-search-1').focus();
   });
 </script>
 
