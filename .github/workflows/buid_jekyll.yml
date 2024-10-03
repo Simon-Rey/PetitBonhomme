@@ -1,4 +1,4 @@
-name: Build Jekyll and Push to the repo
+name: Build and push Jekyll
 
 on:
   push:
@@ -13,8 +13,12 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  push_docs:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
