@@ -23,8 +23,8 @@ email: reysimon@oraneg.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Website used to log my outfits and to manage my wardrobe.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://simon-rey.github.io/PetitBonhomme" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/PetitBonhomme" # the subpath of your site, e.g. /blog
+url: "https://simon-rey.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
