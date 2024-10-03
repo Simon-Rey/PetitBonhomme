@@ -18,14 +18,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./petitbonhomme
           destination: ./docs
-      - name: push changes to remote
+      - name: Push docs/ to remote
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
