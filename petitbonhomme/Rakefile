@@ -9,5 +9,5 @@ end
 # Add the sanity check as a prerequisite to the Jekyll build
 desc "Build the Jekyll site"
 task :build => :sanity_check do
-  sh "jekyll build"
+  sh "bundle exec jekyll build"
 end
