@@ -12,14 +12,14 @@ concurrency:
   group: "jekyll_build"
   cancel-in-progress: false
 
+permissions:
+  contents: write  # For pushing changes
+  pages: write     # For deploying to GitHub Pages
+  id-token: write  # Required by actions/deploy-pages
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write  # For pushing changes
-      pages: write     # For deploying to GitHub Pages
-      id-token: write  # Required by actions/deploy-pages
 
     steps:
       - name: Checkout
