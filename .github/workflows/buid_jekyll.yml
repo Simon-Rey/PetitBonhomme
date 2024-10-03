@@ -41,7 +41,7 @@ jobs:
       - name: Build with Jekyll
         run: |
           cd petitbonhomme
-          bundle exec jekyll build --baseurl "https://simon-rey.github.io/PetitBonhomme"
+          bundle exec jekyll build --url "https://simon-rey.github.io/PetitBonhomme"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
