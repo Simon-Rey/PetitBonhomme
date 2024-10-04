@@ -25,7 +25,7 @@ layout: default
       <div class="item-grid" id="non-outfit-item-grid">
         {% for item in site.data.clothing_items %}
         <div class="item-grid-element item-grid-element-non-outfit" data-name="{{ item.name }}" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-materials="{{ item.materials | join: ' ' }}" data-category="{{ item.category }}" data-outfit="non-outfit">
-          <img width="100px" height="100px" src="/assets/img/clothes/{{ item.image }}" alt="{{ item.name }}" title="{{ item.name }}">
+          <img width="100px" height="100px" src="{{ site.baseurl }}/assets/img/clothes/{{ item.image }}" alt="{{ item.name }}" title="{{ item.name }}">
         </div>
         {% endfor %}
       </div>
@@ -60,7 +60,7 @@ layout: default
       <div class="item-grid" id="item-grid-${outfitCount}">
         {% for item in site.data.clothing_items %}
         <div class="item-grid-element item-grid-element-${outfitCount}" data-name="{{ item.name }}" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-materials="{{ item.materials | join: ' ' }}" data-category="{{ item.category }}" data-outfit="${outfitCount}">
-          <img width="100px" height="100px" src="/assets/img/clothes/{{ item.image }}" alt="{{ item.name }}" title="{{ item.name }}">
+          <img width="100px" height="100px" src="{{ site.baseurl }}/assets/img/clothes/{{ item.image }}" alt="{{ item.name }}" title="{{ item.name }}">
         </div>
         {% endfor %}
       </div>

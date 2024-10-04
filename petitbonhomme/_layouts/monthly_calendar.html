@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<h1>Outfits for {{ page.month }}/{{ page.year }}</h1>
+
+<div class="calendar-grid">
+  {% assign date_prefix = page.year | append: '-' | append: page.month %}
+  {% assign days_in_month = site.data.day_logs | where_exp: "log", "log.date contains date_prefix" %}
+  {% assign sorted_days = days_in_month | sort: "date" %}
+
+  {% for day in (1..31) %}
+    {% assign day_str = day %}
+    {% if day < 10 %}
+      {% assign day_str = day_str | prepend: 0 %}
+    {% endif %}
+    {% assign current_date = page.year | append: "-" | append: page.month | append: "-" | append: day_str %}
+
+        {% assign log_for_day = sorted_days | where: 'date', current_date %}
+        {% if log_for_day.size > 0 %}
+
+    <div class="calendar-day">
+      <div class="calendar-day-header">
+        {{ current_date }}
+      </div>
+
+      <div class="outfits-wrap">
+          {% for log in log_for_day %}
+        {% for outfit in log.outfits %}
+        <div class="outfit-stack">
+          {% for item_name in outfit.items %}
+            {% assign item = site.data.clothing_items | where: "name", item_name | first %}
+            {% if item %}
+              {% assign full_image_path = "/assets/img/clothes/" | append: item.worn_image %}
+              <img src="{{ site.baseurl }}/{{ full_image_path }}" alt="{{ item.name }}" class="outfit-item-image">
+            {% endif %}
+          {% endfor %}
+        </div>
+        {% endfor %}
+        {% endfor %}
+        </div>
+      </div>
+        {% endif %}
+  {% endfor %}
+</div>
