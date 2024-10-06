@@ -332,7 +332,6 @@ Calendar
 
 .calendar-day {
   flex: 1 1 150px; /* Each item will take at least 150px and grow if there's space */
-  max-width: 200px; /* Limit the maximum width of each item */
   border: 1px solid #ddd; /* Optional: border to make the day clearer */
   margin: 10px; /* Add some space around the day */
   display: flex;
