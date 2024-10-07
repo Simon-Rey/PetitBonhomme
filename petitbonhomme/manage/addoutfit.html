@@ -21,7 +21,7 @@ layout: default
 
     <h3>Non-Outfit Items</h3>
     <div class="non-outfit-grid-section">
-      <input id="outfit-search-non-outfit" type="text" class="item-search" placeholder="Search Non-Outfit Items...">
+      <input id="outfit-search-non-outfit" type="text" class="item-search" placeholder="Search Non-Outfit Items..." data-outfit="non-outfit">
       <div class="item-grid" id="non-outfit-item-grid">
         {% for item in site.data.clothing_items %}
         <div class="item-grid-element item-grid-element-non-outfit" data-name="{{ item.name }}" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-materials="{{ item.materials | join: ' ' }}" data-category="{{ item.category }}" data-outfit="non-outfit">

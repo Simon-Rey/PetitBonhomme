@@ -3,83 +3,132 @@
     - name: "Shirt"
       children:
         - name: "Long sleeved shirt"
+          default_z_index: 2
         - name: "Short sleeved shirt"
+          default_z_index: 2
         - name: "Blouse"
+          default_z_index: 2
     - name: "T-Shirt"
       children:
         - name: "T-shirt"
+          default_z_index: 1
         - name: "Polo shirt"
+          default_z_index: 1
         - name: "Long sleeved T-shirt"
+          default_z_index: 1
         - name: "Sport T-shirt"
+          default_z_index: 1
         - name: "Tank top"
+          default_z_index: 1
     - name: "Jumper"
       children:
         - name: "Jumper"
+          default_z_index: 4
         - name: "Hoodie"
+          default_z_index: 4
 - name: "Bottom"
   children:
     - name: "Pants"
       children:
         - name: "Jeans"
+          default_z_index: 1
         - name: "Casual pants"
+          default_z_index: 1
         - name: "Suit pants"
+          default_z_index: 1
         - name: "Sports pants"
+          default_z_index: 1
     - name: "Shorts"
       children:
         - name: "Jeans shorts"
+          default_z_index: 1
         - name: "Casual shorts"
+          default_z_index: 1
         - name: "Sports shorts"
+          default_z_index: 1
     - name: "Skirt"
       children:
         - name: "A-line skirt"
+          default_z_index: 1
         - name: "Mini skirt"
+          default_z_index: 1
         - name: "Skort"
+          default_z_index: 1
     - name: "Legging"
+      default_z_index: 1
     - name: "Tights"
+      default_z_index: 1
 - name: "Full body"
   children:
     - name: "Dress"
       children:
         - name: "Casual dress"
+          default_z_index: 2
         - name: "Formal dress"
+          default_z_index: 2
     - name: "Jumpsuit"
+      default_z_index: 2
     - name: "Dungaree"
+      default_z_index: 2
 - name: "Outerwear"
   children:
     - name: "Jacket"
       children:
         - name: "Jacket"
+          default_z_index: 5
         - name: "Coat"
+          default_z_index: 5
         - name: "Rain coat"
+          default_z_index: 5
     - name: "Cape"
+      default_z_index: 6
     - name: "Blazer"
+      default_z_index: 5
 - name: "Footwear"
   children:
     - name: "Sneakers"
       children:
         - name: "Running shoes"
+          default_z_index: 0
         - name: "City sneakers"
+          default_z_index: 0
     - name: "Boots"
       children:
         - name: "Ankle boots"
+          default_z_index: 0
         - name: "Knee-high boots"
+          default_z_index: 0
     - name: "Sandals"
       children:
         - name: "Flip-flops"
+          default_z_index: 0
         - name: "Slide sandals"
+          default_z_index: 0
     - name: "City shoes"
+      default_z_index: 0
     - name: "Hiking shoes"
+      default_z_index: 0
 - name: "Accessory"
   children:
     - name: "Hat"
+      default_z_index: 7
     - name: "Scarf"
+      default_z_index: 6
     - name: "Gloves"
+      default_z_index: 6
     - name: "Bag"
       children:
         - name: "Bun bag"
+          default_z_index: 5
         - name: "Backpack"
+          default_z_index: 5
     - name: "Sunglasses"
+      default_z_index: 6
     - name: "Belt"
+      default_z_index: 1
     - name: "Watch"
+      default_z_index: 6
     - name: "Nail polish"
+      default_z_index: 7
     - name: "Bow Tie"
+      default_z_index: 7

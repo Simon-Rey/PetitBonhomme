@@ -144,7 +144,7 @@
   materials:
   - Leather
   size: EUR 41
-  category: ''
+  category: 'Ankle boots'
   multiplicity: 1
   buying_price: 170
   buying_place: Timberland Lyon
@@ -2369,7 +2369,7 @@
   materials:
   - Cotton
   size: Woman - M
-  category: T-Shirt
+  category: T-shirt
   multiplicity: 1
   buying_price: 14
   buying_place: Vinted
@@ -2712,7 +2712,7 @@
   image: 2023 - Clothes - D4646449-0A96-433C-A001-D6CAB1231096.png
   worn_image: 2023 - Clothes - D4646449-0A96-433C-A001-D6CAB1231096.png
   id: 155
-- name: Black Tank Top Honest Basics
+- name: Black Tank Top Spaghetti Strap Honest Basics
   brand: Honest Basics
   colors:
   - Black
