@@ -11,8 +11,9 @@ layout: default
 <div class="side-by-side-centered-wrapper">
     <div>
         {% for static_file in site.static_files %}
-          {% if static_file.path contains '/assets/img/clothes' %}
-            {% unless used_images contains static_file.basename %}
+          {% if static_file.path contains '/assets/img/clothes/Close-Up' %}
+            {% assign full_name = "Close-Up/" | append: static_file.basename %}
+            {% unless used_images contains full_name %}
                 <img width="200px" src="{{ static_file.path | relative_url }}" alt="{{ static_file.basename }}">
                 {% assign image_basename = static_file.basename %}
                 {% assign image_extension = static_file.extname %}
@@ -99,9 +100,16 @@ layout: default
       <label for="not_logged_wear">Not Logged Wear:</label>
       <input type="number" id="not_logged_wear" name="not_logged_wear" value="0"><br>
 
-      <label for="image">Image File name:</label>
+      <label for="z_index">Z-Index:</label>
+      <input type="number" id="z_index" name="z_index" value="0"><br>
+
+      <label for="image">Image File Name:</label>
       <input type="text" id="image" name="image" value="{{ image_basename }}{{ image_extension }}"><br>
       <input type="file" id="image_input" name="image"><br>
+
+      <label for="worn-image">Worn Image File Name:</label>
+      <input type="text" id="worn-image" name="image"><br>
+      <input type="file" id="worn_image_input" name="image"><br>
     </form>
   </div>
 
@@ -110,6 +118,13 @@ layout: default
     <button id="yaml-copy-button" onclick="copyToClipboard()">Copy</button>
   </div>
 </div>
+
+{% assign max_id = 0 %}
+{% for item in site.data.clothing_items %}
+  {% if item.id > max_id %}
+    {% assign max_id = item.id %}
+  {% endif %}
+{% endfor %}
 
 <script>
   function updateYAML() {
@@ -126,8 +141,11 @@ layout: default
     const buying_date = document.getElementById('buying_date').value;
     const bought_new = document.getElementById('bought_new').checked;
     const not_logged_wear = document.getElementById('not_logged_wear').value;
+    const z_index = document.getElementById('z_index').value;
     const imagePath = document.getElementById('image').value;
     const image = imagePath ? imagePath.split('\\').pop().split('/').pop() : '';
+    const wornImagePath = document.getElementById('worn-image').value;
+    const wornImage = wornImagePath ? wornImagePath.split('\\').pop().split('/').pop() : '';
 
     const existingItems = {{ site.data.clothing_items | jsonify }};
     const duplicateItem = existingItems.find(item => item.name.trim().toLowerCase() === name.trim().toLowerCase());
@@ -138,6 +156,7 @@ layout: default
     }
 
     document.getElementById('yaml-output').textContent = `- name: "${name.trim()}"
+  id: {{max_id | plus: 1}}
   brand: "${brand}"
   colors:
     - "${colors.join('"\n    - "')}"
@@ -151,7 +170,9 @@ layout: default
   buying_date: "${buying_date}"
   bought_new: ${bought_new}
   not_logged_wear: ${not_logged_wear}
-  image: "${image}"
+  z_index: ${z_index}
+  image: "Close-Up/${image}"
+  worn_image: "Worn/${wornImage}"
 `;
   }
 
@@ -164,6 +185,18 @@ layout: default
       imageTextInput.value = file.name;
     } else {
       imageTextInput.value = '';
+    }
+  });
+
+  const wornImageFileInput = document.getElementById('worn_image_input');
+  const wornImageTextInput = document.getElementById('worn-image');
+
+  wornImageFileInput.addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (file) {
+      wornImageTextInput.value = file.name;
+    } else {
+      wornImageTextInput.value = '';
     }
   });
 

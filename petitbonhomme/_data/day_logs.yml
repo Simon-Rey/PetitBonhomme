@@ -6,9 +6,9 @@
        - "Maje Dress White and Black"
        - "Bash Cropped Bomber Pacino"
     - items:
-       - "Dark Dray Decathlon Sport T-Shirt"
+       - "Dark Gray Decathlon Sport T-Shirt"
        - "Green Woolen Sweater"
-       - "Brown Carhartt Dungaree"
+       - "Brown Carhartt Dungarees"
        - "Sneakers Karhu"
   non-outfit-items:
 
@@ -19,9 +19,9 @@
        - "Low Black Dr Martens"
        - "Adidas Cropped Sweater"
     - items:
-       - "Dark Dray Decathlon Sport T-Shirt"
+       - "Dark Gray Decathlon Sport T-Shirt"
        - "Green Woolen Sweater"
-       - "Brown Carhartt Dungaree"
+       - "Brown Carhartt Dungarees"
        - "Sneakers Karhu"
   non-outfit-items:
 
@@ -332,7 +332,7 @@
     - items:
        - "Green Woolen Sweater"
        - "Rain Jacket Schöffel"
-       - "Brown Carhartt Dungaree"
+       - "Brown Carhartt Dungarees"
        - "Orange Knitted Scarf"
        - "Timberland Boots"
   non-outfit-items:
@@ -354,7 +354,7 @@
        - "Heel Boot Dr. Martens"
        - "Orange Knitted Scarf"
        - "Rain Jacket Schöffel"
-       - "Dark Blue DC Shoes Pants"
+       - "Dark Blue Dickies Trousers"
   non-outfit-items:
 
 - date: "2023-11-07"
@@ -545,7 +545,7 @@
     - items:
        - "Blue T-Shirt Cos"
        - "White and Blue Light Sweater"
-       - "Brown Carhartt Dungaree"
+       - "Brown Carhartt Dungarees"
        - "Rain Jacket Schöffel"
        - "Timberland Boots"
   non-outfit-items:
@@ -580,7 +580,7 @@
        - "Purple Hat"
        - "Wool Gray Turtleneck Sweater & Other Stories"
        - "Skirt IKKS Double Matter"
-       - "Dark Dray Decathlon Sport T-Shirt"
+       - "Dark Gray Decathlon Sport T-Shirt"
        - "Black Thick Falke Tights"
        - "Dark Blue Heel Boot Anna Field"
        - "Rain Jacket Schöffel"
@@ -771,7 +771,7 @@
     - items:
        - "Elements Coat"
        - "Orange Knitted Scarf"
-       - "Brown Carhartt Dungaree"
+       - "Brown Carhartt Dungarees"
        - "Timberland Boots"
   non-outfit-items:
 
@@ -995,7 +995,7 @@
 - date: "2024-01-08"
   outfits:
     - items:
-       - "Dark Blue DC Shoes Pants"
+       - "Dark Blue Dickies Pants"
        - "Long Sleeve Black T-Shirt Tico"
        - "Running Legging Decathlon"
        - "Timberland Boots"
@@ -1113,7 +1113,7 @@
        - "Balloon Leg Black Levi's"
        - "Orange Knitted Scarf"
        - "Vintage Hiking Boot Adidas"
-       - "Sweater Col-V Jules"
+       - "Sweater V-Neck Jules"
        - "Wool Gray Turtleneck Sweater & Other Stories"
   non-outfit-items:
 
@@ -1121,7 +1121,7 @@
   outfits:
     - items:
        - "Balloon Leg Black Levi's"
-       - "Sweater Col-V Jules"
+       - "Sweater V-Neck Jules"
        - "Sweater Volcom Blue and Gray"
        - "Vintage Hiking Boot Adidas"
        - "Elements Coat"
@@ -1131,7 +1131,7 @@
 - date: "2024-01-20"
   outfits:
     - items:
-       - "Sweater Col-V Jules"
+       - "Sweater V-Neck Jules"
        - "Running Legging Decathlon"
        - "Balloon Leg Black Levi's"
        - "Sneakers Karhu"
@@ -1144,7 +1144,7 @@
   outfits:
     - items:
        - "Balloon Leg Black Levi's"
-       - "Sweater Col-V Jules"
+       - "Sweater V-Neck Jules"
        - "Sweater Volcom Blue and Gray"
        - "Puff Jacket Rab"
        - "Vintage Hiking Boot Adidas"
@@ -1179,7 +1179,7 @@
     - items:
        - "Green Jack & Jones T-Shirt Way West Field"
        - "Volcom Dark Gray Sweater"
-       - "Brown Carhartt Dungaree"
+       - "Brown Carhartt Dungarees"
        - "Elements Coat"
        - "Orange Knitted Scarf"
        - "Timberland Boots"
@@ -1259,7 +1259,7 @@
   outfits:
     - items:
        - "Long Sleeve T-Shirt Gray Only & Sons"
-       - "Dark Blue DC Shoes Pants"
+       - "Dark Blue Dickies Pants"
        - "Elements Coat"
        - "Sneakers Karhu"
        - "Sweater Volcom Blue and Gray"
@@ -1270,7 +1270,7 @@
 - date: "2024-02-01"
   outfits:
     - items:
-       - "Dark Blue DC Shoes Pants"
+       - "Dark Blue Dickies Pants"
        - "Sneakers Karhu"
        - "Sweater Volcom Blue and Gray"
        - "Puff Jacket Rab"
@@ -1280,7 +1280,7 @@
   outfits:
     - items:
        - "Timberland Boots"
-       - "Dark Blue DC Shoes Pants"
+       - "Dark Blue Dickies Pants"
        - "NSW Blues Hoodie"
        - "Elements Coat"
        - "Orange Knitted Scarf"
@@ -1292,7 +1292,7 @@
        - "Elements Coat"
        - "Orange Knitted Scarf"
        - "T-Shirt Zara White with Dots"
-       - "Dark Blue DC Shoes Pants"
+       - "Dark Blue Dickies Pants"
        - "NSW Blues Hoodie"
        - "Sneakers Karhu"
   non-outfit-items:
@@ -1399,7 +1399,7 @@
 - date: "2024-02-12"
   outfits:
     - items:
-       - "Sweater Col-V Jules"
+       - "Sweater V-Neck Jules"
        - "Balloon Leg Black Levi's"
        - "Wool Gray Turtleneck Sweater & Other Stories"
        - "Dark Blue Heel Boot Anna Field"
@@ -1523,7 +1523,7 @@
   outfits:
     - items:
        - "Levi's Balloon Leg Light"
-       - "Dark Dray Decathlon Sport T-Shirt"
+       - "Dark Gray Decathlon Sport T-Shirt"
        - "Adidas Cropped Sweater"
        - "Vintage Hiking Boot Adidas"
        - "Rain Jacket Schöffel"
@@ -1533,7 +1533,7 @@
 - date: "2024-02-24"
   outfits:
     - items:
-       - "Sweater Col-V Jules"
+       - "Sweater V-Neck Jules"
        - "Levi's Balloon Leg Light"
        - "Sweater Volcom Blue and Gray"
        - "Timberland Boots"
@@ -1544,7 +1544,7 @@
 - date: "2024-02-25"
   outfits:
     - items:
-       - "Dark Dray Decathlon Sport T-Shirt"
+       - "Dark Gray Decathlon Sport T-Shirt"
        - "Running Legging Decathlon"
        - "T-Shirt Sew to Perfection Jack & Jones"
        - "Green Chino Pants Jules"
@@ -1582,7 +1582,7 @@
     - items:
        - "Levi's Balloon Leg Light"
        - "Timberland Boots"
-       - "Sweater Col-V Jules"
+       - "Sweater V-Neck Jules"
        - "Sweater Volcom Blue and Gray"
        - "Rain Jacket Schöffel"
        - "Orange Knitted Scarf"
@@ -1725,7 +1725,7 @@
        - "Jacket Luka Bonsini"
        - "Timberland Boots"
        - "Orange Knitted Scarf"
-       - "Brown Carhartt Dungaree"
+       - "Brown Carhartt Dungarees"
        - "Uniqlo White Long Sleeve Sweatshirt"
   non-outfit-items:
 
@@ -1775,7 +1775,7 @@
   outfits:
     - items:
        - "Long Sleeve Black T-Shirt Tico"
-       - "Brown Carhartt Dungaree"
+       - "Brown Carhartt Dungarees"
        - "Wool Gray Turtleneck Sweater & Other Stories"
   non-outfit-items:
 
@@ -1794,7 +1794,7 @@
     - items:
        - "Dark Blue Heel Boot Anna Field"
        - "Black Thick Falke Tights"
-       - "Dark Dray Decathlon Sport T-Shirt"
+       - "Dark Gray Decathlon Sport T-Shirt"
        - "Adidas Cropped Sweater"
        - "Jupe Maje Double Zips"
        - "Rain Jacket Schöffel"
@@ -1854,7 +1854,7 @@
        - "Timberland Boots"
        - "Elements Coat"
        - "Orange Knitted Scarf"
-       - "Dark Blue DC Shoes Pants"
+       - "Dark Blue Dickies Pants"
        - "Sweater Volcom Blue and Gray"
   non-outfit-items:
 
@@ -1865,7 +1865,7 @@
        - "Black Thick Falke Tights"
        - "Skirt IKKS Double Matter"
        - "Petrol Blue Cropped Sezane Hoodie"
-       - "Sweater Col-V Jules"
+       - "Sweater V-Neck Jules"
        - "Rain Jacket Schöffel"
        - "Orange Knitted Scarf"
   non-outfit-items:
@@ -1877,7 +1877,7 @@
        - "Dark Blue Heel Boot Anna Field"
        - "Skirt IKKS Double Matter"
        - "Petrol Blue Cropped Sezane Hoodie"
-       - "Sweater Col-V Jules"
+       - "Sweater V-Neck Jules"
   non-outfit-items:
 
 - date: "2024-03-27"
@@ -1909,7 +1909,7 @@
        - "Timberland Boots"
        - "Dark Blue DC Shoes Pants"
        - "Petrol Blue Cropped Sezane Hoodie"
-       - "Sweater Col-V Jules"
+       - "Sweater V-Neck Jules"
        - "Elements Coat"
        - "Orange Knitted Scarf"
   non-outfit-items:

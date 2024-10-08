@@ -324,23 +324,22 @@ Calendar
 
 .calendar-grid {
   display: flex;
-  flex-wrap: wrap; /* Allows items to wrap to the next line */
-  gap: 10px; /* Space between the items */
+  flex-wrap: wrap;
+  gap: 10px;
   margin-top: 20px;
-  justify-content: space-between; /* Distribute items evenly */
+  justify-content: space-between;
 }
 
 .calendar-day {
-  flex: 1 1 150px; /* Each item will take at least 150px and grow if there's space */
-  border: 1px solid #ddd; /* Optional: border to make the day clearer */
-  margin: 10px; /* Add some space around the day */
+  flex: 1 1 150px;
+  border: 1px solid #ddd;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 }
 
-/* The header of each day (with the date) */
 .calendar-day-header {
   font-size: 14px;
   font-weight: bold;
@@ -354,7 +353,6 @@ Calendar
   justify-content: flex-start;
 }
 
-/* Ensure the stacked images fit within the calendar day */
 .outfit-stack {
   position: relative;
   display: flex;
@@ -365,10 +363,9 @@ Calendar
   width: 125px;
 }
 
-/* Each outfit image is stacked within the container */
 .outfit-item-image {
   position: absolute;
   height: 300px;
   width: 125px;
-  opacity: 0.9; /* Make each layer slightly transparent */
+  opacity: 0.85;
 }

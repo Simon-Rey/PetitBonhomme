@@ -32,7 +32,7 @@ layout: default
             {% assign item = site.data.clothing_items | where: "name", item_name | first %}
             {% if item %}
               {% assign full_image_path = "/assets/img/clothes/" | append: item.worn_image %}
-              <img src="{{ site.baseurl }}/{{ full_image_path }}" alt="{{ item.name }}" class="outfit-item-image">
+              <img src="{{ site.baseurl }}/{{ full_image_path }}" alt="{{ item.name }}" class="outfit-item-image" style="z-index: {{item.z_index}}">
             {% endif %}
           {% endfor %}
         </div>
