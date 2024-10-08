@@ -5,7 +5,7 @@ layout: default
 <h1>Wardrobe</h1>
 
 <!-- Search and Filter Controls -->
-<div class="filters">
+<div class="wardrobe-filters-wrap">
   <input type="text" id="search-bar" placeholder="Search by name..." onkeyup="filterItems()">
 
   <select id="brand-filter" onchange="filterItems()">
@@ -47,9 +47,13 @@ layout: default
 
 <div class="wardrobe-item" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-category="{{ item.category }}" data-name="{{ item.name }}">
 {% assign full_image_path = "/assets/img/clothes/" | append: item.image %}
+<div class="wardrobe-item-img-wrap">
 <a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}"><img src="{{ full_image_path | relative_url }}" alt="{{ item.name }}"></a>
+</div>
+<div>
 <p>Worn: {{ wear_count }}</p>
 <p>Price per wear: {{ price_per_wear }}</p>
+</div>
 </div>
 {% endfor %}
 </div>
@@ -82,40 +86,3 @@ function filterItems() {
   });
 }
 </script>
-
-<style>
-/* Responsive Layout */
-.wardrobe-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.wardrobe-item {
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.wardrobe-item img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-/* Search and Filters */
-.filters {
-  margin-bottom: 20px;
-  display: flex;
-  gap: 10px;
-}
-
-.filters input,
-.filters select {
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  font-size: 1em;
-}
-</style>
