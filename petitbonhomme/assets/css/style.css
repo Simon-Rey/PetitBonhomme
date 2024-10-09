@@ -377,10 +377,10 @@ Calendar
   width: 600px; /* Size of the wheel */
   height: 600px;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.95); /* White background with some transparency */
+  background-color: rgba(255, 255, 255, 1); /* White background with some transparency */
   border-radius: 50%; /* Makes it a circle */
   display: none; /* Hidden by default */
-  z-index: 20; /* Ensure it's behind the wheel items */
+  z-index: 19; /* Ensure it's behind the wheel items */
 }
 
 .outfit-wheel-item-image {
@@ -389,7 +389,7 @@ Calendar
   transition: all 0.1s ease-in-out;
   width: 125px;
   height: 166px;
-  z-index: 21;
+  z-index: 40;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;

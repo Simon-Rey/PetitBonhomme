@@ -59,36 +59,52 @@ layout: default
 
 <script>
 function showWheel(outfitStack) {
-  const wheel = outfitStack.querySelector('.wheel');
-  const items = outfitStack.querySelectorAll('.outfit-wheel-item-image');
-  const radius = 200; // Adjust the radius of the wheel
+    const wheel = outfitStack.querySelector('.wheel');
+    if (wheel.style.display === 'block') {
+        return;
+    }
+    const wheelItems = outfitStack.querySelectorAll('.outfit-wheel-item-image');
+    const stackItems = outfitStack.querySelectorAll('.outfit-item-image');
+    const radius = 200; // Adjust the radius of the wheel
 
-  // Show the wheel
-  wheel.style.display = 'block';
+    // Show the wheel
+    wheel.style.display = 'block';
 
-  // Position the items in a circle around the center of the wheel
-  const angleStep = (2 * Math.PI) / items.length; // Divide the circle by the number of items
-  items.forEach((item, index) => {
-    const angle = index * angleStep;
-    const x = Math.cos(angle) * radius - item.offsetWidth / 2;
-    const y = Math.sin(angle) * radius - item.offsetHeight / 2;
+    // Position the items in a circle around the center of the wheel
+    const angleStep = (2 * Math.PI) / wheelItems.length; // Divide the circle by the number of items
+    wheelItems.forEach((item, index) => {
+        const angle = index * angleStep;
+        const x = Math.cos(angle) * radius - item.offsetWidth / 2;
+        const y = Math.sin(angle) * radius - item.offsetHeight / 2;
 
-    // Translate items based on calculated x, y positions
-    item.style.transform = `translate(${x}px, ${y}px)`;
-    item.style.opacity = 1; // Ensure the item is visible
-  });
+        // Translate items based on calculated x, y positions
+        item.style.transform = `translate(${x}px, ${y}px)`;
+        item.style.opacity = 1; // Ensure the item is visible
+    });
+
+    stackItems.forEach((item) => {
+        console.log(window.getComputedStyle(item).zIndex, parseInt(window.getComputedStyle(item).zIndex, 10) || 0);
+        item.style.zIndex = (parseInt(window.getComputedStyle(item).zIndex, 10) || 0) + 20;
+    });
 }
 
 function hideWheel(outfitStack) {
   const wheel = outfitStack.querySelector('.wheel');
-  const items = outfitStack.querySelectorAll('.outfit-wheel-item-image');
+  if (wheel.style.display !== 'block') {
+      return;
+  }
+  const wheelItems = outfitStack.querySelectorAll('.outfit-wheel-item-image');
+  const stackItems = outfitStack.querySelectorAll('.outfit-item-image');
 
   // Hide the wheel and reset positions
-  items.forEach((item) => {
+  wheelItems.forEach((item) => {
     item.style.opacity = 0;
     item.style.transform = `translate(0, 0)`; // Reset position
   });
 
+  stackItems.forEach((item) => {
+      item.style.zIndex = (parseInt(window.getComputedStyle(item).zIndex, 10) || 0) - 20;
+  });
   wheel.style.display = 'none';
 }
 
