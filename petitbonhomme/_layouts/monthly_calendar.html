@@ -39,11 +39,11 @@ layout: default
 
 <div class="calendar-navigation">
   {% if has_previous_month_logs.size > 0 %}
-    <a href="{{ '/calendar/' | append: previous_year | append: '-' | append: previous_month | relative_url }}">Previous Month</a>
+    <a href="{{ '/calendar/' | append: previous_year | append: '/' | append: previous_month | relative_url }}">Previous Month</a>
   {% endif %}
 
   {% if has_next_month_logs.size > 0 %}
-    <a href="{{ '/calendar/' | append: next_year | append: '-' | append: next_month | relative_url }}">Next Month</a>
+    <a href="{{ '/calendar/' | append: next_year | append: '/' | append: next_month | relative_url }}">Next Month</a>
   {% endif %}
 </div>
 
