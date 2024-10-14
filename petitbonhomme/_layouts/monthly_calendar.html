@@ -75,7 +75,7 @@ layout: default
           {% for item_name in outfit.items %}
             {% assign item = site.data.clothing_items | where: "name", item_name | first %}
             {% if item and item.worn_image and item.worn_image != 'Worn/' %}
-              {% assign full_image_path = "/assets/img/clothes/" | append: item.worn_image %}
+              {% assign full_image_path = "assets/img/clothes/" | append: item.worn_image %}
               <img src="{{ site.baseurl }}/{{ full_image_path }}" alt="{{ item.name }}" class="outfit-item-image" style="z-index: {{item.z_index}}">
             {% endif %}
           {% endfor %}
@@ -85,7 +85,7 @@ layout: default
             {% for item_name in outfit.items %}
               {% assign item = site.data.clothing_items | where: "name", item_name | first %}
               {% if item %}
-                {% assign wheel_image_path = "/assets/img/clothes/" | append: item.image %}
+                {% assign wheel_image_path = "assets/img/clothes/" | append: item.image %}
                 <a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}">
                   <div class="outfit-wheel-item-image-wrap">
                     <img src="{{ site.baseurl }}/{{ wheel_image_path }}" alt="{{ item.name }}" class="outfit-wheel-item-image">
