@@ -1,0 +1,158 @@
+---
+layout: default
+---
+
+<h1>{{ page.full_month }} {{ page.year }}</h1>
+
+{% assign month_number = page.month | plus: 0 %}
+{% assign year_number = page.year | plus: 0 %}
+
+{% if month_number == 1 %}
+  {% assign previous_month = 12 %}
+  {% assign previous_year = year_number | minus: 1 %}
+{% else %}
+  {% assign previous_month = month_number | minus: 1 %}
+  {% assign previous_year = year_number %}
+{% endif %}
+
+{% if month_number == 12 %}
+  {% assign next_month = 1 %}
+  {% assign next_year = year_number | plus: 1 %}
+{% else %}
+  {% assign next_month = month_number | plus: 1 %}
+  {% assign next_year = year_number %}
+{% endif %}
+
+{% if previous_month < 10 %}
+  {% assign previous_month = previous_month | prepend: "0" %}
+{% endif %}
+
+{% if next_month < 10 %}
+  {% assign next_month = next_month | prepend: "0" %}
+{% endif %}
+
+{% assign previous_month_str = previous_year | append: '-' | append: previous_month %}
+{% assign next_month_str = next_year | append: '-' | append: next_month %}
+
+{% assign has_previous_month_logs = site.data.day_logs | where_exp: "log", "log.date contains previous_month_str" %}
+{% assign has_next_month_logs = site.data.day_logs | where_exp: "log", "log.date contains next_month_str" %}
+
+<div class="calendar-navigation">
+  {% if has_previous_month_logs.size > 0 %}
+    <a href="{{ '/calendar/' | append: previous_year | append: '-' | append: previous_month | relative_url }}">Previous Month</a>
+  {% endif %}
+
+  {% if has_next_month_logs.size > 0 %}
+    <a href="{{ '/calendar/' | append: next_year | append: '-' | append: next_month | relative_url }}">Next Month</a>
+  {% endif %}
+</div>
+
+<div class="calendar-grid">
+  {% assign date_prefix = page.year | append: '-' | append: page.month %}
+  {% assign days_in_month = site.data.day_logs | where_exp: "log", "log.date contains date_prefix" %}
+  {% assign sorted_days = days_in_month | sort: "date" %}
+
+  {% for day in (1..31) %}
+    {% assign day_str = day %}
+    {% if day < 10 %}
+      {% assign day_str = day_str | prepend: 0 %}
+    {% endif %}
+    {% assign current_date = page.year | append: "-" | append: page.month | append: "-" | append: day_str %}
+
+        {% assign log_for_day = sorted_days | where: 'date', current_date %}
+        {% if log_for_day.size > 0 %}
+
+    <div class="calendar-day">
+      <div class="calendar-day-header">
+        {{ current_date }}
+      </div>
+
+      <div class="outfits-wrap">
+          {% for log in log_for_day %}
+        {% for outfit in log.outfits %}
+        <div class="outfit-stack" onmouseover="showWheel(this)" onmouseout="hideWheel(this)">
+          <!-- Usual stacked outfit display -->
+          {% for item_name in outfit.items %}
+            {% assign item = site.data.clothing_items | where: "name", item_name | first %}
+            {% if item and item.worn_image and item.worn_image != 'Worn/' %}
+              {% assign full_image_path = "/assets/img/clothes/" | append: item.worn_image %}
+              <img src="{{ site.baseurl }}/{{ full_image_path }}" alt="{{ item.name }}" class="outfit-item-image" style="z-index: {{item.z_index}}">
+            {% endif %}
+          {% endfor %}
+
+          <!-- Wheel of images to appear on hover -->
+          <div class="wheel" style="display:none;">
+            {% for item_name in outfit.items %}
+              {% assign item = site.data.clothing_items | where: "name", item_name | first %}
+              {% if item %}
+                {% assign wheel_image_path = "/assets/img/clothes/" | append: item.image %}
+                <a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}">
+                  <div class="outfit-wheel-item-image-wrap">
+                    <img src="{{ site.baseurl }}/{{ wheel_image_path }}" alt="{{ item.name }}" class="outfit-wheel-item-image">
+                  </div>
+                </a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+
+        {% endfor %}
+        {% endfor %}
+        </div>
+      </div>
+        {% endif %}
+  {% endfor %}
+</div>
+
+<script>
+function showWheel(outfitStack) {
+    const wheel = outfitStack.querySelector('.wheel');
+    if (wheel.style.display === 'block') {
+        return;
+    }
+    const wheelItems = outfitStack.querySelectorAll('.outfit-wheel-item-image-wrap');
+    const stackItems = outfitStack.querySelectorAll('.outfit-item-image');
+    const radius = 200; // Adjust the radius of the wheel
+
+    // Show the wheel
+    wheel.style.display = 'block';
+
+    // Position the items in a circle around the center of the wheel
+    const angleStep = (2 * Math.PI) / wheelItems.length; // Divide the circle by the number of items
+    wheelItems.forEach((item, index) => {
+        const angle = index * angleStep;
+        const x = Math.cos(angle) * radius - item.offsetWidth / 2;
+        const y = Math.sin(angle) * radius - item.offsetHeight / 2;
+
+        // Translate items based on calculated x, y positions
+        item.style.transform = `translate(${x}px, ${y}px)`;
+        item.style.opacity = 1; // Ensure the item is visible
+    });
+
+    stackItems.forEach((item) => {
+        console.log(window.getComputedStyle(item).zIndex, parseInt(window.getComputedStyle(item).zIndex, 10) || 0);
+        item.style.zIndex = (parseInt(window.getComputedStyle(item).zIndex, 10) || 0) + 20;
+    });
+}
+
+function hideWheel(outfitStack) {
+  const wheel = outfitStack.querySelector('.wheel');
+  if (wheel.style.display !== 'block') {
+      return;
+  }
+  const wheelItems = outfitStack.querySelectorAll('.outfit-wheel-item-image-wrap');
+  const stackItems = outfitStack.querySelectorAll('.outfit-item-image');
+
+  // Hide the wheel and reset positions
+  wheelItems.forEach((item) => {
+    item.style.opacity = 0;
+    item.style.transform = `translate(0, 0)`; // Reset position
+  });
+
+  stackItems.forEach((item) => {
+      item.style.zIndex = (parseInt(window.getComputedStyle(item).zIndex, 10) || 0) - 20;
+  });
+  wheel.style.display = 'none';
+}
+
+</script>

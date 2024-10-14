@@ -1,0 +1,14 @@
+require 'rake'
+
+# Define a task to run the sanity check
+desc "Run sanity checks on the Jekyll data files"
+task :sanity_check do
+  sh "ruby _scripts/sanity_checks.rb"
+end
+
+# Add the sanity check as a prerequisite to the Jekyll build
+desc "Build the Jekyll site"
+task :build, [:baseurl] => :sanity_check do |t, args|
+  baseurl_option = args[:baseurl] ? "--baseurl #{args[:baseurl]}" : ""
+  sh "bundle exec jekyll build #{baseurl_option}".strip
+end

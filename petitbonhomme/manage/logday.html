@@ -1,0 +1,214 @@
+---
+layout: default
+---
+
+<h1>Add a New Outfit</h1>
+
+<div class="side-by-side-centered-wrapper">
+  <div>
+    <div>
+        {% assign most_recent_log = site.data.day_logs | sort: "date" | last %}
+        {% assign next_day_date = most_recent_log.date | date: "%s" | plus: 129600 | date: "%Y-%m-%d" %}
+
+      <label for="outfit-date">Date:</label>
+        <input type="date" id="outfit-date" name="date" value="{{ next_day_date }}">
+    </div>
+
+    <div id="outfit-sections">
+    </div>
+
+    <button type="button" onclick="addOutfitSection()">Add Another Outfit</button><br>
+
+    <h3>Non-Outfit Items</h3>
+    <div class="non-outfit-grid-section">
+      <input id="outfit-search-non-outfit" type="text" class="item-search" placeholder="Search Non-Outfit Items..." data-outfit="non-outfit">
+      <div class="item-grid" id="non-outfit-item-grid">
+        {% for item in site.data.clothing_items %}
+        <div class="item-grid-element item-grid-element-non-outfit" data-name="{{ item.name }}" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-materials="{{ item.materials | join: ' ' }}" data-category="{{ item.category }}" data-outfit="non-outfit">
+          <img width="100px" height="100px" src="{{ site.baseurl }}/assets/img/clothes/{{ item.image }}" alt="{{ item.name }}" title="{{ item.name }}" loading="lazy">
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Right: YAML Output -->
+  <div class="add-item-yaml-container" id="yaml-container">
+    <div id="yaml-output" class="yaml-output"></div>
+    <button id="yaml-copy-button" onclick="copyToClipboard()">Copy</button>
+  </div>
+</div>
+
+<script>
+  let outfitCount = 0;
+  let selectedItems = {
+    'non-outfit': []
+  };
+
+  // Dynamically add a new outfit section
+  function addOutfitSection() {
+    outfitCount++;
+    selectedItems[outfitCount] = [];
+
+    const outfitSections = document.getElementById('outfit-sections');
+    const newSection = document.createElement('div');
+    newSection.classList.add('outfit-grid-section');
+    newSection.setAttribute('data-outfit', outfitCount);
+    newSection.innerHTML = `
+      <h3>Outfit ${outfitCount}</h3>
+      <input type="text" id="outfit-search-${outfitCount}" class="item-search" placeholder="Search Outfit ${outfitCount} Items..." data-outfit="${outfitCount}">
+      <div class="item-grid" id="item-grid-${outfitCount}">
+        {% for item in site.data.clothing_items %}
+        <div class="item-grid-element item-grid-element-${outfitCount}" data-name="{{ item.name }}" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-materials="{{ item.materials | join: ' ' }}" data-category="{{ item.category }}" data-outfit="${outfitCount}">
+          <img width="100px" height="100px" src="{{ site.baseurl }}/assets/img/clothes/{{ item.image }}" alt="{{ item.name }}" title="{{ item.name }}">
+        </div>
+        {% endfor %}
+      </div>
+    `;
+    outfitSections.appendChild(newSection);
+
+    updateYAML();
+    setupSearch();
+    setupItemSelection(outfitCount);
+  }
+
+  // Toggle item selection
+  function toggleItemSelection(element, outfit) {
+    const itemName = element.getAttribute('data-name');
+      console.log("Toggling", element, itemName, outfit);
+      const index = selectedItems[outfit].indexOf(itemName);
+
+    if (index === -1) {
+      // Add the item to the selection
+      selectedItems[outfit].push(itemName);
+      element.classList.add('selected');
+    } else {
+      // Remove the item from the selection
+      selectedItems[outfit].splice(index, 1);
+      element.classList.remove('selected');
+    }
+
+    updateYAML();
+
+    // Focus back to the search bar for the outfit
+    const searchBar = document.querySelector(`#outfit-search-${outfit}`);
+    if (searchBar) {
+        searchBar.focus();  // Set focus back to the search bar
+        searchBar.value = '';
+    }
+
+    copyToClipboard();
+  }
+
+  // Search functionality
+  function setupSearch() {
+    document.querySelectorAll('.item-search').forEach(searchInput => {
+      searchInput.addEventListener('input', function(event) {
+        const query = event.target.value.toLowerCase();
+        const outfit = event.target.getAttribute('data-outfit');
+        const items = document.querySelectorAll(`.item-grid-element[data-outfit="${outfit}"]`);
+
+        items.forEach(item => {
+          const name = item.getAttribute('data-name').toLowerCase();
+          const brand = item.getAttribute('data-brand').toLowerCase();
+          const colors = item.getAttribute('data-colors').toLowerCase();
+          const materials = item.getAttribute('data-materials').toLowerCase();
+          const category = item.getAttribute('data-category').toLowerCase();
+
+          if (name.includes(query) || brand.includes(query) || colors.includes(query) || materials.includes(query) || category.includes(query)) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  }
+
+  function setupItemSelection(outfitName) {
+      document.querySelectorAll(`.item-grid-element-${outfitName}`).forEach(element => {
+      const outfit = element.getAttribute('data-outfit');
+      element.addEventListener('click', function() {
+        toggleItemSelection(this, outfit);
+      });
+    });
+  }
+
+  // Update YAML dynamically
+  function updateYAML() {
+    const date = document.getElementById('outfit-date').value;
+    const yamlOutfits = Object.keys(selectedItems)
+      .filter(key => key !== 'non-outfit')
+      .map(outfit => {
+        const items = selectedItems[outfit];
+        return `    - items:\n${items.map(item => `       - "${item}"`).join('\n')}`;
+      }).join('\n');
+
+    const yamlNonOutfitItems = selectedItems['non-outfit'].map(item => `     - "${item}"`).join('\n');
+
+    const yamlOutput = `- date: "${date}"
+  outfits:
+${yamlOutfits}
+  non-outfit-items:
+${yamlNonOutfitItems}`;
+
+    document.getElementById('yaml-output').textContent = yamlOutput;
+  }
+
+  // Copy YAML to clipboard
+  function copyToClipboard() {
+    const yamlOutput = document.getElementById('yaml-output').textContent;
+    const yamlCopyButton = document.getElementById('yaml-copy-button');
+    navigator.clipboard.writeText(yamlOutput).then(() => {
+      yamlCopyButton.style.border = "2px solid green";
+    }).catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+  }
+
+  // Initialize setup on page load
+  document.addEventListener('DOMContentLoaded', function() {
+      addOutfitSection();
+      setupItemSelection('non-outfit');
+
+      document.getElementById('outfit-date').addEventListener('input', updateYAML);
+
+      document.querySelector('#outfit-search-1').focus();
+  });
+</script>
+
+<style>
+  /* Grid Layout for Items */
+  .item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    width: 100%;
+    max-height: 230px;
+    overflow-y: auto;
+  }
+
+  .side-by-side-centered-wrapper > div {
+      width: 50%;
+  }
+
+  .item-grid-element {
+    cursor: pointer;
+    text-align: center;
+    transition: border 0.2s ease;
+  }
+
+  .item-grid-element img {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .item-grid-element.selected img {
+    border: 3px solid #007bff;
+    background-color: rgba(0, 123, 255, 0.1);
+  }
+
+  .item-grid-element:hover img {
+    border: 2px solid #007bff;
+  }
+</style>

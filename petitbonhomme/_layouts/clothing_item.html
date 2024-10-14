@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+{% assign all_colors = site.data.clothing_items_colours %}
+
+<div class="side-by-side-centered-wrapper">
+    <div>
+        <table class="lined-table">
+            <tr>
+                <th>Category:</th>
+                <td>{{ page.item.category }}</td>
+            </tr>
+            <tr>
+                <th>Brand:</th>
+                <td>{{ page.item.brand }}</td>
+            </tr>
+            <tr>
+                <th>Colours:</th>
+                <td>
+                    {% for color_name in page.item.colors %}
+                        {% assign color = all_colors | where: "name", color_name | first %}
+                        <div class="color-circle" style="background-color: #{{ color.HTML_code }};">
+                        </div>
+                    {% endfor %}
+                </td>
+            </tr>
+            <tr>
+                <th>Materials:</th>
+                <td>{{ page.item.materials | join: ', ' }}</td>
+            </tr>
+            <tr>
+                <th>Size:</th>
+                <td>{{ page.item.size }}</td>
+            </tr>
+            <tr>
+                <th>Quantity:</th>
+                <td>{{ page.item.multiplicity }}</td>
+            </tr>
+            <tr>
+                <th>Buying Price:</th>
+                <td>
+                    {{ page.item.buying_price }}€
+                    {% if page.item.bought_new %}
+                        (new)
+                    {% else %}
+                        (2<sup>nd</sup>-hand)
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <th>Buying Place:</th>
+                <td>{{ page.item.buying_place }} the {{ page.item.buying_date | date: "%d-%m-%y"}}</td>
+            </tr>
+            <tr>
+                <th>Number of wear:</th>
+                <td>
+                    {% assign logged_wear_count = page.item.name | logged_wear_count: site.data.day_logs %}
+                    {{ logged_wear_count | plus: page.item.not_logged_wear }}
+                    {% if page.item.not_logged_wear > 0 %}
+                        ({{ logged_wear_count }} + {{ page.item.not_logged_wear }})
+                    {% endif %}
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <p>
+            {% assign full_image_path = "/assets/img/clothes/" | append: page.item.worn_image %}
+            <img src="{{ full_image_path | relative_url }}" alt="{{ item.name }}" width="50%">
+        </p>
+    </div>
+</div>

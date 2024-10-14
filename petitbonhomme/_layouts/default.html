@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif layout.description %}{{ layout.description }}{% else %}{{ site.description }}{% endif %}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="{{ site.baseurl }}/assets/favicons/favicon-48x48.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicons/favicon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ site.baseurl }}/assets/favicons/favicon-192x192.png">
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Preload and load the Roboto font asynchronously -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"></noscript>
+
+    <!-- Preload and load the Reddit Mono font asynchronously -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap"></noscript>
+
+    <!-- Preload FontAwesome stylesheet asynchronously -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></noscript>
+
+</head>
+<body>
+
+<header>
+    <div class="main-title"><a href="{{ '/' | relative_url }}">le petit bonhomme simon</a></div>
+    {% assign latest_log = site.data.day_logs | sort: 'date' | last %}
+    {% assign latest_year = latest_log.date | date: "%Y" %}
+    {% assign latest_month = latest_log.date | date: "%m" %}
+    <nav><a class="navigation-icon calendar-icon" href="{{ 'calendar/' | append: latest_year | append: '/' | append: latest_month | relative_url }}"><i class="fa-solid fa-calendar"></i></a></nav>
+    <nav><a class="navigation-icon wardrobe-icon" href="{{ 'wardrobe' | relative_url }}"><i class="fa-solid fa-shirt"></i></a></nav>
+    <nav><a class="navigation-icon style-icon" href="{{ 'styleme' | relative_url }}"><i class="fa-solid fa-snowman"></i></a></nav>
+    <nav><a class="navigation-icon info-icon" href="{{ 'info' | relative_url }}"><i class="fa-solid fa-circle-info"></i></a></nav>
+</header>
+
+<main>
+    {{ content }}
+</main>
+
+<footer></footer>
+
+</body>
+</html>

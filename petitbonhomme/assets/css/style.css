@@ -1,0 +1,505 @@
+:root {
+	--color-frame: #b9ffa2;
+	--color-frame-dark: #6afc3b;
+	--color-frame-light: #deffd3;
+	--color-background-light: white;
+	--color-background: #f1f1f1;
+	--color-background-dark: #ececec;
+	--color-success-light: #a4e8a1;
+	--color-success: #8ace66;
+	--color-success-dark: #468a1a;
+	--color-warning-light: #ffc19c;
+	--color-warning: #ffa36c;
+	--color-warning-dark: #d75a0e;
+	--color-error-light: #f59e9e;
+	--color-error: #ff7474;
+	--color-error-dark: #b93030;
+	--color-navigation-button: #333;
+	--color-process-button: #325181;
+}
+
+/* =======
+Font Sizes
+======= */
+
+html {
+  font-size: 18px;
+  font-family: "Reddit Mono", monospace, "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+input {
+	font-size: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* =============
+Main page layout
+============= */
+
+body {
+	background-color: var(--color-background);
+	margin: 0;
+	padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+	max-width: 2000px;
+}
+
+header {
+	background-color: var(--color-frame);
+	color: black;
+	text-align: center;
+	padding: 0;
+	min-height: 3vh;
+	box-sizing: border-box;
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto 7ch 7ch 7ch 7ch;
+    height: 7ch;
+}
+
+header .navigation-icon {
+    width: 7ch;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+header .navigation-icon:hover {
+    background-color: var(--color-background);
+    border: var(--color-frame-dark) 3px solid;
+}
+
+header .main-title {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    padding-left: 5%;
+    padding-right: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 710px) {
+    header .main-title {
+        font-size: 1.4rem;
+    }
+}
+
+main {
+	flex: 1;
+    padding: 50px 100px;
+}
+
+footer {}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+h2 {
+	margin: 0 0 20px;
+}
+
+p {
+	margin: 0 0 20px;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.center-margin {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* ============
+Typical layouts
+============ */
+
+.side-by-side-centered-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.side-by-side-pushed-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.side-by-side-two-columns-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	align-items: start;
+	width: 100%;
+	box-sizing: border-box;
+	column-gap: 2%;
+}
+
+.side-by-side-two-columns-wrapper > div {
+	width: 48%;
+}
+
+@media (max-width: 768px) {
+    .side-by-side-two-columns-wrapper > div {
+        width: 100%;
+    }
+}
+
+.grid2-wrapper {
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.grid2-wrapper > .grid-item:nth-child(2n-1):nth-last-of-type(1) {
+	grid-column: span 2;
+}
+
+@media (max-width: 768px) {
+    .grid2-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+.lined-table {
+	border-collapse: collapse;
+}
+
+.lined-table > tbody > tr > td, .lined-table > tbody > tr > th, .lined-table > thead > tr > td, .lined-table > thead > tr > th  {
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.lined-table tr {
+	border-top: var(--color-frame) solid 1px;
+}
+
+.lined-table tr:first-child {
+	border-top: var(--color-frame) solid 2px;
+}
+
+.lined-table tr:last-child {
+	border-bottom: var(--color-frame) solid 2px;
+}
+
+/* ==========
+General Stuff
+========== */
+
+.checkmark {
+    color: var(--color-success-dark);
+    font-size: 24px;
+}
+
+.crossmark {
+    color: var(--color-error-dark);
+    font-size: 24px;
+}
+
+/* ==========
+Add Item Page
+========== */
+
+.add-item-form-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.add-item-yaml-container {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    white-space: pre-wrap;
+    overflow: auto;
+}
+
+.color-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.color-circle {
+  border: 2px solid #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.color-selector .color-circle {
+  cursor: pointer;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 5px;
+  position: relative; /* To position the checkmark */
+}
+
+.color-circle-inner {
+    position: relative;
+}
+
+.color-circle-checkmark {
+    position: absolute; /* Position the checkmark within the circle */
+    color: white;
+    font-size: 24px;
+    top: 50%; /* Adjust to vertically center the checkmark */
+    left: 50%; /* Adjust to horizontally center the checkmark */
+    transform: translate(-50%, -50%); /* Center the checkmark precisely */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.color-circle.selected {
+  border: 2px solid #000;
+}
+
+.color-circle .color-circle-checkmark {
+    display: none;
+}
+
+.color-circle.selected .color-circle-checkmark {
+    display: block;
+}
+
+/* =====
+Calendar
+===== */
+
+.calendar-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.calendar-day {
+  flex: 1 1 150px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.calendar-day-header {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.outfits-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.outfit-stack {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 125px;
+}
+
+.outfit-stack .outfit-item-image {
+  position: absolute;
+  height: 300px;
+  width: 125px;
+  opacity: 1;
+}
+
+.outfit-stack .wheel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px; /* Size of the wheel */
+  height: 600px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 1); /* White background with some transparency */
+  border-radius: 50%; /* Makes it a circle */
+  display: none; /* Hidden by default */
+  z-index: 19; /* Ensure it's behind the wheel items */
+}
+
+.outfit-stack .outfit-wheel-item-image-wrap {
+  position: absolute;
+  z-index: 40;
+  opacity: 1;
+  transition: all 0.1s ease-in-out;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 125px;
+  height: 166px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.outfit-wheel-item-image {
+  max-width: 125px;
+}
+
+/* =====
+Wardrobe
+===== */
+
+.wardrobe-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.wardrobe-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wardrobe-item-img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.wardrobe-item img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.wardrobe-filters-wrap {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+/* ====
+Style Me
+===== */
+
+.style-me-wrap {
+  display: flex;
+  height: 70vh;
+}
+
+.right-panel {
+  padding: 20px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-panel {
+  padding: 20px;
+  width: 70%;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+#style-me-wardrobe .category-items-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#style-me-wardrobe .category-title {
+    font-size: 1.3rem;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: var(--color-frame-light);
+}
+
+#style-me-wardrobe .category-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+
+#style-me-stack {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+#style-me-stack .outfit-item-image {
+  position: absolute;
+  width: 90%;
+  opacity: 1;
+}

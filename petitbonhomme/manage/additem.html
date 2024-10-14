@@ -1,0 +1,228 @@
+---
+layout: default
+---
+
+<h1>Add a New Item</h1>
+
+{% assign used_images = '' %}
+{% for item in site.data.clothing_items %}
+{% assign used_images = used_images | append: item.image %}
+{% endfor %}
+<div class="side-by-side-centered-wrapper">
+    <div>
+        {% for static_file in site.static_files %}
+          {% if static_file.path contains '/assets/img/clothes/Close-Up' %}
+            {% assign full_name = "Close-Up/" | append: static_file.basename %}
+            {% unless used_images contains full_name %}
+                <img width="200px" src="{{ static_file.path | relative_url }}" alt="{{ static_file.basename }}">
+                {% assign image_basename = static_file.basename %}
+                {% assign image_extension = static_file.extname %}
+                {% break %}
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+        {{ static_file }}
+    </div>
+  <div class="add-item-form-container">
+    <form id="item-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="brand">Brand:</label>
+      <select id="brand" name="brand">
+        {% assign sorted_brands = site.data.clothing_items_brands | sort: "name" %}
+        {% for brand in sorted_brands %}
+          <option value="{{ brand.name }}">{{ brand.name }}</option>
+        {% endfor %}
+      </select><br>
+
+      <label for="colors">Colors:</label>
+      <div id="color-selector" class="color-selector">
+        {% for color in site.data.clothing_items_colours %}
+          <div id="color-circle-{{ color.name }}" class="color-circle" data-color="{{ color.name }}" style="background-color: #{{ color.HTML_code }};" title="{{ color.name }}" onclick="toggleColorSelection('color-circle-{{ color.name }}')">
+            <div class='color-circle-inner'>
+              <span class="color-circle-checkmark">&#10003;</span>
+            </div>
+          </div>
+        {% endfor %}
+      </div><br>
+
+      <label for="materials">Materials:</label>
+      <select id="materials" name="materials" multiple>
+        {% for material in site.data.clothing_items_materials %}
+          <option value="{{ material }}">{{ material }}</option>
+        {% endfor %}
+      </select><br>
+
+      <label for="size">Size:</label>
+      <select id="size" name="size">
+        {% for size in site.data.clothing_items_sizes %}
+          <option value="{{ size }}">{{ size }}</option>
+        {% endfor %}
+      </select><br>
+
+      <label for="category">Category:</label>
+      <select id="category" name="category">
+        {% for main_category in site.data.clothing_items_categories %}
+          <optgroup label="{{ main_category.name }}">
+            {% if main_category.children %}
+              {% for sub_category in main_category.children %}
+                {% if sub_category.children %}
+                  <optgroup label="&nbsp;&nbsp;&nbsp;&nbsp;{{ sub_category.name }}">
+                    {% for item in sub_category.children %}
+                      <option value="{{ item.name }}">&nbsp;&nbsp;&nbsp;&nbsp;{{ item.name }}</option>
+                    {% endfor %}
+                  </optgroup>
+                {% else %}
+                  <option value="{{ sub_category.name }}">&nbsp;&nbsp;&nbsp;&nbsp;{{ sub_category.name }}</option>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          </optgroup>
+        {% endfor %}
+      </select><br>
+
+      <label for="multiplicity">Multiplicity:</label>
+      <input type="number" id="multiplicity" name="multiplicity" value="1"><br>
+
+      <label for="buying_price">Buying Price:</label>
+      <input type="number" id="buying_price" name="buying_price"><br>
+
+      <label for="buying_place">Buying Place:</label>
+      <input type="text" id="buying_place" name="buying_place"><br>
+
+      <label for="buying_date">Buying Date:</label>
+      <input type="date" id="buying_date" name="buying_date"><br>
+
+      <label for="bought_new">Bought New:</label>
+      <input type="checkbox" id="bought_new" name="bought_new"><br>
+
+      <label for="not_logged_wear">Not Logged Wear:</label>
+      <input type="number" id="not_logged_wear" name="not_logged_wear" value="0"><br>
+
+      <label for="z_index">Z-Index:</label>
+      <input type="number" id="z_index" name="z_index" value="0"><br>
+
+      <label for="image">Image File Name:</label>
+      <input type="text" id="image" name="image" value="{{ image_basename }}{{ image_extension }}"><br>
+      <input type="file" id="image_input" name="image"><br>
+
+      <label for="worn-image">Worn Image File Name:</label>
+      <input type="text" id="worn-image" name="image"><br>
+      <input type="file" id="worn_image_input" name="image"><br>
+    </form>
+  </div>
+
+  <div class="add-item-yaml-container" id="yaml-container">
+    <div id="yaml-output"></div>
+    <button id="yaml-copy-button" onclick="copyToClipboard()">Copy</button>
+  </div>
+</div>
+
+{% assign max_id = 0 %}
+{% for item in site.data.clothing_items %}
+  {% if item.id > max_id %}
+    {% assign max_id = item.id %}
+  {% endif %}
+{% endfor %}
+
+<script>
+  function updateYAML() {
+    const nameElement = document.getElementById('name');
+    const name = nameElement.value;
+    const brand = document.getElementById('brand').value;
+    const colors = Array.from(document.querySelectorAll('.color-circle.selected')).map(circle => circle.getAttribute('data-color'));
+    const materials = Array.from(document.getElementById('materials').selectedOptions).map(option => option.value);
+    const size = document.getElementById('size').value;
+    const category = document.getElementById('category').value;
+    const multiplicity = document.getElementById('multiplicity').value;
+    const buying_price = document.getElementById('buying_price').value;
+    const buying_place = document.getElementById('buying_place').value;
+    const buying_date = document.getElementById('buying_date').value;
+    const bought_new = document.getElementById('bought_new').checked;
+    const not_logged_wear = document.getElementById('not_logged_wear').value;
+    const z_index = document.getElementById('z_index').value;
+    const imagePath = document.getElementById('image').value;
+    const image = imagePath ? imagePath.split('\\').pop().split('/').pop() : '';
+    const wornImagePath = document.getElementById('worn-image').value;
+    const wornImage = wornImagePath ? wornImagePath.split('\\').pop().split('/').pop() : '';
+
+    const existingItems = {{ site.data.clothing_items | jsonify }};
+    const duplicateItem = existingItems.find(item => item.name.trim().toLowerCase() === name.trim().toLowerCase());
+    if (duplicateItem) {
+      nameElement.style.border = "4px solid red";
+    } else {
+      nameElement.style.border = null;
+    }
+
+    document.getElementById('yaml-output').textContent = `- name: "${name.trim()}"
+  id: {{max_id | plus: 1}}
+  brand: "${brand}"
+  colors:
+    - "${colors.join('"\n    - "')}"
+  materials:
+    - "${materials.join('"\n    - "')}"
+  size: "${size}"
+  category: "${category}"
+  multiplicity: ${multiplicity}
+  buying_price: ${buying_price}
+  buying_place: "${buying_place}"
+  buying_date: "${buying_date}"
+  bought_new: ${bought_new}
+  not_logged_wear: ${not_logged_wear}
+  z_index: ${z_index}
+  image: "Close-Up/${image}"
+  worn_image: "Worn/${wornImage}"
+`;
+  }
+
+  const imageFileInput = document.getElementById('image_input');
+  const imageTextInput = document.getElementById('image');
+
+  imageFileInput.addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (file) {
+      imageTextInput.value = file.name;
+    } else {
+      imageTextInput.value = '';
+    }
+  });
+
+  const wornImageFileInput = document.getElementById('worn_image_input');
+  const wornImageTextInput = document.getElementById('worn-image');
+
+  wornImageFileInput.addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (file) {
+      wornImageTextInput.value = file.name;
+    } else {
+      wornImageTextInput.value = '';
+    }
+  });
+
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const inputs = document.querySelectorAll('#item-form input, #item-form select');
+    inputs.forEach(input => {
+      input.addEventListener('input', updateYAML);
+      input.addEventListener('change', updateYAML); // For select and checkbox inputs
+    });
+
+    // Initial call to display default values
+    updateYAML();
+  });
+
+  function copyToClipboard() {
+    const yamlOutput = document.getElementById('yaml-output').textContent;
+    const yamlCopyButton = document.getElementById('yaml-copy-button');
+    navigator.clipboard.writeText(yamlOutput).then(() => {
+        yamlCopyButton.style.border = "2px solid green";
+    }).catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+  }
+
+  function toggleColorSelection(element_id) {
+    document.getElementById(element_id).classList.toggle('selected');
+    updateYAML();
+  }
+</script>
