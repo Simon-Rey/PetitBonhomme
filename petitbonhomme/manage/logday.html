@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>Add a New Outfit</h1>
+<h1>Log a Day</h1>
 
 <p class="center-align">
     <span class="button"><a href="https://github.com/Simon-Rey/PetitBonhomme/blob/main/petitbonhomme/_data/day_logs.yml">To GitHub File</a></span>
@@ -119,7 +119,7 @@ layout: default
           const category = item.getAttribute('data-category').toLowerCase();
 
           if (name.includes(query) || brand.includes(query) || colors.includes(query) || materials.includes(query) || category.includes(query)) {
-            item.style.display = 'block';
+            item.style.display = 'flex';
           } else {
             item.style.display = 'none';
           }
