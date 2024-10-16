@@ -4,8 +4,12 @@ layout: default
 
 <h1>Add a New Outfit</h1>
 
+<p class="center-align">
+    <span class="button"><a href="https://github.com/Simon-Rey/PetitBonhomme/blob/main/petitbonhomme/_data/day_logs.yml">To GitHub File</a></span>
+</p>
+
 <div class="side-by-side-centered-wrapper">
-  <div>
+  <div class="log-day-item-selection-wrapper">
     <div>
         {% assign most_recent_log = site.data.day_logs | sort: "date" | last %}
         {% assign next_day_date = most_recent_log.date | date: "%s" | plus: 129600 | date: "%Y-%m-%d" %}
@@ -25,15 +29,14 @@ layout: default
       <div class="item-grid" id="non-outfit-item-grid">
         {% for item in site.data.clothing_items %}
         <div class="item-grid-element item-grid-element-non-outfit" data-name="{{ item.name }}" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-materials="{{ item.materials | join: ' ' }}" data-category="{{ item.category }}" data-outfit="non-outfit">
-          <img width="100px" height="100px" src="{{ site.baseurl }}/assets/img/clothes/{{ item.image }}" alt="{{ item.name }}" title="{{ item.name }}" loading="lazy">
+          <img src="{{ site.baseurl }}/assets/img/clothes/{{ item.image }}" alt="{{ item.name }}" title="{{ item.name }}" loading="lazy">
         </div>
         {% endfor %}
       </div>
     </div>
   </div>
 
-  <!-- Right: YAML Output -->
-  <div class="add-item-yaml-container" id="yaml-container">
+  <div class="log-day-yaml-container yaml-container" id="yaml-container">
     <div id="yaml-output" class="yaml-output"></div>
     <button id="yaml-copy-button" onclick="copyToClipboard()">Copy</button>
   </div>
@@ -60,7 +63,7 @@ layout: default
       <div class="item-grid" id="item-grid-${outfitCount}">
         {% for item in site.data.clothing_items %}
         <div class="item-grid-element item-grid-element-${outfitCount}" data-name="{{ item.name }}" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-materials="{{ item.materials | join: ' ' }}" data-category="{{ item.category }}" data-outfit="${outfitCount}">
-          <img width="100px" height="100px" src="{{ site.baseurl }}/assets/img/clothes/{{ item.image }}" alt="{{ item.name }}" title="{{ item.name }}">
+          <img src="{{ site.baseurl }}/assets/img/clothes/{{ item.image }}" alt="{{ item.name }}" title="{{ item.name }}">
         </div>
         {% endfor %}
       </div>
@@ -176,39 +179,3 @@ ${yamlNonOutfitItems}`;
       document.querySelector('#outfit-search-1').focus();
   });
 </script>
-
-<style>
-  /* Grid Layout for Items */
-  .item-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 10px;
-    width: 100%;
-    max-height: 230px;
-    overflow-y: auto;
-  }
-
-  .side-by-side-centered-wrapper > div {
-      width: 50%;
-  }
-
-  .item-grid-element {
-    cursor: pointer;
-    text-align: center;
-    transition: border 0.2s ease;
-  }
-
-  .item-grid-element img {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-
-  .item-grid-element.selected img {
-    border: 3px solid #007bff;
-    background-color: rgba(0, 123, 255, 0.1);
-  }
-
-  .item-grid-element:hover img {
-    border: 2px solid #007bff;
-  }
-</style>

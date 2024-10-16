@@ -201,6 +201,19 @@ Typical layouts
 	box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    .side-by-side-centered-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side-by-side-centered-wrapper > div {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
 .side-by-side-pushed-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -267,6 +280,17 @@ Typical layouts
 	border-bottom: var(--color-frame) solid 2px;
 }
 
+.button {
+  background-color: var(--color-frame);
+  color: black;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
 /* ==========
 General Stuff
 ========== */
@@ -285,12 +309,7 @@ General Stuff
 Add Item Page
 ========== */
 
-.add-item-form-container {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.add-item-yaml-container {
+.yaml-container {
     flex: 1;
     background-color: #f4f4f4;
     padding: 10px;
@@ -298,6 +317,11 @@ Add Item Page
     font-family: monospace;
     white-space: pre-wrap;
     overflow: auto;
+}
+
+.add-item-form-container {
+    flex: 1;
+    margin-right: 20px;
 }
 
 .color-selector {
@@ -349,9 +373,56 @@ Add Item Page
     display: block;
 }
 
-/* =====
-Calendar
-===== */
+/* =========
+Day Log Page
+========= */
+
+.log-day-item-selection-wrapper {
+    width: 70%;
+}
+
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    width: 100%;
+    max-height: 230px;
+    overflow-y: auto;
+}
+
+.item-grid-element {
+    cursor: pointer;
+    text-align: center;
+    transition: border 0.2s ease;
+    width: 100px;
+    height: 166px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.item-grid-element img {
+    width: 100%;
+}
+
+.item-grid-element.selected img {
+    border: 3px solid #007bff;
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.item-grid-element:hover img {
+    border: 2px solid #007bff;
+}
+
+.log-day-yaml-container {
+    margin-left: 10px;
+}
+
+/* ==========
+Calendar Page
+========== */
 
 .calendar-grid {
   display: flex;
@@ -434,9 +505,9 @@ Calendar
   max-width: 125px;
 }
 
-/* =====
-Wardrobe
-===== */
+/* ==========
+Wardrobe Page
+========== */
 
 .wardrobe-container {
   display: grid;
@@ -472,9 +543,9 @@ Wardrobe
   gap: 10px;
 }
 
-/* ====
-Style Me
-===== */
+/* ==========
+Style Me Page
+========== */
 
 .style-me-wrap {
   display: flex;
