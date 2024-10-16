@@ -1,3 +1,33 @@
+- date: "2024-10-16"
+  outfits:
+    - items:
+       - "Dark Blue Heel Boot Anna Field"
+       - "Levi's Balloon Leg Light"
+       - "Levi's Gray Jacket"
+       - "Wool Gray Turtleneck Sweater & Other Stories"
+       - "Dark Blue Long Sleeve Selected"
+  non-outfit-items:
+
+
+- date: "2024-10-15"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Hiking Pants Decathlon"
+       - "White Tank Top"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+       - "Thinking Mu Beige Multicolor Sweater"
+    - items:
+       - "Dark Blue Heel Boot Anna Field"
+       - "Black Thick Falke Tights"
+       - "Dress with Straps Stradivarius"
+       - "Teym White Sweater"
+       - "White Tank Top"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
+
 - date: "2023-09-29"
   outfits:
     - items:
@@ -3750,3 +3780,12 @@
        - "Puff Jacket Rab"
   non-outfit-items:
 
+- date: "2024-10-14"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Dark Blue Dickies Pants"
+       - "Dark Blue Long Sleeve Selected"
+       - "Wool Gray Turtleneck Sweater & Other Stories"
+       - "Brick Red Coat"
+  non-outfit-items:
