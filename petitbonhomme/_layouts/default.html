@@ -38,10 +38,12 @@
     {% assign latest_log = site.data.day_logs | sort: 'date' | last %}
     {% assign latest_year = latest_log.date | date: "%Y" %}
     {% assign latest_month = latest_log.date | date: "%m" %}
-    <nav><a class="navigation-icon calendar-icon" href="{{ 'calendar/' | append: latest_year | append: '/' | append: latest_month | relative_url }}"><i class="fa-solid fa-calendar"></i></a></nav>
-    <nav><a class="navigation-icon wardrobe-icon" href="{{ 'wardrobe' | relative_url }}"><i class="fa-solid fa-shirt"></i></a></nav>
-    <nav><a class="navigation-icon style-icon" href="{{ 'styleme' | relative_url }}"><i class="fa-solid fa-snowman"></i></a></nav>
-    <nav><a class="navigation-icon info-icon" href="{{ 'info' | relative_url }}"><i class="fa-solid fa-circle-info"></i></a></nav>
+    <div class="navigation-wrap">
+        <nav><a class="navigation-icon calendar-icon" href="{{ 'calendar/' | append: latest_year | append: '/' | append: latest_month | relative_url }}"><i class="fa-solid fa-calendar"></i></a></nav>
+        <nav><a class="navigation-icon wardrobe-icon" href="{{ 'wardrobe' | relative_url }}"><i class="fa-solid fa-shirt"></i></a></nav>
+        <nav><a class="navigation-icon style-icon" href="{{ 'styleme' | relative_url }}"><i class="fa-solid fa-snowman"></i></a></nav>
+        <nav><a class="navigation-icon info-icon" href="{{ 'info' | relative_url }}"><i class="fa-solid fa-circle-info"></i></a></nav>
+    </div>
 </header>
 
 <main>
