@@ -1,3 +1,22 @@
+- date: "2024-10-15"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Hiking Pants Decathlon"
+       - "White Tank Top"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+       - "Thinking Mu Beige Multicolor Sweater"
+    - items:
+       - "Dark Blue Heel Boot Anna Field"
+       - "Black Thick Falke Tights"
+       - "Dress with Straps Stradivarius"
+       - "Teym White Sweater"
+       - "White Tank Top"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
+
 - date: "2023-09-29"
   outfits:
     - items:
