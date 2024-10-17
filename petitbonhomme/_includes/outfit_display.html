@@ -1,6 +1,6 @@
 {% assign show_wheel = include.show_wheel | default: false %}
 
-<div class="outfit-stack" onmouseover="showWheel(this)" onmouseout="hideWheel(this)">
+<div class="outfit-stack" onmouseover="showWheel(this)" onmouseout="hideWheel(this)" on click="hide wheel(this)">
   <!-- Usual stacked outfit display -->
   {% for item_name in include.outfit.items %}
     {% assign item = site.data.clothing_items | where: "name", item_name | first %}
