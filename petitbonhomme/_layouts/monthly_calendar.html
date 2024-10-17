@@ -68,35 +68,10 @@ layout: default
       </div>
 
       <div class="outfits-wrap">
-          {% for log in log_for_day %}
-        {% for outfit in log.outfits %}
-        <div class="outfit-stack" onmouseover="showWheel(this)" onmouseout="hideWheel(this)">
-          <!-- Usual stacked outfit display -->
-          {% for item_name in outfit.items %}
-            {% assign item = site.data.clothing_items | where: "name", item_name | first %}
-            {% if item and item.worn_image and item.worn_image != 'Worn/' %}
-              {% assign full_image_path = "assets/img/clothes/" | append: item.worn_image %}
-              <img src="{{ site.baseurl }}/{{ full_image_path }}" alt="{{ item.name }}" class="outfit-item-image" style="z-index: {{item.z_index}}">
-            {% endif %}
+        {% for log in log_for_day %}
+          {% for outfit in log.outfits %}
+            {% include outfit_display.html outfit=outfit %}
           {% endfor %}
-
-          <!-- Wheel of images to appear on hover -->
-          <div class="wheel" style="display:none;">
-            {% for item_name in outfit.items %}
-              {% assign item = site.data.clothing_items | where: "name", item_name | first %}
-              {% if item %}
-                {% assign wheel_image_path = "assets/img/clothes/" | append: item.image %}
-                <a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}">
-                  <div class="outfit-wheel-item-image-wrap">
-                    <img src="{{ site.baseurl }}/{{ wheel_image_path }}" alt="{{ item.name }}" class="outfit-wheel-item-image">
-                  </div>
-                </a>
-              {% endif %}
-            {% endfor %}
-          </div>
-        </div>
-
-        {% endfor %}
         {% endfor %}
         </div>
       </div>
@@ -105,54 +80,8 @@ layout: default
 </div>
 
 <script>
-function showWheel(outfitStack) {
-    const wheel = outfitStack.querySelector('.wheel');
-    if (wheel.style.display === 'block') {
-        return;
-    }
-    const wheelItems = outfitStack.querySelectorAll('.outfit-wheel-item-image-wrap');
-    const stackItems = outfitStack.querySelectorAll('.outfit-item-image');
-    const radius = 200; // Adjust the radius of the wheel
-
-    // Show the wheel
-    wheel.style.display = 'block';
-
-    // Position the items in a circle around the center of the wheel
-    const angleStep = (2 * Math.PI) / wheelItems.length; // Divide the circle by the number of items
-    wheelItems.forEach((item, index) => {
-        const angle = index * angleStep;
-        const x = Math.cos(angle) * radius - item.offsetWidth / 2;
-        const y = Math.sin(angle) * radius - item.offsetHeight / 2;
-
-        // Translate items based on calculated x, y positions
-        item.style.transform = `translate(${x}px, ${y}px)`;
-        item.style.opacity = 1; // Ensure the item is visible
+    document.addEventListener('DOMContentLoaded', function () {
+        {% include outfit_display_setup.js %}
     });
-
-    stackItems.forEach((item) => {
-        console.log(window.getComputedStyle(item).zIndex, parseInt(window.getComputedStyle(item).zIndex, 10) || 0);
-        item.style.zIndex = (parseInt(window.getComputedStyle(item).zIndex, 10) || 0) + 20;
-    });
-}
-
-function hideWheel(outfitStack) {
-  const wheel = outfitStack.querySelector('.wheel');
-  if (wheel.style.display !== 'block') {
-      return;
-  }
-  const wheelItems = outfitStack.querySelectorAll('.outfit-wheel-item-image-wrap');
-  const stackItems = outfitStack.querySelectorAll('.outfit-item-image');
-
-  // Hide the wheel and reset positions
-  wheelItems.forEach((item) => {
-    item.style.opacity = 0;
-    item.style.transform = `translate(0, 0)`; // Reset position
-  });
-
-  stackItems.forEach((item) => {
-      item.style.zIndex = (parseInt(window.getComputedStyle(item).zIndex, 10) || 0) - 20;
-  });
-  wheel.style.display = 'none';
-}
-
+    {% include outfit_display_animation.js %}
 </script>

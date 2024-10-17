@@ -1,0 +1,56 @@
+---
+layout: default
+title: Petit Bonhomme Simon
+main_id: main-homepage
+sitemap:
+  priority: 1
+---
+
+<div id="index-content-wrap">
+    <div id="statistics-wrap">
+        <h2>At a Glance</h2>
+        {{ site.data.clothing_items | size }} items
+    </div>
+    <div id="latest-logs-wrap">
+        {% assign last_logs = site.data.day_logs | sort: "date" | reverse  %}
+        {% assign num_outfits_displayed = 0 %}
+        {% assign max_num_outfits = 1 %}
+        {% for log in last_logs %}
+            {% for outfit in log.outfits %}
+                {% assign num_outfits_displayed = num_outfits_displayed | plus: 1 %}
+                {% include outfit_display.html outfit=outfit show_wheel=true %}
+                {% if num_outfits_displayed == max_num_outfits %}
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+            {% if num_outfits_displayed == max_num_outfits %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    <div id="latest-items-wrap">
+        <h2>Latest Items</h2>
+        {% assign last_items = site.data.clothing_items | sort: "buying_date" | reverse %}
+        <div id="latest-items">
+            {% for item in last_items limit:5 %}
+                <div>
+                    <a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}"><img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}"></a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<script>
+    {% include outfit_display_setup.js %}
+    function showWheel(stack) {}
+    function hideWheel(stack) {}
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const stackItems = document.querySelectorAll('#latest-logs-wrap .outfit-item-image');
+        stackItems.forEach((item) => {
+            item.style.zIndex = (parseInt(window.getComputedStyle(item).zIndex, 10) || 0) + 20;
+        });
+    });
+</script>

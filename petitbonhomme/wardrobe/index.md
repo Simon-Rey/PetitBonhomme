@@ -46,9 +46,8 @@ layout: default
 {% endif %}
 
 <div class="wardrobe-item" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-category="{{ item.category }}" data-name="{{ item.name }}">
-{% assign full_image_path = "/assets/img/clothes/" | append: item.image %}
 <div class="wardrobe-item-img-wrap">
-<a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}"><img src="{{ full_image_path | relative_url }}" alt="{{ item.name }}"></a>
+<a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}"><img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}"></a>
 </div>
 <div>
 <p>Worn: {{ wear_count }}</p>

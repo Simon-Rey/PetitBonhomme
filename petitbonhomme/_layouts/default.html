@@ -46,7 +46,7 @@
     </div>
 </header>
 
-<main>
+<main {% if page.main_id %}id="{{ page.main_id }}"{% endif %}>
     {{ content }}
 </main>
 
