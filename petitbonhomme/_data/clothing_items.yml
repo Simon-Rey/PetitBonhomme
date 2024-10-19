@@ -1,3 +1,21 @@
+- name: "Antoine et Lili Granito Large"
+  id: 191
+  brand: "Antoine et Lili"
+  colors:
+    - "Black"
+  materials:
+    - "Cotton"
+  size: "Woman - 40"
+  category: "Casual pants"
+  multiplicity: 1
+  buying_price: 30
+  buying_place: "Vinted"
+  buying_date: "2024-09-30"
+  bought_new: false
+  not_logged_wear: 0
+  z_index: 0
+  image: "Close-Up/"
+  worn_image: "Worn/"
 - name: "Cropped Jumper Sezane Orange and Pink/Bordeaux"
   id: 190
   brand: "Sezane"
