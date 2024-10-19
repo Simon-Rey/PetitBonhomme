@@ -1,3 +1,22 @@
+- name: "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+  id: 190
+  brand: "Sezane"
+  colors:
+    - "Pink"
+    - "Orange"
+  materials:
+    - "Cotton"
+  size: "Woman - M"
+  category: "Hoodie"
+  multiplicity: 1
+  buying_price: 46
+  buying_place: "Vinted"
+  buying_date: "2024-10-09"
+  bought_new: false
+  not_logged_wear: 0
+  z_index: 0
+  image: "Close-Up/"
+  worn_image: "Worn/"
 - name: Birkenstock
   brand: Birkenstock
   colors:
