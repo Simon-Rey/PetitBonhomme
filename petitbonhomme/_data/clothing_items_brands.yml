@@ -1,3 +1,6 @@
+- name: "Antoine et Lili"
+  url: "https://www.antoineetlili.com/"
+  country: "France"
 - name: "Levi's"
   url: "https://www.levi.com"
   country: "USA"
