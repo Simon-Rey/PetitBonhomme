@@ -7,10 +7,6 @@ sitemap:
 ---
 
 <div id="index-content-wrap">
-    <div id="statistics-wrap">
-        <h2>At a Glance</h2>
-        {{ site.data.clothing_items | size }} items
-    </div>
     <div id="latest-logs-wrap">
         {% assign last_logs = site.data.day_logs | sort: "date" | reverse  %}
         {% assign num_outfits_displayed = 0 %}
@@ -27,16 +23,25 @@ sitemap:
                 {% break %}
             {% endif %}
         {% endfor %}
+        <h2>Latest Log</h2>
     </div>
 
     <div id="latest-items-wrap">
         <h2>Latest Items</h2>
         {% assign last_items = site.data.clothing_items | sort: "buying_date" | reverse %}
+        {% assign num_items_displayed = 0 %}
+        {% assign max_num_items = 5 %}
         <div id="latest-items">
-            {% for item in last_items limit:5 %}
-                <div>
-                    <a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}"><img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}"></a>
-                </div>
+            {% for item in last_items %}
+                {% unless item.image == "Close-Up/" %}
+                    <div>
+                        <a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}"><img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}"></a>
+                    </div>
+                    {% assign num_items_displayed = num_items_displayed | plus: 1 %}
+                {% endunless %}
+                {% if num_items_displayed >= max_num_items %}
+                    {% break %}
+                {% endif %}
             {% endfor %}
         </div>
     </div>

@@ -1,3 +1,13 @@
+- date: "2024-10-23"
+  outfits:
+    - items:
+       - "Dark Blue Dickies Pants"
+       - "Green Another Label Sweater"
+       - "Seksi T-Shirt"
+       - "Jacket Luka Bonsini"
+       - "Timberland Boots"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
 - date: "2024-10-22"
   outfits:
     - items:
@@ -6,6 +16,13 @@
        - "Sweater V-Neck Jules"
        - "Dark Blue Cos Sweater"
        - "Puff Jacket Rab"
+    - items:
+       - "Timberland Boots"
+       - "Hiking Pants Decathlon"
+       - "Blue Chinese Vest Episode"
+       - "Dark Blue Cos Sweater"
+       - "Sweater V-Neck Jules"
+       - "Grey Scarf"
   non-outfit-items:
 - date: "2024-10-21"
   outfits:
