@@ -9,7 +9,12 @@ outfitStacks.forEach((stack) => {
 
 function setupWheel(outfitStack) {
     const wheelItems = outfitStack.querySelectorAll('.outfit-wheel-item-image-wrap');
-    const radius = {{ wheel_radius }};
+    const pageWidth = window.innerWidth;
+    const radius = Math.min(pageWidth / 2, {{ wheel_radius }});
+
+    const wheel = outfitStack.querySelectorAll('.wheel')[0];
+    wheel.style.width = `${2 * radius + 200}px`;
+    wheel.style.height = `${2 * radius + 200}px`;
 
     // Position the items in a circle around the center of the wheel
     const angleStep = (2 * Math.PI) / wheelItems.length; // Divide the circle by the number of items
