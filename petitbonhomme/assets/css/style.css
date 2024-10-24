@@ -319,6 +319,12 @@ Index Page
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 1000px) {
+    #main-homepage {
+        padding: 0;
+    }
+}
+
 #index-content-wrap {
     display: flex;
     justify-content: space-between;
@@ -366,10 +372,25 @@ Index Page
     gap: 20px;
     flex-wrap: wrap;
     width: 100%;
+    box-sizing: border-box;
 }
 
 #latest-items div {
     margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+    #latest-logs-wrap h2 {
+        display: none;
+    }
+
+    #latest-items-wrap {
+        flex-direction: column;
+    }
+
+    #latest-items {
+        padding: 20px;
+    }
 }
 
 /* ==========
@@ -491,6 +512,10 @@ Day Log Page
 Calendar Page
 ========== */
 
+#main-calendar {
+    padding: 10vh min(300px, 40%);
+}
+
 .calendar-grid {
   display: flex;
   flex-wrap: wrap;
@@ -502,7 +527,7 @@ Calendar Page
 .calendar-day {
   flex: 1 1 150px;
   border: 1px solid #ddd;
-  margin: 10px;
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;

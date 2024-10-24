@@ -31,6 +31,7 @@ module Jekyll
         month_page.data['month'] = month_num
         month_page.data['logs'] = logs
         month_page.data['full_month'] = full_month
+        month_page.data['main_id'] = "main-calendar"
 
         # Add the month page to the site
         site.pages << month_page
