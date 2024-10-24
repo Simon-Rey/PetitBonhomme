@@ -547,6 +547,12 @@ Calendar Page
   justify-content: flex-start;
 }
 
+@media screen and (max-width: 910px) {
+    .outfits-wrap {
+        flex-direction: column;
+    }
+}
+
 .outfit-stack {
   position: relative;
   display: flex;
@@ -582,8 +588,6 @@ Calendar Page
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  width: 125px;
-  height: 166px;
   display: flex;
   justify-content: center;
   align-items: center;

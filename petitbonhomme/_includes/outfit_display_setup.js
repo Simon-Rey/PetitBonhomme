@@ -28,6 +28,8 @@ function setupWheel(outfitStack) {
 
         // Translate items based on calculated x, y positions
         item.style.transform = `translate(${x}px, ${y}px)`;
+        item.style.width = `${imgMaxWidth}px`;;
+        item.style.height = `${imgMaxHeight}px`;
 
         const image = item.querySelector('img');
         image.style.maxHeight = `${imgMaxHeight}px`;
