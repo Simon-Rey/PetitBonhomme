@@ -533,7 +533,6 @@ Calendar Page
 ========== */
 
 #main-calendar {
-    padding: 10vh min(30vh, 30vw) min(20vh, 20vw) min(30vh, 30vw);
 }
 
 .calendar-navigation {
@@ -573,6 +572,7 @@ Calendar Page
   gap: 10px;
   margin-top: 20px;
   justify-content: space-between;
+  padding: 0 min(30vh, 30vw) min(20vh, 20vw) min(30vh, 30vw);
 }
 
 .calendar-day {
