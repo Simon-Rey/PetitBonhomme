@@ -4,47 +4,68 @@ layout: default
 
 <h1>{{ page.full_month }} {{ page.year }}</h1>
 
-{% assign month_number = page.month | plus: 0 %}
-{% assign year_number = page.year | plus: 0 %}
+{% assign years_with_logs = "" | split: "" %}
 
-{% if month_number == 1 %}
-  {% assign previous_month = 12 %}
-  {% assign previous_year = year_number | minus: 1 %}
-{% else %}
-  {% assign previous_month = month_number | minus: 1 %}
-  {% assign previous_year = year_number %}
-{% endif %}
+{% for log in site.data.day_logs %}
+  {% assign log_year = log.date | date: "%Y" %}
 
-{% if month_number == 12 %}
-  {% assign next_month = 1 %}
-  {% assign next_year = year_number | plus: 1 %}
-{% else %}
-  {% assign next_month = month_number | plus: 1 %}
-  {% assign next_year = year_number %}
-{% endif %}
+  {% unless years_with_logs contains log_year %}
+    {% assign years_with_logs = years_with_logs | push: log_year %}
+  {% endunless %}
+{% endfor %}
 
-{% if previous_month < 10 %}
-  {% assign previous_month = previous_month | prepend: "0" %}
-{% endif %}
-
-{% if next_month < 10 %}
-  {% assign next_month = next_month | prepend: "0" %}
-{% endif %}
-
-{% assign previous_month_str = previous_year | append: '-' | append: previous_month %}
-{% assign next_month_str = next_year | append: '-' | append: next_month %}
-
-{% assign has_previous_month_logs = site.data.day_logs | where_exp: "log", "log.date contains previous_month_str" %}
-{% assign has_next_month_logs = site.data.day_logs | where_exp: "log", "log.date contains next_month_str" %}
+{% assign years_with_logs = years_with_logs | sort %}
 
 <div class="calendar-navigation">
-  {% if has_previous_month_logs.size > 0 %}
-    <a href="{{ '/calendar/' | append: previous_year | append: '/' | append: previous_month | relative_url }}">Previous Month</a>
-  {% endif %}
+  <div class="calendar-navigation-wrap">
+    {% for year in years_with_logs %}
+      {% assign months_with_logs = "" | split: "" %}
+      {% assign current_year = year %}
 
-  {% if has_next_month_logs.size > 0 %}
-    <a href="{{ '/calendar/' | append: next_year | append: '/' | append: next_month | relative_url }}">Next Month</a>
-  {% endif %}
+      {% for log in site.data.day_logs %}
+        {% assign log_year = log.date | date: "%Y" %}
+        {% assign log_month = log.date | date: "%m" %}
+
+        {% if log_year == current_year %}
+          {% unless months_with_logs contains log_month %}
+            {% assign months_with_logs = months_with_logs | push: log_month %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign months_with_logs = months_with_logs | sort %}
+      {% assign earliest_month = months_with_logs.first %}
+
+      <div><a class="calendar-navigation-button{% if year == page.year %} active{% endif %}" href="{{ '/calendar/' | append: year | append: '/' | append: earliest_month | relative_url }}">{{ year }}</a></div>
+    {% endfor %}
+  </div>
+
+  {% assign months_with_logs = "" | split: "" %}
+  {% assign current_year = page.year %}
+
+  {% for log in site.data.day_logs %}
+    {% assign log_year = log.date | date: "%Y" %}
+    {% assign log_month = log.date | date: "%m" %}
+
+    {% if log_year == current_year %}
+      {% unless months_with_logs contains log_month %}
+        {% assign months_with_logs = months_with_logs | push: log_month %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign months_with_logs = months_with_logs | sort %}
+
+  <div class="calendar-navigation-wrap">
+    {% for month in months_with_logs %}
+      {% assign month_date = current_year | append: '-' | append: month | append: '-01' %}
+      <div>
+        <a class="calendar-navigation-button{% if month == page.month %} active{% endif %}" href="{{ '/calendar/' | append: current_year | append: '/' | append: month | relative_url }}">
+          {{ month_date | date: "%B" }}
+        </a>
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 <div class="calendar-grid">

@@ -1,5 +1,3 @@
-{% assign wheel_radius = include.wheel_radius | default: "200" %}
-
 const outfitStacks = document.querySelectorAll('.outfit-stack');
 
 // Loop through each element and call your function
@@ -9,30 +7,18 @@ outfitStacks.forEach((stack) => {
 
 function setupWheel(outfitStack) {
     const wheelItems = outfitStack.querySelectorAll('.outfit-wheel-item-image-wrap');
-    const pageWidth = window.innerWidth;
-    const wheelDiameter = Math.min(pageWidth - 40, 2 * {{ wheel_radius }} + 200);
-    const radius = wheelDiameter / 2 * 2 / 3;
-    const imgMaxWidth = wheelDiameter / 5;
-    const imgMaxHeight = imgMaxWidth * 4 / 3;
-
-    const wheel = outfitStack.querySelectorAll('.wheel')[0];
-    wheel.style.width = `${wheelDiameter}px`;
-    wheel.style.height = `${wheelDiameter}px`;
+    const wheelDiameter = Math.min(window.innerHeight * 0.8, window.innerWidth * 0.8) * 0.7;
+    const imgMaxWidth = Math.min(window.innerHeight * 0.12, window.innerWidth * 0.12);
+    const imgMaxHeight = Math.min(window.innerHeight * 0.16, window.innerWidth * 0.16);
 
     // Position the items in a circle around the center of the wheel
     const angleStep = (2 * Math.PI) / wheelItems.length; // Divide the circle by the number of items
     wheelItems.forEach((item, index) => {
         const angle = index * angleStep;
-        const x = Math.cos(angle) * radius - imgMaxWidth / 2;
-        const y = Math.sin(angle) * radius - imgMaxHeight / 2;
+        const x = Math.cos(angle) * wheelDiameter / 2 - imgMaxWidth / 2;
+        const y = Math.sin(angle) * wheelDiameter / 2 - imgMaxHeight / 2;
 
         // Translate items based on calculated x, y positions
-        item.style.transform = `translate(${x}px, ${y}px)`;
-        item.style.width = `${imgMaxWidth}px`;;
-        item.style.height = `${imgMaxHeight}px`;
-
-        const image = item.querySelector('img');
-        image.style.maxHeight = `${imgMaxHeight}px`;
-        image.style.maxWidth = `${imgMaxWidth}px`;
+        //item.style.transform = `translate(${x}px, ${y}px)`;
     });
 }

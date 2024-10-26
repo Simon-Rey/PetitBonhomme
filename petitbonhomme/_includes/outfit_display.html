@@ -12,12 +12,15 @@
 
   <!-- Wheel of images to appear on hover -->
   <div class="wheel" {% if show_wheel %}{% else %}style="visibility: hidden;"{% endif %}>
+    {% assign item_count = include.outfit.items.size %}
+    {% assign angle_step = 360 | divided_by: item_count %}
     {% for item_name in include.outfit.items %}
       {% assign item = site.data.clothing_items | where: "name", item_name | first %}
       {% if item %}
+        {% assign angle = forloop.index0 | times: angle_step %}
         {% assign wheel_image_path = "assets/img/clothes/" | append: item.image %}
-        <a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}">
-          <div class="outfit-wheel-item-image-wrap">
+        <a class="outfit-wheel-item-image-wrap" href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}" style="--angle: {{ angle }}deg;">
+          <div>
             <img src="{{ site.baseurl }}/{{ wheel_image_path }}" alt="{{ item.name }}" class="outfit-wheel-item-image">
           </div>
         </a>
