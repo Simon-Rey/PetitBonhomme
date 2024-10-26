@@ -4,6 +4,10 @@ layout: default
 
 <h1>Add a New Item</h1>
 
+<p class="center-align">
+    <span class="button"><a href=https://github.com/Simon-Rey/PetitBonhomme/edit/main/petitbonhomme/_data/clothing_items.yml">To GitHub File</a></span>
+</p>
+
 {% assign used_images = '' %}
 {% for item in site.data.clothing_items %}
 {% assign used_images = used_images | append: item.image %}
