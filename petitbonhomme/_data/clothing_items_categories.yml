@@ -106,6 +106,8 @@
           default_z_index: 1
     - name: "City shoes"
       default_z_index: 1
+    - name: "Suit shoes"
+      default_z_index: 1
     - name: "Hiking shoes"
       default_z_index: 1
 - name: "Accessory"

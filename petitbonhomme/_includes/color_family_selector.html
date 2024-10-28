@@ -1,0 +1,39 @@
+{% assign selected_family = include.family %}
+{% assign colors = site.data.clothing_items_colours | where: "family", selected_family %}
+
+<div class="color-family-selector">
+  <div class="color-family-selector-wrap">
+    <!-- Family Checkbox -->
+    <div class="color-family-checkbox-wrap">
+      <input type="checkbox" class="color-family-checkbox" data-family="{{ selected_family }}" checked>
+    </div>
+
+    <!-- Individual Color Checkboxes -->
+    <div class="color-family-colors-wrap">
+      {% for color in colors %}
+        <div class="color-family-color" style="background-color: #{{ color.HTML_code }};"></div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+  // JavaScript for family and color checkboxes
+  document.addEventListener('DOMContentLoaded', function () {
+    // Get family checkbox and individual color checkboxes
+    const familyCheckbox = document.querySelector(`.family-checkbox[data-family="{{ selected_family }}"]`);
+    const colorCheckboxes = document.querySelectorAll(`.color-checkbox[data-family="{{ selected_family }}"]`);
+
+    // Toggle individual color checkboxes based on family checkbox
+    familyCheckbox.addEventListener('change', function () {
+      colorCheckboxes.forEach(checkbox => checkbox.checked = familyCheckbox.checked);
+    });
+
+    // Update family checkbox based on individual color checkboxes
+    colorCheckboxes.forEach(checkbox => {
+      checkbox.addEventListener('change', function () {
+        familyCheckbox.checked = Array.from(colorCheckboxes).every(checkbox => checkbox.checked);
+      });
+    });
+  });
+</script>

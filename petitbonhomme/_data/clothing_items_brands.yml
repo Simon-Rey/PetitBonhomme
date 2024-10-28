@@ -209,6 +209,8 @@
 - name: "24Colours"
   country: "Germany"
   url: "https://www.24colours.de/"
+- name: "San Marina"
+  country: "France"
 - name: "Thinking Mu"
   country: Spain
   url: "https://thinkingmu.com/"

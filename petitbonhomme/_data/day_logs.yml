@@ -1,3 +1,22 @@
+- date: "2024-10-27"
+  outfits:
+    - items:
+       - "Dark Blue Denim Dungarees"
+       - "Sneakers Karhu"
+       - "Puff Jacket Rab"
+       - "Blue Celio T-Shirt V-Neck"
+       - "White and Blue Light Sweater"
+  non-outfit-items:
+- date: "2024-10-28"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Levi's Balloon Leg Light"
+       - "White and Blue Light Sweater"
+       - "Blue Celio T-Shirt V-Neck"
+       - "Puff Jacket Rab"
+       - "Rain Jacket Ayacucho"
+  non-outfit-items:
 - date: "2024-10-26"
   outfits:
     - items:
@@ -3865,6 +3884,7 @@
        - "Blue/Gray Celio Shirt"
        - "Dark Blue Sweater V-Neck Celio"
        - "Cashmere Blue Scarf"
+       - "Suit Shoes Black San Marina"
   non-outfit-items:
 
 - date: "2024-10-11"

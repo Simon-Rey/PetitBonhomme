@@ -1,40 +1,40 @@
-- name: "Antoine et Lili Granito Large"
+- name: Antoine et Lili Granito Large
   id: 191
-  brand: "Antoine et Lili"
+  brand: Antoine et Lili
   colors:
-    - "Black"
+  - Black
   materials:
-    - "Cotton"
-  size: "Woman - 40"
-  category: "Casual pants"
+  - Cotton
+  size: Woman - 40
+  category: Casual pants
   multiplicity: 1
   buying_price: 30
-  buying_place: "Vinted"
-  buying_date: "2024-09-30"
+  buying_place: Vinted
+  buying_date: '2024-09-30'
   bought_new: false
   not_logged_wear: 0
-  z_index: 0
-  image: "Close-Up/"
-  worn_image: "Worn/"
-- name: "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+  z_index: 2
+  image: Close-Up/
+  worn_image: Worn/
+- name: Cropped Jumper Sezane Orange and Pink/Bordeaux
   id: 190
-  brand: "Sezane"
+  brand: Sezane
   colors:
-    - "Pink"
-    - "Orange"
+  - Pink
+  - Orange
   materials:
-    - "Cotton"
-  size: "Woman - M"
-  category: "Hoodie"
+  - Cotton
+  size: Woman - M
+  category: Hoodie
   multiplicity: 1
   buying_price: 46
-  buying_place: "Vinted"
-  buying_date: "2024-10-09"
+  buying_place: Vinted
+  buying_date: '2024-10-09'
   bought_new: false
   not_logged_wear: 0
-  z_index: 0
-  image: "Close-Up/"
-  worn_image: "Worn/"
+  z_index: 5
+  image: Close-Up/
+  worn_image: Worn/
 - name: Birkenstock
   brand: Birkenstock
   colors:
@@ -480,6 +480,24 @@
   worn_image: Worn/2023 - Clothes - 19C615DD-DC24-4253-8C89-7ED9DE57B8B6.webp
   id: 24
   z_index: 3
+- name: Suit Shoes Black San Marina
+  id: 192
+  brand: San Marina
+  colors:
+  - Black
+  materials:
+  - Leather
+  size: Shoe EUR 41
+  category: Suit shoes
+  multiplicity: 1
+  buying_price: 75
+  buying_place: San Marina Toulouse
+  buying_date: '2013-11-16'
+  bought_new: true
+  not_logged_wear: 5
+  z_index: 1
+  image: Close-Up/
+  worn_image: Worn/
 - name: Suit Pant Black
   brand: Celio
   colors:
@@ -3535,6 +3553,6 @@
   buying_date: '2024-07-06'
   bought_new: false
   not_logged_wear: 0
-  z_index: 4
+  z_index: 3
   image: Close-Up/2023 - Clothes - FC440364-DF0E-43EF-8003-582C7CABAEA0.webp
   worn_image: Worn/

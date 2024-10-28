@@ -481,6 +481,44 @@ Add Item Page
     display: block;
 }
 
+.color-family-selector {
+    background-color: gray;
+    padding: 4px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.color-family-selector-wrap {
+    display: flex;
+    gap: 5px;
+}
+
+.color-family-checkbox-wrap {
+    display: flex;
+    align-content: center;
+    justify-items: center;
+}
+
+.color-family-colors-wrap {
+    display: flex;
+    border-radius: 5px;
+}
+
+.color-family-color {
+    width: 1em;
+    height: 1em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.color-family-color:first-of-type {
+    border-left: 1px solid black;
+}
+
+.color-family-color:last-of-type {
+    border-right: 1px solid black;
+}
+
 /* =========
 Day Log Page
 ========= */
@@ -648,13 +686,13 @@ Calendar Page
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  width: min(12vh, 12vw);
-  height: min(16vh, 16vw);
+  max-width: min(14vh, 14vw);
+  height: min(19vh, 19vw);
   transform:  rotate(var(--angle)) translate(min(30vh, 30vw)) rotate(calc(-1 * var(--angle))) translate(-50%, -50%);
 }
 
 .outfit-wheel-item-image {
-  max-width: min(12vh, 12vw);
+  max-width: min(14vh, 14vw);
 }
 
 /* ==========

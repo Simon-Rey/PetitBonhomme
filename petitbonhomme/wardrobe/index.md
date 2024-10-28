@@ -4,6 +4,10 @@ layout: default
 
 <h1>Wardrobe</h1>
 
+{% include color_family_selector.html family="Red" %}
+{% include color_family_selector.html family="Green" %}
+{% include color_family_selector.html family="Blue" %}
+
 <!-- Search and Filter Controls -->
 <div class="wardrobe-filters-wrap">
   <input type="text" id="search-bar" placeholder="Search by name..." onkeyup="filterItems()">
