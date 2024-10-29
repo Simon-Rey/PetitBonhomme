@@ -1,38 +1,56 @@
-{% assign selected_family = include.family %}
-{% assign colors = site.data.clothing_items_colours | where: "family", selected_family %}
+{% assign color_family = include.family %}
+{% assign colors = site.data.clothing_items_colors | where: "family", color_family %}
 
 <div class="color-family-selector">
   <div class="color-family-selector-wrap">
     <!-- Family Checkbox -->
     <div class="color-family-checkbox-wrap">
-      <input type="checkbox" class="color-family-checkbox" data-family="{{ selected_family }}" checked>
+      <input type="checkbox" class="color-family-checkbox" data-family="{{ color_family }}" checked>
     </div>
 
     <!-- Individual Color Checkboxes -->
     <div class="color-family-colors-wrap">
       {% for color in colors %}
-        <div class="color-family-color" style="background-color: #{{ color.HTML_code }};"></div>
+        {% include color_selector.html color=color%}
       {% endfor %}
     </div>
   </div>
 </div>
 
 <script>
-  // JavaScript for family and color checkboxes
-  document.addEventListener('DOMContentLoaded', function () {
-    // Get family checkbox and individual color checkboxes
-    const familyCheckbox = document.querySelector(`.family-checkbox[data-family="{{ selected_family }}"]`);
-    const colorCheckboxes = document.querySelectorAll(`.color-checkbox[data-family="{{ selected_family }}"]`);
+  document.addEventListener("DOMContentLoaded", function() {
+    const familyCheckboxes = document.querySelectorAll(".color-family-checkbox");
 
-    // Toggle individual color checkboxes based on family checkbox
-    familyCheckbox.addEventListener('change', function () {
-      colorCheckboxes.forEach(checkbox => checkbox.checked = familyCheckbox.checked);
+    function toggleFamilySelection(familyCheckbox) {
+      const familyName = familyCheckbox.dataset.family;
+      const colorSelectors = document.querySelectorAll(`.color-family-colors-wrap .color-selector[data-family="${familyName}"]`);
+
+      colorSelectors.forEach(selector => {
+        if (familyCheckbox.checked) {
+          selector.classList.add("selected");
+        } else {
+          selector.classList.remove("selected");
+        }
+      });
+    }
+
+    familyCheckboxes.forEach(familyCheckbox => {
+      familyCheckbox.addEventListener("change", function () {
+        toggleFamilySelection(familyCheckbox);
+      });
     });
 
-    // Update family checkbox based on individual color checkboxes
-    colorCheckboxes.forEach(checkbox => {
-      checkbox.addEventListener('change', function () {
-        familyCheckbox.checked = Array.from(colorCheckboxes).every(checkbox => checkbox.checked);
+    const colorSelectors = document.querySelectorAll(".color-selector");
+    colorSelectors.forEach(colorSelector => {
+      colorSelector.addEventListener("click", function() {
+        const familyName = colorSelector.dataset.family;
+        const familyCheckbox = document.querySelector(`.color-family-checkbox[data-family="${familyName}"]`);
+
+        colorSelector.classList.toggle("selected");
+
+        if (colorSelector.classList.contains("selected") && !familyCheckbox.checked) {
+          familyCheckbox.checked = true;
+        }
       });
     });
   });

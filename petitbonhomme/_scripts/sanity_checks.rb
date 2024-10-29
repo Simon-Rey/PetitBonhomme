@@ -22,14 +22,14 @@ def run_sanity_checks
   end
 
   # Check for missing colors
-  colors_path = File.join(Dir.pwd, '_data', 'clothing_items_colours.yml')
+  colors_path = File.join(Dir.pwd, '_data', 'clothing_items_colors.yml')
   valid_colors = YAML.load_file(colors_path).map { |color| color['name'] }
 
   clothing_items.each do |item|
     item_colors = item['colors']
     item_colors.each do |color|
       unless valid_colors.include?(color)
-        raise ValidationError, "ERROR: Color '#{color}' in clothing_items.yml is not listed in clothing_items_colours.yml"
+        raise ValidationError, "ERROR: Color '#{color}' in clothing_items.yml is not listed in clothing_items_colors.yml"
       end
     end
   end

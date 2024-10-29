@@ -1,10 +1,8 @@
-<label for="colors">Colors:</label>
-<div id="color-selector" class="color-selector">
-  {% for color in site.data.clothing_items_colours %}
-    <div id="color-circle-{{ color.name }}" class="color-circle" data-color="{{ color.name }}" style="background-color: #{{ color.HTML_code }};" title="{{ color.name }}" onclick="toggleColorSelection('color-circle-{{ color.name }}')">
-      <div class='color-circle-inner'>
-        <span class="color-circle-checkmark">&#10003;</span>
-      </div>
-    </div>
-  {% endfor %}
+
+{% assign color = include.color %}
+
+<div class="color-selector selected" data-color="{{ color.name }}" data-family="{{ color.family }}" style="background-color: #{{ color.HTML_code }};" onclick="toggleColorSelector(this)">
+  <div class='color-selector-inner-wrap'>
+    <span class="color-selector-checkmark">&#10003;</span>
+  </div>
 </div>
