@@ -432,6 +432,10 @@ Add Item Page
     margin-right: 20px;
 }
 
+/* ===========
+Color Selector
+=========== */
+
 .color-family-selector {
     background-color: white;
     padding: 4px;
@@ -458,6 +462,8 @@ Add Item Page
 .color-selector {
   border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
   width: 2ch;
   height: 2ch;
   cursor: pointer;
@@ -497,6 +503,17 @@ Add Item Page
     display: block;
 }
 
+/* ===========
+Brand Selector
+=========== */
+
+.brand-checkboxes-wrap {
+	height: 15ch;
+	overflow-y: scroll;
+    background-color: #fafbff;
+	padding: 10px;
+	border-radius: 5px;
+}
 
 /* =========
 Day Log Page

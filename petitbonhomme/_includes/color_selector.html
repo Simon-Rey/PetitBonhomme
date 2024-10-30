@@ -1,8 +1,50 @@
+{% assign all_color_families = site.data.clothing_items_colors | map: "family" | uniq %}
 
-{% assign color = include.color %}
-
-<div class="color-selector selected" data-color="{{ color.name }}" data-family="{{ color.family }}" style="background-color: #{{ color.HTML_code }};" onclick="toggleColorSelector(this)">
-  <div class='color-selector-inner-wrap'>
-    <span class="color-selector-checkmark">&#10003;</span>
-  </div>
+<div class="color-widget">
+{% for color_family in all_color_families %}
+  {% include color_selector_family.html family=color_family %}
+{% endfor %}
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const familyCheckboxes = document.querySelectorAll(".color-family-checkbox");
+
+    function toggleFamilySelection(familyCheckbox) {
+      const familyName = familyCheckbox.dataset.family;
+      const colorSelectors = document.querySelectorAll(`.color-family-colors-wrap .color-selector[data-family="${familyName}"]`);
+
+      colorSelectors.forEach(selector => {
+        if (familyCheckbox.checked) {
+          selector.classList.add("selected");
+        } else {
+          selector.classList.remove("selected");
+        }
+      });
+    }
+
+    familyCheckboxes.forEach(familyCheckbox => {
+      familyCheckbox.addEventListener("change", function () {
+        toggleFamilySelection(familyCheckbox);
+      });
+    });
+
+    function toggleColorSelector(colorSelector) {
+        const familyName = colorSelector.dataset.family;
+        const familyCheckbox = document.querySelector(`.color-family-checkbox[data-family="${familyName}"]`);
+
+        colorSelector.classList.toggle("selected");
+
+        if (colorSelector.classList.contains("selected") && !familyCheckbox.checked) {
+          familyCheckbox.checked = true;
+        }
+    }
+
+    const colorSelectors = document.querySelectorAll(".color-selector");
+    colorSelectors.forEach(colorSelector => {
+      colorSelector.addEventListener("click", function() {
+        toggleColorSelector(colorSelector);
+      });
+    });
+  });
+</script>

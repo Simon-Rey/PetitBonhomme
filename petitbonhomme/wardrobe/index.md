@@ -4,13 +4,8 @@ layout: default
 
 <h1>Wardrobe</h1>
 
-{% assign all_color_families = site.data.clothing_items_colors | map: "family" | uniq %}
-
-<div class="color-widget">
-{% for color_family in all_color_families %}
-  {% include color_family_selector.html family=color_family %}
-{% endfor %}
-</div>
+{% include color_selector.html %}
+{% include brand_selector.html %}
 
 <!-- Search and Filter Controls -->
 <div class="wardrobe-filters-wrap">

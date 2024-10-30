@@ -1,0 +1,18 @@
+{% assign color_family = include.family %}
+{% assign colors = site.data.clothing_items_colors | where: "family", color_family %}
+
+<div class="color-family-selector">
+  <div class="color-family-selector-wrap">
+    <!-- Family Checkbox -->
+    <div class="color-family-checkbox-wrap">
+      <input type="checkbox" class="color-family-checkbox" data-family="{{ color_family }}" checked>
+    </div>
+
+    <!-- Individual Color Checkboxes -->
+    <div class="color-family-colors-wrap">
+      {% for color in colors %}
+        {% include color_selector_individual.html color=color%}
+      {% endfor %}
+    </div>
+  </div>
+</div>
