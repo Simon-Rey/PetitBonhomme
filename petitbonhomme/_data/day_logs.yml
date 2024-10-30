@@ -1,4 +1,13 @@
-
+- date: "2024-10-30"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Balloon Leg Black Levi's"
+       - "Brick Red Coat"
+       - "Thinking Mu Beige Multicolor Sweater"
+       - "White and Blue Light Sweater"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
 - date: "2024-10-29"
   outfits:
     - items:
