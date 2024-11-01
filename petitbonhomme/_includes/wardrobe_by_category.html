@@ -1,0 +1,24 @@
+{% for category in include.categories %}
+  <div class="category-wrap">
+    <div class="category-title collapsible-header">
+        <h2><span>{{ category.name | title_case }}</span><span class="arrow-down"> </span></h2>
+    </div>
+    <div class="collapsible-content">
+      {% if category.children %}
+        {% include wardrobe_by_category.html categories=category.children item_template_name=include.item_template_name %}
+      {% else %}
+        {% assign category_items = site.data.clothing_items | where: "category", category.name %}
+
+        {% if category_items.size > 0 %}
+          <div class="category-items-wrap">
+            {% for item in category_items %}
+              {% if item.worn_image and item.worn_image != "Worn/" %}
+                {% include item_display_forking.html template_name=include.item_template_name item=item %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}

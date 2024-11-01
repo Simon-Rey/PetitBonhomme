@@ -4,60 +4,14 @@ layout: default
 
 <h1>Wardrobe</h1>
 
-{% include color_selector.html %}
-{% include brand_selector.html %}
-
 <!-- Search and Filter Controls -->
 <div class="wardrobe-filters-wrap">
-  <input type="text" id="search-bar" placeholder="Search by name..." onkeyup="filterItems()">
-
-  <select id="brand-filter" onchange="filterItems()">
-    <option value="">All Brands</option>
-    {% assign brands = site.data.clothing_items | map: 'brand' | uniq %}
-    {% for brand in brands %}
-      <option value="{{ brand }}">{{ brand }}</option>
-    {% endfor %}
-  </select>
-
-  <select id="color-filter" onchange="filterItems()">
-    <option value="">All Colors</option>
-    {% assign colors = site.data.clothing_items | map: 'colors' | join: ',' | split: ',' | uniq %}
-    {% for color in colors %}
-      <option value="{{ color }}">{{ color }}</option>
-    {% endfor %}
-  </select>
-
-  <select id="category-filter" onchange="filterItems()">
-    <option value="">All Categories</option>
-    {% assign categories = site.data.clothing_items | map: 'category' | uniq %}
-    {% for category in categories %}
-      <option value="{{ category }}">{{ category }}</option>
-    {% endfor %}
-  </select>
+{% include color_selector.html %}
+{% include brand_selector.html %}
 </div>
 
-<!-- Wardrobe Items Display -->
-<div class="wardrobe-container" id="wardrobe-container">
-{% for item in site.data.clothing_items %}
-
-{% assign wear_count = item.name | logged_wear_count: site.data.day_logs | plus: item.not_logged_wear %}
-
-{% if wear_count > 0 %}
-{% assign price_per_wear = item.buying_price | divided_by: wear_count %} 
-{% else %}
-{% assign price_per_wear = item.buying_price %}
-{% endif %}
-
-<div class="wardrobe-item" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-category="{{ item.category }}" data-name="{{ item.name }}">
-<div class="wardrobe-item-img-wrap">
-<a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}"><img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}"></a>
-</div>
-<div>
-<p>Worn: {{ wear_count }}</p>
-<p>Price per wear: {{ price_per_wear }}</p>
-</div>
-</div>
-{% endfor %}
+<div id="wardrobe-wrap">
+{% include wardrobe_by_category.html categories=site.data.clothing_items_categories item_template_name="wardrobe" %}
 </div>
 
 <script>
@@ -87,4 +41,15 @@ function filterItems() {
     }
   });
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    const nextCollapsibles = document.querySelectorAll(".collapsible-header");
+
+    nextCollapsibles.forEach(function (e) {
+        e.addEventListener("click", function () {
+            this.classList.toggle("collapsed");
+            this.nextElementSibling.classList.toggle("hidden");
+        });
+    });
+});
 </script>

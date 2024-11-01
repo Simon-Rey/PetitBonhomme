@@ -1,0 +1,19 @@
+{% assign item = include.item %}
+
+{% assign wear_count = item.name | logged_wear_count: site.data.day_logs | plus: item.not_logged_wear %}
+
+{% if wear_count > 0 %}
+{% assign price_per_wear = item.buying_price | divided_by: wear_count %}
+{% else %}
+{% assign price_per_wear = item.buying_price %}
+{% endif %}
+
+<div class="wardrobe-item" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-category="{{ item.category }}" data-name="{{ item.name }}">
+<div class="wardrobe-item-img-wrap">
+<a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}"><img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}"></a>
+</div>
+<div>
+<p>Worn: {{ wear_count }}</p>
+<p>Price per wear: {{ price_per_wear }}</p>
+</div>
+</div>

@@ -1,11 +1,16 @@
 {% assign sorted_brands = site.data.clothing_items_brands | sort: 'name' %}
 <div class="brand-widget">
-    <button type="button" class="all-brands-toggle-button">Select None</button>
+    <div class="brand-widget-header">
+        <div class="brand-search-wrap">
+            <input class="brand-search" type="text" placeholder="Search for a brand...">
+        </div>
+        <button type="button" class="all-brands-toggle-button">Reset</button>
+    </div>
     <div class="brand-checkboxes-wrap">
         {% for brand in sorted_brands %}
-            <div>
+            <div class="brand-checkbox-wrap" data-brand="{{ brand.name }}">
                 <label>
-                    <input type="checkbox" name="brand" value="{{ brand.name }}" checked>
+                    <input type="checkbox" name="brand" value="{{ brand.name }}">
                     <span class="filter-label">{{ brand.name }}</span>
                 </label>
             </div>
@@ -14,22 +19,36 @@
 </div>
 
 <script>
-    function toggleBrandSelector(forceSelectAll = false) {
-		const datasetCheckboxes = brandWidget.querySelectorAll('input[name="brand"]');
-        let allChecked;
-        if (forceSelectAll) {
-            allChecked = false;
-        } else {
-            allChecked = Array.from(datasetCheckboxes).every(checkbox => checkbox.checked);
-        }
-		datasetCheckboxes.forEach(checkbox => checkbox.checked = !allChecked);
-		document.getElementById('select-all-datasets').textContent = allChecked ? 'Select All' : 'Select None';
+    function resetBrandSelector(brandWidget) {
+		brandWidget.querySelectorAll('input[name="brand"]').forEach(checkbox => checkbox.checked = false);
 	}
 
-    document.addEventListener("DOMContentLoaded", function() {
-        document.getElementById('all-brands-toggle-button').addEventListener('click', function () {
-            toggleBrandSelector();
+    function filterBrands(brandWidget, filterInput) {
+        const filterValue = filterInput.value.toLowerCase();
+        const items = brandWidget.querySelectorAll('.brand-checkbox-wrap');
+        items.forEach(item => {
+            const itemName = item.dataset.brand.toLowerCase();
+            if (!itemName.includes(filterValue)) {
+                item.style.display = 'none';
+            } else {
+                item.style.display = '';
+            }
         });
-        }
-    );
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const brandWidgets = document.querySelectorAll('.brand-widget');
+
+        brandWidgets.forEach(brandWidget => {
+            const toggleAllButton = brandWidget.querySelector(".all-brands-toggle-button");
+            toggleAllButton.addEventListener('click', function () {
+                resetBrandSelector(brandWidget, toggleAllButton);
+            });
+
+            const filterInput = brandWidget.querySelector('.brand-search');
+            filterInput.addEventListener('input', () => {
+                filterBrands(brandWidget, filterInput);
+            });
+        });
+    });
 </script>

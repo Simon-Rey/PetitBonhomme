@@ -1,0 +1,5 @@
+{% if include.template_name == "wardrobe" %}
+    {% include item_display_wardrobe.html item=include.item %}
+{% elsif include.template_name == "style_me" %}
+    {% include item_display_style_me.html item=include.item %}
+{% endif %}

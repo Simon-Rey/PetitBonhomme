@@ -1,25 +1,19 @@
 - name: "Top"
   children:
-    - name: "Shirt"
-      children:
-        - name: "Long sleeved shirt"
-          default_z_index: 4
-        - name: "Short sleeved shirt"
-          default_z_index: 4
-        - name: "Blouse"
-          default_z_index: 4
+    - name: "Long sleeved shirt"
+      default_z_index: 4
+    - name: "Blouse"
+      default_z_index: 4
     - name: "T-Shirt"
-      children:
-        - name: "T-shirt"
-          default_z_index: 3
-        - name: "Polo shirt"
-          default_z_index: 3
-        - name: "Long sleeved T-shirt"
-          default_z_index: 3
-        - name: "Sport T-shirt"
-          default_z_index: 3
-        - name: "Tank top"
-          default_z_index: 3
+      default_z_index: 3
+    - name: "Polo shirt"
+      default_z_index: 3
+    - name: "Long sleeved T-shirt"
+      default_z_index: 3
+    - name: "Sport T-shirt"
+      default_z_index: 3
+    - name: "Tank top"
+      default_z_index: 3
     - name: "Jumper"
       children:
         - name: "Jumper"
@@ -73,37 +67,25 @@
 - name: "Outerwear"
   children:
     - name: "Jacket"
-      children:
-        - name: "Jacket"
-          default_z_index: 7
-        - name: "Coat"
-          default_z_index: 7
-        - name: "Rain coat"
-          default_z_index: 7
+      default_z_index: 7
+    - name: "Coat"
+      default_z_index: 7
+    - name: "Rain coat"
+      default_z_index: 7
     - name: "Cape"
       default_z_index: 7
     - name: "Blazer"
       default_z_index: 7
 - name: "Footwear"
   children:
-    - name: "Sneakers"
-      children:
-        - name: "Running shoes"
-          default_z_index: 1
-        - name: "City sneakers"
-          default_z_index: 1
-    - name: "Boots"
-      children:
-        - name: "Ankle boots"
-          default_z_index: 1
-        - name: "Knee-high boots"
-          default_z_index: 1
+    - name: "Running shoes"
+      default_z_index: 1
+    - name: "City sneakers"
+      default_z_index: 1
+    - name: "Ankle boots"
+      default_z_index: 1
     - name: "Sandals"
-      children:
-        - name: "Flip-flops"
-          default_z_index: 1
-        - name: "Slide sandals"
-          default_z_index: 1
+      default_z_index: 1
     - name: "City shoes"
       default_z_index: 1
     - name: "Suit shoes"
@@ -115,8 +97,6 @@
     - name: "Hat"
       default_z_index: 8
     - name: "Scarf"
-      default_z_index: 8
-    - name: "Nail polish"
       default_z_index: 8
     - name: "Bow Tie"
       default_z_index: 8

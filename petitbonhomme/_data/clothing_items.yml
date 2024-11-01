@@ -43,7 +43,7 @@
   materials:
   - Leather
   size: EUR 41
-  category: Slide sandals
+  category: Sandals
   multiplicity: 1
   buying_price: 20
   buying_place: Vinted
@@ -451,7 +451,7 @@
   materials:
   - Cotton
   size: Woman - UK 10
-  category: Jumpsuit
+  category: Dungarees
   multiplicity: 1
   buying_price: 45
   buying_place: Lucy & Jak Webshop
@@ -688,8 +688,8 @@
   worn_image: Worn/2023 - Clothes - 3CB46FAF-ABC7-4D43-B325-1817E6DE516A.webp
   id: 34
   z_index: 7
-- name: Blue Shirt Corderoy American Today
-  brand: American Today
+- name: Blue Shirt Corderoy America Today
+  brand: America Today
   colors:
   - Blue
   - Navy
@@ -699,7 +699,7 @@
   category: Long sleeved shirt
   multiplicity: 1
   buying_price: 55
-  buying_place: American Today Amsterdam
+  buying_place: America Today Amsterdam
   buying_date: '2019-11-15'
   bought_new: true
   not_logged_wear: 15
@@ -1657,7 +1657,7 @@
   materials:
   - Polyester & Plastics
   size: Shoe EUR 41.5
-  category: Ankle boots
+  category: Hiking Shoes
   multiplicity: 1
   buying_price: 75
   buying_place: Candy Shop Amsterdam
@@ -3522,7 +3522,7 @@
   worn_image: Worn/
 - name: Green Another Label Sweater
   id: 188
-  brand: ASICS
+  brand: Another Label
   colors:
   - Green
   materials:

@@ -43,7 +43,7 @@ layout: default
   <!-- Clothing Items List -->
 
   <div id="style-me-wardrobe">
-    {% include styleme_category_display.html categories=site.data.clothing_items_categories %}
+    {% include wardrobe_by_category.html categories=site.data.clothing_items_categories  item_template_name="style_me" %}
   </div>
   
 </div>
