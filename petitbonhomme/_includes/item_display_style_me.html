@@ -1,5 +1,5 @@
 {% assign item = include.item %}
 
-<div class="item" onclick="toggleSelection(this)" data-name="{{ item.name }}" data-worn-image="{{ item.worn_image }}" data-z-index="{{ item.z_index }}">
+<div class="item" onclick="toggleItemSelection(this)" data-name="{{ item.name }}" data-worn-image="{{ site.baseurl }}/assets/img/clothes/{{ item.worn_image }}" data-z-index="{{ item.z_index| plus: 20 }}">
 <img src="{{ site.baseurl }}/assets/img/clothes/{{ item.image }}" alt="{{ item.name }}" class="category-item">
 </div>

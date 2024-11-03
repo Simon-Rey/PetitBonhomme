@@ -660,7 +660,7 @@ Calendar Page
 }
 
 .calendar-navigation {
-    border: 2px solid var(--color-background-dark);
+    background: var(--color-frame-light);
     padding: 20px;
     margin: 30px 0;
 }
@@ -687,7 +687,7 @@ Calendar Page
 }
 
 .calendar-navigation-button.active {
-    background-color: var(--color-frame);
+    background-color: var(--color-background-light);
 }
 
 .calendar-grid {
@@ -882,57 +882,23 @@ Wardrobe Page
 Style Me Page
 ========== */
 
-.style-me-wrap {
+#style-me-wrap {
   display: flex;
-  height: 70vh;
+  flex-direction: row;
+  gap: 20px;
 }
 
-.right-panel {
-  padding: 20px;
-  width: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#style-me-outfit .outfit-stack {
+    margin: 20vh auto;
+    width: min(80vh, 80vw);
+    height: min(80vh, 80vw);
 }
 
-.left-panel {
-  padding: 20px;
-  width: 70%;
-  overflow-y: auto;
-  background-color: #fff;
+#style-me-wrap #wardrobe-wrap {
+    height: 35vh;
+    overflow: auto;
 }
 
-#style-me-wardrobe .category-items-wrap {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-#style-me-wardrobe .category-title {
-    font-size: 1.3rem;
-    margin: 10px 0;
-    padding: 10px;
-    background-color: var(--color-frame-light);
-}
-
-#style-me-wardrobe .category-item {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  width: 150px;
-}
-
-#style-me-stack {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-}
-
-#style-me-stack .outfit-item-image {
-  position: absolute;
-  width: 90%;
-  opacity: 1;
+#style-me-wrap #wardrobe-wrap .category-item {
+    max-height: 25vh;
 }

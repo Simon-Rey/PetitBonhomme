@@ -1,6 +1,6 @@
 {% assign show_wheel = include.show_wheel | default: false %}
 
-<div class="outfit-stack" onmouseover="showWheel(this)" onmouseout="hideWheel(this)" on click="hide wheel(this)">
+<div class="outfit-stack" onmouseover="showWheel(this)" onmouseout="hideWheel(this)" onclick="hideWheel(this)">
   <!-- Usual stacked outfit display -->
   {% for item_name in include.outfit.items %}
     {% assign item = site.data.clothing_items | where: "name", item_name | first %}
@@ -24,17 +24,19 @@
     {% assign filtered_items = outfit_items | where_exp: "item", "item.image != 'Close-Up/'" %}
     {% assign item_count = filtered_items.size %}
 
-    {% assign angle_step = 360 | divided_by: item_count %}
-    {% for item in filtered_items %}
-      {% if item.image and item.image != 'Close-Up/' %}
-        {% assign angle = forloop.index0 | times: angle_step %}
-        {% assign wheel_image_path = "assets/img/clothes/" | append: item.image %}
-        <a class="outfit-wheel-item-image-wrap" href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}" style="--angle: {{ angle }}deg;">
-          <div>
-            <img src="{{ site.baseurl }}/{{ wheel_image_path }}" alt="{{ item.name }}" class="outfit-wheel-item-image">
-          </div>
-        </a>
-      {% endif %}
-    {% endfor %}
+    {% if item_count > 0 %}
+      {% assign angle_step = 360 | divided_by: item_count %}
+      {% for item in filtered_items %}
+        {% if item.image and item.image != 'Close-Up/' %}
+          {% assign angle = forloop.index0 | times: angle_step %}
+          {% assign wheel_image_path = "assets/img/clothes/" | append: item.image %}
+          <a class="outfit-wheel-item-image-wrap" href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}" style="--angle: {{ angle }}deg;">
+            <div>
+              <img src="{{ site.baseurl }}/{{ wheel_image_path }}" alt="{{ item.name }}" class="outfit-wheel-item-image">
+            </div>
+          </a>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
   </div>
 </div>
