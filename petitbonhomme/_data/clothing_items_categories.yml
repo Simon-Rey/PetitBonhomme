@@ -99,4 +99,4 @@
     - name: "Scarf"
       default_z_index: 8
     - name: "Bow Tie"
-      default_z_index: 8
+      default_z_index: 9

@@ -811,14 +811,19 @@ Wardrobe Page
 }
 
 #wardrobe-wrap .category-title {
-    font-weight: bold;
-    font-size: larger;
     background-color: var(--color-frame-light);
     padding: 10px 20px;
+    cursor: pointer;
+}
+
+#wardrobe-wrap > .category-wrap > .category-title {
+    font-size: larger;
+}
+
+.first-category-title {
     position: sticky;
     top: 0;
     z-index: 1;
-    cursor: pointer;
 }
 
 #wardrobe-wrap .category-title h2 {
@@ -883,22 +888,57 @@ Style Me Page
 ========== */
 
 #style-me-wrap {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 950px) {
+    #style-me-wrap {
+        flex-direction: column-reverse;
+    }
 }
 
 #style-me-outfit .outfit-stack {
-    margin: 20vh auto;
     width: min(80vh, 80vw);
     height: min(80vh, 80vw);
 }
 
 #style-me-wrap #wardrobe-wrap {
-    height: 35vh;
-    overflow: auto;
+    max-height: 40vh;
+    overflow-y: scroll;
 }
 
 #style-me-wrap #wardrobe-wrap .category-item {
     max-height: 25vh;
+}
+
+#style-me-filters .brand-widget {
+    font-size: smaller;
+}
+
+#style-me-wrap .category-wrap h2 {
+    font-size: smaller;
+}
+
+#style-me-filters .color-family-checkbox .color-family-checkbox-inner-wrap {
+    width: 1ch;
+    height: 1ch;
+}
+
+#style-me-filters .color-selector {
+    width: 1ch;
+    height: 1ch;
+    border-right: 1px solid white;
+}
+
+#style-me-filters .color-selector:last-of-type {
+    border-right: none;
+}
+
+#style-me-filters .color-family-checkbox .color-family-checkbox-checkmark {
+    max-width: 1ch;
+    max-height: 1ch;
 }

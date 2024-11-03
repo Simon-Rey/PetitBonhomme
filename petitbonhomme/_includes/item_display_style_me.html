@@ -1,5 +1,9 @@
 {% assign item = include.item %}
 
-<div class="item" onclick="toggleItemSelection(this)" data-name="{{ item.name }}" data-worn-image="{{ site.baseurl }}/assets/img/clothes/{{ item.worn_image }}" data-z-index="{{ item.z_index| plus: 20 }}">
-<img src="{{ site.baseurl }}/assets/img/clothes/{{ item.image }}" alt="{{ item.name }}" class="category-item">
-</div>
+{% if item.image and item.image != "Close-Up/" and item.worn_image and item.worn_image != "Worn/" %}
+    <div class="wardrobe-item" onclick="toggleItemSelection(this)" data-name="{{ item.name }}" data-worn-image="{{ site.baseurl }}/assets/img/clothes/{{ item.worn_image }}" data-image="{{ site.baseurl }}/assets/img/clothes/{{ item.image }}" data-z-index="{{ item.z_index| plus: 20 }}" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-colors-family="{{ color-families }}">
+        <div class="wardrobe-item-img-wrap">
+            <img src="{{ site.baseurl }}/assets/img/clothes/{{ item.image }}" alt="{{ item.name }}" class="category-item">
+        </div>
+    </div>
+{% endif %}

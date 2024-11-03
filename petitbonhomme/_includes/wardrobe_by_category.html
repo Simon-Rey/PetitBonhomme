@@ -1,6 +1,7 @@
 {% for category in include.categories %}
   <div class="category-wrap">
-    <div class="category-title collapsible-header">
+    {% assign firstHeader = site.data.clothing_items_categories | find: "name", category.name %}
+    <div class="category-title {% if firstHeader %}first-category-title {% endif %}collapsible-header">
         <h2><span>{{ category.name | title_case }}</span><span class="arrow-down"> </span></h2>
     </div>
     <div class="collapsible-content">

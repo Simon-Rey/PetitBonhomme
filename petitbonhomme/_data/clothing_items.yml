@@ -454,7 +454,7 @@
   image: Close-Up/2023 - Clothes - 302FFF94-98AB-4942-A3C6-E6A6F3C3BAAB.webp
   worn_image: Worn/2023 - Clothes - 1988FFE1-FE96-4C45-A87F-C1E9CE111BFB.webp
   id: 23
-  z_index: 4
+  z_index: 6
 - name: Long Sleeve Black T-Shirt Tico
   brand: No Brand
   colors:
@@ -1657,7 +1657,7 @@
   materials:
   - Polyester & Plastics
   size: Shoe EUR 41.5
-  category: Hiking Shoes
+  category: Hiking shoes
   multiplicity: 1
   buying_price: 75
   buying_place: Candy Shop Amsterdam
@@ -1833,7 +1833,7 @@
   image: Close-Up/2023 - Clothes - B60272ED-FB74-4CB7-8BF0-B72F17A53932.webp
   worn_image: Worn/2023 - Clothes - 7B248220-7642-40CD-81BA-FFAFC19DB59A.webp
   id: 96
-  z_index: 8
+  z_index: 9
 - name: Dark Blue Dickies Pants
   brand: Dickies
   colors:
@@ -3111,7 +3111,7 @@
   image: Close-Up/2023 - Clothes - 6BA03860-4946-43D7-8A1C-EDFBFCD25EEB.webp
   worn_image: Worn/2023 - Clothes - E781F996-CB3D-4CE7-B6CF-488D47A8FEA6.webp
   id: 165
-  z_index: 8
+  z_index: 9
 - name: Dark Blue Hollister Hoodie
   brand: Hollister
   colors:
