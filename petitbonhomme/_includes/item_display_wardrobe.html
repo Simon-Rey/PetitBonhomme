@@ -8,7 +8,8 @@
 {% assign price_per_wear = item.buying_price %}
 {% endif %}
 
-<div class="wardrobe-item" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-category="{{ item.category }}" data-name="{{ item.name }}">
+{% capture color-families %}{% for color in item.colors %}{% assign color_item = site.data.clothing_items_colors | find: "name", color %}{{ color_item.family }} {% endfor %}{% endcapture %}
+<div class="wardrobe-item" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-colors-family="{{ color-families }}">
 <div class="wardrobe-item-img-wrap">
 <a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}"><img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}"></a>
 </div>

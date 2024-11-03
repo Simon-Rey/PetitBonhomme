@@ -52,7 +52,7 @@ def is_image_used(image_path, yaml_data):
 # Function to handle image display and update workflow
 def display_image_and_update(folder_path, yaml_data, yaml_file):
     # Get all image files from the folder
-    image_files = [f for f in os.listdir(folder_path) if f.endswith(('.png', '.jpg', '.jpeg', '.gif'))]
+    image_files = [f for f in os.listdir(folder_path) if f.endswith(('.png', '.jpg', '.jpeg', '.gif', '.webp'))]
 
     # Filter out images that are already used in any clothing item
     unused_image_files = [f for f in image_files if not is_image_used(f, yaml_data)]

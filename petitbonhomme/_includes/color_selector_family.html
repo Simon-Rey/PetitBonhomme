@@ -2,10 +2,14 @@
 {% assign colors = site.data.clothing_items_colors | where: "family", color_family %}
 
 <div class="color-family-selector">
-  <div class="color-family-selector-wrap">
+  <div class="color-family-selector-wrap" data-family="{{ color_family }}">
     <!-- Family Checkbox -->
     <div class="color-family-checkbox-wrap">
-      <input type="checkbox" class="color-family-checkbox" data-family="{{ color_family }}" checked>
+      <div class="color-family-checkbox" data-family="{{ color_family }}">
+          <div class="color-family-checkbox-inner-wrap">
+            <span class="color-family-checkbox-checkmark">&#10003;</span>
+          </div>
+      </div>
     </div>
 
     <!-- Individual Color Checkboxes -->

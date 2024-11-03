@@ -1,21 +1,12 @@
 :root {
 	--color-frame: #b9ffa2;
-	--color-frame-dark: #6afc3b;
+	--color-frame-bright: #6afc3b;
+	--color-frame-dark: #86c075;
 	--color-frame-light: #deffd3;
 	--color-background-light: white;
 	--color-background: #f1f1f1;
 	--color-background-dark: #ececec;
-	--color-success-light: #a4e8a1;
-	--color-success: #8ace66;
-	--color-success-dark: #468a1a;
-	--color-warning-light: #ffc19c;
-	--color-warning: #ffa36c;
-	--color-warning-dark: #d75a0e;
-	--color-error-light: #f59e9e;
-	--color-error: #ff7474;
-	--color-error-dark: #b93030;
-	--color-navigation-button: #333;
-	--color-process-button: #325181;
+	--color-background-very-dark: #c2c2c2;
 }
 
 /* =======
@@ -141,7 +132,7 @@ header {
 
 .navigation-wrap .navigation-icon:hover {
     background-color: var(--color-background);
-    border: var(--color-frame-dark) 3px solid;
+    border: var(--color-frame-bright) 3px solid;
 }
 
 header .main-title {
@@ -322,12 +313,12 @@ General Stuff
 ========== */
 
 .checkmark {
-    color: var(--color-success-dark);
+    color: #5aa82c;
     font-size: 24px;
 }
 
 .crossmark {
-    color: var(--color-error-dark);
+    color: #af4e4e;
     font-size: 24px;
 }
 
@@ -440,34 +431,74 @@ Add Item Page
 Color Selector
 =========== */
 
+.color-widget {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
 .color-family-selector {
-    background-color: white;
-    padding: 4px;
-    border-radius: 5px;
-    display: inline-block;
+  padding: 4px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .color-family-selector-wrap {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .color-family-checkbox-wrap {
-    display: flex;
-    align-content: center;
-    justify-items: center;
+  display: flex;
+  align-content: center;
+  justify-items: center;
 }
 
 .color-family-colors-wrap {
+  display: flex;
+  border: 2px solid #525252;
+}
+
+.color-family-checkbox .color-family-checkbox-inner-wrap {
+    width: 2ch;
+    height: 2ch;
+    background-color: var(--color-background-light);
+    border: 2px solid var(--color-frame);
+    border-radius: 50%;
     display: flex;
-    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.color-family-checkbox.selected .color-family-checkbox-inner-wrap {
+    background-color: var(--color-frame);
+}
+
+.color-family-checkbox .color-family-checkbox-checkmark {
+    visibility: hidden;
+    display: inline-block;
+    font-size: smaller;
+    font-weight: 1000;
+    max-width: 2ch;
+    max-height: 2ch;
+    color: black;
+    position: relative;
+    bottom: 0.1em;
+}
+
+.color-family-checkbox.selected .color-family-checkbox-checkmark {
+    visibility: visible;
 }
 
 .color-selector {
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-    border-left: 2px solid #fff;
-    border-right: 2px solid #fff;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
   width: 2ch;
   height: 2ch;
   cursor: pointer;
@@ -478,11 +509,11 @@ Color Selector
 }
 
 .color-selector:first-of-type {
-    border-left: 2px solid #fff;
+    border-left: none;
 }
 
 .color-selector:last-of-type {
-    border-right: 2px solid #fff;
+    border-right: none;
 }
 
 .color-selector-inner-wrap {
@@ -512,12 +543,12 @@ Brand Selector
 =========== */
 
 .brand-widget {
-    border: 2px solid var(--color-frame-dark);
 }
 
 .brand-widget-header {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    background: var(--color-background);
 }
 
 .brand-search-wrap {
@@ -526,16 +557,25 @@ Brand Selector
 
 .brand-search {
     width: 100%;
-    border-left: none;
-    border-top: 2px solid var(--color-background-dark);
-    border-bottom: 2px solid var(--color-background-dark);
+    border: none;
     padding-left: 10px;
+    box-sizing: border-box;
+    background-color: var(--color-background-light);
+}
+
+.brand-search:hover {
+    background-color: var(--color-background);
 }
 
 .all-brands-toggle-button {
     border-radius: 0;
     border: none;
     font: inherit;
+    background-color: var(--color-background);
+    cursor: pointer;
+}
+
+.all-brands-toggle-button:hover {
     background-color: var(--color-background-dark);
 }
 
@@ -543,7 +583,6 @@ Brand Selector
 	height: 15ch;
 	overflow-y: scroll;
     background-color: #fafbff;
-	border-radius: 5px;
 }
 
 .brand-checkbox-wrap {
@@ -657,7 +696,7 @@ Calendar Page
   gap: 10px;
   margin-top: 20px;
   justify-content: space-between;
-  padding: 0 min(30vh, 30vw) min(20vh, 20vw) min(30vh, 30vw);
+  padding: 0 min(20vh, 20vw) min(10vh, 10vw) min(20vh, 20vw);
 }
 
 .calendar-day {
@@ -746,6 +785,10 @@ Calendar Page
 Wardrobe Page
 ========== */
 
+#wardrobe-and-filters-wrap {
+    background: var(--color-frame-light);
+}
+
 .wardrobe-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -759,8 +802,12 @@ Wardrobe Page
   gap: 10px;
 }
 
-#wardrobe-wrap {
+.wardrobe-filters-wrap .brand-widget {
+    padding: 10px;
+}
 
+#wardrobe-wrap {
+    background: var(--color-background-light);
 }
 
 #wardrobe-wrap .category-title {
@@ -795,7 +842,7 @@ Wardrobe Page
 }
 
 #wardrobe-wrap .category-wrap {
-    padding-left: 20px;
+    border-left: 10px solid var(--color-frame-light);
 }
 
 #wardrobe-wrap > .category-wrap {
@@ -805,10 +852,10 @@ Wardrobe Page
 #wardrobe-wrap .category-items-wrap {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #wardrobe-wrap .wardrobe-item {
-    border: 1px solid var(--color-frame-dark);
     border-radius: 5px;
     padding: 10px 20px;
     display: flex;

@@ -1,122 +1,45 @@
 # Red Family
-- name: "Red"
-  HTML_code: "FF0000"
+- name: "BrightRed"
+  HTML_code: "EE4B2B"
   family: "Red"
 
-- name: "Crimson"
-  HTML_code: "DC143C"
+- name: "BrickRed"
+  HTML_code: "AA4A44"
   family: "Red"
 
-- name: "Maroon"
-  HTML_code: "800000"
+- name: "Burgundy"
+  HTML_code: "800020"
   family: "Red"
 
-- name: "Salmon"
-  HTML_code: "FA8072"
-  family: "Red"
+# Brown Family
+- name: "Fawn"
+  HTML_code: "E5AA70"
+  family: "Brown"
 
-- name: "LightCoral"
-  HTML_code: "F08080"
-  family: "Red"
+- name: "LightBrown"
+  HTML_code: "C4A484"
+  family: "Brown"
 
-- name: "Pink"
-  HTML_code: "FFC0CB"
-  family: "Red"
+- name: "Coffee"
+  HTML_code: "6F4E37"
+  family: "Brown"
 
-# Green Family
-- name: "Green"
-  HTML_code: "00FF00"
-  family: "Green"
+# Orange Family
+- name: "BrightOrange"
+  HTML_code: "FFAC1C"
+  family: "Orange"
 
-- name: "Lime"
-  HTML_code: "00FF00"
-  family: "Green"
+- name: "NeonOrange"
+  HTML_code: "FF5F1F"
+  family: "Orange"
 
-- name: "ForestGreen"
-  HTML_code: "228B22"
-  family: "Green"
+- name: "BurntOrange"
+  HTML_code: "CC5500"
+  family: "Orange"
 
-- name: "Olive"
-  HTML_code: "808000"
-  family: "Green"
-
-- name: "Teal"
-  HTML_code: "008080"
-  family: "Green"
-
-- name: "SeaGreen"
-  HTML_code: "2E8B57"
-  family: "Green"
-
-- name: "MediumSeaGreen"
-  HTML_code: "3CB371"
-  family: "Green"
-
-- name: "DarkGreen"
-  HTML_code: "006400"
-  family: "Green"
-
-# Blue Family
-- name: "Blue"
-  HTML_code: "0000FF"
-  family: "Blue"
-
-- name: "Cyan"
-  HTML_code: "00FFFF"
-  family: "Blue"
-
-- name: "SkyBlue"
-  HTML_code: "87CEEB"
-  family: "Blue"
-
-- name: "DodgerBlue"
-  HTML_code: "1E90FF"
-  family: "Blue"
-
-- name: "Navy"
-  HTML_code: "000080"
-  family: "Blue"
-
-- name: "SlateBlue"
-  HTML_code: "6A5ACD"
-  family: "Blue"
-
-- name: "SteelBlue"
-  HTML_code: "4682B4"
-  family: "Blue"
-
-- name: "RoyalBlue"
-  HTML_code: "4169E1"
-  family: "Blue"
-
-- name: "Indigo"
-  HTML_code: "4B0082"
-  family: "Blue"
-
-# Purple Family
-- name: "Magenta"
-  HTML_code: "FF00FF"
-  family: "Purple"
-
-- name: "Purple"
-  HTML_code: "800080"
-  family: "Purple"
-
-- name: "Lavender"
-  HTML_code: "E6E6FA"
-  family: "Purple"
-
-- name: "Thistle"
-  HTML_code: "D8BFD8"
-  family: "Purple"
-
-- name: "Plum"
-  HTML_code: "DDA0DD"
-  family: "Purple"
-
-- name: "Violet"
-  HTML_code: "EE82EE"
-  family: "Purple"
+- name: "DarkOrange"
+  HTML_code: "8B4000"
+  family: "Orange"
 
 # Yellow Family
 - name: "Yellow"
@@ -127,73 +50,109 @@
   HTML_code: "FFD700"
   family: "Yellow"
 
-- name: "Khaki"
-  HTML_code: "F0E68C"
-  family: "Yellow"
+# Green Family
+- name: "PastelGreen"
+  HTML_code: "C1E1C1"
+  family: "Green"
 
-- name: "LightGoldenRodYellow"
-  HTML_code: "FAFAD2"
-  family: "Yellow"
+- name: "EmeraldGreen"
+  HTML_code: "50C878"
+  family: "Green"
 
-# Orange Family
-- name: "Orange"
-  HTML_code: "FFA500"
-  family: "Orange"
+- name: "JungleGreen"
+  HTML_code: "2AAA8A"
+  family: "Green"
 
-- name: "DarkOrange"
-  HTML_code: "FF8C00"
-  family: "Orange"
+- name: "MossGreen"
+  HTML_code: "8A9A5B"
+  family: "Green"
 
-- name: "Coral"
-  HTML_code: "FF7F50"
-  family: "Orange"
+- name: "ForestGreen"
+  HTML_code: "228B22"
+  family: "Green"
 
-- name: "PeachPuff"
-  HTML_code: "FFDAB9"
-  family: "Orange"
+- name: "HunterGreen"
+  HTML_code: "355E3B"
+  family: "Green"
 
-# Brown Family
-- name: "Brown"
-  HTML_code: "A52A2A"
-  family: "Brown"
+# Blue Family
+- name: "Azure"
+  HTML_code: "F0FFFF"
+  family: "Blue"
 
-- name: "SaddleBrown"
-  HTML_code: "8B4513"
-  family: "Brown"
+- name: "BabyBlue"
+  HTML_code: "89CFF0"
+  family: "Blue"
 
-- name: "SandyBrown"
-  HTML_code: "F4A460"
-  family: "Brown"
+- name: "BlueGray"
+  HTML_code: "7393B3"
+  family: "Blue"
 
-- name: "Chocolate"
-  HTML_code: "D2691E"
-  family: "Brown"
+- name: "SapphireBlue"
+  HTML_code: "0F52BA"
+  family: "Blue"
 
-- name: "Peru"
-  HTML_code: "CD853F"
-  family: "Brown"
+- name: "MidnightBlue"
+  HTML_code: "191970"
+  family: "Blue"
 
-# Neutral Family
-- name: "Black"
-  HTML_code: "000000"
-  family: "Neutral"
+# Purple Family
 
+- name: "DarkLavender"
+  HTML_code: "D9D9FC"
+  family: "Purple"
+
+- name: "VioletBlue"
+  HTML_code: "8B8EE7"
+  family: "Purple"
+
+- name: "Iris"
+  HTML_code: "5D3FD3"
+  family: "Purple"
+
+- name: "Purple"
+  HTML_code: "800080"
+  family: "Purple"
+
+- name: "Plum"
+  HTML_code: "673147"
+  family: "Purple"
+
+# Pink Family
+- name: "LightPink"
+  HTML_code: "FFB6C1"
+  family: "Pink"
+
+- name: "CoralPink"
+  HTML_code: "F88379"
+  family: "Pink"
+
+- name: "Violet"
+  HTML_code: "EE82EE"
+  family: "Pink"
+
+# White Family
 - name: "White"
   HTML_code: "FFFFFF"
-  family: "Neutral"
+  family: "White"
+
+- name: "Cornsilk"
+  HTML_code: "FFF8DC"
+  family: "White"
+
+# Black Family
+- name: "Silver"
+  HTML_code: "C0C0C0"
+  family: "Black"
 
 - name: "Gray"
   HTML_code: "808080"
-  family: "Neutral"
+  family: "Black"
 
-- name: "Silver"
-  HTML_code: "C0C0C0"
-  family: "Neutral"
+- name: "Charcoal"
+  HTML_code: "36454F"
+  family: "Black"
 
-- name: "Beige"
-  HTML_code: "FFFAF0"
-  family: "Neutral"
-
-- name: "LavenderBlush"
-  HTML_code: "FFF0F5"
-  family: "Neutral"
+- name: "Black"
+  HTML_code: "000000"
+  family: "Black"

@@ -4,44 +4,18 @@ layout: default
 
 <h1>Wardrobe</h1>
 
-<!-- Search and Filter Controls -->
+<div id="wardrobe-and-filters-wrap">
 <div class="wardrobe-filters-wrap">
-{% include color_selector.html %}
 {% include brand_selector.html %}
+{% include color_selector.html %}
 </div>
 
 <div id="wardrobe-wrap">
 {% include wardrobe_by_category.html categories=site.data.clothing_items_categories item_template_name="wardrobe" %}
 </div>
+</div>
 
 <script>
-function filterItems() {
-  const searchBar = document.getElementById('search-bar').value.toLowerCase();
-  const brandFilter = document.getElementById('brand-filter').value.toLowerCase();
-  const colorFilter = document.getElementById('color-filter').value.toLowerCase();
-  const categoryFilter = document.getElementById('category-filter').value.toLowerCase();
-
-  const items = document.querySelectorAll('.wardrobe-item');
-
-  items.forEach(item => {
-    const itemName = item.getAttribute('data-name').toLowerCase();
-    const itemBrand = item.getAttribute('data-brand').toLowerCase();
-    const itemColors = item.getAttribute('data-colors').toLowerCase();
-    const itemCategory = item.getAttribute('data-category').toLowerCase();
-
-    if (
-      (itemName.includes(searchBar)) &&
-      (brandFilter === '' || itemBrand.includes(brandFilter)) &&
-      (colorFilter === '' || itemColors.includes(colorFilter)) &&
-      (categoryFilter === '' || itemCategory.includes(categoryFilter))
-    ) {
-      item.style.display = 'block';
-    } else {
-      item.style.display = 'none';
-    }
-  });
-}
-
 document.addEventListener("DOMContentLoaded", function() {
     const nextCollapsibles = document.querySelectorAll(".collapsible-header");
 
@@ -51,5 +25,75 @@ document.addEventListener("DOMContentLoaded", function() {
             this.nextElementSibling.classList.toggle("hidden");
         });
     });
+
+  function filterWardrobeItems() {
+    const selectedBrands = Array.from(document.querySelectorAll('.brand-checkbox-wrap input:checked'))
+                               .map(input => input.value.toLowerCase());
+    const selectedColors = Array.from(document.querySelectorAll('.color-selector.selected'))
+                               .map(colorEl => colorEl.dataset.color.toLowerCase());
+
+    const wardrobeItems = document.querySelectorAll('.wardrobe-item');
+
+    wardrobeItems.forEach(item => {
+      const itemBrand = item.dataset.brand.toLowerCase();
+      const itemColors = item.dataset.colors.toLowerCase().split(" ");
+      
+      const brandMatch = selectedBrands.length === 0 || selectedBrands.includes(itemBrand);
+      const colorMatch = selectedColors.length === 0 || itemColors.some(color => selectedColors.includes(color));
+
+      if (brandMatch && colorMatch) {
+        item.style.display = '';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+
+    const categoryWraps = document.querySelectorAll('.category-wrap');
+      categoryWraps.forEach(categoryWrap => {
+      const visibleItems = categoryWrap.querySelectorAll('.wardrobe-item:not([style*="display: none"])');
+      categoryWrap.style.display = visibleItems.length > 0 ? '' : 'none';
+    });
+  }
+
+  function setupColorSelector() {
+    const familyCheckboxes = document.querySelectorAll(".color-family-checkbox");
+    familyCheckboxes.forEach(familyCheckbox => {
+      familyCheckbox.addEventListener("click", filterWardrobeItems);
+    });
+
+    const colorSelectors = document.querySelectorAll(".color-selector");
+    colorSelectors.forEach(colorSelector => {
+      colorSelector.addEventListener("click", filterWardrobeItems);
+    });
+  }
+
+  function setupBrandSelector() {
+    const brandWidgets = document.querySelectorAll('.brand-widget');
+
+    brandWidgets.forEach(brandWidget => {
+      const resetButton = brandWidget.querySelector(".all-brands-toggle-button");
+      resetButton.addEventListener('click', () => {
+        brandWidget.querySelectorAll('input[name="brand"]').forEach(checkbox => {
+          checkbox.checked = false;
+        });
+        filterWardrobeItems();
+      });
+
+      const searchInput = brandWidget.querySelector('.brand-search');
+      searchInput.addEventListener('input', () => {
+        const filterValue = searchInput.value.toLowerCase();
+        brandWidget.querySelectorAll('.brand-checkbox-wrap').forEach(item => {
+          item.style.display = item.dataset.brand.toLowerCase().includes(filterValue) ? '' : 'none';
+        });
+      });
+
+      brandWidget.querySelectorAll('input[name="brand"]').forEach(checkbox => {
+        checkbox.addEventListener('change', filterWardrobeItems);
+      });
+    });
+  }
+
+  setupColorSelector();
+  setupBrandSelector();
 });
 </script>

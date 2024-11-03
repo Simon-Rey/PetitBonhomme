@@ -1,8 +1,7 @@
 - name: Antoine et Lili Granito Large
   id: 191
   brand: Antoine et Lili
-  colors:
-  - Black
+  colors: []
   materials:
   - Cotton
   size: Woman - 40
@@ -19,9 +18,7 @@
 - name: Cropped Jumper Sezane Orange and Pink/Bordeaux
   id: 190
   brand: Sezane
-  colors:
-  - Pink
-  - Orange
+  colors: []
   materials:
   - Cotton
   size: Woman - M
@@ -39,7 +36,7 @@
   brand: Birkenstock
   colors:
   - Black
-  - Brown
+  - Fawn
   materials:
   - Leather
   size: EUR 41
@@ -57,7 +54,7 @@
 - name: Orange Corduroy Shirt
   brand: No Brand
   colors:
-  - Orange
+  - BrickRed
   materials:
   - Corduroy
   size: Woman - S
@@ -75,8 +72,7 @@
 - name: Sweater V-Neck Jules
   brand: Jules
   colors:
-  - Blue
-  - Navy
+  - BlueGray
   materials:
   - Cotton
   size: Man - M
@@ -94,11 +90,11 @@
 - name: Blue Basic T-Shirt
   brand: No Brand
   colors:
-  - Blue
+  - MidnightBlue
   materials:
   - Cotton
   size: Man - S
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 15
   buying_place: Episode - Amsterdam
@@ -130,12 +126,12 @@
 - name: '& Other Stories Sheer Red Top'
   brand: '& Other Stories'
   colors:
-  - Red
   - Black
+  - Burgundy
   materials:
   - Polyester & Plastics
   size: Woman - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 10
   buying_place: Vinted
@@ -149,7 +145,7 @@
 - name: Volcom Zipped Gray Vest
   brand: Volcom
   colors:
-  - Gray
+  - Silver
   materials:
   - Cotton
   size: Man - M
@@ -167,7 +163,7 @@
 - name: Levi's Denim Shirt
   brand: Levi's
   colors:
-  - Gray
+  - Charcoal
   materials:
   - Cotton
   size: Man - M
@@ -185,7 +181,7 @@
 - name: Timberland Boots
   brand: Timberland
   colors:
-  - Brown
+  - Fawn
   materials:
   - Leather
   size: EUR 41
@@ -203,11 +199,11 @@
 - name: Pink Basic T-Shirt
   brand: No Brand
   colors:
-  - Pink
+  - LightPink
   materials:
   - Cotton
   size: Man - S
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 10
   buying_place: Oxfam London
@@ -221,9 +217,7 @@
 - name: Sessun Wide Skirt
   brand: Sessun
   colors:
-  - Green
-  - Blue
-  - Teal
+  - HunterGreen
   materials:
   - Cotton
   size: Woman - M
@@ -259,11 +253,12 @@
 - name: Costa Rica T-Shirt
   brand: No Brand
   colors:
-  - Gray
+  - White
+  - Silver
   materials:
   - Cotton
   size: Man - S
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 0
   buying_place: Webshop
@@ -277,11 +272,11 @@
 - name: Decathlon Gray Sport T-Shirt
   brand: Decathlon
   colors:
-  - Gray
+  - Silver
   materials:
   - Polyester & Plastics
   size: Man - S
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 2
   buying_price: 15
   buying_place: Paris
@@ -313,11 +308,11 @@
 - name: T-Shirt Celio Red Bordeaux
   brand: Celio
   colors:
-  - Red
+  - Burgundy
   materials:
   - Cotton
   size: Man - S
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 20
   buying_place: Toulouse
@@ -331,7 +326,7 @@
 - name: Knitted Hat Mélina
   brand: No Brand
   colors:
-  - Yellow
+  - Gold
   - Gray
   materials:
   - Wool
@@ -350,9 +345,9 @@
 - name: Golden Vintage Vest
   brand: No Brand
   colors:
-  - Yellow
-  - Olive
-  - Brown
+  - Coffee
+  - MossGreen
+  - Gold
   materials:
   - Polyester & Plastics
   size: Woman - M
@@ -370,11 +365,11 @@
 - name: Crop Top Pink Zara
   brand: Zara
   colors:
-  - Pink
+  - CoralPink
   materials:
   - Polyester & Plastics
   size: Woman - L
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 5
   buying_place: Istanbul
@@ -407,10 +402,9 @@
 - name: Pull Motif Pull & Bear
   brand: Pull and Bear
   colors:
-  - Blue
+  - MidnightBlue
+  - Plum
   - White
-  - Maroon
-  - Navy
   materials:
   - Polyester & Plastics
   size: Man - M
@@ -428,8 +422,7 @@
 - name: Levi's Balloon Leg Light
   brand: Levi's
   colors:
-  - Blue
-  - Cyan
+  - Azure
   materials:
   - Cotton
   size: Pants US 27
@@ -483,8 +476,7 @@
 - name: Suit Shoes Black San Marina
   id: 192
   brand: San Marina
-  colors:
-  - Black
+  colors: []
   materials:
   - Leather
   size: Shoe EUR 41
@@ -520,7 +512,7 @@
 - name: Shorts Jules Beige
   brand: Jules
   colors:
-  - Beige
+  - Cornsilk
   materials:
   - Cotton
   size: Pants EUR 40
@@ -538,13 +530,15 @@
 - name: Zara Crop Top Knitted
   brand: Zara
   colors:
-  - Red
-  - White
-  - Orange
+  - Black
+  - LightPink
+  - BrightOrange
+  - Yellow
+  - BrightRed
   materials:
   - Polyester & Plastics
   size: Woman - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 0
   buying_place: Amsterdam
@@ -558,7 +552,7 @@
 - name: Vagabond Heel Brown Boots
   brand: Vagabond
   colors:
-  - Brown
+  - Fawn
   materials:
   - Polyester & Plastics
   size: Shoe EUR 41
@@ -576,8 +570,9 @@
 - name: Sweater Volcom Blue and Gray
   brand: Volcom
   colors:
-  - Blue
-  - Gray
+  - BlueGray
+  - MidnightBlue
+  - Silver
   materials:
   - Cotton
   size: Man - S
@@ -613,9 +608,9 @@
 - name: Pattern Shirt Abel
   brand: No Brand
   colors:
-  - Green
   - White
-  - Olive
+  - ForestGreen
+  - BlueGray
   materials:
   - Polyester & Plastics
   size: Man - M
@@ -633,8 +628,7 @@
 - name: Dark Blue Denim Shorts
   brand: No Brand
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
   materials:
   - Cotton
   size: Woman - 40
@@ -652,8 +646,8 @@
 - name: Sweater Celio Gray with White Collar
   brand: Celio
   colors:
+  - Silver
   - White
-  - Gray
   materials:
   - Cotton
   size: Man - S
@@ -671,8 +665,8 @@
 - name: Bash Cropped Bomber Pacino
   brand: B&sh
   colors:
-  - White
-  - Pink
+  - Cornsilk
+  - CoralPink
   materials:
   - Cotton
   - Polyester & Plastics
@@ -691,8 +685,7 @@
 - name: Blue Shirt Corderoy America Today
   brand: America Today
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
   materials:
   - Cotton
   size: Man - XS
@@ -710,11 +703,11 @@
 - name: Blue T-Shirt Cos
   brand: Cos
   colors:
-  - Blue
+  - BabyBlue
   materials:
   - Cotton
   size: Man - S
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 10
   buying_place: Oxfam London
@@ -746,11 +739,11 @@
 - name: Orange Zara Crop Top
   brand: Zara
   colors:
-  - Orange
+  - BrightOrange
   materials:
   - Polyester & Plastics
   size: Woman - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 10
   buying_place: Vinted
@@ -764,8 +757,8 @@
 - name: Maje Dress White and Black
   brand: Maje
   colors:
-  - Black
   - White
+  - Black
   materials:
   - Cotton
   - Polyester & Plastics
@@ -784,11 +777,12 @@
 - name: T-Shirt Roger Waters
   brand: No Brand
   colors:
-  - Gray
+  - Silver
+  - CoralPink
   materials:
   - Cotton
   size: Man - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 35
   buying_place: Webshop
@@ -802,7 +796,9 @@
 - name: Sneakers Karhu
   brand: Karhu
   colors:
-  - Red
+  - BrickRed
+  - PastelGreen
+  - White
   materials:
   - Cotton
   - Polyester & Plastics
@@ -821,8 +817,7 @@
 - name: Blue Polo Volcom
   brand: Volcom
   colors:
-  - Blue
-  - Navy
+  - BlueGray
   materials:
   - Cotton
   size: Man - S
@@ -840,7 +835,7 @@
 - name: Dark Blue Long Sleeve Selected
   brand: Selected
   colors:
-  - Navy
+  - MidnightBlue
   materials:
   - Cotton
   size: Man - S
@@ -876,11 +871,11 @@
 - name: Blue Celio T-Shirt V-Neck
   brand: Celio
   colors:
-  - Blue
+  - BabyBlue
   materials:
   - Cotton
   size: Man - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 20
   buying_place: Celio Toulouse
@@ -912,7 +907,7 @@
 - name: Ribbed Red Crop Top Uniqlo
   brand: Uniqlo
   colors:
-  - Red
+  - BrightRed
   materials:
   - Cotton
   size: Woman - L
@@ -948,11 +943,11 @@
 - name: T-Shirt New-York Celio
   brand: Celio
   colors:
-  - Orange
+  - BrightOrange
   materials:
   - Cotton
   size: Man - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 25
   buying_place: Celio Toulouse
@@ -966,11 +961,11 @@
 - name: Red Sport T-Shirt Decathlon
   brand: Decathlon
   colors:
-  - Red
+  - Burgundy
   materials:
   - Polyester & Plastics
   size: Man - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 25
   buying_place: Decathlon Paris
@@ -1002,7 +997,7 @@
 - name: Light Blue Strap Dress Pull & Bear
   brand: Pull and Bear
   colors:
-  - Blue
+  - BabyBlue
   materials:
   - Cotton
   size: Woman - M
@@ -1020,9 +1015,10 @@
 - name: Nike Trail Sneakers
   brand: Nike
   colors:
-  - Purple
-  - Orange
-  - Pink
+  - White
+  - DarkLavender
+  - Violet
+  - BrightOrange
   materials:
   - Polyester & Plastics
   size: Shoe EUR 41
@@ -1040,8 +1036,8 @@
 - name: Knitted Scarf Mélina
   brand: No Brand
   colors:
-  - Yellow
-  - White
+  - Gray
+  - Gold
   materials:
   - Wool
   size: Unique Size
@@ -1059,10 +1055,11 @@
 - name: Sweater Gradient ERL
   brand: ERL
   colors:
-  - Blue
-  - Yellow
-  - Orange
-  - Pink
+  - Gold
+  - Violet
+  - SapphireBlue
+  - NeonOrange
+  - BrightRed
   materials:
   - Polyester & Plastics
   - Wool
@@ -1099,7 +1096,7 @@
 - name: Green Denim Dungarees
   brand: No Brand
   colors:
-  - Green
+  - HunterGreen
   materials:
   - Cotton
   size: Unique Size
@@ -1136,7 +1133,7 @@
 - name: Dark Red Pants
   brand: No Brand
   colors:
-  - Red
+  - BrickRed
   materials:
   - Cotton
   - Polyester & Plastics
@@ -1155,12 +1152,12 @@
 - name: T-Shirt Hollister Green & Blue Patterns
   brand: Hollister
   colors:
-  - Green
-  - Blue
+  - JungleGreen
+  - BlueGray
   materials:
   - Cotton
   size: Man - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 0
   buying_place: Lyon
@@ -1174,8 +1171,7 @@
 - name: Blue/Gray Celio Shirt
   brand: Celio
   colors:
-  - Blue
-  - Gray
+  - BlueGray
   materials:
   - Cotton
   size: Man - M
@@ -1193,7 +1189,7 @@
 - name: Light Blue Celio Shirt
   brand: Celio
   colors:
-  - Blue
+  - Azure
   materials:
   - Cotton
   size: Man - M
@@ -1211,7 +1207,8 @@
 - name: Pink Sweater with Print
   brand: No Brand
   colors:
-  - Pink
+  - LightPink
+  - Violet
   materials:
   - Cotton
   size: Woman - M
@@ -1265,7 +1262,7 @@
 - name: Dark Blue Denim Dungarees
   brand: No Brand
   colors:
-  - Blue
+  - MidnightBlue
   materials:
   - Cotton
   size: Unique Size
@@ -1283,7 +1280,7 @@
 - name: Jacket Luka Bonsini
   brand: Luka Bonsini
   colors:
-  - Purple
+  - VioletBlue
   materials:
   - Cotton
   size: Man - S
@@ -1324,7 +1321,7 @@
   - Cotton
   - Polyester & Plastics
   size: Woman - 38
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 0
   buying_place: Maje Amsterdam
@@ -1339,6 +1336,9 @@
   brand: Olow
   colors:
   - White
+  - JungleGreen
+  - Gold
+  - SapphireBlue
   materials:
   - Cotton
   size: Man - S
@@ -1360,7 +1360,7 @@
   materials:
   - Cotton
   size: Man - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 30
   buying_place: Zara Paris
@@ -1374,7 +1374,7 @@
 - name: Brick Red Coat
   brand: No Brand
   colors:
-  - Red
+  - BrickRed
   materials:
   - Cotton
   size: Man - S
@@ -1392,7 +1392,7 @@
 - name: Red Small Hat
   brand: No Brand
   colors:
-  - Red
+  - BrightRed
   materials:
   - Wool
   size: Unique Size
@@ -1428,13 +1428,13 @@
 - name: Red and Black Stripes Crop Top
   brand: No Brand
   colors:
-  - Red
   - Black
+  - BrightRed
   - White
   materials:
   - Polyester & Plastics
   size: Woman - L
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 20
   buying_place: London
@@ -1448,7 +1448,7 @@
 - name: Hiking Pants Decathlon
   brand: Decathlon
   colors:
-  - Gray
+  - Charcoal
   materials:
   - Polyester & Plastics
   size: Man - M
@@ -1466,8 +1466,8 @@
 - name: Skort Maje Green Flower Pattern
   brand: Maje
   colors:
-  - Green
-  - Blue
+  - ForestGreen
+  - SapphireBlue
   materials:
   - Polyester & Plastics
   size: Woman - 38
@@ -1485,7 +1485,7 @@
 - name: Orange Crop Top Lucy & Yak
   brand: Lucy and Yak
   colors:
-  - Orange
+  - BrightOrange
   materials:
   - Cotton
   - Polyester & Plastics
@@ -1504,7 +1504,7 @@
 - name: Purple Hat
   brand: No Brand
   colors:
-  - Purple
+  - Iris
   materials:
   - Wool
   size: Unique Size
@@ -1522,8 +1522,8 @@
 - name: Kenzo Cropped Tiger Sweater
   brand: Kenzo
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
+  - Azure
   materials:
   - Cotton
   size: Woman - XS
@@ -1541,7 +1541,7 @@
 - name: Orange Lucy & Yak Jumpsuit
   brand: Lucy and Yak
   colors:
-  - Orange
+  - BurntOrange
   materials:
   - Cotton
   size: Woman - UK 12
@@ -1560,6 +1560,7 @@
   brand: Dr. Martens
   colors:
   - Black
+  - Yellow
   materials:
   - Leather
   size: Shoe EUR 41
@@ -1577,7 +1578,7 @@
 - name: Red Oversized Lucy & Yak Shirt
   brand: Lucy and Yak
   colors:
-  - Red
+  - BrightRed
   materials:
   - Cotton
   size: Woman - S
@@ -1613,8 +1614,7 @@
 - name: Dark Blue Ribbed Monoprix Shirt
   brand: Monoprix
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
   materials:
   - Cotton
   size: Man - S
@@ -1636,7 +1636,7 @@
   materials:
   - Cotton
   size: Man - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 20
   buying_place: Cachan
@@ -1650,10 +1650,10 @@
 - name: Vintage Hiking Boot Adidas
   brand: Adidas
   colors:
-  - Yellow
-  - Magenta
   - Purple
-  - Pink
+  - Gold
+  - Black
+  - Violet
   materials:
   - Polyester & Plastics
   size: Shoe EUR 41.5
@@ -1671,12 +1671,13 @@
 - name: Zara White and Blue T-Shirt
   brand: Zara
   colors:
-  - Blue
+  - MidnightBlue
+  - BlueGray
   - White
   materials:
   - Cotton
   size: Man - S
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 25
   buying_place: Zara Paris
@@ -1690,7 +1691,7 @@
 - name: Tommy Hilfiger Gren Polo
   brand: Tommy Hilfiger
   colors:
-  - Green
+  - JungleGreen
   materials:
   - Cotton
   size: Man - M
@@ -1726,7 +1727,7 @@
 - name: Light Blue Levi's Mini Shorts
   brand: Levi's
   colors:
-  - Blue
+  - Azure
   materials:
   - Cotton
   size: Pants US 30
@@ -1762,7 +1763,7 @@
 - name: Red Volcom Hoodie
   brand: Volcom
   colors:
-  - Red
+  - BrickRed
   materials:
   - Cotton
   - Polyester & Plastics
@@ -1799,7 +1800,7 @@
 - name: Levi's Denim Blue Mini Shorts
   brand: Levi's
   colors:
-  - Blue
+  - BabyBlue
   materials:
   - Cotton
   size: Woman - M
@@ -1817,9 +1818,8 @@
 - name: Brick Red Bow Tie
   brand: No Brand
   colors:
-  - Red
-  - Orange
-  - Brown
+  - BurntOrange
+  - BrickRed
   materials:
   - Cotton
   size: Unique Size
@@ -1837,8 +1837,7 @@
 - name: Dark Blue Dickies Pants
   brand: Dickies
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
   materials:
   - Cotton
   size: Pants US 30
@@ -1856,8 +1855,7 @@
 - name: Long Sleeve Dark Blue Jules T-Shirt
   brand: Jules
   colors:
-  - Blue
-  - Navy
+  - BlueGray
   materials:
   - Cotton
   size: Man - M
@@ -1875,7 +1873,8 @@
 - name: White and Blue Light Sweater
   brand: No Brand
   colors:
-  - Blue
+  - Azure
+  - White
   materials:
   - Cotton
   size: Man - XS
@@ -1893,7 +1892,7 @@
 - name: Jumpsuit Blue
   brand: No Brand
   colors:
-  - Blue
+  - SapphireBlue
   materials:
   - Cotton
   size: Unique Size
@@ -1911,8 +1910,7 @@
 - name: Maje Fluid Dress
   brand: Maje
   colors:
-  - Blue
-  - Black
+  - Azure
   - White
   materials:
   - Polyester & Plastics
@@ -1949,7 +1947,7 @@
 - name: Long Sleeve T-Shirt Gray Only & Sons
   brand: Only and Sons
   colors:
-  - Gray
+  - Silver
   materials:
   - Cotton
   size: Man - M
@@ -2021,7 +2019,9 @@
 - name: Blue Chinese Vest Episode
   brand: No Brand
   colors:
-  - Blue
+  - MidnightBlue
+  - DarkLavender
+  - EmeraldGreen
   materials:
   - Cotton
   size: Man - S
@@ -2039,8 +2039,8 @@
 - name: Dark Blue The Kooples Skirt
   brand: The Kooples
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
+  - Black
   materials:
   - Polyester & Plastics
   - Wool
@@ -2060,6 +2060,7 @@
   brand: '& Other Stories'
   colors:
   - Gray
+  - CoralPink
   materials:
   - Polyester & Plastics
   size: Woman - 38
@@ -2077,7 +2078,7 @@
 - name: Blue Cashmere Zipped Hoodie
   brand: No Brand
   colors:
-  - Blue
+  - BlueGray
   materials:
   - Wool
   size: Man - M
@@ -2095,11 +2096,12 @@
 - name: Green Zara Crop Top
   brand: Zara
   colors:
-  - Teal
+  - ForestGreen
+  - White
   materials:
   - Cotton
   size: Woman - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 9
   buying_place: Vinted
@@ -2113,7 +2115,7 @@
 - name: Denim Blue Dungarees
   brand: No Brand
   colors:
-  - Blue
+  - BlueGray
   materials:
   - Cotton
   size: Unique Size
@@ -2131,7 +2133,7 @@
 - name: Beige Cachemire Turtle Neck
   brand: No Brand
   colors:
-  - Beige
+  - LightBrown
   materials:
   - Wool
   size: Woman - M
@@ -2167,11 +2169,11 @@
 - name: T-Shirt Sew to Perfection Jack & Jones
   brand: Jack & Jones
   colors:
-  - Orange
+  - BrightOrange
   materials:
   - Cotton
   size: Man - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 0
   buying_place: Toulouse
@@ -2185,7 +2187,7 @@
 - name: Gray Denim Shirt Pull & Bear
   brand: Pull and Bear
   colors:
-  - Gray
+  - Silver
   materials:
   - Cotton
   size: Man - M
@@ -2221,7 +2223,7 @@
 - name: Dark Blue DC Shoes Pants
   brand: DC Shoes
   colors:
-  - Blue
+  - BlueGray
   materials:
   - Cotton
   - Polyester & Plastics
@@ -2258,7 +2260,7 @@
 - name: Purple Tank Top & Other Stories
   brand: '& Other Stories'
   colors:
-  - Purple
+  - DarkLavender
   materials:
   - Cotton
   size: Woman - XS
@@ -2276,8 +2278,7 @@
 - name: Strap Dress Green Corduroy Lucy & Yak
   brand: Lucy and Yak
   colors:
-  - Green
-  - Olive
+  - MossGreen
   materials:
   - Cotton
   size: Woman - M
@@ -2295,7 +2296,7 @@
 - name: Wool Gray Turtleneck Sweater & Other Stories
   brand: '& Other Stories'
   colors:
-  - Gray
+  - Silver
   materials:
   - Polyester & Plastics
   - Wool
@@ -2314,7 +2315,7 @@
 - name: Red Shirt with Pattern
   brand: No Brand
   colors:
-  - Red
+  - CoralPink
   materials:
   - Cotton
   - Linen
@@ -2334,6 +2335,9 @@
   brand: No Brand
   colors:
   - Black
+  - Yellow
+  - Violet
+  - Azure
   materials:
   - Cotton
   size: Woman - M
@@ -2352,7 +2356,6 @@
   brand: Under Armour
   colors:
   - Black
-  - Gray
   materials:
   - Polyester & Plastics
   size: Man - M
@@ -2388,8 +2391,7 @@
 - name: Long Sleeve Celio Club Dark Blue Shirt
   brand: Celio
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
   materials:
   - Cotton
   size: Man - S
@@ -2407,8 +2409,8 @@
 - name: Puff Jacket Rab
   brand: Rab
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
+  - Gold
   materials:
   - Polyester & Plastics
   size: Man - S
@@ -2427,6 +2429,7 @@
   brand: H&M
   colors:
   - Gray
+  - White
   materials:
   - Polyester & Plastics
   size: Woman - 38
@@ -2444,7 +2447,7 @@
 - name: Green Woolen Sweater
   brand: No Brand
   colors:
-  - Green
+  - HunterGreen
   materials:
   - Wool
   size: Woman - M
@@ -2462,8 +2465,8 @@
 - name: Skirt IKKS Double Matter
   brand: IKKS
   colors:
+  - Charcoal
   - Black
-  - Gray
   materials:
   - Cotton
   size: Woman - 38
@@ -2481,8 +2484,7 @@
 - name: Dark Blue Sweater V-Neck Celio
   brand: Celio
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
   materials:
   - Cotton
   size: Man - S
@@ -2500,8 +2502,7 @@
 - name: Dark Blue Heel Boot Anna Field
   brand: Anna Field
   colors:
-  - Blue
-  - Navy
+  - BlueGray
   materials:
   - Polyester & Plastics
   size: Shoe EUR 42
@@ -2519,7 +2520,8 @@
 - name: Rain Jacket Ayacucho
   brand: Ayacucho
   colors:
-  - Blue
+  - BabyBlue
+  - SapphireBlue
   materials:
   - Polyester & Plastics
   size: Man - M
@@ -2538,6 +2540,7 @@
   brand: Esprit
   colors:
   - Gray
+  - White
   materials:
   - Cotton
   size: Man - S
@@ -2555,11 +2558,11 @@
 - name: Crop Top Pink Lucy & yak
   brand: Lucy and Yak
   colors:
-  - Pink
+  - CoralPink
   materials:
   - Cotton
   size: Woman - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 14
   buying_place: Vinted
@@ -2573,11 +2576,13 @@
 - name: Blue Volcom T-Shirt Pattern
   brand: Volcom
   colors:
-  - Blue
+  - SapphireBlue
+  - JungleGreen
+  - BrightOrange
   materials:
   - Cotton
   size: Man - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 35
   buying_place: Ventes Privées
@@ -2591,9 +2596,9 @@
 - name: Red Long Sleeve T-Shirt Esprit
   brand: Esprit
   colors:
-  - Red
   - White
-  - Pink
+  - CoralPink
+  - BrightRed
   materials:
   - Cotton
   size: Man - S
@@ -2611,7 +2616,7 @@
 - name: Green Chino Pants Jules
   brand: Jules
   colors:
-  - Green
+  - JungleGreen
   materials:
   - Cotton
   size: Pants EUR 40
@@ -2629,7 +2634,7 @@
 - name: Levi's Gray Jacket
   brand: Levi's
   colors:
-  - Gray
+  - Charcoal
   materials:
   - Cotton
   size: Man - S
@@ -2647,7 +2652,7 @@
 - name: Gray Shorts Celio
   brand: Celio
   colors:
-  - Gray
+  - Silver
   materials:
   - Cotton
   size: Pants EUR 40
@@ -2666,6 +2671,7 @@
   brand: Dr. Martens
   colors:
   - Black
+  - Yellow
   materials:
   - Polyester & Plastics
   size: Shoe EUR 41
@@ -2683,8 +2689,7 @@
 - name: Dark Blue Cos Sweater
   brand: Cos
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
   materials:
   - Cotton
   size: Man - S
@@ -2702,7 +2707,7 @@
 - name: Gray Decathlon Hiking Shorts
   brand: Decathlon
   colors:
-  - Gray
+  - Charcoal
   materials:
   - Polyester & Plastics
   size: Pants EUR 40
@@ -2720,11 +2725,11 @@
 - name: Brown Volcom T-Shirt
   brand: Volcom
   colors:
-  - Brown
+  - LightBrown
   materials:
   - Cotton
   size: Man - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 20
   buying_place: Ventes Privées
@@ -2738,13 +2743,12 @@
 - name: Dark Blue Striped Zara T-Shirt
   brand: Zara
   colors:
-  - Blue
+  - MidnightBlue
   - White
-  - Navy
   materials:
   - Cotton
   size: Man - S
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 30
   buying_place: Zara Paris
@@ -2758,8 +2762,7 @@
 - name: Dark Blue Decathlon Sport Pants
   brand: Decathlon
   colors:
-  - Blue
-  - Navy
+  - Black
   materials:
   - Polyester & Plastics
   size: Man - M
@@ -2777,7 +2780,7 @@
 - name: Petrol Blue Cropped Sezane Hoodie
   brand: Sezane
   colors:
-  - Blue
+  - SapphireBlue
   materials:
   - Cotton
   size: Woman - M
@@ -2795,9 +2798,10 @@
 - name: Orange and Gray Sweater Dedicated
   brand: Dedicated
   colors:
-  - Gray
-  - Purple
-  - Orange
+  - Gold
+  - Charcoal
+  - Silver
+  - Iris
   materials:
   - Cotton
   size: Man - L
@@ -2819,7 +2823,7 @@
   materials:
   - Cotton
   size: Man - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 0
   buying_place: Valenciennes
@@ -2833,7 +2837,8 @@
 - name: Rain Jacket Schöffel
   brand: Schöffel
   colors:
-  - Blue
+  - SapphireBlue
+  - BabyBlue
   materials:
   - Polyester & Plastics
   size: Man - M
@@ -2851,8 +2856,8 @@
 - name: Dark Blue Galerie Lafayette Shoes
   brand: No Brand
   colors:
-  - Blue
-  - Navy
+  - BlueGray
+  - Fawn
   materials:
   - Leather
   size: Shoe EUR 41
@@ -2870,7 +2875,7 @@
 - name: Cashmere Blue Scarf
   brand: No Brand
   colors:
-  - Blue
+  - BlueGray
   materials:
   - Cashmere
   size: Unique Size
@@ -2888,8 +2893,8 @@
 - name: Dark Blue Striped Polo Volcom
   brand: Volcom
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
+  - White
   materials:
   - Cotton
   size: Man - S
@@ -2907,7 +2912,7 @@
 - name: Red Polo Volcom
   brand: Volcom
   colors:
-  - Red
+  - BrickRed
   materials:
   - Cotton
   size: Man - S
@@ -2944,6 +2949,7 @@
   brand: Decathlon
   colors:
   - Black
+  - Silver
   materials:
   - Polyester & Plastics
   size: Man - S
@@ -2961,7 +2967,7 @@
 - name: Dark Gray Decathlon Sport T-Shirt
   brand: Decathlon
   colors:
-  - Gray
+  - Charcoal
   materials:
   - Polyester & Plastics
   size: Man - S
@@ -2980,7 +2986,7 @@
   brand: No Brand
   colors:
   - Purple
-  - Orange
+  - NeonOrange
   materials:
   - Polyester & Plastics
   size: Woman - S
@@ -2998,11 +3004,12 @@
 - name: YMCA Purple Wei T-Shirt
   brand: No Brand
   colors:
-  - Purple
+  - Iris
+  - White
   materials:
   - Cotton
   size: Man - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 0
   buying_place: Cachan
@@ -3016,7 +3023,7 @@
 - name: Gray Denim Volcom Shorts
   brand: Volcom
   colors:
-  - Gray
+  - Charcoal
   materials:
   - Cotton
   size: Pants US 30
@@ -3034,7 +3041,7 @@
 - name: Orange Corduroy Maje Shorts
   brand: Maje
   colors:
-  - Orange
+  - DarkOrange
   materials:
   - Cotton
   size: Woman - 40
@@ -3052,7 +3059,7 @@
 - name: Brick Red Dockers Pants
   brand: Dockers
   colors:
-  - Red
+  - BrickRed
   materials:
   - Cotton
   size: Pants US 30
@@ -3070,7 +3077,7 @@
 - name: Beige Cashmere Sweater
   brand: No Brand
   colors:
-  - Beige
+  - Cornsilk
   materials:
   - Cashmere
   size: Woman - M
@@ -3088,10 +3095,9 @@
 - name: Blue Pattern Bow Tie
   brand: No Brand
   colors:
-  - Blue
+  - Azure
+  - LightBrown
   - Yellow
-  - White
-  - Brown
   materials:
   - Cotton
   size: Unique Size
@@ -3109,8 +3115,8 @@
 - name: Dark Blue Hollister Hoodie
   brand: Hollister
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
+  - Purple
   materials:
   - Cotton
   size: Man - M
@@ -3128,11 +3134,11 @@
 - name: Green Jack & Jones T-Shirt Way West Field
   brand: Jack & Jones
   colors:
-  - Green
+  - EmeraldGreen
   materials:
   - Cotton
   size: Man - S
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 0
   buying_place: Jack & Jones Toulouse
@@ -3146,7 +3152,7 @@
 - name: Red High Waist Shorts
   brand: No Brand
   colors:
-  - Red
+  - BrightRed
   materials:
   - Cotton
   size: Woman - M
@@ -3182,8 +3188,7 @@
 - name: Dark Blue Jules Shorts
   brand: Jules
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
   materials:
   - Cotton
   size: Pants EUR 40
@@ -3201,7 +3206,7 @@
 - name: Volcom Dark Gray Sweater
   brand: Volcom
   colors:
-  - Gray
+  - Charcoal
   materials:
   - Cotton
   size: Man - M
@@ -3219,8 +3224,7 @@
 - name: Green Linen Shirt
   brand: No Brand
   colors:
-  - Green
-  - Gray
+  - PastelGreen
   materials:
   - Linen
   size: Man - M
@@ -3238,8 +3242,8 @@
 - name: NSW Blues Hoodie
   brand: Canterbury
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
+  - SapphireBlue
   materials:
   - Cotton
   - Polyester & Plastics
@@ -3258,7 +3262,7 @@
 - name: Grey Scarf
   brand: No Brand
   colors:
-  - Gray
+  - Silver
   materials:
   - Polyester & Plastics
   size: Unique Size
@@ -3276,7 +3280,7 @@
 - name: Brown Carhartt Dungarees
   brand: Carhartt
   colors:
-  - Brown
+  - Coffee
   materials:
   - Cotton
   size: Woman - M
@@ -3294,8 +3298,7 @@
 - name: Dark Blue Corduroy Jacket
   brand: No Brand
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
   materials:
   - Cotton
   - Polyester & Plastics
@@ -3318,7 +3321,7 @@
   materials:
   - Cotton
   size: Woman - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 15
   buying_place: Istanbul
@@ -3332,8 +3335,7 @@
 - name: Dark Blue Corduroy High Waist Pants
   brand: No Brand
   colors:
-  - Blue
-  - Navy
+  - MidnightBlue
   materials:
   - Cotton
   size: Woman - M
@@ -3351,8 +3353,8 @@
 - name: Elements Coat
   brand: Elements
   colors:
-  - Blue
-  - Navy
+  - SapphireBlue
+  - MidnightBlue
   materials:
   - Polyester & Plastics
   size: Man - M
@@ -3370,7 +3372,8 @@
 - name: Orange Knitted Scarf
   brand: No Brand
   colors:
-  - Orange
+  - BrightOrange
+  - Gold
   materials:
   - Wool
   size: Unique Size
@@ -3389,7 +3392,7 @@
   id: 181
   brand: Roxy
   colors:
-  - Purple
+  - Iris
   materials:
   - Cotton
   size: Woman - M
@@ -3407,9 +3410,10 @@
   id: 182
   brand: No Brand
   colors:
-  - Red
-  - Orange
   - White
+  - BrickRed
+  - Yellow
+  - BrightOrange
   materials:
   - Cotton
   size: Unique Size
@@ -3427,7 +3431,9 @@
   id: 183
   brand: Maje
   colors:
-  - Blue
+  - SapphireBlue
+  - Azure
+  - MidnightBlue
   materials:
   - Cotton
   - Polyester & Plastics
@@ -3446,7 +3452,7 @@
   id: 184
   brand: No Brand
   colors:
-  - Orange
+  - BrightOrange
   materials:
   - Wool
   size: Unique Size
@@ -3464,7 +3470,7 @@
   id: 185
   brand: H&M
   colors:
-  - Blue
+  - Azure
   materials:
   - Cotton
   size: Man - XS
@@ -3482,13 +3488,12 @@
   id: 186
   brand: 24Colours
   colors:
-  - Green
-  - Teal
+  - EmeraldGreen
   materials:
   - Cotton
   - Polyester & Plastics
   size: Woman - XL
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 10
   buying_place: Hamburg
@@ -3502,11 +3507,10 @@
   id: 187
   brand: Thinking Mu
   colors:
-  - Pink
-  - Green
+  - Cornsilk
   - Yellow
-  - Orange
-  - Beige
+  - BrightOrange
+  - Purple
   materials:
   - Cotton
   size: Woman - S
@@ -3524,7 +3528,7 @@
   id: 188
   brand: Another Label
   colors:
-  - Green
+  - PastelGreen
   materials:
   - Cotton
   size: Woman - M
@@ -3546,7 +3550,7 @@
   materials:
   - Cotton
   size: Woman - M
-  category: T-shirt
+  category: T-Shirt
   multiplicity: 1
   buying_price: 5
   buying_place: Amsterdam

@@ -11,11 +11,12 @@
     const familyCheckboxes = document.querySelectorAll(".color-family-checkbox");
 
     function toggleFamilySelection(familyCheckbox) {
+      familyCheckbox.classList.toggle("selected");
       const familyName = familyCheckbox.dataset.family;
       const colorSelectors = document.querySelectorAll(`.color-family-colors-wrap .color-selector[data-family="${familyName}"]`);
 
       colorSelectors.forEach(selector => {
-        if (familyCheckbox.checked) {
+        if (familyCheckbox.classList.contains("selected")) {
           selector.classList.add("selected");
         } else {
           selector.classList.remove("selected");
@@ -24,20 +25,27 @@
     }
 
     familyCheckboxes.forEach(familyCheckbox => {
-      familyCheckbox.addEventListener("change", function () {
+      familyCheckbox.addEventListener("click", function () {
         toggleFamilySelection(familyCheckbox);
       });
     });
 
     function toggleColorSelector(colorSelector) {
-        const familyName = colorSelector.dataset.family;
-        const familyCheckbox = document.querySelector(`.color-family-checkbox[data-family="${familyName}"]`);
+      const familyName = colorSelector.dataset.family;
+      const familyWrap = document.querySelector(`.color-family-selector-wrap[data-family="${familyName}"]`)
+      const familyCheckbox = familyWrap.querySelector('.color-family-checkbox');
 
-        colorSelector.classList.toggle("selected");
+      colorSelector.classList.toggle("selected");
 
-        if (colorSelector.classList.contains("selected") && !familyCheckbox.checked) {
-          familyCheckbox.checked = true;
-        }
+      if (colorSelector.classList.contains("selected") && !familyCheckbox.classList.contains("selected")) {
+        colorSelector.classList.add("selected");
+      }
+
+      const allColorSelectors = familyWrap.querySelectorAll('.color-selector');
+      const noneSelected = Array.from(allColorSelectors).every(selector => !selector.classList.contains('selected'));
+      if (noneSelected) {
+        colorSelector.classList.remove("selected");
+      }
     }
 
     const colorSelectors = document.querySelectorAll(".color-selector");
