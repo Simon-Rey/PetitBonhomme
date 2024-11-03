@@ -174,7 +174,7 @@ main {
 
 @media screen and (max-width: 710px) {
     main {
-        padding: 3vh 2vw;
+        padding: 3vh 0;
     }
 }
 
@@ -465,8 +465,8 @@ Color Selector
 }
 
 .color-family-checkbox .color-family-checkbox-inner-wrap {
-    width: 2ch;
-    height: 2ch;
+    width: 1.5ch;
+    height: 1.5ch;
     background-color: var(--color-background-light);
     border: 2px solid var(--color-frame);
     border-radius: 50%;
@@ -485,8 +485,8 @@ Color Selector
     display: inline-block;
     font-size: smaller;
     font-weight: 1000;
-    max-width: 2ch;
-    max-height: 2ch;
+    max-width: 1.5ch;
+    max-height: 1.5ch;
     color: black;
     position: relative;
     bottom: 0.1em;
@@ -499,8 +499,8 @@ Color Selector
 .color-selector {
   border-right: 1px solid white;
   border-left: 1px solid white;
-  width: 2ch;
-  height: 2ch;
+  width: 1.5ch;
+  height: 1.5ch;
   cursor: pointer;
   display: flex; /* Use flexbox for centering */
   justify-content: center; /* Center horizontally */
@@ -546,8 +546,6 @@ Brand Selector
 }
 
 .brand-widget-header {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
     background: var(--color-background);
 }
 
@@ -588,6 +586,7 @@ Brand Selector
 .brand-checkbox-wrap {
     border-top: 1px solid var(--color-background-dark);
     padding: 2px 10px;
+    font-size: smaller;
 }
 
 .brand-checkbox-wrap:first-of-type {
@@ -787,19 +786,27 @@ Wardrobe Page
 
 #wardrobe-and-filters-wrap {
     background: var(--color-frame-light);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
 
 .wardrobe-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
 }
 
 .wardrobe-filters-wrap {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.wardrobe-filters-wrap h3 {
+    margin: 5px 0;
+    text-align: center;
 }
 
 .wardrobe-filters-wrap .brand-widget {
@@ -808,6 +815,8 @@ Wardrobe Page
 
 #wardrobe-wrap {
     background: var(--color-background-light);
+    max-height: 80vh;
+    overflow-y: scroll;
 }
 
 #wardrobe-wrap .category-title {
@@ -870,8 +879,8 @@ Wardrobe Page
 }
 
 #wardrobe-wrap .wardrobe-item .wardrobe-item-img-wrap {
-    width: 200px;
-    height: 266px;
+    width: min(24vw, 24vh);
+    height: min(32vw, 32vh);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -879,8 +888,8 @@ Wardrobe Page
 }
 
 #wardrobe-wrap .wardrobe-item img {
-    max-width: 200px;
-    max-height: 266px;
+    max-width: min(24vw, 24vh);
+    max-height: min(32vw, 32vh);
 }
 
 /* ==========

@@ -6,6 +6,7 @@ layout: default
 
 <div id="wardrobe-and-filters-wrap">
 <div class="wardrobe-filters-wrap">
+<h3>Filters</h3>
 {% include brand_selector.html %}
 {% include color_selector.html %}
 </div>
@@ -71,14 +72,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const brandWidgets = document.querySelectorAll('.brand-widget');
 
     brandWidgets.forEach(brandWidget => {
-      const resetButton = brandWidget.querySelector(".all-brands-toggle-button");
-      resetButton.addEventListener('click', () => {
-        brandWidget.querySelectorAll('input[name="brand"]').forEach(checkbox => {
-          checkbox.checked = false;
-        });
-        filterWardrobeItems();
-      });
-
       const searchInput = brandWidget.querySelector('.brand-search');
       searchInput.addEventListener('input', () => {
         const filterValue = searchInput.value.toLowerCase();

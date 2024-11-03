@@ -4,7 +4,6 @@
         <div class="brand-search-wrap">
             <input class="brand-search" type="text" placeholder="Brand name...">
         </div>
-        <button type="button" class="all-brands-toggle-button">Reset</button>
     </div>
     <div class="brand-checkboxes-wrap">
         {% for brand in sorted_brands %}
@@ -19,7 +18,7 @@
 </div>
 
 <script>
-    function resetBrandSelector(brandWidget) {
+    function resetBrandSelectors(brandWidget) {
 		brandWidget.querySelectorAll('input[name="brand"]').forEach(checkbox => checkbox.checked = false);
 	}
 
@@ -40,11 +39,6 @@
         const brandWidgets = document.querySelectorAll('.brand-widget');
 
         brandWidgets.forEach(brandWidget => {
-            const toggleAllButton = brandWidget.querySelector(".all-brands-toggle-button");
-            toggleAllButton.addEventListener('click', function () {
-                resetBrandSelector(brandWidget, toggleAllButton);
-            });
-
             const filterInput = brandWidget.querySelector('.brand-search');
             filterInput.addEventListener('input', () => {
                 filterBrands(brandWidget, filterInput);
