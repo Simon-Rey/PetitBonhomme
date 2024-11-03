@@ -1,24 +1,16 @@
 ---
 layout: default
+title: PetitBonhomme | Style Me
 ---
 
 <h1>Style Me</h1>
 
 <div id="style-me-wrap">
-  <div id="style-me-wardrobe-and-filters-wrap">
-    <div id="style-me-filters">
-      {% include brand_selector.html %}
-      {% include color_selector.html %}
-    </div>
-    <div id="wardrobe-wrap">
-      {% include wardrobe_by_category.html categories=site.data.clothing_items_categories  item_template_name="style_me" %}
-    </div>
-  </div>
+  {% include wardrobe_and_filters.html only_first_level="true" item_template_name="style_me" %}
   <div id="style-me-outfit">
     {% include outfit_display.html show_wheel=true %}
   </div>
 </div>
-
 
 <script>
     {% include outfit_display_setup.js %}
@@ -72,6 +64,10 @@ layout: default
             wheelLink.setAttribute('data-item-id', itemId);
     
             const wheelDiv = document.createElement('div');
+            Object.keys(item.dataset).forEach(key => {
+                wheelDiv.dataset[key] = item.dataset[key];
+            });
+            wheelDiv.addEventListener("click", function () {toggleItemSelection(this)});
             const wheelImg = document.createElement('img');
             wheelImg.src = item.dataset.image;
             wheelImg.alt = itemName;
@@ -91,18 +87,13 @@ layout: default
             item.style.zIndex = (parseInt(window.getComputedStyle(item).zIndex, 10) || 0) + 20;
         });
 
-        const nextCollapsibles = document.querySelectorAll(".collapsible-header");
-
-        nextCollapsibles.forEach(function (e) {
-            e.addEventListener("click", function () {
-                this.classList.toggle("collapsed");
-                this.nextElementSibling.classList.toggle("hidden");
-            });
-            
+        const collapsWardrobe = document.querySelectorAll(".category-title.collapsible-header");
+        collapsWardrobe.forEach(function (e) {
             e.classList.toggle("collapsed");
             e.nextElementSibling.classList.toggle("hidden");
+            
         });
-        
+
         function filterWardrobeItems() {
         const selectedBrands = Array.from(document.querySelectorAll('.brand-checkbox-wrap input:checked'))
                                    .map(input => input.value.toLowerCase());
@@ -131,46 +122,5 @@ layout: default
           categoryWrap.style.display = visibleItems.length > 0 ? '' : 'none';
         });
         }
-        
-        function setupColorSelector() {
-        const familyCheckboxes = document.querySelectorAll(".color-family-checkbox");
-        familyCheckboxes.forEach(familyCheckbox => {
-          familyCheckbox.addEventListener("click", filterWardrobeItems);
-        });
-        
-        const colorSelectors = document.querySelectorAll(".color-selector");
-        colorSelectors.forEach(colorSelector => {
-          colorSelector.addEventListener("click", filterWardrobeItems);
-        });
-        }
-        
-        function setupBrandSelector() {
-        const brandWidgets = document.querySelectorAll('.brand-widget');
-        
-        brandWidgets.forEach(brandWidget => {
-          const resetButton = brandWidget.querySelector(".all-brands-toggle-button");
-          resetButton.addEventListener('click', () => {
-            brandWidget.querySelectorAll('input[name="brand"]').forEach(checkbox => {
-              checkbox.checked = false;
-            });
-            filterWardrobeItems();
-          });
-        
-          const searchInput = brandWidget.querySelector('.brand-search');
-          searchInput.addEventListener('input', () => {
-            const filterValue = searchInput.value.toLowerCase();
-            brandWidget.querySelectorAll('.brand-checkbox-wrap').forEach(item => {
-              item.style.display = item.dataset.brand.toLowerCase().includes(filterValue) ? '' : 'none';
-            });
-          });
-        
-          brandWidget.querySelectorAll('input[name="brand"]').forEach(checkbox => {
-            checkbox.addEventListener('change', filterWardrobeItems);
-          });
-        });
-        }
-        
-        setupColorSelector();
-        setupBrandSelector();
     });
 </script>

@@ -1,0 +1,12 @@
+{% for category in include.categories %}
+  {% if category.children %}
+    {% include wardrobe_flat.html categories=category.children item_template_name=include.item_template_name %}
+  {% else %}
+    {% assign category_items = site.data.clothing_items | where: "category", category.name %}
+    {% if category_items.size > 0 %}
+      {% for item in category_items %}
+        {% include item_display_forking.html template_name=include.item_template_name item=item %}
+      {% endfor %}
+    {% endif %}
+  {% endif %}
+{% endfor %}

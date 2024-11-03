@@ -172,7 +172,7 @@ main {
     padding: 10vh 10vw;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 950px) {
     main {
         padding: 3vh 0;
     }
@@ -796,6 +796,12 @@ Wardrobe Page
     }
 }
 
+#wardrobe-filter-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
 .wardrobe-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -803,16 +809,12 @@ Wardrobe Page
 }
 
 .wardrobe-filters-wrap {
-    margin-bottom: 20px;
+    margin-bottom: 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 10px;
-}
-
-.wardrobe-filters-wrap h3 {
-    margin: 5px 0;
-    text-align: center;
+    padding: 10px 20px;
+    background: var(--color-frame);
 }
 
 .wardrobe-filters-wrap .brand-widget {
@@ -821,7 +823,7 @@ Wardrobe Page
 
 #wardrobe-wrap {
     background: var(--color-background-light);
-    max-height: 80vh;
+    max-height: 100vh;
     overflow-y: scroll;
 }
 
@@ -829,10 +831,6 @@ Wardrobe Page
     background-color: var(--color-frame-light);
     padding: 10px 20px;
     cursor: pointer;
-}
-
-#wardrobe-wrap > .category-wrap > .category-title {
-    font-size: larger;
 }
 
 .first-category-title {
@@ -845,6 +843,10 @@ Wardrobe Page
     margin: 0;
     display: flex;
     justify-content: space-between;
+}
+
+#wardrobe-wrap > .category-wrap > .collapsible-content > .category-wrap h2 {
+    font-size: 1rem;
 }
 
 .arrow-down {
@@ -904,7 +906,7 @@ Style Me Page
 
 #style-me-wrap {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -916,44 +918,20 @@ Style Me Page
     }
 }
 
+#style-me-wrap #wardrobe-and-filters-wrap {
+    width: 100%;
+}
+
 #style-me-outfit .outfit-stack {
     width: min(80vh, 80vw);
     height: min(80vh, 80vw);
 }
 
 #style-me-wrap #wardrobe-wrap {
-    max-height: 40vh;
+    max-height: 80vh;
     overflow-y: scroll;
 }
 
 #style-me-wrap #wardrobe-wrap .category-item {
     max-height: 25vh;
-}
-
-#style-me-filters .brand-widget {
-    font-size: smaller;
-}
-
-#style-me-wrap .category-wrap h2 {
-    font-size: smaller;
-}
-
-#style-me-filters .color-family-checkbox .color-family-checkbox-inner-wrap {
-    width: 1ch;
-    height: 1ch;
-}
-
-#style-me-filters .color-selector {
-    width: 1ch;
-    height: 1ch;
-    border-right: 1px solid white;
-}
-
-#style-me-filters .color-selector:last-of-type {
-    border-right: none;
-}
-
-#style-me-filters .color-family-checkbox .color-family-checkbox-checkmark {
-    max-width: 1ch;
-    max-height: 1ch;
 }
