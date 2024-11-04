@@ -117,7 +117,7 @@ header {
 
 .navigation-wrap {
     display: grid;
-    grid-template-columns: repeat(4, 7ch);
+    grid-template-columns: repeat(5, 7ch);
     height: 7ch;
 }
 
@@ -935,4 +935,13 @@ Style Me Page
 
 #style-me-wrap #wardrobe-wrap .category-item {
     max-height: 25vh;
+}
+
+/* =======
+Statistics
+======= */
+
+.graph-wrap {
+    width: min(40vw, 40vh);
+    height: min(40vw, 40vh);
 }
