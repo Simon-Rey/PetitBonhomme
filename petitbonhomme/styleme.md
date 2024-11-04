@@ -93,6 +93,11 @@ title: PetitBonhomme | Style Me
             e.nextElementSibling.classList.toggle("hidden");
             
         });
+        
+        if (window.matchMedia('(max-width: 950px)').matches) {
+            document.getElementById("wardrobe-filter-title").classList.add("collapsed");
+            document.getElementById("wardrobe-filter-content").classList.add("hidden");
+        }
 
         function filterWardrobeItems() {
         const selectedBrands = Array.from(document.querySelectorAll('.brand-checkbox-wrap input:checked'))

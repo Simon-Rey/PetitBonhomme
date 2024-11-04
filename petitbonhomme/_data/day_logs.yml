@@ -3990,13 +3990,23 @@
        - "Levi's Balloon Leg Light"
        - "Brick Red Coat"
   non-outfit-items:
-- date: "2024-11-04"
+- date: "2024-11-01"
   outfits:
     - items:
        - "Timberland Boots"
        - "Black Light Falke Tight"
        - "Brick Red Coat"
        - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
-       - "Skirt IKKS Double Matter"
+       - "Vintage Orange Skirt"
        - "Dark Blue Sweater V-Neck Celio"
+  non-outfit-items:
+- date: "2024-11-04"
+  outfits:
+    - items:
+       - "Dark Blue Corduroy High Waist Pants"
+       - "Timberland Boots"
+       - "Levi's Gray Jacket"
+       - "Sweater Volcom Blue and Gray"
+       - "Gray Long Sleeve T-Shirt"
+       - "Orange Knitted Scarf"
   non-outfit-items:

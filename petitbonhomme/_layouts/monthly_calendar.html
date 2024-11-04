@@ -85,7 +85,18 @@ layout: default
 
     <div class="calendar-day">
       <div class="calendar-day-header">
-        {{ current_date }}
+        {% assign day_suffix = current_date | date: "%-d" %}
+
+        {% if day_suffix == "1" or day_suffix == "21" or date == "31" %}
+          {% assign day_suffix = day_suffix | append: "st" %}
+        {% elsif day_suffix == "2" or day_suffix == "22" %}
+          {% assign day_suffix = day_suffix | append: "nd" %}
+        {% elsif day_suffix == "3" or day_suffix == "23" %}
+          {% assign day_suffix = day_suffix | append: "rd" %}
+        {% else %}
+          {% assign day_suffix = day_suffix | append: "th" %}
+        {% endif %}
+        {{ day_suffix }} {{ current_date | date: "%B %Y" }}
       </div>
 
       <div class="outfits-wrap">

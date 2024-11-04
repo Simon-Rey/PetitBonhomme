@@ -1,9 +1,9 @@
 {% assign only_first_level = include.only_first_level | default: "false" %}
 {% assign item_template_name = include.item_template_name | default: "wardrobe" %}
 <div id="wardrobe-and-filters-wrap">
-<div class="wardrobe-filters-wrap">
+<div id="wardrobe-filters-wrap">
 <h3 id="wardrobe-filter-title" class="collapsible-header"><span>Filters</span><span class="arrow-down"> </span></h3>
-<div class="collapsible-content">
+<div id="wardrobe-filter-content" class="collapsible-content">
 {% include brand_selector.html %}
 {% include color_selector.html %}
 </div>
