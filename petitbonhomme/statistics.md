@@ -9,44 +9,85 @@ extra_html_head: <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <h2>Wardrobe Content</h2>
 
 <div class="graph-wrap">
-<canvas id="colorPieChart"></canvas>
+  <canvas id="colorDoughnutChart" width="400" height="400"></canvas>
 </div>
 
 <script>
-const colorData = {{ site.data.clothing_items_colors | jsonify }};
+const familyData = {{ site.data.color_family_counts | jsonify }};
 
-const colorMapping = {};
-colorData.forEach(color => {
-  colorMapping[color.name] = color.HTML_code;
+// Prepare data for the inner ring (families)
+const familyLabels = Object.keys(familyData);
+const familyCounts = familyLabels.map(family => familyData[family].total);
+const familyColors = familyLabels.map(family => `#${familyData[family].hex}`);
+
+// Prepare data for the outer ring (individual colors within families)
+const colorLabels = [];
+const colorCounts = [];
+const colorHexValues = [];
+
+familyLabels.forEach(family => {
+  const familyInfo = familyData[family];
+  Object.keys(familyInfo.colors).forEach(color => {
+    colorLabels.push(color);
+    colorCounts.push(familyInfo.colors[color].count);
+    colorHexValues.push(`#${familyInfo.colors[color].hex}`);
+  });
 });
 
-const colorCounts = {{ site.data.color_counts | jsonify }};
-
-const colorLabels = Object.keys(colorCounts);
-const colorValues = Object.values(colorCounts);
-const colorHexValues = colorLabels.map(color => `#${colorMapping[color] || 'CCCCCC'}`);
-
-const ctx = document.getElementById('colorPieChart').getContext('2d');
+const familyLabelCount = familyLabels.length;
+console.log(familyLabelCount);
+const ctx = document.getElementById('colorDoughnutChart').getContext('2d');
 new Chart(ctx, {
-  type: 'pie',
+  type: 'doughnut',
   data: {
-    labels: colorLabels,
-    datasets: [{
-      data: colorValues,
-      backgroundColor: colorHexValues,
-      hoverOffset: 4
-    }]
+    labels: [...familyLabels, ...colorLabels],
+    datasets: [
+      {
+        label: 'Families',
+        data: familyCounts,
+        backgroundColor: familyColors,
+        hoverOffset: 4
+      },
+      {
+        label: 'Colors',
+        data: colorCounts,
+        backgroundColor: colorHexValues,
+        hoverOffset: 4
+      }
+    ]
   },
   options: {
     responsive: true,
+    cutout: '50%',
     plugins: {
-      legend: {
-        display: false,
-      },
+      legend: { display: false },
       tooltip: {
         callbacks: {
+          title: function(tooltipItems) {
+            const tooltipItem = tooltipItems[0];
+            const datasetIndex = tooltipItem.datasetIndex;
+            const dataIndex = tooltipItem.dataIndex;
+            
+            // Retrieve correct label
+            const label = datasetIndex === 0 
+                ? tooltipItem.chart.data.labels[dataIndex] // Family label
+                : tooltipItem.chart.data.labels[dataIndex + familyLabelCount]; // Color label
+
+            return `${label}`;
+          },
           label: function(tooltipItem) {
-            return `${tooltipItem.label}: ${tooltipItem.raw.toFixed(2)}%`;
+            const datasetIndex = tooltipItem.datasetIndex;
+            const dataIndex = tooltipItem.dataIndex;
+            
+            // Retrieve correct label
+            const label = datasetIndex === 0 
+                ? tooltipItem.chart.data.labels[dataIndex] // Family label
+                : tooltipItem.chart.data.labels[dataIndex + familyLabelCount]; // Color label
+
+            const count = tooltipItem.raw;
+            return datasetIndex === 0 
+                ? `${label} Family: ${count} items`
+                : `${label}: ${count} items`;
           }
         }
       }
@@ -54,3 +95,4 @@ new Chart(ctx, {
   }
 });
 </script>
+
