@@ -2,157 +2,193 @@
 - name: "BrightRed"
   HTML_code: "EE4B2B"
   family: "Red"
+  order: 10
 
 - name: "BrickRed"
   HTML_code: "AA4A44"
   family: "Red"
+  order: 11
 
 - name: "Burgundy"
   HTML_code: "800020"
   family: "Red"
+  order: 12
 
 # Brown Family
 - name: "Fawn"
   HTML_code: "E5AA70"
   family: "Brown"
+  order: 20
 
 - name: "LightBrown"
   HTML_code: "C4A484"
   family: "Brown"
+  order: 21
 
 - name: "Coffee"
   HTML_code: "6F4E37"
   family: "Brown"
+  order: 22
 
 # Orange Family
 - name: "BrightOrange"
   HTML_code: "FFAC1C"
   family: "Orange"
+  order: 30
 
 - name: "NeonOrange"
   HTML_code: "FF5F1F"
   family: "Orange"
+  order: 31
 
 - name: "BurntOrange"
   HTML_code: "CC5500"
   family: "Orange"
+  order: 32
 
 - name: "DarkOrange"
   HTML_code: "8B4000"
   family: "Orange"
+  order: 33
 
 # Yellow Family
 - name: "Yellow"
   HTML_code: "FFFF00"
   family: "Yellow"
+  order: 40
 
 - name: "Gold"
   HTML_code: "FFD700"
   family: "Yellow"
+  order: 41
 
 # Green Family
 - name: "PastelGreen"
   HTML_code: "C1E1C1"
   family: "Green"
+  order: 50
 
 - name: "EmeraldGreen"
   HTML_code: "50C878"
   family: "Green"
+  order: 51
 
 - name: "JungleGreen"
   HTML_code: "2AAA8A"
   family: "Green"
+  order: 52
 
 - name: "MossGreen"
   HTML_code: "8A9A5B"
   family: "Green"
+  order: 53
 
 - name: "ForestGreen"
   HTML_code: "228B22"
   family: "Green"
+  order: 54
 
 - name: "HunterGreen"
   HTML_code: "355E3B"
   family: "Green"
+  order: 55
 
 # Blue Family
 - name: "Azure"
   HTML_code: "F0FFFF"
   family: "Blue"
+  order: 60
 
 - name: "BabyBlue"
   HTML_code: "89CFF0"
   family: "Blue"
+  order: 61
 
 - name: "BlueGray"
   HTML_code: "7393B3"
   family: "Blue"
+  order: 62
 
 - name: "SapphireBlue"
   HTML_code: "0F52BA"
   family: "Blue"
+  order: 63
 
 - name: "MidnightBlue"
   HTML_code: "191970"
   family: "Blue"
+  order: 64
 
 # Purple Family
-
 - name: "DarkLavender"
   HTML_code: "D9D9FC"
   family: "Purple"
+  order: 70
 
 - name: "VioletBlue"
   HTML_code: "8B8EE7"
   family: "Purple"
+  order: 71
 
 - name: "Iris"
   HTML_code: "5D3FD3"
   family: "Purple"
+  order: 72
 
 - name: "Purple"
   HTML_code: "800080"
   family: "Purple"
+  order: 73
 
 - name: "Plum"
   HTML_code: "673147"
   family: "Purple"
+  order: 74
 
 # Pink Family
 - name: "LightPink"
   HTML_code: "FFB6C1"
   family: "Pink"
+  order: 80
 
 - name: "CoralPink"
   HTML_code: "F88379"
   family: "Pink"
+  order: 81
 
 - name: "Violet"
   HTML_code: "EE82EE"
   family: "Pink"
+  order: 82
 
 # White Family
 - name: "White"
   HTML_code: "FFFFFF"
   family: "White"
+  order: 90
 
 - name: "Cornsilk"
   HTML_code: "FFF8DC"
   family: "White"
+  order: 91
 
 # Black Family
 - name: "Silver"
   HTML_code: "C0C0C0"
   family: "Black"
+  order: 100
 
 - name: "Gray"
   HTML_code: "808080"
   family: "Black"
+  order: 101
 
 - name: "Charcoal"
   HTML_code: "36454F"
   family: "Black"
+  order: 102
 
 - name: "Black"
   HTML_code: "000000"
   family: "Black"
+  order: 103

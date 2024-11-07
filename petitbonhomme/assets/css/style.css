@@ -941,7 +941,16 @@ Style Me Page
 Statistics
 ======= */
 
+.graph-comparison-wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .graph-wrap {
     width: min(40vw, 40vh);
     height: min(40vw, 40vh);
+}
+
+.graph-wrap h3 {
+    text-align: center;
 }
