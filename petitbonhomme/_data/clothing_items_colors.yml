@@ -15,20 +15,25 @@
   order: 12
 
 # Brown Family
+- name: "Cornsilk"
+  HTML_code: "FFF8DC"
+  family: "Brown"
+  order: 20
+
 - name: "Fawn"
   HTML_code: "E5AA70"
   family: "Brown"
-  order: 20
+  order: 21
 
 - name: "LightBrown"
   HTML_code: "C4A484"
   family: "Brown"
-  order: 21
+  order: 22
 
 - name: "Coffee"
   HTML_code: "6F4E37"
   family: "Brown"
-  order: 22
+  order: 23
 
 # Orange Family
 - name: "BrightOrange"
@@ -161,34 +166,28 @@
   family: "Pink"
   order: 82
 
-# White Family
+# Neutral Family
 - name: "White"
   HTML_code: "FFFFFF"
-  family: "White"
+  family: "Neutral"
   order: 90
 
-- name: "Cornsilk"
-  HTML_code: "FFF8DC"
-  family: "White"
-  order: 91
-
-# Black Family
 - name: "Silver"
   HTML_code: "C0C0C0"
-  family: "Black"
-  order: 100
+  family: "Neutral"
+  order: 91
 
 - name: "Gray"
   HTML_code: "808080"
-  family: "Black"
-  order: 101
+  family: "Neutral"
+  order: 92
 
 - name: "Charcoal"
   HTML_code: "36454F"
-  family: "Black"
-  order: 102
+  family: "Neutral"
+  order: 93
 
 - name: "Black"
   HTML_code: "000000"
-  family: "Black"
-  order: 103
+  family: "Neutral"
+  order: 94

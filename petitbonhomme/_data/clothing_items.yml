@@ -663,7 +663,7 @@
   id: 33
   z_index: 5
 - name: Bash Cropped Bomber Pacino
-  brand: B&sh
+  brand: Ba&sh
   colors:
   - Cornsilk
   - CoralPink
@@ -2020,8 +2020,6 @@
   brand: No Brand
   colors:
   - MidnightBlue
-  - DarkLavender
-  - EmeraldGreen
   materials:
   - Cotton
   size: Man - S
@@ -2410,7 +2408,6 @@
   brand: Rab
   colors:
   - MidnightBlue
-  - Gold
   materials:
   - Polyester & Plastics
   size: Man - S
@@ -2856,8 +2853,7 @@
 - name: Dark Blue Galerie Lafayette Shoes
   brand: No Brand
   colors:
-  - BlueGray
-  - Fawn
+  - MidnightBlue
   materials:
   - Leather
   size: Shoe EUR 41
@@ -3116,7 +3112,6 @@
   brand: Hollister
   colors:
   - MidnightBlue
-  - Purple
   materials:
   - Cotton
   size: Man - M
