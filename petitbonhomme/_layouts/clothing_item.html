@@ -5,7 +5,7 @@ layout: default
 {% assign all_colors = site.data.clothing_items_colors %}
 
 <div class="side-by-side-centered-wrapper">
-    <div>
+    <div class="item-details-wrap">
         <table class="lined-table">
             <tr>
                 <th>Category:</th>
@@ -13,7 +13,12 @@ layout: default
             </tr>
             <tr>
                 <th>Brand:</th>
-                <td>{{ page.item.brand }}</td>
+                {% assign brand_object = site.data.clothing_items_brands | find: "name", page.item.brand %}
+                {% if brand_object.url %}
+                    <td><a href="{{ brand_object.url }}" target="_blank">{{ page.item.brand }}</a></td>
+                {% else %}
+                    <td>{{ page.item.brand }}</td>
+                {% endif %}
             </tr>
             <tr>
                 <th>Colours:</th>
@@ -65,10 +70,94 @@ layout: default
         </table>
     </div>
 
-    <div>
-        <p>
-            {% assign full_image_path = "/assets/img/clothes/" | append: page.item.worn_image %}
-            <img src="{{ full_image_path | relative_url }}" alt="{{ item.name }}" width="50%">
-        </p>
+    <div class="item-image-wrap">
+        <img src="{{ '/assets/img/clothes/' | append: page.item.image | relative_url }}" alt="{{ item.name }}" width="50%">
     </div>
 </div>
+
+<h3 style="text-align: center">Monthly Wears</h3>
+<div id="item-wear-chart-wrap">
+<canvas id="item-wear-chart"></canvas>
+</div>
+
+<script>
+  // Data from Ruby
+  {% assign wear_counts = site.data.monthly_wear_counts[page.item.name] %}
+  const wearCounts = {{ wear_counts | jsonify }};
+
+  // Helper function to get all months from the minimum to maximum month in wearCounts
+  function getAllMonths(data) {
+    const months = Object.keys(data).sort();
+    const [startYear, startMonth] = months[0].split('-').map(Number);
+    const [endYear, endMonth] = months[months.length - 1].split('-').map(Number);
+
+    const allMonths = [];
+    let year = startYear;
+    let month = startMonth;
+
+    // Generate sequential months from start to end
+    while (year < endYear || (year === endYear && month <= endMonth)) {
+      allMonths.push(`${year}-${String(month).padStart(2, '0')}`);
+      month += 1;
+      if (month > 12) { month = 1; year += 1; }
+    }
+    return allMonths;
+  }
+
+  // Function to format month labels as "Month Year"
+  function formatMonthLabel(ym) {
+    const [year, month] = ym.split('-').map(Number);
+    const date = new Date(year, month - 1); // Month is 0-indexed in JS Date
+    const formattedDate = date.toLocaleString('default', { month: 'long', year: 'numeric' });
+
+    // Capitalize the first letter of the month
+    return formattedDate.charAt(0).toUpperCase() + formattedDate.slice(1);
+  }
+
+  // Get all months across the date range for the x-axis
+  const months = getAllMonths(wearCounts);
+  const formattedMonths = months.map(formatMonthLabel); // Format labels as "Month Year"
+
+  // Prepare data for Chart.js
+  const data = months.map(month => wearCounts[month] || 0); // Default to 0 if no wear data
+
+  // Initialize Chart.js
+  const ctx = document.getElementById('item-wear-chart').getContext('2d');
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: formattedMonths,
+      datasets: [{
+        label: '',
+        data: data,
+        fill: false,
+        borderColor: '#ff6600', // Customize color if needed
+        tension: 0.1
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: {
+          title: { display: true, text: 'Month' },
+          type: 'category'
+        },
+        y: {
+          title: { display: true, text: 'Number of Wears' },
+          beginAtZero: true
+        }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return `${context.raw} wears`;
+            }
+          }
+        }
+      }
+    }
+  });
+</script>

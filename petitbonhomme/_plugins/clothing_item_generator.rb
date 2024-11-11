@@ -11,7 +11,8 @@ module Jekyll
       self.data ||= {}
       self.data['layout'] = 'clothing_item'
       self.data['item'] = item
-      self.data['title'] = item['name']
+      self.data['title'] = "PetitBonhomme | #{item['name']}"
+      self.data['extra_html_head'] = '<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>'
     end
   end
 

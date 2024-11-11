@@ -652,6 +652,35 @@ Day Log Page
     margin-left: 10px;
 }
 
+/* ======
+Item Page
+====== */
+
+.item-image-wrap, .item-details-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.item-details-wrap table {
+    width: 100%;
+}
+
+#item-wear-chart {
+}
+
+#item-wear-chart-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: min(30vh, 30vw);
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
 /* ==========
 Calendar Page
 ========== */
@@ -907,7 +936,6 @@ Style Me Page
 
 #style-me-wrap {
     display: flex;
-    flex-direction: column-reverse;
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -921,6 +949,7 @@ Style Me Page
 
 #style-me-wrap #wardrobe-and-filters-wrap {
     width: 100%;
+    grid-template-columns: 1fr;
 }
 
 #style-me-outfit .outfit-stack {
@@ -937,6 +966,11 @@ Style Me Page
     max-height: 25vh;
 }
 
+#style-me-wrap .wardrobe-item.selected .wardrobe-item-img-wrap {
+    border: 2px solid var(--color-frame);
+    background: var(--color-frame-light);
+}
+
 /* =======
 Statistics
 ======= */
@@ -944,13 +978,20 @@ Statistics
 .graph-comparison-wrap {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
-.graph-wrap {
-    width: min(40vw, 40vh);
-    height: min(40vw, 40vh);
+.graph-wrap canvas {
+    width: min(80vw, 40vh);
+    height: min(80vw, 40vh);
 }
 
 .graph-wrap h3 {
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .graph-comparison-wrap {
+        flex-direction: column;
+    }
 }

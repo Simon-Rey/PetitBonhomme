@@ -90,7 +90,7 @@ new Chart({{prefix}}ColorDoughnutChart, {
           const width = context.chart.width;
           const height = context.chart.height;
           // Use a dynamic font size based on the chart's size
-          const size = Math.min(width, height) / 40 ;
+          const size = Math.min(width, height) / 30 ;
 
           return {
             weight: 'bold',

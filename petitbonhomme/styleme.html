@@ -37,6 +37,8 @@ title: PetitBonhomme | Style Me
     function toggleItemSelection(item) {
         const itemName = item.dataset.name;
         const itemId = generateId(itemName);
+
+        document.querySelector(`.wardrobe-item[data-name="${itemName}"]`).classList.toggle("selected");
         
         if (selectedItems.includes(itemName)) {
             selectedItems.splice(selectedItems.indexOf(itemName), 1);
@@ -57,8 +59,7 @@ title: PetitBonhomme | Style Me
             img.style.zIndex = item.dataset.zIndex;
             img.setAttribute('data-item-id', itemId);
             outfitStack.prepend(img);
-    
-            
+
             const wheelLink = document.createElement('a');
             wheelLink.className = 'outfit-wheel-item-image-wrap';
             wheelLink.setAttribute('data-item-id', itemId);
@@ -93,11 +94,9 @@ title: PetitBonhomme | Style Me
             e.nextElementSibling.classList.toggle("hidden");
             
         });
-        
-        if (window.matchMedia('(max-width: 950px)').matches) {
-            document.getElementById("wardrobe-filter-title").classList.add("collapsed");
-            document.getElementById("wardrobe-filter-content").classList.add("hidden");
-        }
+
+        document.getElementById("wardrobe-filter-title").classList.add("collapsed");
+        document.getElementById("wardrobe-filter-content").classList.add("hidden");
 
         function filterWardrobeItems() {
         const selectedBrands = Array.from(document.querySelectorAll('.brand-checkbox-wrap input:checked'))
