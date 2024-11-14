@@ -44,12 +44,17 @@
         <nav><a class="navigation-icon wardrobe-icon" href="{{ 'wardrobe' | relative_url }}"><i class="fa-solid fa-shirt"></i></a></nav>
         <nav><a class="navigation-icon style-icon" href="{{ 'styleme' | relative_url }}"><i class="fa-solid fa-snowman"></i></a></nav>
         <nav><a class="navigation-icon stats-icon" href="{{ 'statistics' | relative_url }}"><i class="fa-solid fa-chart-simple"></i></a></nav>
-        <nav><a class="navigation-icon info-icon" href="{{ 'info' | relative_url }}"><i class="fa-solid fa-circle-info"></i></a></nav>
+        <nav><a class="navigation-icon info-icon" href="{{ 'about' | relative_url }}"><i class="fa-solid fa-circle-info"></i></a></nav>
     </div>
 </header>
 
 <main {% if page.main_id %}id="{{ page.main_id }}"{% endif %}>
-    {{ content }}
+    {% if page.main_h_title %}
+        <h1>{{ page.main_h_title }}</h1>
+    {% endif %}
+    <div {% if page.content_wrap_id %}id="{{ page.content_wrap_id }}"{% endif %} class="main-content-wrap">
+        {{ content }}
+    </div>
 </main>
 
 <footer></footer>

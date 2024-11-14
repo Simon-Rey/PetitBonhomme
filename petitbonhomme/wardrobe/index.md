@@ -1,9 +1,10 @@
 ---
 layout: default
 title: PetitBonhomme | Wardrobe
+main_h_title: Wardrobe
+main_id: wardrobe-main
+content_wrap_id: wardrobe-content-wrap
 ---
-
-<h1>Wardrobe</h1>
 
 {% include wardrobe_and_filters.html %}
 

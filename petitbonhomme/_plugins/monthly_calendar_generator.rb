@@ -32,7 +32,9 @@ module Jekyll
         month_page.data['logs'] = logs
         month_page.data['full_month'] = full_month
         month_page.data['main_id'] = "main-calendar"
+        month_page.data['content_wrap_id'] = "content-calendar-wrap"
         month_page.data['title'] = "PetitBonhomme | #{full_month} #{year}"
+        month_page.data['main_h_title'] = "#{full_month} #{year}"
 
         # Add the month page to the site
         site.pages << month_page
@@ -45,19 +47,6 @@ module Jekyll
           latest_logs = logs
         end
       end
-
-      # Store the latest year and month globally for other pages
-      # if latest_month
-        # Create an index page using the latest month’s data
-      #  index_page = PageWithoutAFile.new(site, site.source, '', 'index.html')
-      #  index_page.data['layout'] = 'monthly_calendar'
-      #  index_page.data['year'] = latest_year
-      #  index_page.data['month'] = latest_month.strftime('%m')
-      #  index_page.data['logs'] = latest_logs
-
-        # Add the index page to the site
-      #  site.pages << index_page
-      # end
     end
   end
 end

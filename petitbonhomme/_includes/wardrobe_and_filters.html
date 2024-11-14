@@ -22,6 +22,10 @@ document.addEventListener("DOMContentLoaded", function() {
         e.addEventListener("click", function () {
             this.classList.toggle("collapsed");
             this.nextElementSibling.classList.toggle("hidden");
+
+            if (this.nextElementSibling.classList.contains("hidden")) {
+                this.scrollIntoView({ behavior: "auto", block: "center" });
+            }
         });
     });
 

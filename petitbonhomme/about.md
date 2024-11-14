@@ -1,9 +1,9 @@
 ---
 layout: default
-title: PetitBonhomme | Info
+title: PetitBonhomme | About
+main_h_title: About this Project
+content_wrap_id: about-content-wrap
 ---
-
-<h1>About this Project</h1>
 
 This project came about from reflecting on my wardrobe: what goes in, what goes out, what is worn, and what isn’t.
 This reflection occurred at a time when my wardrobe was evolving rapidly.
