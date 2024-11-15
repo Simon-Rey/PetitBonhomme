@@ -29,7 +29,7 @@
   buying_date: '2024-10-09'
   bought_new: false
   not_logged_wear: 0
-  z_index: 5
+  z_index: 6
   image: Close-Up/
   worn_image: Worn/
 - name: Birkenstock
@@ -159,7 +159,7 @@
   image: Close-Up/2023 - Clothes - F168A6DB-630F-47BC-AFD5-6E80AFF8C9C0.webp
   worn_image: Worn/2023 - Clothes - 1CF747A2-0F62-4C34-8042-42C91C5164A4.webp
   id: 7
-  z_index: 5
+  z_index: 6
 - name: Levi's Denim Shirt
   brand: Levi's
   colors:
@@ -341,7 +341,7 @@
   image: Close-Up/2023 - Clothes - F98C1009-9ABE-4608-9674-61806D554ADF.webp
   worn_image: Worn/2023 - Clothes - 131600D7-0D85-43FA-A7CF-9A6CBC1D3BBC.webp
   id: 17
-  z_index: 8
+  z_index: 9
 - name: Golden Vintage Vest
   brand: No Brand
   colors:
@@ -361,7 +361,7 @@
   image: Close-Up/2023 - Clothes - 45E6ECCC-43F8-4508-8ED5-131E46F9EA7E.webp
   worn_image: Worn/2023 - Clothes - 18676829-D230-4E4B-A9F8-D03F7F66C5C4.webp
   id: 18
-  z_index: 7
+  z_index: 8
 - name: Crop Top Pink Zara
   brand: Zara
   colors:
@@ -398,7 +398,7 @@
   image: Close-Up/2023 - Clothes - 2043F63E-9207-4A2D-9E9D-C19F3F040459.webp
   worn_image: Worn/2023 - Clothes - 18CE9F95-4B63-47BD-9E07-6108E9C5C7E0.webp
   id: 20
-  z_index: 7
+  z_index: 8
 - name: Pull Motif Pull & Bear
   brand: Pull and Bear
   colors:
@@ -418,7 +418,7 @@
   image: Close-Up/2023 - Clothes - EB881A7F-FB34-44B1-9588-D667989A6AA7.webp
   worn_image: Worn/2023 - Clothes - 18DB6FAC-FA90-4DC5-AAF7-A328C5F8D7BE.webp
   id: 21
-  z_index: 5
+  z_index: 6
 - name: Levi's Balloon Leg Light
   brand: Levi's
   colors:
@@ -454,7 +454,7 @@
   image: Close-Up/2023 - Clothes - 302FFF94-98AB-4942-A3C6-E6A6F3C3BAAB.webp
   worn_image: Worn/2023 - Clothes - 1988FFE1-FE96-4C45-A87F-C1E9CE111BFB.webp
   id: 23
-  z_index: 6
+  z_index: 7
 - name: Long Sleeve Black T-Shirt Tico
   brand: No Brand
   colors:
@@ -586,7 +586,7 @@
   image: Close-Up/2023 - Clothes - AEE95DF6-C3A2-47CD-950D-D57EF58B82EF.webp
   worn_image: Worn/2023 - Clothes - 312AD1BC-B750-4425-B045-9BA459987E57.webp
   id: 29
-  z_index: 5
+  z_index: 6
 - name: Balloon Leg Black Levi's
   brand: Levi's
   colors:
@@ -661,7 +661,7 @@
   image: Close-Up/2023 - Clothes - ECA83F38-0A3C-4D0B-B54A-6E6D4EDD4B8B.webp
   worn_image: Worn/2023 - Clothes - 3B928400-2EFF-4F4D-9CD8-B3DC4474E1E8.webp
   id: 33
-  z_index: 5
+  z_index: 6
 - name: Bash Cropped Bomber Pacino
   brand: Ba&sh
   colors:
@@ -681,7 +681,7 @@
   image: Close-Up/2023 - Clothes - 10EF0027-9EAC-4224-B948-D773FA7A0C61.webp
   worn_image: Worn/2023 - Clothes - 3CB46FAF-ABC7-4D43-B325-1817E6DE516A.webp
   id: 34
-  z_index: 7
+  z_index: 8
 - name: Blue Shirt Corderoy America Today
   brand: America Today
   colors:
@@ -773,7 +773,7 @@
   image: Close-Up/2023 - Clothes - D3C01659-ABE4-4147-9ECD-605107D4A5B0.webp
   worn_image: Worn/2023 - Clothes - 47D19170-E833-4C87-A451-947A55F38B8E.webp
   id: 39
-  z_index: 4
+  z_index: 5
 - name: T-Shirt Roger Waters
   brand: No Brand
   colors:
@@ -867,7 +867,7 @@
   image: Close-Up/2023 - Clothes - D5513488-5347-47F8-8093-A33D59E4852F.webp
   worn_image: Worn/2023 - Clothes - 5003FE9A-6351-4EF6-ABE3-6980CB38FBAE.webp
   id: 44
-  z_index: 7
+  z_index: 8
 - name: Blue Celio T-Shirt V-Neck
   brand: Celio
   colors:
@@ -1011,7 +1011,7 @@
   image: Close-Up/2023 - Clothes - 3AB4EE4E-222D-4AC3-B5BF-7246D2AA2F5C.webp
   worn_image: Worn/2023 - Clothes - 56B605A9-86D0-43C7-836D-F17D790CA338.webp
   id: 52
-  z_index: 4
+  z_index: 5
 - name: Nike Trail Sneakers
   brand: Nike
   colors:
@@ -1051,7 +1051,7 @@
   image: Close-Up/2023 - Clothes - 70C4E70A-D6D7-40E2-82B0-DDC81B1DC4EC.webp
   worn_image: Worn/2023 - Clothes - 5773DD17-CF3F-497D-B270-CE3E8E2405E8.webp
   id: 54
-  z_index: 8
+  z_index: 9
 - name: Sweater Gradient ERL
   brand: ERL
   colors:
@@ -1074,7 +1074,7 @@
   image: Close-Up/2023 - Clothes - 0FC8D946-CB4E-4760-B90E-9A7AFA9B1650.webp
   worn_image: Worn/2023 - Clothes - 58676F7A-6F54-402E-9050-6FA09D5526DF.webp
   id: 55
-  z_index: 5
+  z_index: 6
 - name: White Ribbed Crop Top Uniqlo
   brand: Uniqlo
   colors:
@@ -1110,7 +1110,7 @@
   image: Close-Up/2023 - Clothes - 16A18009-7162-425B-8359-D4C1CF52C39E.webp
   worn_image: Worn/2023 - Clothes - 59CE6686-8A3D-4DDE-9DAE-5F78CBA17416.webp
   id: 57
-  z_index: 6
+  z_index: 7
 - name: Black Top the Kooples Sport
   brand: The Kooples
   colors:
@@ -1222,7 +1222,7 @@
   image: Close-Up/2023 - Clothes - C9E0F8CC-5F0C-4DF6-8B73-27C64F3F8C75.webp
   worn_image: Worn/2023 - Clothes - 5FE85E66-1CB2-4D4C-9A15-AB91413B99BE.webp
   id: 63
-  z_index: 5
+  z_index: 6
 - name: Cape Marianne
   brand: Marianne
   colors:
@@ -1240,7 +1240,7 @@
   image: Close-Up/2023 - Clothes - 30AE1DF5-6497-44EA-9A4A-3F2200F7BAEB.webp
   worn_image: Worn/2023 - Clothes - 60610F00-D3BF-4CE5-928A-DECBF91951A5.webp
   id: 64
-  z_index: 7
+  z_index: 8
 - name: Uniqlo White Long Sleeve Sweatshirt
   brand: Uniqlo
   colors:
@@ -1276,7 +1276,7 @@
   image: Close-Up/2023 - Clothes - F033E55A-58A6-4EF1-939B-2C8E46E09091.webp
   worn_image: Worn/2023 - Clothes - 62DCB5C7-4275-41EE-852C-26D725AD9F3A.webp
   id: 66
-  z_index: 6
+  z_index: 7
 - name: Jacket Luka Bonsini
   brand: Luka Bonsini
   colors:
@@ -1294,7 +1294,7 @@
   image: Close-Up/2023 - Clothes - 98D1F576-27E6-4F26-BCA3-F9E1B9B05D6F.webp
   worn_image: Worn/2023 - Clothes - 632D4D44-76CF-41B0-8B01-2F469471B327.webp
   id: 67
-  z_index: 7
+  z_index: 8
 - name: Dress with Straps Stradivarius
   brand: Stradivarius
   colors:
@@ -1312,7 +1312,7 @@
   image: Close-Up/2023 - Clothes - 25F4EF6D-92A2-44F8-B119-463176B5B097.webp
   worn_image: Worn/2023 - Clothes - 6497F37F-CBE8-42AF-910D-8D9F18ABA045.webp
   id: 68
-  z_index: 4
+  z_index: 5
 - name: Black Crop Top Maje
   brand: Maje
   colors:
@@ -1352,7 +1352,7 @@
   image: Close-Up/2023 - Clothes - CD6938F7-4D2E-4FEF-AFD6-12E891945A2D.webp
   worn_image: Worn/2023 - Clothes - 66823201-97B0-49AD-BD31-984A247C70FD.webp
   id: 70
-  z_index: 5
+  z_index: 6
 - name: T-Shirt Zara White with Dots
   brand: Zara
   colors:
@@ -1388,7 +1388,7 @@
   image: Close-Up/2023 - Clothes - 28D5B5D6-9584-4CA5-82DB-E3B897EA0B06.webp
   worn_image: Worn/2023 - Clothes - 67F21D00-A2F4-4ADF-B495-430636F345AC.webp
   id: 72
-  z_index: 7
+  z_index: 8
 - name: Red Small Hat
   brand: No Brand
   colors:
@@ -1406,7 +1406,7 @@
   image: Close-Up/2023 - Clothes - D0747E71-EE2B-4927-81F8-BDBBC6DEC668.webp
   worn_image: Worn/2023 - Clothes - 698AF769-B7F7-4920-8CAC-D27DA86040B2.webp
   id: 73
-  z_index: 8
+  z_index: 9
 - name: Gray Shirt Celio
   brand: Celio
   colors:
@@ -1518,7 +1518,7 @@
   image: Close-Up/2023 - Clothes - 087FB3B3-1205-4848-B20B-19305F727F3F.webp
   worn_image: Worn/2023 - Clothes - 6D3FB90A-02F7-45AA-ACE0-FC5EEE7814C6.webp
   id: 79
-  z_index: 8
+  z_index: 9
 - name: Kenzo Cropped Tiger Sweater
   brand: Kenzo
   colors:
@@ -1537,7 +1537,7 @@
   image: Close-Up/2023 - Clothes - 252C8385-5801-4FED-A192-799895873134.webp
   worn_image: Worn/2023 - Clothes - 6EF0455C-1D86-4ACB-9C22-8FE39F498D8E.webp
   id: 80
-  z_index: 5
+  z_index: 6
 - name: Orange Lucy & Yak Jumpsuit
   brand: Lucy and Yak
   colors:
@@ -1555,7 +1555,7 @@
   image: Close-Up/2023 - Clothes - D67A0344-F0BF-4F81-B036-93886D0B7EB3.webp
   worn_image: Worn/2023 - Clothes - 6F063A4F-58A1-4D79-8069-CD5E74AEBFA0.webp
   id: 81
-  z_index: 4
+  z_index: 5
 - name: Heel Boot Dr. Martens
   brand: Dr. Martens
   colors:
@@ -1723,7 +1723,7 @@
   image: Close-Up/2023 - Clothes - 8416F64B-5674-43AA-AA82-423124C5B529.webp
   worn_image: Worn/2023 - Clothes - 73612153-818B-4E0C-82AF-E713210824E5.webp
   id: 90
-  z_index: 4
+  z_index: 5
 - name: Light Blue Levi's Mini Shorts
   brand: Levi's
   colors:
@@ -1778,7 +1778,7 @@
   image: Close-Up/2023 - Clothes - B5D0E304-B98C-4354-A268-E68BE7F5AA44.webp
   worn_image: Worn/2023 - Clothes - 76955F25-2261-4433-9122-03C2EEA596ED.webp
   id: 93
-  z_index: 5
+  z_index: 6
 - name: Adidas Cropped Sweater
   brand: Adidas
   colors:
@@ -1796,7 +1796,7 @@
   image: Close-Up/2023 - Clothes - CD6F03A2-1831-418C-9161-C6290D89F82A.webp
   worn_image: Worn/2023 - Clothes - 76F716C1-2A49-448C-AECC-DCCEEB324A82.webp
   id: 94
-  z_index: 5
+  z_index: 6
 - name: Levi's Denim Blue Mini Shorts
   brand: Levi's
   colors:
@@ -1833,7 +1833,7 @@
   image: Close-Up/2023 - Clothes - B60272ED-FB74-4CB7-8BF0-B72F17A53932.webp
   worn_image: Worn/2023 - Clothes - 7B248220-7642-40CD-81BA-FFAFC19DB59A.webp
   id: 96
-  z_index: 9
+  z_index: 10
 - name: Dark Blue Dickies Pants
   brand: Dickies
   colors:
@@ -1888,7 +1888,7 @@
   image: Close-Up/2023 - Clothes - 64095BC7-16D9-4E63-86CE-502867672089.webp
   worn_image: Worn/2023 - Clothes - 7D1C7A9E-2AA3-43E2-BE0C-F3E97E6CB9BA.webp
   id: 99
-  z_index: 5
+  z_index: 6
 - name: Jumpsuit Blue
   brand: No Brand
   colors:
@@ -1906,7 +1906,7 @@
   image: Close-Up/2023 - Clothes - A8D8D843-F5AF-4390-B7EF-478A719A8069.webp
   worn_image: Worn/2023 - Clothes - 7D3CC9C2-E291-456E-9EFB-3E5B06DAFB2C.webp
   id: 100
-  z_index: 4
+  z_index: 5
 - name: Maje Fluid Dress
   brand: Maje
   colors:
@@ -1925,7 +1925,7 @@
   image: Close-Up/2023 - Clothes - 73317486-0BC9-4BAE-805A-B18F8E341728.webp
   worn_image: Worn/2023 - Clothes - 8349C9DF-C17A-4C48-9588-55C47830F2EA.webp
   id: 101
-  z_index: 4
+  z_index: 5
 - name: Gray Volcom Shorts
   brand: Volcom
   colors:
@@ -1997,7 +1997,7 @@
   image: Close-Up/2023 - Clothes - 56586BEA-1E40-42DC-86BC-DE1A8FB993E8.webp
   worn_image: Worn/2023 - Clothes - 8A4EE9DB-69C5-44C1-BB28-0A0BB598D380.webp
   id: 105
-  z_index: 5
+  z_index: 6
 - name: Uniqlo Black Shirt
   brand: Uniqlo
   colors:
@@ -2033,7 +2033,7 @@
   image: Close-Up/2023 - Clothes - ACF48E13-102C-442F-B78B-C55156A8513A.webp
   worn_image: Worn/2023 - Clothes - 8B1F3602-B19F-472D-813A-3473EE64ADA7.webp
   id: 107
-  z_index: 7
+  z_index: 8
 - name: Dark Blue The Kooples Skirt
   brand: The Kooples
   colors:
@@ -2090,7 +2090,7 @@
   image: Close-Up/2023 - Clothes - A1BFC002-3B3C-4331-A7B0-14E54FF0A18B.webp
   worn_image: Worn/2023 - Clothes - 903735CA-66EB-4B9A-92E4-D1F1972489C3.webp
   id: 110
-  z_index: 5
+  z_index: 6
 - name: Green Zara Crop Top
   brand: Zara
   colors:
@@ -2127,7 +2127,7 @@
   image: Close-Up/2023 - Clothes - 22BC4EA0-D403-4A9A-AD53-E82D6725CB1E.webp
   worn_image: Worn/2023 - Clothes - 9110D79A-F971-4D71-9DCE-724E5B1C7A77.webp
   id: 112
-  z_index: 6
+  z_index: 7
 - name: Beige Cachemire Turtle Neck
   brand: No Brand
   colors:
@@ -2145,7 +2145,7 @@
   image: Close-Up/2023 - Clothes - 5B904894-F224-4431-996F-9979717737C0.webp
   worn_image: Worn/2023 - Clothes - 9138479B-1C59-461D-A4D0-49C15B39B953.webp
   id: 113
-  z_index: 5
+  z_index: 6
 - name: Black Ribbed Tank Top Honest Basics
   brand: Honest Basics
   colors:
@@ -2290,7 +2290,7 @@
   image: Close-Up/2023 - Clothes - D599427E-613E-4AA5-9DB3-67BADCF5EA25.webp
   worn_image: Worn/2023 - Clothes - A095019D-5C24-4AC5-B633-2D7D529BA7B2.webp
   id: 121
-  z_index: 4
+  z_index: 5
 - name: Wool Gray Turtleneck Sweater & Other Stories
   brand: '& Other Stories'
   colors:
@@ -2309,7 +2309,7 @@
   image: Close-Up/2023 - Clothes - C2095793-5C3E-4FD4-A69D-487805715A10.webp
   worn_image: Worn/2023 - Clothes - A233BC82-B623-4E45-934E-CFE52C0CEC9B.webp
   id: 122
-  z_index: 5
+  z_index: 6
 - name: Red Shirt with Pattern
   brand: No Brand
   colors:
@@ -2421,7 +2421,7 @@
   image: Close-Up/2023 - Clothes - AF384713-5CC2-4FF0-9E19-4B037C5EEA11.webp
   worn_image: Worn/2023 - Clothes - A83D8973-E854-48F1-858E-19A901F9E230.webp
   id: 128
-  z_index: 7
+  z_index: 8
 - name: White and Gray H&M Skirt
   brand: H&M
   colors:
@@ -2458,7 +2458,7 @@
   image: Close-Up/2023 - Clothes - B1B46EA4-6F44-438D-9563-0651B26A44D7.webp
   worn_image: Worn/2023 - Clothes - A965DB68-C645-4E7E-9C49-B226C2C92F52.webp
   id: 130
-  z_index: 5
+  z_index: 6
 - name: Skirt IKKS Double Matter
   brand: IKKS
   colors:
@@ -2495,7 +2495,7 @@
   image: Close-Up/2023 - Clothes - 62CE7713-121A-402D-8BFB-564FA4FF88BE.webp
   worn_image: Worn/2023 - Clothes - AE1E589D-E9F7-4A6D-8DEC-8EB136F803F3.webp
   id: 132
-  z_index: 5
+  z_index: 6
 - name: Dark Blue Heel Boot Anna Field
   brand: Anna Field
   colors:
@@ -2532,7 +2532,7 @@
   image: Close-Up/2023 - Clothes - D0309C84-3CE2-4AC5-B506-9565145E5D98.webp
   worn_image: Worn/2023 - Clothes - B14AF070-51AF-47E7-9572-5171A050F7B0.webp
   id: 134
-  z_index: 7
+  z_index: 8
 - name: Gray Long Sleeve T-Shirt
   brand: Esprit
   colors:
@@ -2645,7 +2645,7 @@
   image: Close-Up/2023 - Clothes - 069BE9D2-16AE-45EB-B0E2-1BF05817C7AE.webp
   worn_image: Worn/2023 - Clothes - B90DF7F1-EDC9-437A-8985-C218DD00AAA1.webp
   id: 140
-  z_index: 7
+  z_index: 8
 - name: Gray Shorts Celio
   brand: Celio
   colors:
@@ -2700,7 +2700,7 @@
   image: Close-Up/2023 - Clothes - E415C91B-1E61-4CEA-B527-D4F74F88EBB5.webp
   worn_image: Worn/2023 - Clothes - C0E3CD08-F2B3-4CB3-9CD3-8D5464D617B9.webp
   id: 143
-  z_index: 5
+  z_index: 6
 - name: Gray Decathlon Hiking Shorts
   brand: Decathlon
   colors:
@@ -2791,7 +2791,7 @@
   image: Close-Up/2023 - Clothes - 3EB3A3E2-6788-4F04-9653-B9F116786257.webp
   worn_image: Worn/2023 - Clothes - CC5A5ECE-471F-4319-8005-676845D9AC9B.webp
   id: 148
-  z_index: 5
+  z_index: 6
 - name: Orange and Gray Sweater Dedicated
   brand: Dedicated
   colors:
@@ -2812,7 +2812,7 @@
   image: Close-Up/2023 - Clothes - CD15A299-B2CF-43D0-8C18-370F04535E98.webp
   worn_image: Worn/2023 - Clothes - CCE3D439-10EB-4022-8F9F-4912E2CDBC89.webp
   id: 149
-  z_index: 5
+  z_index: 6
 - name: White T-Shirt Embroidered Zoé
   brand: No Brand
   colors:
@@ -2849,7 +2849,7 @@
   image: Close-Up/2023 - Clothes - 732E93DF-2119-48E4-BDD4-1CF4AF15EF73.webp
   worn_image: Worn/2023 - Clothes - CF674B7C-A07C-4BB2-82B3-113AC734D058.webp
   id: 151
-  z_index: 7
+  z_index: 8
 - name: Dark Blue Galerie Lafayette Shoes
   brand: No Brand
   colors:
@@ -2885,7 +2885,7 @@
   image: Close-Up/2023 - Clothes - FB093941-2349-4407-9F53-EE634B10C966.webp
   worn_image: Worn/2023 - Clothes - D1DD989B-F768-4A85-B122-E30466AF2B6B.webp
   id: 153
-  z_index: 8
+  z_index: 9
 - name: Dark Blue Striped Polo Volcom
   brand: Volcom
   colors:
@@ -2996,7 +2996,7 @@
   image: Close-Up/2023 - Clothes - 7A51029C-3E61-4085-A9D4-0AA010E2CDE8.webp
   worn_image: Worn/2023 - Clothes - DC762448-D9FB-4C9D-83E9-C4586CE4969D.webp
   id: 159
-  z_index: 7
+  z_index: 8
 - name: YMCA Purple Wei T-Shirt
   brand: No Brand
   colors:
@@ -3087,7 +3087,7 @@
   image: Close-Up/2023 - Clothes - DBEE3863-E1DB-46BC-B247-08AFBCD65194.webp
   worn_image: Worn/2023 - Clothes - E71D7F71-D164-4E82-885F-13DDD3A0B1AB.webp
   id: 164
-  z_index: 5
+  z_index: 6
 - name: Blue Pattern Bow Tie
   brand: No Brand
   colors:
@@ -3107,7 +3107,7 @@
   image: Close-Up/2023 - Clothes - 6BA03860-4946-43D7-8A1C-EDFBFCD25EEB.webp
   worn_image: Worn/2023 - Clothes - E781F996-CB3D-4CE7-B6CF-488D47A8FEA6.webp
   id: 165
-  z_index: 9
+  z_index: 10
 - name: Dark Blue Hollister Hoodie
   brand: Hollister
   colors:
@@ -3125,7 +3125,7 @@
   image: Close-Up/2023 - Clothes - 3CB3837C-3D29-46F1-AC65-77B4F70BF047.webp
   worn_image: Worn/2023 - Clothes - EA29E772-C7C9-428C-8AE1-6B6F06786C28.webp
   id: 166
-  z_index: 5
+  z_index: 6
 - name: Green Jack & Jones T-Shirt Way West Field
   brand: Jack & Jones
   colors:
@@ -3179,7 +3179,7 @@
   image: Close-Up/2023 - Clothes - 967D1EF7-4E93-40D2-BE7A-360DF995A34E.webp
   worn_image: Worn/2023 - Clothes - F3E3F6DC-CAC7-46F5-955C-6F558EC0F4D5.webp
   id: 169
-  z_index: 7
+  z_index: 8
 - name: Dark Blue Jules Shorts
   brand: Jules
   colors:
@@ -3215,7 +3215,7 @@
   image: Close-Up/2023 - Clothes - 7FD4C67C-F92E-4BC7-ADB8-326C7DB3D43E.webp
   worn_image: Worn/2023 - Clothes - F4D3B54E-70CD-446B-AED8-8E16AA646CCA.webp
   id: 171
-  z_index: 5
+  z_index: 6
 - name: Green Linen Shirt
   brand: No Brand
   colors:
@@ -3253,7 +3253,7 @@
   image: Close-Up/2023 - Clothes - 0C3CB7FA-E3E7-483B-BE0F-A7FCD9C3FDF8.webp
   worn_image: Worn/2023 - Clothes - F5348A86-CA70-43D9-846B-0558B6A14078.webp
   id: 173
-  z_index: 5
+  z_index: 6
 - name: Grey Scarf
   brand: No Brand
   colors:
@@ -3271,7 +3271,7 @@
   image: Close-Up/2023 - Clothes - 178E6978-0148-441F-BD76-615DF1B72688.webp
   worn_image: Worn/2023 - Clothes - F5550C2B-09EC-4B97-8184-98679410CD4D.webp
   id: 174
-  z_index: 8
+  z_index: 9
 - name: Brown Carhartt Dungarees
   brand: Carhartt
   colors:
@@ -3289,7 +3289,7 @@
   image: Close-Up/2023 - Clothes - F74FF4DC-9257-42A8-87A4-F489A286D292.webp
   worn_image: Worn/2023 - Clothes - F7C16690-95D1-4DC9-90BC-9DEC55C12403.webp
   id: 175
-  z_index: 6
+  z_index: 7
 - name: Dark Blue Corduroy Jacket
   brand: No Brand
   colors:
@@ -3308,7 +3308,7 @@
   image: Close-Up/2023 - Clothes - 0A33D6EF-97DC-4782-9506-ED54631C8A9C.webp
   worn_image: Worn/2023 - Clothes - FACEC6EC-220D-4B42-AAF7-CB30AF68A78D.webp
   id: 176
-  z_index: 7
+  z_index: 8
 - name: White Stree Box T-Shirt
   brand: No Brand
   colors:
@@ -3363,7 +3363,7 @@
   image: Close-Up/2023 - Clothes - 4F2FE1A9-0F4B-4B00-8CB3-2392260A9C27.webp
   worn_image: Worn/2023 - Clothes - FE4A8D1A-FE6F-42F4-862A-1B1BB956A6EF.webp
   id: 179
-  z_index: 7
+  z_index: 8
 - name: Orange Knitted Scarf
   brand: No Brand
   colors:
@@ -3382,7 +3382,7 @@
   image: Close-Up/2023 - Clothes - E235ECBF-CBC5-4747-9F41-1E745572C955.webp
   worn_image: Worn/2023 - Clothes - FF9268D1-BB28-43EF-AA7D-FBB311D1A2E2.webp
   id: 180
-  z_index: 8
+  z_index: 9
 - name: Roxy Purple Shorts
   id: 181
   brand: Roxy
@@ -3458,7 +3458,7 @@
   buying_date: '2022-10-22'
   bought_new: false
   not_logged_wear: 10
-  z_index: 8
+  z_index: 9
   image: Close-Up/2023 - Clothes - 7B4A6F62-9474-440E-BBEC-008F81B07D77.webp
   worn_image: Worn/
 - name: Light Blue Shirt H&M
@@ -3516,7 +3516,7 @@
   buying_date: '2024-10-02'
   bought_new: false
   not_logged_wear: 0
-  z_index: 5
+  z_index: 6
   image: Close-Up/2023 - Clothes - D0427909-2B2D-4B35-91C5-DF728BC7BCF4.webp
   worn_image: Worn/
 - name: Green Another Label Sweater
@@ -3534,7 +3534,7 @@
   buying_date: '2024-06-15'
   bought_new: false
   not_logged_wear: 0
-  z_index: 5
+  z_index: 6
   image: Close-Up/2023 - Clothes - E1D147EF-DEC1-4F86-803C-D8088BB17202.webp
   worn_image: Worn/
 - name: Mango V-Neck White T-Shirt
