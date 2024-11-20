@@ -9,6 +9,14 @@
        - "T-Shirt Sew to Perfection Jack & Jones"
        - "Orange Knitted Scarf"
   non-outfit-items:
+    - items:
+       - "Uniqlo Underwear Legging"
+       - "Timberland Boots"
+       - "Long Sleeve T-Shirt Gray Only & Sons"
+       - "White and Blue Light Sweater"
+       - "Grey Scarf"
+       - "Rain Jacket Ayacucho"
+  non-outfit-items:
 - date: "2024-11-18"
   outfits:
     - items:
