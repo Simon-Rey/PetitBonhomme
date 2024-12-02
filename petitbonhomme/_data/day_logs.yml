@@ -1,3 +1,28 @@
+- date: "2024-12-01"
+  outfits:
+    - items:
+       - "Dark Blue Dickies Pants"
+       - "Sneakers Karhu"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+       - "Rain Jacket Schöffel"
+       - "Purple Tank Top & Other Stories"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Sweater Volcom Blue and Gray"
+  non-outfit-items:
+     - "Grey Scarf"
+- date: "2024-12-01"
+  outfits:
+    - items:
+       - "Dark Blue Dickies Pants"
+       - "Sneakers Karhu"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+       - "Rain Jacket Schöffel"
+       - "Purple Tank Top & Other Stories"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Sweater Volcom Blue and Gray"
+  non-outfit-items:
 - date: "2024-11-30"
   outfits:
     - items:
