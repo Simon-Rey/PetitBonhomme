@@ -1,3 +1,13 @@
+- date: "2024-12-05"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Rain Jacket Ayacucho"
+       - "Balloon Leg Black Levi's"
+       - "Blue Celio T-Shirt V-Neck"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Orange and Gray Sweater Dedicated"
+  non-outfit-items:
 - date: "2024-12-04"
   outfits:
     - items:
@@ -7,8 +17,10 @@
        - "Grey Scarf"
        - "Dark Blue Sweater V-Neck Celio"
        - "Dark Blue Striped Zara T-Shirt"
+       - "Orange and Gray Sweater Dedicated"
   non-outfit-items:
-     - "Sweater Volcom Blue and Gray"- date: "2024-12-03"
+     - "Sweater Volcom Blue and Gray"
+- date: "2024-12-03"
   outfits:
     - items:
        - "Sneakers Karhu"
