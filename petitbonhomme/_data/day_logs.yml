@@ -20,7 +20,16 @@
        - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
        - "Puff Jacket Rab"
   non-outfit-items:
-- date: "2024-13-10"
+- date: "2024-12-12"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Levi's Balloon Leg Light"
+       - "Puff Jacket Rab"
+       - "White Ribbed Tank Top Honest Basics"
+       - "White and Blue Light Sweater"
+  non-outfit-items:
+- date: "2024-12-13"
   outfits:
     - items:
        - "Timberland Boots"
