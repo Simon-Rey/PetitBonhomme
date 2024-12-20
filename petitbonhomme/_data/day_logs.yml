@@ -1,3 +1,23 @@
+- date: "2024-12-19"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue Dickies Pants"
+       - "Uniqlo Underwear Legging"
+       - "Zara White and Blue T-Shirt"
+       - "Volcom Dark Gray Sweater"
+       - "Puff Jacket Rab"
+       - "Rain Jacket Ayacucho"
+       - "Grey Scarf"
+    - items:
+       - "Black Heel Boots United Nude"
+       - "Black Light Falke Tight"
+       - "Maje Blue Pattern Skort"
+       - "Zara White and Blue T-Shirt"
+       - "Volcom Dark Gray Sweater"
+       - "Rain Jacket Ayacucho"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
 - date: "2024-12-18"
   outfits:
     - items:
