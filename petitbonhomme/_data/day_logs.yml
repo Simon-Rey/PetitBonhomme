@@ -1,3 +1,23 @@
+- date: "2024-12-28"
+  outfits:
+    - items:
+       - "Orange Knitted Scarf"
+       - "Rain Jacket Ayacucho"
+       - "Timberland Boots"
+       - "Levi's Balloon Leg Light"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Petrol Blue Cropped Sezane Hoodie"
+       - "Puff Jacket Rab"
+  non-outfit-items:
+- date: "2024-12-27"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Levi's Balloon Leg Light"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Petrol Blue Cropped Sezane Hoodie"
+       - "Puff Jacket Rab"
+  non-outfit-items:
 - date: "2024-12-26"
   outfits:
     - items:
