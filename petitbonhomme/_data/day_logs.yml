@@ -1,3 +1,35 @@
+- date: "2025-12-31"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Levi's Balloon Leg Light"
+       - "Puff Jacket Rab"
+       - "Rain Jacket Ayacucho"
+       - "Orange Knitted Scarf"
+       - "Beige Cashmere Sweater"
+       - "Purple Tank Top & Other Stories"
+  non-outfit-items:
+- date: "2025-01-01"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Levi's Balloon Leg Light"
+       - "Puff Jacket Rab"
+       - "Rain Jacket Ayacucho"
+       - "Orange Knitted Scarf"
+       - "Beige Cashmere Sweater"
+       - "Purple Tank Top & Other Stories"
+  non-outfit-items:
+- date: "2025-01-02"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Levi's Balloon Leg Light"
+       - "Sweater Celio Gray with White Collar"
+       - "White and Blue Light Sweater"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
 - date: "2024-12-30"
   outfits:
     - items:
