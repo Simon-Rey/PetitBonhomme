@@ -1,3 +1,16 @@
+- date: "2025-01-03"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Running Legging Decathlon"
+       - "Levi's Balloon Leg Light"
+       - "White and Blue Light Sweater"
+       - "Teym White Sweater"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+       - "Elements Coat"
+  non-outfit-items:
+     - "Sweater Celio Gray with White Collar"
 - date: "2024-12-31"
   outfits:
     - items:
