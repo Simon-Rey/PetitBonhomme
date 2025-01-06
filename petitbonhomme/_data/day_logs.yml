@@ -1,3 +1,28 @@
+- date: "2025-01-05"
+  outfits:
+    - items:
+       - "Green Chino Pants Jules"
+       - "Timberland Boots"
+       - "Rain Jacket Schöffel"
+       - "Teym White Sweater"
+       - "White Tank Top"
+    - items:
+       - "Hiking Pants Decathlon"
+       - "Timberland Boots"
+       - "Rain Jacket Schöffel"
+       - "Orange and Gray Sweater Dedicated"
+       - "White Tank Top"
+  non-outfit-items:
+- date: "2025-01-06"
+  outfits:
+    - items:
+       - "Rain Jacket Schöffel"
+       - "Orange Knitted Scarf"
+       - "Beige Cashmere Sweater"
+       - "Gray Long Sleeve T-Shirt"
+       - "Dark Blue Dickies Pants"
+       - "Timberland Boots"
+  non-outfit-items:
 - date: "2025-01-04"
   outfits:
     - items:
