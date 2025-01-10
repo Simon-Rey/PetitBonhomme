@@ -1,3 +1,22 @@
+- date: "2025-01-09"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Balloon Leg Black Levi's"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Sweater Olow Beach"
+       - "Orange Knitted Scarf"
+       - "Puff Jacket Rab"
+  non-outfit-items:
+     - "Grey Scarf"
+- date: "2025-01-08"
+  outfits:
+    - items:
+       - "Balloon Leg Black Levi's"
+       - "Orange and Gray Sweater Dedicated"
+       - "Gray Long Sleeve T-Shirt"
+  non-outfit-items:
 - date: "2025-01-07"
   outfits:
     - items:
