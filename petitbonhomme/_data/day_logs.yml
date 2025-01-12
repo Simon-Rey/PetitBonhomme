@@ -1,3 +1,33 @@
+- date: "2025-01-10"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue Dickies Pants"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "NSW Blues Hoodie"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+  non-outfit-items:
+- date: "2025-01-11"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue Dickies Pants"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "NSW Blues Hoodie"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+  non-outfit-items:
+- date: "2025-01-12"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Running Legging Decathlon"
+       - "Orange and Gray Sweater Dedicated"
+       - "Long Sleeve T-Shirt Gray Only & Sons"
+       - "Grey Scarf"
+       - "Puff Jacket Rab"
+  non-outfit-items:
 - date: "2025-01-09"
   outfits:
     - items:
