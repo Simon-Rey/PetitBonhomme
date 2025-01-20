@@ -1,3 +1,25 @@
+- date: "2025-01-18"
+  outfits:
+    - items:
+       - "Sweater Gradient ERL"
+       - "Levi's Gray Jacket"
+       - "Orange Knitted Scarf"
+       - "T-Shirt Hollister Green & Blue Patterns"
+       - "Balloon Leg Black Levi's"
+       - "Sneakers Karhu"
+  non-outfit-items:
+- date: "2025-01-19"
+  outfits:
+    - items:
+       - "Green Denim Dungarees"
+       - "White Fila Sneakers"
+       - "Volcom Dark Gray Sweater"
+       - "T-Shirt Hollister Green & Blue Patterns"
+       - "Puff Jacket Rab"
+       - "Brick Red Coat"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
+     - "Sneakers Karhu"
 - date: "2025-01-16"
   outfits:
     - items:
