@@ -1,3 +1,25 @@
+- date: "2025-01-21"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Uniqlo Underwear Legging"
+       - "Balloon Leg Black Levi's"
+       - "Puff Jacket Rab"
+       - "Brick Red Coat"
+       - "Grey Scarf"
+       - "Orange and Gray Sweater Dedicated"
+       - "T-Shirt Sew to Perfection Jack & Jones"
+  non-outfit-items:
+- date: "2025-01-22"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Levi's Balloon Leg Light"
+       - "Beige Cashmere Sweater"
+       - "Rain Jacket Ayacucho"
+       - "Puff Jacket Rab"
+       - "T-Shirt Zara White with Dots"
+  non-outfit-items:
 - date: "2025-01-20"
   outfits:
     - items:
