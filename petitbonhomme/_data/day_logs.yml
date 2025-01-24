@@ -1,3 +1,25 @@
+- date: "2025-01-23"
+  outfits:
+    - items:
+       - "Black Heel Boots United Nude"
+       - "Black Thick Falke Tights"
+       - "Skirt IKKS Double Matter"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Teym White Sweater"
+       - "Cropped Blazer Cos"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
+- date: "2025-01-24"
+  outfits:
+    - items:
+       - "White Fila Sneakers"
+       - "Levi's Balloon Leg Light"
+       - "Teym White Sweater"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Puff Jacket Rab"
+       - "Rain Jacket Ayacucho"
+  non-outfit-items:
 - date: "2025-01-21"
   outfits:
     - items:
