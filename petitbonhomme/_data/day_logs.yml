@@ -1,3 +1,23 @@
+- date: "2025-01-25"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue Dickies Pants"
+       - "Orange and Gray Sweater Dedicated"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+       - "Dark Blue Sweater V-Neck Celio"
+  non-outfit-items:
+- date: "2025-01-26"
+  outfits:
+    - items:
+       - "Balloon Leg Black Levi's"
+       - "Long Sleeve T-Shirt Gray Only & Sons"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+       - "Sweater Volcom Blue and Gray"
+       - "Sneakers Karhu"
+  non-outfit-items:
 - date: "2025-01-23"
   outfits:
     - items:
