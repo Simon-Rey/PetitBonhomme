@@ -1,3 +1,31 @@
+- date: "2025-01-27"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Long Sleeve T-Shirt Gray Only & Sons"
+       - "Balloon Leg Black Levi's"
+       - "Sweater Gradient ERL"
+       - "Levi's Gray Jacket"
+       - "Volcom Dark Gray Sweater"
+    - items:
+       - "Sneakers Karhu"
+       - "Balloon Leg Black Levi's"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+       - "Volcom Dark Gray Sweater"
+       - "Long Sleeve T-Shirt Gray Only & Sons"
+  non-outfit-items:
+- date: "2025-01-28"
+  outfits:
+    - items:
+       - "Sweater V-Neck Jules"
+       - "Sweater Volcom Blue and Gray"
+       - "Puff Jacket Rab"
+       - "Rain Jacket Ayacucho"
+       - "Balloon Leg Black Levi's"
+       - "Sneakers Karhu"
+       - "Grey Scarf"
+  non-outfit-items:
 - date: "2025-01-25"
   outfits:
     - items:
