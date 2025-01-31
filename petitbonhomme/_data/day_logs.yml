@@ -1,3 +1,41 @@
+- date: "2025-01-29"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Zara White and Blue T-Shirt"
+       - "Sweater Volcom Blue and Gray"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+       - "Dark Blue Dickies Pants"
+  non-outfit-items:
+- date: "2025-01-30"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Zara White and Blue T-Shirt"
+       - "Sweater Volcom Blue and Gray"
+       - "Puff Jacket Rab"
+       - "Rain Jacket Ayacucho"
+       - "Grey Scarf"
+       - "Dark Blue Dickies Pants"
+  non-outfit-items:
+- date: "2025-01-31"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Green Chino Pants Jules"
+       - "Puff Jacket Rab"
+       - "Orange and Gray Sweater Dedicated"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Grey Scarf"
+    - items:
+       - "Sneakers Karhu"
+       - "Levi's Balloon Leg Light"
+       - "Orange Knitted Scarf"
+       - "Levi's Gray Jacket"
+       - "Sweater Gradient ERL"
+       - "Dark Blue Sweater V-Neck Celio"
+  non-outfit-items:
 - date: "2025-01-27"
   outfits:
     - items:
