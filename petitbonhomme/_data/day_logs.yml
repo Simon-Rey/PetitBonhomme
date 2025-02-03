@@ -1,3 +1,37 @@
+- date: "2025-02-03"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Green Chino Pants Jules"
+       - "Sweater Olow Beach"
+       - "T-Shirt Hollister Green & Blue Patterns"
+       - "Orange Knitted Scarf"
+       - "Puff Jacket Rab"
+       - "Dark Blue Sweater V-Neck Celio"
+  non-outfit-items:
+- date: "2025-02-01"
+  outfits:
+    - items:
+       - "Levi's Balloon Leg Light"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+    - items:
+       - "Sneakers Karhu"
+       - "Green Chino Pants Jules"
+       - "Orange and Gray Sweater Dedicated"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+  non-outfit-items:
+- date: "2025-02-02"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Levi's Balloon Leg Light"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+  non-outfit-items:
 - date: "2025-01-29"
   outfits:
     - items:
