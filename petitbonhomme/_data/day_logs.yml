@@ -1,3 +1,33 @@
+- date: "2025-02-04"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Green Chino Pants Jules"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+       - "Sweater Olow Beach"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "T-Shirt Hollister Green & Blue Patterns"
+  non-outfit-items:
+- date: "2025-02-05"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue Dickies Pants"
+       - "Zara White and Blue T-Shirt"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Green Woolen Sweater"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+    - items:
+       - "Sneakers Karhu"
+       - "Black Thick Falke Tights"
+       - "White and Gray H&M Skirt"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+       - "Green Woolen Sweater"
+       - "Sweater V-Neck Jules"
+  non-outfit-items:
 - date: "2025-02-03"
   outfits:
     - items:
