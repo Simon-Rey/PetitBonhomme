@@ -1,3 +1,23 @@
+- date: "2025-02-07"
+  outfits:
+    - items:
+       - "Sweater Gradient ERL"
+       - "Long Sleeve T-Shirt Gray Only & Sons"
+       - "Levi's Gray Jacket"
+       - "Orange Knitted Scarf"
+       - "Levi's Balloon Leg Light"
+       - "Sneakers Karhu"
+  non-outfit-items:
+- date: "2025-02-06"
+  outfits:
+    - items:
+       - "Dark Blue Dickies Pants"
+       - "Sneakers Karhu"
+       - "Green Woolen Sweater"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+       - "Sweater V-Neck Jules"
+  non-outfit-items:
 - date: "2025-02-04"
   outfits:
     - items:
