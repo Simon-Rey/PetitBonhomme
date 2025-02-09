@@ -1,3 +1,30 @@
+- date: "2025-02-08"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Levi's Balloon Leg Light"
+       - "White T-Shirt Embroidered Zoé"
+       - "Petrol Blue Cropped Sezane Hoodie"
+       - "Brick Red Coat"
+       - "Orange Knitted Scarf"
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue Dickies Pants"
+       - "Orange and Gray Sweater Dedicated"
+       - "Long Sleeve T-Shirt Gray Only & Sons"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+  non-outfit-items:
+- date: "2025-02-09"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Levi's Balloon Leg Light"
+       - "Brick Red Coat"
+       - "Petrol Blue Cropped Sezane Hoodie"
+       - "White T-Shirt Embroidered Zoé"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
 - date: "2025-02-07"
   outfits:
     - items:
