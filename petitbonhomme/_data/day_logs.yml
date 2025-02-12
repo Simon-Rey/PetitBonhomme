@@ -1,3 +1,30 @@
+- date: "2025-02-11"
+  outfits:
+    - items:
+       - "Balloon Leg Black Levi's"
+       - "Sweater Gradient ERL"
+       - "Sneakers Karhu"
+       - "White and Blue Light Sweater"
+       - "Orange Knitted Scarf"
+       - "Rain Jacket Ayacucho"
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue Dickies Pants"
+       - "Orange and Gray Sweater Dedicated"
+       - "White and Blue Light Sweater"
+       - "Grey Scarf"
+       - "Rain Jacket Ayacucho"
+  non-outfit-items:
+- date: "2025-02-12"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue Dickies Pants"
+       - "Orange and Gray Sweater Dedicated"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+       - "White and Blue Light Sweater"
+  non-outfit-items:
 - date: "2025-02-10"
   outfits:
     - items:
