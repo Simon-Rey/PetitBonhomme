@@ -1,3 +1,25 @@
+- date: "2025-02-13"
+  outfits:
+    - items:
+       - "Balloon Leg Black Levi's"
+       - "Petrol Blue Cropped Sezane Hoodie"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Orange Knitted Scarf"
+       - "Brick Red Coat"
+       - "Sneakers Karhu"
+  non-outfit-items:
+     - "Grey Scarf"
+     - "Puff Jacket Rab"
+- date: "2025-02-14"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Balloon Leg Black Levi's"
+       - "Sweater Gradient ERL"
+       - "Sweater V-Neck Jules"
+       - "Orange Knitted Scarf"
+       - "Brick Red Coat"
+  non-outfit-items:
 - date: "2025-02-11"
   outfits:
     - items:
