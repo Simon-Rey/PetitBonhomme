@@ -1082,7 +1082,7 @@
   size: Man - S
   category: Jumper
   multiplicity: 1
-  buying_price: 200
+  buying_price: 100
   buying_place: Vinted
   buying_date: '2023-11-13'
   bought_new: false
