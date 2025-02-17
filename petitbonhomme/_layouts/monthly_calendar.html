@@ -71,8 +71,9 @@ layout: default
   {% assign days_in_month = site.data.day_logs | where_exp: "log", "log.date contains date_prefix" %}
   {% assign sorted_days = days_in_month | sort: "date" %}
 
-  {% for day in (1..31) %}
-    {% assign day_str = day %}
+  {% assign days = (1..31) | reverse %}
+  {% for day in days %}
+      {% assign day_str = day %}
     {% if day < 10 %}
       {% assign day_str = day_str | prepend: 0 %}
     {% endif %}
