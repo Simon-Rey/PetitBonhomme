@@ -1,3 +1,46 @@
+- date: "2025-02-18"
+  outfits:
+    - items:
+       - "Red Long Sleeve T-Shirt Esprit"
+       - "Sweater Volcom Blue and Gray"
+       - "Balloon Leg Black Levi's"
+       - "Sneakers Karhu"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
+- date: "2025-02-19"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue Dickies Pants"
+       - "Sweater Volcom Blue and Gray"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+  non-outfit-items:
+- date: "2025-02-20"
+  outfits:
+    - items:
+       - "Wool Gray Turtleneck Sweater & Other Stories"
+       - "Balloon Leg Black Levi's"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+    - items:
+       - "Balloon Leg Black Levi's"
+       - "Sneakers Karhu"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+       - "Sweater Volcom Blue and Gray"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+  non-outfit-items:
+- date: "2025-02-21"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Balloon Leg Black Levi's"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Sweater Volcom Blue and Gray"
+       - "Brick Red Coat"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
 - date: "2025-02-15"
   outfits:
     - items:
