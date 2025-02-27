@@ -1,0 +1,13 @@
+<div class="few-wears-item-wrap">
+    {% for item in site.data.clothing_items %}
+        {% if item.total_wear_count >= include.lower and item.total_wear_count <= include.upper %}
+            {% unless item.image == "Close-Up/" %}
+                <div class="few-wears-item">
+                    <a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}">
+                        <img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}">
+                    </a>
+                </div>
+            {% endunless %}
+        {% endif %}
+    {% endfor %}
+</div>

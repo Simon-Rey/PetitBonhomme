@@ -43,14 +43,15 @@
         <nav><a class="navigation-icon calendar-icon" href="{{ 'calendar/' | append: latest_year | append: '/' | append: latest_month | relative_url }}"><i class="fa-solid fa-calendar"></i></a></nav>
         <nav><a class="navigation-icon wardrobe-icon" href="{{ 'wardrobe' | relative_url }}"><i class="fa-solid fa-shirt"></i></a></nav>
         <nav><a class="navigation-icon style-icon" href="{{ 'styleme' | relative_url }}"><i class="fa-solid fa-snowman"></i></a></nav>
-        <nav><a class="navigation-icon stats-icon" href="{{ 'statistics' | relative_url }}"><i class="fa-solid fa-chart-simple"></i></a></nav>
+        <nav><a class="navigation-icon stats-icon" href="{{ 'statistics/price_per_wears' | relative_url }}"><i class="fa-solid fa-chart-simple"></i></a></nav>
         <nav><a class="navigation-icon info-icon" href="{{ 'about' | relative_url }}"><i class="fa-solid fa-circle-info"></i></a></nav>
     </div>
 </header>
 
-<main {% if page.main_id %}id="{{ page.main_id }}"{% endif %}>
-    {% if page.main_h_title %}
-        <h1>{{ page.main_h_title }}</h1>
+<main id="{{ page.main_id | default: layout.main_id | default: 'default-main' }}">
+    {% assign main_h_title = page.main_h_title | default: layout.main_h_title %}
+    {% if main_h_title %}
+        <h1>{{ main_h_title }}</h1>
     {% endif %}
     <div {% if page.content_wrap_id %}id="{{ page.content_wrap_id }}"{% endif %} class="main-content-wrap">
         {{ content }}

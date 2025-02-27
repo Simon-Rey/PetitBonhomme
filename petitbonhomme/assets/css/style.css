@@ -3,6 +3,7 @@
 	--color-frame-bright: #6afc3b;
 	--color-frame-dark: #86c075;
 	--color-frame-light: #deffd3;
+	--color-frame-very-light: #f2ffef;
 	--color-background-light: white;
 	--color-background: #f1f1f1;
 	--color-background-dark: #ececec;
@@ -1033,6 +1034,31 @@ Style Me Page
 Statistics
 ======= */
 
+#statistics-main h1 {
+    margin-bottom: 0;
+}
+
+#statistics-main > .main-content-wrap {
+    padding: 0;
+}
+
+#statistics-nav-wrap {
+    margin-top: min(4vh, 2vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.statistics-nav {
+    border: 2px solid var(--color-frame-bright);
+    padding: 0.5vh 0.5vw;
+}
+
+.statistics-nav.active {
+    background: var(--color-frame-very-light);
+}
+
 .graph-comparison-wrap {
     display: flex;
     justify-content: space-evenly;
@@ -1052,6 +1078,18 @@ Statistics
     .graph-comparison-wrap {
         flex-direction: column;
     }
+}
+
+.few-wears-item-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.few-wears-item img {
+    width: min(15vh, 15vw);
 }
 
 /* =======

@@ -560,7 +560,7 @@
   buying_place: Amsterdam
   buying_date: '2023-07-01'
   bought_new: false
-  not_logged_wear: 0
+  not_logged_wear: 3
   image: Close-Up/2023 - Clothes - 3B6DF69F-FB06-48CF-945B-FF9E9BBEF63D.webp
   worn_image: Worn/2023 - Clothes - 24FC9AD3-2940-4F51-8718-794A953989E4.webp
   id: 27
@@ -765,7 +765,7 @@
   buying_place: Vinted
   buying_date: '2023-05-16'
   bought_new: false
-  not_logged_wear: 0
+  not_logged_wear: 3
   image: Close-Up/2023 - Clothes - 206C355C-1191-4332-98DB-4B49DD9E136B.webp
   worn_image: Worn/2023 - Clothes - 47B7332E-EB88-4908-94CE-9237909E692E.webp
   id: 38
@@ -1023,7 +1023,7 @@
   buying_place: Vinted
   buying_date: '2023-04-11'
   bought_new: false
-  not_logged_wear: 0
+  not_logged_wear: 2
   image: Close-Up/2023 - Clothes - 3AB4EE4E-222D-4AC3-B5BF-7246D2AA2F5C.webp
   worn_image: Worn/2023 - Clothes - 56B605A9-86D0-43C7-836D-F17D790CA338.webp
   id: 52
@@ -1141,7 +1141,7 @@
   buying_place: Vinted
   buying_date: '2024-03-02'
   bought_new: false
-  not_logged_wear: 0
+  not_logged_wear: 1
   image: Close-Up/2023 - Clothes - B1207527-451F-467F-9EF4-CA9CD4D38672.webp
   worn_image: Worn/2023 - Clothes - 5BB5EA58-2989-4B7B-80B3-3179D8A103E9.webp
   id: 58

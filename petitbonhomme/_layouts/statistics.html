@@ -1,0 +1,15 @@
+---
+layout: default
+main_id: statistics-main
+main_h_title: Statistics
+---
+
+<div id="statistics-nav-wrap">
+    <a class="statistics-nav{% if page.active_nav == 'price_per_wears'%} active{% endif %}" href="{{ 'statistics/price_per_wears' | relative_url }}">Price per Wears</a>
+    <a class="statistics-nav{% if page.active_nav == 'wear_counts'%} active{% endif %}" href="{{ 'statistics/wear_counts' | relative_url }}">Number of Wears</a>
+    <a class="statistics-nav{% if page.active_nav == 'colours'%} active{% endif %}" href="{{ 'statistics/colours' | relative_url }}">Colours</a>
+</div>
+
+<div class="main-content-wrap">
+    {{ content }}
+</div>

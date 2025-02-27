@@ -60,12 +60,16 @@ layout: default
             <tr>
                 <th>Number of wear:</th>
                 <td>
-                    {% assign logged_wear_count = page.item.name | logged_wear_count: site.data.day_logs %}
+                    {% assign logged_wear_count = page.item.logged_wear_count %}
                     {{ logged_wear_count | plus: page.item.not_logged_wear }}
                     {% if page.item.not_logged_wear > 0 %}
                         ({{ logged_wear_count }} + {{ page.item.not_logged_wear }})
                     {% endif %}
                 </td>
+            </tr>
+            <tr>
+                <th>Price per wear:</th>
+                <td>{{ page.item.price_per_total_wears }}€</td>
             </tr>
         </table>
     </div>

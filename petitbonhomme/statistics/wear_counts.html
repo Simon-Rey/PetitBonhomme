@@ -1,0 +1,76 @@
+---
+layout: statistics
+title: PetitBonhomme | Number of Wears Statistics
+active_nav: wear_counts
+extra_html_head: |
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+---
+
+
+<h2>Wears Distribution</h2>
+
+<canvas id="wearsChart"></canvas>
+
+<h2>Infrequently Worn Items</h2>
+
+<div class="few-wears-wrap">
+    <h3>No Wear at All</h3>
+    {% include few_wears_display.html lower=0 upper=0 %}
+</div>
+
+<div class="few-wears-wrap">
+    <h3>Worn no more than 5 Times</h3>
+    {% include few_wears_display.html lower=1 upper=5 %}
+</div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    // Get clothing items data from Jekyll
+    const wearCountsArray = [
+        {% for item in site.data.clothing_items %}
+            {{ item.total_wear_count | default: 0 }},
+        {% endfor %}
+    ];
+
+    // Group occurrences of each wear count
+    let wearCountMap = {};
+    wearCountsArray.forEach(wears => {
+        wearCountMap[wears] = (wearCountMap[wears] || 0) + 1;
+    });
+
+    // Extract labels (wear counts) and values (number of items)
+    const wearCounts = Object.keys(wearCountMap).map(Number).sort((a, b) => a - b);
+    const itemCounts = wearCounts.map(wear => wearCountMap[wear]);
+
+    // Create bar chart
+    const ctx = document.getElementById("wearsChart").getContext("2d");
+    new Chart(ctx, {
+        type: "bar",
+        data: {
+            labels: wearCounts, // X-axis: Number of wears
+            datasets: [{
+                label: "Number of Items",
+                data: itemCounts, // Y-axis: Count of items
+                backgroundColor: "rgba(54, 162, 235, 0.6)",
+                borderColor: "rgba(54, 162, 235, 1)",
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: {
+                    title: { display: true, text: "Number of Wears" },
+                    ticks: { stepSize: 1 } // Ensure discrete numbers
+                },
+                y: {
+                    title: { display: true, text: "Number of Items" },
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+});
+</script>
