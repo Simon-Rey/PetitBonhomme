@@ -1,3 +1,66 @@
+- date: "2025-03-01"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Green Chino Pants Jules"
+       - "Orange and Gray Sweater Dedicated"
+       - "Running Legging Decathlon"
+       - "Zara White and Blue T-Shirt"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+    - items:
+       - "Dark Blue Heel Boot Anna Field"
+       - "Black Light Falke Tight"
+       - "Maje Blue Pattern Skort"
+       - "White and Blue Light Sweater"
+       - "Wool Gray Turtleneck Sweater & Other Stories"
+       - "Levi's Gray Jacket"
+  non-outfit-items:
+- date: "2025-02-27"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Green Chino Pants Jules"
+       - "Orange and Gray Sweater Dedicated"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Puff Jacket Rab"
+  non-outfit-items:
+- date: "2025-02-28"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Orange and Gray Sweater Dedicated"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Green Chino Pants Jules"
+       - "Puff Jacket Rab"
+    - items:
+       - "Sneakers Karhu"
+       - "Levi's Balloon Leg Light"
+       - "Brick Red Coat"
+       - "Orange Knitted Scarf"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+       - "Dark Blue Sweater V-Neck Celio"
+  non-outfit-items:
+- date: "2025-03-01"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Green Chino Pants Jules"
+       - "Orange and Gray Sweater Dedicated"
+       - "Running Legging Decathlon"
+       - "Zara White and Blue T-Shirt"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+    - items:
+       - "Dark Blue Heel Boot Anna Field"
+       - "Black Light Falke Tight"
+       - "Maje Blue Pattern Skort"
+       - "White and Blue Light Sweater"
+       - "Wool Gray Turtleneck Sweater & Other Stories"
+       - "Levi's Gray Jacket"
+  non-outfit-items:
 - date: "2025-02-26"
   outfits:
     - items:
