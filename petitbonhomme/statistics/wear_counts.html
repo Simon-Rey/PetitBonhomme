@@ -2,75 +2,55 @@
 layout: statistics
 title: PetitBonhomme | Number of Wears Statistics
 active_nav: wear_counts
-extra_html_head: |
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
 ---
-
 
 <h2>Wears Distribution</h2>
 
-<canvas id="wearsChart"></canvas>
+<div id="wear-bins-container" class="wear-distribution-wrap">
+    {% assign wear_bins = "0,1-5,6-10,11-30,31-100,101+" | split: "," %}
 
-<h2>Infrequently Worn Items</h2>
+    {% for bin in wear_bins %}
+        {% assign min = bin | split: "-" | first | plus: 0 %}
+        {% assign max = bin | split: "-" | last | plus: 0 %}
+        {% assign count = 0 %}
 
-<div class="few-wears-wrap">
-    <h3>No Wear at All</h3>
-    {% include few_wears_display.html lower=0 upper=0 %}
-</div>
-
-<div class="few-wears-wrap">
-    <h3>Worn no more than 5 Times</h3>
-    {% include few_wears_display.html lower=1 upper=5 %}
-</div>
-
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    // Get clothing items data from Jekyll
-    const wearCountsArray = [
         {% for item in site.data.clothing_items %}
-            {{ item.total_wear_count | default: 0 }},
+            {% assign wears = item.total_wear_count | default: 0 %}
+
+            {% if bin == "100+" and wears > 100 %}
+                {% assign count = count | plus: 1 %}
+            {% elsif wears >= min and wears <= max %}
+                {% assign count = count | plus: 1 %}
+            {% endif %}
         {% endfor %}
-    ];
+        <div class="wear-bin">
+            <h3 class="wear-bin-title">{{ bin }} Wears</h3>
+            <p>{{ count }} items</p>
+            <div class="wear-bin-items">
+                {% for item in site.data.clothing_items %}
+                    {% assign wears = item.logged_wear_count | default: 0 %}
 
-    // Group occurrences of each wear count
-    let wearCountMap = {};
-    wearCountsArray.forEach(wears => {
-        wearCountMap[wears] = (wearCountMap[wears] || 0) + 1;
-    });
-
-    // Extract labels (wear counts) and values (number of items)
-    const wearCounts = Object.keys(wearCountMap).map(Number).sort((a, b) => a - b);
-    const itemCounts = wearCounts.map(wear => wearCountMap[wear]);
-
-    // Create bar chart
-    const ctx = document.getElementById("wearsChart").getContext("2d");
-    new Chart(ctx, {
-        type: "bar",
-        data: {
-            labels: wearCounts, // X-axis: Number of wears
-            datasets: [{
-                label: "Number of Items",
-                data: itemCounts, // Y-axis: Count of items
-                backgroundColor: "rgba(54, 162, 235, 0.6)",
-                borderColor: "rgba(54, 162, 235, 1)",
-                borderWidth: 1
-            }]
-        },
-        options: {
-            responsive: true,
-            scales: {
-                x: {
-                    title: { display: true, text: "Number of Wears" },
-                    ticks: { stepSize: 1 } // Ensure discrete numbers
-                },
-                y: {
-                    title: { display: true, text: "Number of Items" },
-                    beginAtZero: true
-                }
-            }
-        }
-    });
-});
-</script>
+                    {% if bin == "101+" %}
+                        {% if wears > 100 %}
+                            {% unless item.image == "Close-Up/" %}
+                                <a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}">
+                                    <img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}">
+                                </a>
+                            {% endunless %}
+                            {% assign count = count | plus: 1 %}
+                        {% endif %}
+                    {% else %}
+                        {% if wears >= min and wears <= max %}
+                            {% unless item.image == "Close-Up/" %}
+                                <a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}">
+                                    <img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}">
+                                </a>
+                            {% endunless %}
+                            {% assign count = count | plus: 1 %}
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+</div>

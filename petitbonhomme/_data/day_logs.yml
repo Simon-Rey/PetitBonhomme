@@ -1,3 +1,15 @@
+- date: "2025-03-02"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Black Light Falke Tight"
+       - "Dark Blue The Kooples Skirt"
+       - "Sweater Gradient ERL"
+       - "White and Blue Light Sweater"
+       - "Levi's Gray Jacket"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
+     - "Orange and Gray Sweater Dedicated"
 - date: "2025-03-01"
   outfits:
     - items:
@@ -41,25 +53,6 @@
        - "Orange Knitted Scarf"
        - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
        - "Dark Blue Sweater V-Neck Celio"
-  non-outfit-items:
-- date: "2025-03-01"
-  outfits:
-    - items:
-       - "Sneakers Karhu"
-       - "Green Chino Pants Jules"
-       - "Orange and Gray Sweater Dedicated"
-       - "Running Legging Decathlon"
-       - "Zara White and Blue T-Shirt"
-       - "Dark Blue Sweater V-Neck Celio"
-       - "Puff Jacket Rab"
-       - "Grey Scarf"
-    - items:
-       - "Dark Blue Heel Boot Anna Field"
-       - "Black Light Falke Tight"
-       - "Maje Blue Pattern Skort"
-       - "White and Blue Light Sweater"
-       - "Wool Gray Turtleneck Sweater & Other Stories"
-       - "Levi's Gray Jacket"
   non-outfit-items:
 - date: "2025-02-26"
   outfits:

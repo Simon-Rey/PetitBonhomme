@@ -2,81 +2,54 @@
 layout: statistics
 title: PetitBonhomme | Price per Wears Statistics
 active_nav: price_per_wears
-extra_html_head: |
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
 ---
-
 
 <h2>Distribution of the Price per Wears</h2>
 
-<canvas id="pricePerWearChart"></canvas>
+<div id="price-bins-container" class="wear-distribution-wrap">
+    {% assign price_bins = "0-0.5,0.5-1,1-3,3-8,8-15,15+" | split: "," %}
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    // Preprocessed data: only price_per_total_wears values
-    const pricePerWearArray = [
+    {% for bin in price_bins %}
+        {% assign min = bin | split: "-" | first | plus: 0.0 %}
+        {% assign max = bin | split: "-" | last | plus: 0.0 %}
+        {% assign count = 0 %}
+
         {% for item in site.data.clothing_items %}
-            {% if item.price_per_total_wears > 0 %}
-                {{ item.price_per_total_wears | round: 2 }},
+            {% assign price_per_wear = item.price_per_total_wears | default: 0.0 %}
+
+            {% if bin == "15+" and price_per_wear > 15 %}
+                {% assign count = count | plus: 1 %}
+            {% elsif price_per_wear >= min and price_per_wear <= max %}
+                {% assign count = count | plus: 1 %}
             {% endif %}
         {% endfor %}
-    ];
 
-    // Define custom price bins
-    const priceBins = {
-        "0 - 0.5€": 0,
-        "0.5 - 1€": 0,
-        "1 - 2€": 0,
-        "2 - 5€": 0,
-        "5 - 10€": 0,
-        "10 - 20€": 0,
-        "20 - 50€": 0,
-        "50€+": 0
-    };
+        <div class="wear-bin">
+            <h3 class="wear-bin-title">{{ bin }} €/Wear</h3>
+            <p>{{ count }} items</p>
+            <div class="wear-bin-items">
+                {% for item in site.data.clothing_items %}
+                    {% assign price_per_wear = item.price_per_total_wears | default: 0.0 %}
 
-    // Categorize items into bins
-    pricePerWearArray.forEach(price => {
-        if (price <= 0.5) priceBins["0 - 0.5€"]++;
-        else if (price <= 1) priceBins["0.5 - 1€"]++;
-        else if (price <= 2) priceBins["1 - 2€"]++;
-        else if (price <= 5) priceBins["2 - 5€"]++;
-        else if (price <= 10) priceBins["5 - 10€"]++;
-        else if (price <= 20) priceBins["10 - 20€"]++;
-        else if (price <= 50) priceBins["20 - 50€"]++;
-        else priceBins["50€+"]++;
-    });
-
-    // Extract labels (price ranges) and values (item counts)
-    const priceLabels = Object.keys(priceBins);
-    const itemCounts = Object.values(priceBins);
-
-    // Create bar chart
-    const ctx = document.getElementById("pricePerWearChart").getContext("2d");
-    new Chart(ctx, {
-        type: "bar",
-        data: {
-            labels: priceLabels, // X-axis: Price bins
-            datasets: [{
-                label: "Number of Items",
-                data: itemCounts, // Y-axis: Count of items
-                backgroundColor: "rgba(75, 192, 192, 0.6)",
-                borderColor: "rgba(75, 192, 192, 1)",
-                borderWidth: 1
-            }]
-        },
-        options: {
-            responsive: true,
-            scales: {
-                x: {
-                    title: { display: true, text: "Price per Wear (€)" }
-                },
-                y: {
-                    title: { display: true, text: "Number of Items" },
-                    beginAtZero: true
-                }
-            }
-        }
-    });
-});
-</script>
+                    {% if bin == "15+" %}
+                        {% if price_per_wear > 15 %}
+                            {% unless item.image == "Close-Up/" %}
+                                <a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}">
+                                    <img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}">
+                                </a>
+                            {% endunless %}
+                        {% endif %}
+                    {% else %}
+                        {% if price_per_wear >= min and price_per_wear <= max %}
+                            {% unless item.image == "Close-Up/" %}
+                                <a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}">
+                                    <img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}">
+                                </a>
+                            {% endunless %}
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+</div>
