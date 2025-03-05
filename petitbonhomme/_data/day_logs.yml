@@ -1,3 +1,29 @@
+- date: "2025-03-05"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue Dickies Pants"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+       - "T-Shirt Roger Waters"
+       - "Sweater Volcom Blue and Gray"
+    - items:
+       - "Dark Blue Heel Boot Anna Field"
+       - "Maje Fluid Dress"
+       - "Petrol Blue Cropped Sezane Hoodie"
+       - "White Ribbed Tank Top Honest Basics"
+       - "Jacket Luka Bonsini"
+       - "Grey Scarf"
+  non-outfit-items:
+- date: "2025-03-04"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue Dickies Pants"
+       - "T-Shirt Roger Waters"
+       - "Sweater Volcom Blue and Gray"
+       - "Puff Jacket Rab"
+  non-outfit-items:
 - date: "2025-03-03"
   outfits:
     - items:
