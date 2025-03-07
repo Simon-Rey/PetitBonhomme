@@ -1,3 +1,20 @@
+- date: "2025-03-06"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Green Denim Dungarees"
+       - "Teym White Sweater"
+       - "White Ribbed Tank Top Honest Basics"
+       - "Jacket Luka Bonsini"
+       - "Grey Scarf"
+    - items:
+       - "Sneakers Karhu"
+       - "Balloon Leg Black Levi's"
+       - "Pink Sweater with Print"
+       - "White Ribbed Tank Top Honest Basics"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+  non-outfit-items:
 - date: "2025-03-05"
   outfits:
     - items:
