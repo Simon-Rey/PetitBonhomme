@@ -1,3 +1,26 @@
+- date: "2025-03-07"
+  outfits:
+    - items:
+       - "Dark Blue Heel Boot Anna Field"
+       - "Dark Blue Corduroy High Waist Pants"
+       - "T-Shirt Hollister Green & Blue Patterns"
+       - "Green Woolen Sweater"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
+- date: "2025-03-08"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue Dickies Pants"
+       - "Sweater Volcom Blue and Gray"
+       - "Red Long Sleeve T-Shirt Esprit"
+       - "Puff Jacket Rab"
+    - items:
+       - "Birkenstock"
+       - "Light Blue Levi's Mini Shorts"
+       - "Jacket Luka Bonsini"
+       - "Red Long Sleeve T-Shirt Esprit"
+  non-outfit-items:
 - date: "2025-03-06"
   outfits:
     - items:
