@@ -1,12 +1,20 @@
 {% assign item = include.item %}
 
 {% capture color-families %}{% for color in item.colors %}{% assign color_item = site.data.clothing_items_colors | find: "name", color %}{{ color_item.family }} {% endfor %}{% endcapture %}
-<div class="wardrobe-item" data-brand="{{ item.brand }}" data-colors="{{ item.colors | join: ' ' }}" data-colors-family="{{ color-families }}">
+
+<a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}">
+<div class="wardrobe-item"
+     data-brand="{{ item.brand }}"
+     data-colors="{{ item.colors | join: ' ' }}"
+     data-colors-family="{{ item.color_family }}"
+     style="--progress: {% if item.price_per_total_wears > 0 %}{{ 1 | divided_by: item.price_per_total_wears | at_most: 1 }}{% else %}1{% endif %};">
 <div class="wardrobe-item-img-wrap">
-<a href="{{ '/wardrobe/' | append: item.id | append: '.html' | relative_url }}"><img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}"></a>
+    <img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}">
 </div>
-<div>
-<p>Worn: {{ item.total_wear_count }}</p>
-<p>Price/wear: {{ item.price_per_total_wears | round: 2 }}€</p>
+<div class="wardrobe-item-price-per-wear{% unless item.price_per_total_wears > 1 %} emphasize{% endunless %}">
+    <span>
+        {{ item.price_per_total_wears | round: 2 }}€/wear
+    </span>
 </div>
 </div>
+</a>

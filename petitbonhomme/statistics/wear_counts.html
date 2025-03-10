@@ -17,7 +17,7 @@ active_nav: wear_counts
         {% for item in site.data.clothing_items %}
             {% assign wears = item.total_wear_count | default: 0 %}
 
-            {% if bin == "100+" and wears > 100 %}
+            {% if bin == "101+" and wears > 100 %}
                 {% assign count = count | plus: 1 %}
             {% elsif wears >= min and wears <= max %}
                 {% assign count = count | plus: 1 %}
@@ -28,7 +28,7 @@ active_nav: wear_counts
             <p>{{ count }} items</p>
             <div class="wear-bin-items">
                 {% for item in site.data.clothing_items %}
-                    {% assign wears = item.logged_wear_count | default: 0 %}
+                    {% assign wears = item.total_wear_count | default: 0 %}
 
                     {% if bin == "101+" %}
                         {% if wears > 100 %}
