@@ -3,6 +3,74 @@ layout: statistics
 title: PetitBonhomme | Price per Wears Statistics
 active_nav: price_per_wears
 ---
+<h2>Price per Wear Statistics</h2>
+
+
+{% assign prices = site.data.clothing_items | map: "price_per_total_wears" %}
+{% assign valid_prices = "" %}
+
+{% for price in prices %}
+    {% if price > 0 %}
+        {% assign valid_prices = valid_prices | append: price | append: "," %}
+    {% endif %}
+{% endfor %}
+
+{% assign valid_prices = valid_prices | split: "," | sort %}
+{% assign count = valid_prices | size %}
+
+{% if count > 0 %}
+    {% assign total = 0 %}
+    {% assign min_price = valid_prices | first | plus: 0 %}
+    {% assign max_price = valid_prices | last | plus: 0 %}
+
+    {% assign min_item = site.data.clothing_items | where: "price_per_total_wears", min_price | first %}
+    {% assign max_item = site.data.clothing_items | where: "price_per_total_wears", max_price | first %}
+
+    {% for price in valid_prices %}
+        {% assign total = total | plus: price | plus: 0 %}
+    {% endfor %}
+
+    {% assign average_price = total | divided_by: count %}
+    {% assign mid_index = count | divided_by: 2 %}
+
+    {% assign count_modulo = count | modulo: 2 %}
+    {% if count_modulo == 1 %}
+        {% assign median_price = valid_prices[mid_index] | plus: 0 %}
+    {% else %}
+        {% assign mid1 = valid_prices[mid_index] | plus: 0 %}
+        {% assign mid2_index = mid_index | minus: 1 %}
+        {% assign mid2 = valid_prices[mid2_index] | plus: 0 %}
+        {% assign median_price = mid1 | plus: mid2 | divided_by: 2 %}
+    {% endif %}
+{% else %}
+    {% assign average_price = "N/A" %}
+    {% assign median_price = "N/A" %}
+    {% assign min_price = "N/A" %}
+    {% assign max_price = "N/A" %}
+{% endif %}
+
+<div class="statistics-summary">
+    <p><strong>Average Price per Wear:</strong> {{ average_price | round: 2 }}€</p>
+    <p><strong>Median Price per Wear:</strong> {{ median_price | round: 2 }}€</p>
+    {% if count > 0 %}
+        <p><strong>Min Price per Wear:</strong> {{ min_price | round: 2 }}€ for
+            {% unless min_item.image == "Close-Up/" %}
+                <a href="{{ '/wardrobe/' | append: min_item.id | append: '.html' | relative_url }}">
+                    <img class="inline_img" src="{{ "/assets/img/clothes/" | append: min_item.image | relative_url }}" alt="{{ min_item.name }}">
+                </a>
+            {% endunless %}
+        </p>
+        <p><strong>Max Price per Wear:</strong> {{ max_price | round: 2 }}€ for
+            {% unless max_item.image == "Close-Up/" %}
+                <a href="{{ '/wardrobe/' | append: max_item.id | append: '.html' | relative_url }}">
+                    <img class="inline_img" src="{{ "/assets/img/clothes/" | append: max_item.image | relative_url }}" alt="{{ max_item.name }}">
+                </a>
+            {% endunless %}
+        </p>
+    {% else %}
+        <p>No valid items with a non-zero price per wear.</p>
+    {% endif %}
+</div>
 
 <h2>Distribution of the Price per Wears</h2>
 
@@ -24,9 +92,8 @@ active_nav: price_per_wears
             {% endif %}
         {% endfor %}
 
-        <div class="wear-bin">
-            <h3 class="wear-bin-title">{{ bin }}€ per Wear</h3>
-            <p>{{ count }} items</p>
+        <h3 class="wear-bin-title">{{ bin }}€/wear</h3>
+        <div class="wear-bin-items-wrap">
             <div class="wear-bin-items">
                 {% for item in site.data.clothing_items %}
                     {% assign price_per_wear = item.price_per_total_wears | default: 0.0 %}
@@ -50,6 +117,7 @@ active_nav: price_per_wears
                     {% endif %}
                 {% endfor %}
             </div>
+            <p class="wear-bin-count">({{ count }})</p>
         </div>
     {% endfor %}
 </div>

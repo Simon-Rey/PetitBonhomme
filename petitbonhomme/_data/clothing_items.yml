@@ -2357,11 +2357,11 @@
   size: Woman - M
   category: Blouse
   multiplicity: 1
-  buying_price: 20
-  buying_place: Brussels
+  buying_price: 1
+  buying_place: King's Day
   buying_date: '2019-09-20'
   bought_new: false
-  not_logged_wear: 0
+  not_logged_wear: 30
   image: Close-Up/2023 - Clothes - F5419648-7058-4EAA-885B-98DDA5B5C45B.webp
   worn_image: Worn/2023 - Clothes - A4A61808-87AB-45C9-A926-0B281BDF5514.webp
   id: 124

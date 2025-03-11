@@ -23,9 +23,9 @@ active_nav: wear_counts
                 {% assign count = count | plus: 1 %}
             {% endif %}
         {% endfor %}
-        <div class="wear-bin">
-            <h3 class="wear-bin-title">{{ bin }} Wears</h3>
-            <p>{{ count }} items</p>
+
+        <h3 class="wear-bin-title">{{ bin }} Wears</h3>
+        <div class="wear-bin-items-wrap">
             <div class="wear-bin-items">
                 {% for item in site.data.clothing_items %}
                     {% assign wears = item.total_wear_count | default: 0 %}
@@ -37,7 +37,6 @@ active_nav: wear_counts
                                     <img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}">
                                 </a>
                             {% endunless %}
-                            {% assign count = count | plus: 1 %}
                         {% endif %}
                     {% else %}
                         {% if wears >= min and wears <= max %}
@@ -46,11 +45,11 @@ active_nav: wear_counts
                                     <img src="{{ "/assets/img/clothes/" | append: item.image | relative_url }}" alt="{{ item.name }}">
                                 </a>
                             {% endunless %}
-                            {% assign count = count | plus: 1 %}
                         {% endif %}
                     {% endif %}
                 {% endfor %}
             </div>
+            <p class="wear-bin-count">({{ count }})</p>
         </div>
     {% endfor %}
 </div>

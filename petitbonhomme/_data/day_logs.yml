@@ -7,6 +7,13 @@
        - "Costa Rica T-Shirt"
        - "Puff Jacket Rab"
   non-outfit-items:
+- date: "2025-03-11"
+  outfits:
+    - items:
+       - "Jumpsuit Blue"
+       - "Volcom Dark Gray Sweater"
+       - "Long Sleeve Dark Blue Jules T-Shirt"
+  non-outfit-items:
 - date: "2025-03-09"
   outfits:
     - items:
