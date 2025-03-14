@@ -1,3 +1,32 @@
+- date: "2025-03-12"
+  outfits:
+    - items:
+       - "Dark Blue Dickies Pants"
+       - "Sneakers Karhu"
+       - "Sweater Volcom Blue and Gray"
+       - "Long Sleeve Dark Blue Jules T-Shirt"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+  non-outfit-items:
+- date: "2025-03-14"
+  outfits:
+    - items:
+       - "White Fila Sneakers"
+       - "Jumpsuit Blue"
+       - "Puff Jacket Rab"
+       - "Sweater Volcom Blue and Gray"
+       - "Sweater V-Neck Jules"
+  non-outfit-items:
+- date: "2025-03-13"
+  outfits:
+    - items:
+       - "Dark Blue Dickies Pants"
+       - "Sneakers Karhu"
+       - "Sweater Volcom Blue and Gray"
+       - "Long Sleeve Dark Blue Jules T-Shirt"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+  non-outfit-items:
 - date: "2025-03-10"
   outfits:
     - items:
