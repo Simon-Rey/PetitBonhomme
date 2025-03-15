@@ -1,3 +1,20 @@
+- date: "2025-03-15"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Green Chino Pants Jules"
+       - "Dark Gray Decathlon Sport T-Shirt"
+       - "Sweater Volcom Blue and Gray"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+    - items:
+       - "Balloon Leg Black Levi's"
+       - "Volcom Dark Gray Sweater"
+       - "Mango V-Neck White T-Shirt"
+       - "Sneakers Karhu"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
 - date: "2025-03-12"
   outfits:
     - items:
