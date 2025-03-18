@@ -93,6 +93,9 @@
 - name: "Stradivarius"
   url: "https://www.stradivarius.com"
   country: "Spain"
+- name: "Gevavi"
+  url: "https://gevavi.com/"
+  country: "The Netherlands"
 - name: "Celio"
   url: "https://www.celio.com"
   country: "France"
@@ -187,5 +190,5 @@
   country: Spain
   url: "https://thinkingmu.com/"
 - name: "Another Label"
-  country: "Netherlands"
+  country: "The Netherlands"
   url: "https://another-label.com"

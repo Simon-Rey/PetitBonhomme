@@ -1,3 +1,31 @@
+- date: "2025-03-18"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Green Chino Pants Jules"
+       - "Sweater Volcom Blue and Gray"
+       - "T-Shirt New-York Celio"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+  non-outfit-items:
+- date: "2025-03-17"
+  outfits:
+    - items:
+       - "Green Chino Pants Jules"
+       - "Sweater Volcom Blue and Gray"
+       - "T-Shirt New-York Celio"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
+- date: "2025-03-16"
+  outfits:
+    - items:
+       - "Nike Trail Sneakers"
+       - "Dark Blue DC Shoes Pants"
+       - "Puff Jacket Rab"
+       - "Dark Gray Decathlon Sport T-Shirt"
+       - "Volcom Dark Gray Sweater"
+  non-outfit-items:
 - date: "2025-03-15"
   outfits:
     - items:

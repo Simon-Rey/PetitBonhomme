@@ -1,3 +1,19 @@
+- name: "Gevavi Security Boots"
+  brand: Gevavi
+  id: 194
+  colors:
+  - Black
+  materials:
+  - Leather
+  size: Shoe EUR 41
+  category: Ankle boots
+  multiplicity: 1
+  buying_price: 100
+  buying_place: Hornbach
+  buying_date: '2025-24-02'
+  z_index: 1
+  image: Close-Up/
+  worn_image: Worn/
 - name: "Black Heel Boots United Nude"
   brand: United Nude
   id: 193
