@@ -1,3 +1,28 @@
+- date: "2025-03-19"
+  outfits:
+    - items:
+       - "Green Chino Pants Jules"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+       - "Sweater Volcom Blue and Gray"
+       - "T-Shirt New-York Celio"
+       - "Sneakers Karhu"
+    - items:
+       - "White and Gray H&M Skirt"
+       - "Green Another Label Sweater"
+       - "Decathlon Gray Sport T-Shirt"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
+- date: "2025-03-20"
+  outfits:
+    - items:
+       - "Green Chino Pants Jules"
+       - "Sweater Volcom Blue and Gray"
+       - "Decathlon Gray Sport T-Shirt"
+       - "Grey Scarf"
+       - "Gevavi Security Boots"
+  non-outfit-items:
+     - "Sneakers Karhu"
 - date: "2025-03-18"
   outfits:
     - items:
