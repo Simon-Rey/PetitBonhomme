@@ -1,3 +1,19 @@
+- date: "2025-03-22"
+  outfits:
+    - items:
+       - "Dress with Straps Stradivarius"
+       - "Volcom Dark Gray Sweater"
+       - "Sneakers Karhu"
+       - "Jacket Luka Bonsini"
+       - "Black Ribbed Tank Top Honest Basics"
+    - items:
+       - "Green Chino Pants Jules"
+       - "Puff Jacket Rab"
+       - "Sneakers Karhu"
+       - "Volcom Dark Gray Sweater"
+       - "Black Ribbed Tank Top Honest Basics"
+  non-outfit-items:
+
 - date: "2025-03-23"
   outfits:
     - items:
