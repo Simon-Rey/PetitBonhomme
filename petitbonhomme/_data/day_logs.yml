@@ -1,3 +1,14 @@
+- date: "2025-03-26"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue DC Shoes Pants"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+       - "Volcom Dark Gray Sweater"
+       - "T-Shirt New-York Celio"
+  non-outfit-items:
+     - "Grey Scarf"
 - date: "2025-03-25"
   outfits:
     - items:
