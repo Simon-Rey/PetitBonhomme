@@ -1,3 +1,31 @@
+- date: "2025-03-25"
+  outfits:
+    - items:
+       - "Blue Basic T-Shirt"
+       - "Gevavi Security Boots"
+       - "Dark Blue DC Shoes Pants"
+       - "Volcom Dark Gray Sweater"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+    - items:
+       - "Sneakers Karhu"
+       - "Balloon Leg Black Levi's"
+       - "Volcom Dark Gray Sweater"
+       - "Blue Basic T-Shirt"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+  non-outfit-items:
+- date: "2025-03-24"
+  outfits:
+    - items:
+       - "Blue Basic T-Shirt"
+       - "Gevavi Security Boots"
+       - "Dark Blue DC Shoes Pants"
+       - "Volcom Dark Gray Sweater"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+  non-outfit-items:
+
 - date: "2025-03-22"
   outfits:
     - items:
