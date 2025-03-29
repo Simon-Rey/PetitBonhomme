@@ -1,3 +1,42 @@
+- date: "2025-03-29"
+  outfits:
+    - items:
+       - "Green Chino Pants Jules"
+       - "Sneakers Karhu"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+       - "Decathlon Gray Sport T-Shirt"
+       - "Volcom Dark Gray Sweater"
+    - items:
+       - "Vintage Hiking Boot Adidas"
+       - "Jacket Luka Bonsini"
+       - "Balloon Leg Black Levi's"
+       - "Petrol Blue Cropped Sezane Hoodie"
+       - "White Stree Box T-Shirt"
+  non-outfit-items:
+- date: "2025-03-27"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue DC Shoes Pants"
+       - "Puff Jacket Rab"
+       - "Volcom Dark Gray Sweater"
+       - "Costa Rica T-Shirt"
+  non-outfit-items:
+     - "Gevavi Security Boots"
+- date: "2025-03-28"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue DC Shoes Pants"
+       - "Puff Jacket Rab"
+       - "Volcom Dark Gray Sweater"
+    - items:
+       - "Balloon Leg Black Levi's"
+       - "Brick Red Coat"
+       - "Petrol Blue Cropped Sezane Hoodie"
+       - "White Stree Box T-Shirt"
+  non-outfit-items:
 - date: "2025-03-26"
   outfits:
     - items:
