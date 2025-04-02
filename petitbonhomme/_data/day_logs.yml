@@ -1,3 +1,38 @@
+- date: "2025-03-31"
+  outfits:
+    - items:
+       - "Red Long Sleeve T-Shirt Esprit"
+       - "Gevavi Security Boots"
+       - "Green Chino Pants Jules"
+       - "Orange and Gray Sweater Dedicated"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+  non-outfit-items:
+- date: "2025-04-01"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue DC Shoes Pants"
+       - "Black Ribbed Tank Top Honest Basics"
+       - "Volcom Dark Gray Sweater"
+       - "Puff Jacket Rab"
+  non-outfit-items:
+- date: "2025-04-02"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue DC Shoes Pants"
+       - "Sweater Celio Gray with White Collar"
+       - "Blue Celio T-Shirt V-Neck"
+       - "Puff Jacket Rab"
+    - items:
+       - "Dress with Straps Stradivarius"
+       - "Sneakers Karhu"
+       - "Jacket Luka Bonsini"
+       - "White and Blue Light Sweater"
+       - "White Tank Top"
+  non-outfit-items:
+     - "Balloon Leg Black Levi's"
 - date: "2025-03-30"
   outfits:
     - items:
