@@ -1,3 +1,20 @@
+- date: "2025-04-03"
+  outfits:
+    - items:
+       - "Green Another Label Sweater"
+       - "Sneakers Karhu"
+       - "Puff Jacket Rab"
+       - "Balloon Leg Black Levi's"
+       - "White Tank Top"
+       - "Black Tank Top Spaghetti Strap Honest Basics"
+    - items:
+       - "Gevavi Security Boots"
+       - "Puff Jacket Rab"
+       - "Sweater Celio Gray with White Collar"
+       - "White Tank Top"
+       - "Dark Blue DC Shoes Pants"
+  non-outfit-items:
+
 - date: "2025-03-31"
   outfits:
     - items:
