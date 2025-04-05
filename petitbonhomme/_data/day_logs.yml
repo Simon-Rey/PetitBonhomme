@@ -1,3 +1,36 @@
+- date: "2025-04-04"
+  outfits:
+    - items:
+       - "T-Shirt Roger Waters"
+       - "Sweater Celio Gray with White Collar"
+       - "Dark Blue DC Shoes Pants"
+       - "Gevavi Security Boots"
+       - "Puff Jacket Rab"
+       - "Grey Scarf"
+    - items:
+       - "White and Gray H&M Skirt"
+       - "Jacket Luka Bonsini"
+       - "Sneakers Karhu"
+       - "Green Another Label Sweater"
+       - "Black Ribbed Tank Top Honest Basics"
+  non-outfit-items:
+
+- date: "2025-04-05"
+  outfits:
+    - items:
+       - "Dark Blue DC Shoes Pants"
+       - "Sneakers Karhu"
+       - "T-Shirt Roger Waters"
+       - "Sweater Celio Gray with White Collar"
+       - "Jacket Luka Bonsini"
+       - "Grey Scarf"
+    - items:
+       - "Balloon Leg Black Levi's"
+       - "Sneakers Karhu"
+       - "Jacket Luka Bonsini"
+       - "Sweater Olow Beach"
+       - "White Ribbed Tank Top Honest Basics"
+  non-outfit-items:
 - date: "2025-04-03"
   outfits:
     - items:
