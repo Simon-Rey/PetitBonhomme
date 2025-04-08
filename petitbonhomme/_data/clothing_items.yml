@@ -1,3 +1,21 @@
+- name: Levi's Light High Waist Jeans
+  brand: Levi's
+  colors:
+  - Azure
+  materials:
+  - Cotton
+  size: Pants US 32
+  category: Jeans
+  multiplicity: 1
+  buying_price: 0
+  buying_place: Berlin
+  buying_date: '2025-04-08'
+  bought_new: false
+  not_logged_wear: 0
+  image: Close-Up/
+  worn_image: Worn/
+  id: 195
+  z_index: 2
 - name: "Gevavi Security Boots"
   brand: Gevavi
   id: 194
