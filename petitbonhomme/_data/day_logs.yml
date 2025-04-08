@@ -1,3 +1,37 @@
+- date: "2025-04-06"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Balloon Leg Black Levi's"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+       - "Sweater Olow Beach"
+       - "White Ribbed Tank Top Honest Basics"
+    - items:
+       - "Timberland Boots"
+       - "Levi's Light High Waist Jeans"
+       - "Sweater Olow Beach"
+       - "White Ribbed Tank Top Honest Basics"
+       - "Bash Cropped Bomber Pacino"
+  non-outfit-items:
+- date: "2025-04-07"
+  outfits:
+    - items:
+       - "Levi's Balloon Leg Light"
+       - "Timberland Boots"
+       - "Puff Jacket Rab"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+       - "T-Shirt Zara White with Dots"
+  non-outfit-items:
+- date: "2025-04-08"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Timberland Boots"
+       - "Bash Cropped Bomber Pacino"
+       - "White and Blue Light Sweater"
+       - "Purple Tank Top & Other Stories"
+  non-outfit-items:
 - date: "2025-04-04"
   outfits:
     - items:
