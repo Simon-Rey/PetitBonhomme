@@ -1,3 +1,34 @@
+- date: "2025-04-12"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue DC Shoes Pants"
+       - "Red Long Sleeve T-Shirt Esprit"
+       - "Jacket Luka Bonsini"
+       - "Sweater Celio Gray with White Collar"
+    - items:
+       - "Birkenstock"
+       - "Light Blue Levi's Mini Shorts"
+       - "Long Sleeve T-Shirt Gray Only & Sons"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
+- date: "2025-04-11"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Sneakers Karhu"
+       - "Jacket Luka Bonsini"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+  non-outfit-items:
+- date: "2025-04-10"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+       - "Levi's Light High Waist Jeans"
+       - "Puff Jacket Rab"
+  non-outfit-items:
 - date: "2025-04-09"
   outfits:
     - items:
