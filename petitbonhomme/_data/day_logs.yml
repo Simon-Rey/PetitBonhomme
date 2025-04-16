@@ -1,3 +1,48 @@
+- date: "2025-04-16"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Balloon Leg Black Levi's"
+       - "Volcom Dark Gray Sweater"
+       - "Long Sleeve Dark Blue Jules T-Shirt"
+       - "Puff Jacket Rab"
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Sneakers Karhu"
+       - "Puff Jacket Rab"
+       - "Volcom Dark Gray Sweater"
+       - "Brown Volcom T-Shirt"
+  non-outfit-items:
+
+- date: "2025-04-15"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Green Chino Pants Jules"
+       - "Volcom Dark Gray Sweater"
+       - "Puff Jacket Rab"
+    - items:
+       - "Jacket Luka Bonsini"
+       - "Sneakers Karhu"
+       - "Balloon Leg Black Levi's"
+       - "Volcom Dark Gray Sweater"
+       - "Long Sleeve Dark Blue Jules T-Shirt"
+  non-outfit-items:
+- date: "2025-04-14"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Green Chino Pants Jules"
+       - "Puff Jacket Rab"
+       - "Volcom Dark Gray Sweater"
+  non-outfit-items:
+- date: "2025-04-13"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Levi's Light High Waist Jeans"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
 - date: "2025-04-12"
   outfits:
     - items:
