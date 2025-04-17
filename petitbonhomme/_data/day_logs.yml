@@ -1,19 +1,27 @@
+- date: "2025-04-17"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Levi's Light High Waist Jeans"
+       - "Rain Jacket Ayacucho"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+  non-outfit-items:
 - date: "2025-04-16"
   outfits:
     - items:
        - "Sneakers Karhu"
        - "Balloon Leg Black Levi's"
        - "Volcom Dark Gray Sweater"
-       - "Long Sleeve Dark Blue Jules T-Shirt"
+       - "T-Shirt Roger Waters"
        - "Puff Jacket Rab"
     - items:
        - "Levi's Light High Waist Jeans"
        - "Sneakers Karhu"
        - "Puff Jacket Rab"
        - "Volcom Dark Gray Sweater"
-       - "Brown Volcom T-Shirt"
+       - "T-Shirt Roger Waters"
   non-outfit-items:
-
 - date: "2025-04-15"
   outfits:
     - items:
