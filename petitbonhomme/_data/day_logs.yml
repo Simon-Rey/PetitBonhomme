@@ -1,3 +1,31 @@
+- date: "2025-04-22"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Green Chino Pants Jules"
+       - "Sweater Celio Gray with White Collar"
+       - "T-Shirt Zara White with Dots"
+       - "Puff Jacket Rab"
+  non-outfit-items:
+- date: "2025-04-21"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Green Chino Pants Jules"
+       - "Puff Jacket Rab"
+       - "Purple Tank Top & Other Stories"
+       - "White and Blue Light Sweater"
+  non-outfit-items:
+- date: "2025-04-20"
+  outfits:
+    - items:
+       - "Vintage Hiking Boot Adidas"
+       - "Levi's Light High Waist Jeans"
+       - "Jacket Luka Bonsini"
+       - "Adidas Cropped Sweater"
+  non-outfit-items:
+     - "Puff Jacket Rab"
+     - "Gevavi Security Boots"
 - date: "2025-04-19"
   outfits:
     - items:
