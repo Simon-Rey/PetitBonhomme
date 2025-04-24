@@ -1,3 +1,26 @@
+- date: "2025-04-24"
+  outfits:
+    - items:
+       - "Rain Jacket Ayacucho"
+       - "Grey Scarf"
+       - "Balloon Leg Black Levi's"
+       - "Timberland Boots"
+       - "Adidas Cropped Sweater"
+       - "Dark Gray Decathlon Sport T-Shirt"
+  non-outfit-items:
+- date: "2025-04-23"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Levi's Light High Waist Jeans"
+       - "Purple Tank Top & Other Stories"
+       - "Volcom Dark Gray Sweater"
+       - "Puff Jacket Rab"
+    - items:
+       - "Balloon Leg Black Levi's"
+       - "Dark Gray Decathlon Sport T-Shirt"
+       - "Adidas Cropped Sweater"
+  non-outfit-items:
 - date: "2025-04-22"
   outfits:
     - items:
