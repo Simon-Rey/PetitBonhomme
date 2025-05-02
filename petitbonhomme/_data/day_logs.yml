@@ -1,3 +1,31 @@
+- date: "2025-04-30"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Levi's Light High Waist Jeans"
+       - "Volcom Dark Gray Sweater"
+       - "T-Shirt Zara White with Dots"
+  non-outfit-items:
+- date: "2025-05-01"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Gevavi Security Boots"
+       - "T-Shirt Zara White with Dots"
+       - "Volcom Dark Gray Sweater"
+    - items:
+       - "Dress with Straps Stradivarius"
+       - "T-Shirt Zara White with Dots"
+       - "Birkenstock"
+  non-outfit-items:
+- date: "2025-05-02"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Purple Tank Top & Other Stories"
+       - "White and Blue Light Sweater"
+       - "Levi's Light High Waist Jeans"
+  non-outfit-items:
 - date: "2025-04-26"
   outfits:
     - items:
