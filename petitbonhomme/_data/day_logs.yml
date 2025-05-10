@@ -1,3 +1,39 @@
+- date: "2025-05-09"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Balloon Leg Black Levi's"
+       - "Petrol Blue Cropped Sezane Hoodie"
+       - "Dark Blue Striped Zara T-Shirt"
+       - "Brick Red Coat"
+  non-outfit-items:
+- date: "2025-05-08"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Balloon Leg Black Levi's"
+       - "Petrol Blue Cropped Sezane Hoodie"
+       - "White T-Shirt Embroidered Zoé"
+       - "Brick Red Coat"
+  non-outfit-items:
+- date: "2025-05-07"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Jacket Luka Bonsini"
+       - "Balloon Leg Black Levi's"
+       - "Petrol Blue Cropped Sezane Hoodie"
+       - "White T-Shirt Embroidered Zoé"
+  non-outfit-items:
+- date: "2025-05-06"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Balloon Leg Black Levi's"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
+     - "Brick Red Coat"
 - date: "2025-05-03"
   outfits:
     - items:
