@@ -1,3 +1,16 @@
+- date: "2025-05-10"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Orange Crop Top Lucy & Yak"
+       - "Dress with Straps Stradivarius"
+       - "Jacket Luka Bonsini"
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue DC Shoes Pants"
+       - "Sweater Celio Gray with White Collar"
+       - "Dark Gray Decathlon Sport T-Shirt"
+  non-outfit-items:
 - date: "2025-05-09"
   outfits:
     - items:
