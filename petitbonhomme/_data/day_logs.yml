@@ -1,3 +1,31 @@
+- date: "2025-05-14"
+  outfits:
+    - items:
+       - "Pink Basic T-Shirt"
+       - "Sirin Black Shorts"
+       - "Sneakers Karhu"
+       - "Jacket Luka Bonsini"
+       - "Volcom Dark Gray Sweater"
+  non-outfit-items:
+- date: "2025-05-12"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Sirin Black Shorts"
+       - "White Tank Top"
+       - "Sweater Celio Gray with White Collar"
+  non-outfit-items:
+     - "Gevavi Security Boots"
+- date: "2025-05-13"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Sirin Black Shorts"
+       - "White Tank Top"
+       - "Sweater Celio Gray with White Collar"
+  non-outfit-items:
+     - "Gevavi Security Boots"
+
 - date: "2025-05-11"
   outfits:
     - items:
