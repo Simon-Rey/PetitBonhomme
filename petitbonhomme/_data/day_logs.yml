@@ -1,3 +1,22 @@
+- date: "2025-05-25"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Levi's Light High Waist Jeans"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+       - "Seksi T-Shirt"
+       - "Beige Cachemire Turtle Neck"
+       - "Puff Jacket Rab"
+  non-outfit-items:
+     - "Gevavi Security Boots"
+- date: "2025-05-24"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Beige Cachemire Turtle Neck"
+       - "Puff Jacket Rab"
+       - "Levi's Light High Waist Jeans"
+  non-outfit-items:
 - date: "2025-05-23"
   outfits:
     - items:
