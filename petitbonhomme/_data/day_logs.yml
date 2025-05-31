@@ -1,3 +1,11 @@
+- date: "2025-05-31"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Skirt IKKS Double Matter"
+       - "Purple Tank Top & Other Stories"
+       - "Levi's Denim Shirt"
+  non-outfit-items:
 - date: "2025-05-30"
   outfits:
     - items:
@@ -15,6 +23,21 @@
        - "Volcom Dark Gray Sweater"
        - "Puff Jacket Rab"
        - "Decathlon Gray Sport T-Shirt"
+  non-outfit-items:
+- date: "2025-05-26"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Levi's Light High Waist Jeans"
+       - "Dark Blue Sweater V-Neck Celio"
+  non-outfit-items:
+- date: "2025-05-27"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue Dickies Pants"
+       - "Rain Jacket Ayacucho"
+       - "Puff Jacket Rab"
   non-outfit-items:
 - date: "2025-05-25"
   outfits:
