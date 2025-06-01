@@ -1,3 +1,11 @@
+- date: "2025-06-01"
+  outfits:
+    - items:
+       - "Black Top the Kooples Sport"
+       - "Light Blue Levi's Mini Shorts"
+       - "Levi's Denim Shirt"
+       - "Birkenstock"
+  non-outfit-items:
 - date: "2025-05-31"
   outfits:
     - items:
