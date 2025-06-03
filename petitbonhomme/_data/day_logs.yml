@@ -1,3 +1,11 @@
+- date: "2025-06-03"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Sirin Black Shorts"
+       - "Pink Sweater with Print"
+       - "Gray Long Sleeve T-Shirt"
+  non-outfit-items:
 - date: "2025-06-02"
   outfits:
     - items:
