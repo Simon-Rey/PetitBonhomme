@@ -1,3 +1,24 @@
+- name: Sweater Gradient ERL Purple
+  brand: ERL
+  colors:
+    - "Iris"
+    - "LightPink"
+    - "Violet"
+  materials:
+  - Polyester & Plastics
+  - Wool
+  size: Man - XS
+  category: Jumper
+  multiplicity: 1
+  buying_price: 77
+  buying_place: Vinted
+  buying_date: '2025-05-28'
+  bought_new: false
+  not_logged_wear: 0
+  image: Close-Up/
+  worn_image: Worn/
+  id: 196
+  z_index: 6
 - name: Levi's Light High Waist Jeans
   brand: Levi's
   colors:
@@ -1113,7 +1134,7 @@
   materials:
   - Polyester & Plastics
   - Wool
-  size: Man - S
+  size: Man - XS
   category: Jumper
   multiplicity: 1
   buying_price: 100
