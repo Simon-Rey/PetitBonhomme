@@ -1,3 +1,41 @@
+- date: "2025-06-15"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Jacket Luka Bonsini"
+       - "Maje Blue Pattern Skort"
+       - "White Ribbed Crop Top Uniqlo"
+  non-outfit-items:
+- date: "2025-06-14"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Light Blue Levi's Mini Shorts"
+       - "Jacket Luka Bonsini"
+       - "Seksi T-Shirt"
+  non-outfit-items:
+- date: "2025-06-13"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Light Blue Levi's Mini Shorts"
+       - "White Tank Top"
+  non-outfit-items:
+- date: "2025-06-12"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Light Blue Levi's Mini Shorts"
+       - "White Tank Top"
+  non-outfit-items:
+      - "Sneakers Karhu"
+- date: "2025-06-11"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "White Ribbed Tank Top Honest Basics"
+       - "Light Blue Levi's Mini Shorts"
+  non-outfit-items:      
 - date: "2025-06-10"
   outfits:
     - items:
