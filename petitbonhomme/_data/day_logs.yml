@@ -1,3 +1,25 @@
+- date: "2025-06-26"
+  outfits:
+    - items:
+       - "Long Sleeve T-Shirt Gray Only & Sons"
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Rain Jacket Ayacucho"
+  non-outfit-items:
+- date: "2025-06-27"
+  outfits:
+    - items:
+       - "Blue Celio T-Shirt V-Neck"
+       - "Dark Blue Dickies Pants"
+       - "Gevavi Security Boots"
+       - "Costa Rica T-Shirt"
+    - items:
+       - "Birkenstock"
+       - "Green Linen Shirt"
+       - "Light Blue Levi's Mini Shorts"
+       - "Crop Top Pink Zara"
+  non-outfit-items:
+     - "Sneakers Karhu"
 - date: "2025-06-22"
   outfits:
     - items:
