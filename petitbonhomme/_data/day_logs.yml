@@ -1,3 +1,10 @@
+- date: "2025-06-25"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Red Sport T-Shirt Decathlon"
+       - "Dark Blue Cos Sweater"
+  non-outfit-items:
 - date: "2025-06-26"
   outfits:
     - items:
