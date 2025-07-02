@@ -1,3 +1,38 @@
+- date: "2025-07-02"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Light Blue Levi's Mini Shorts"
+       - "White Tank Top"
+  non-outfit-items:
+     - "Gevavi Security Boots"
+- date: "2025-07-01"
+  outfits:
+    - items:
+       - "Light Blue Levi's Mini Shorts"
+       - "Birkenstock"
+       - "Seksi T-Shirt"
+  non-outfit-items:
+     - "Gevavi Security Boots"
+- date: "2025-06-30"
+  outfits:
+    - items:
+       - "Light Blue Levi's Mini Shorts"
+       - "Birkenstock"
+       - "White Ribbed Tank Top Honest Basics"
+    - items:
+       - "Gevavi Security Boots"
+       - "Levi's Denim Shirt"
+       - "Red Sport T-Shirt Decathlon"
+  non-outfit-items:
+- date: "2025-06-29"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Light Blue Levi's Mini Shorts"
+       - "Crop Top Pink Zara"
+       - "Levi's Denim Shirt"
+  non-outfit-items:
 - date: "2025-06-28"
   outfits:
     - items:
