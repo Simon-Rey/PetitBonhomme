@@ -1,3 +1,33 @@
+- date: "2025-07-04"
+  outfits:
+    - items:
+       - "Dark Blue Jules Shorts"
+       - "Gevavi Security Boots"
+       - "Dark Blue Cos Sweater"
+    - items:
+       - "Sneakers Karhu"
+       - "Gray Shiny & Other Stories Skirt"
+       - "White Ribbed Crop Top Uniqlo"
+       - "Levi's Denim Shirt"
+  non-outfit-items:
+- date: "2025-07-05"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue DC Shoes Pants"
+       - "Dark Blue Cos Sweater"
+       - "T-Shirt Zara White with Dots"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
+- date: "2025-07-05"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Skirt IKKS Double Matter"
+       - "White T-Shirt Embroidered Zoé"
+       - "Jacket Luka Bonsini"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+  non-outfit-items:
 - date: "2025-07-02"
   outfits:
     - items:
