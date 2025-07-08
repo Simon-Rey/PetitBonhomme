@@ -1,3 +1,16 @@
+- date: "2025-07-06"
+  outfits:
+    - items:
+       - "Dark Blue Dickies Pants"
+       - "Gevavi Security Boots"
+       - "Dark Blue Cos Sweater"
+       - "Gray Long Sleeve T-Shirt"
+    - items:
+       - "Sneakers Karhu"
+       - "Levi's Light High Waist Jeans"
+       - "Jacket Luka Bonsini"
+       - "Gray Long Sleeve T-Shirt"
+  non-outfit-items:
 - date: "2025-07-04"
   outfits:
     - items:
