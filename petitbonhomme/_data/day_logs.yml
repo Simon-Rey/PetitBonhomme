@@ -1,3 +1,12 @@
+- date: "2025-07-09"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Long Sleeve T-Shirt Gray Only & Sons"
+       - "Dark Blue Cos Sweater"
+  non-outfit-items:
+     - "Birkenstock"
 - date: "2025-07-07"
   outfits:
     - items:
