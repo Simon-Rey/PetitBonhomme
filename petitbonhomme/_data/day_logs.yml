@@ -1,3 +1,19 @@
+- date: "2025-08-07"
+  outfits:
+    - items:
+       - "T-Shirt Celio Red Bordeaux"
+       - "Gray Denim Volcom Shorts"
+       - "Gevavi Security Boots"
+       - "Blue Chinese Vest Episode"
+  non-outfit-items:
+- date: "2025-08-06"
+  outfits:
+    - items:
+       - "Red Polo Volcom"
+       - "Dark Blue Denim Shorts"
+       - "Gevavi Security Boots"
+       - "Blue Chinese Vest Episode"
+  non-outfit-items:
 - date: "2025-08-03"
   outfits:
     - items:
@@ -6,6 +22,22 @@
        - "White Stree Box T-Shirt"
        - "Birkenstock"
        - "Jacket Luka Bonsini"
+  non-outfit-items:
+- date: "2025-08-05"
+  outfits:
+    - items:
+       - "Sirin Black Shorts"
+       - "Gevavi Security Boots"
+       - "Bash Cropped Bomber Pacino"
+       - "Blue Volcom T-Shirt Pattern"
+  non-outfit-items:
+- date: "2025-08-04"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Sirin Black Shorts"
+       - "Rain Jacket Ayacucho"
+       - "Red Long Sleeve T-Shirt Esprit"
   non-outfit-items:
 - date: "2025-08-02"
   outfits:
