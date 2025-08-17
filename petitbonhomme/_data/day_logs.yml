@@ -1,3 +1,36 @@
+- date: "2025-08-16"
+  outfits:
+    - items:
+       - "Maje Blue Pattern Skort"
+       - "White Ribbed Crop Top Uniqlo"
+       - "Blue Chinese Vest Episode"
+       - "Birkenstock"
+  non-outfit-items:
+     - "Jacket Luka Bonsini"
+- date: "2025-08-17"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "White and Gray H&M Skirt"
+       - "Thinking Mu Beige Multicolor Sweater"
+       - "Mango V-Neck White T-Shirt"
+  non-outfit-items:
+- date: "2025-08-15"
+  outfits:
+    - items:
+       - "Gray Denim Volcom Shorts"
+       - "Birkenstock"
+       - "T-Shirt Sew to Perfection Jack & Jones"
+       - "Blue Chinese Vest Episode"
+  non-outfit-items:
+- date: "2025-08-14"
+  outfits:
+    - items:
+       - "Gray Denim Volcom Shorts"
+       - "Birkenstock"
+       - "Blue Chinese Vest Episode"
+       - "T-Shirt Celio Red Bordeaux"
+  non-outfit-items:
 - date: "2025-08-12"
   outfits:
     - items:
