@@ -1,3 +1,11 @@
+- date: "2025-09-01"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue DC Shoes Pants"
+       - "White and Blue Light Sweater"
+       - "Mango V-Neck White T-Shirt"
+  non-outfit-items:
 - date: "2025-08-31"
   outfits:
     - items:
