@@ -1,3 +1,19 @@
+- date: "2025-09-02"
+  outfits:
+    - items:
+       - "Dark Blue DC Shoes Pants"
+       - "Sneakers Karhu"
+       - "Blue T-Shirt Cos"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
+- date: "2025-09-03"
+  outfits:
+    - items:
+       - "Dark Blue DC Shoes Pants"
+       - "Sneakers Karhu"
+       - "Pink Sweater with Print"
+       - "Blue T-Shirt Cos"
+  non-outfit-items:
 - date: "2025-09-01"
   outfits:
     - items:
