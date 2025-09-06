@@ -1,3 +1,18 @@
+- date: "2025-09-05"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "T-Shirt Roger Waters"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
+- date: "2025-09-06"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Birkenstock"
+       - "Zara White and Blue T-Shirt"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
 - date: "2025-09-04"
   outfits:
     - items:
