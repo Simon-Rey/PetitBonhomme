@@ -1,3 +1,41 @@
+- date: "2025-09-10"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Sneakers Karhu"
+       - "Jacket Luka Bonsini"
+       - "T-Shirt Zara White with Dots"
+       - "Thinking Mu Beige Multicolor Sweater"
+  non-outfit-items:
+- date: "2025-09-11"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Jacket Luka Bonsini"
+       - "Levi's Light High Waist Jeans"
+       - "T-Shirt Zara White with Dots"
+       - "Thinking Mu Beige Multicolor Sweater"
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Pink Basic T-Shirt"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+  non-outfit-items:
+- date: "2025-09-08"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Zara White and Blue T-Shirt"
+       - "Jacket Luka Bonsini"
+       - "Birkenstock"
+  non-outfit-items:
+- date: "2025-09-09"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Zara White and Blue T-Shirt"
+       - "Jacket Luka Bonsini"
+       - "Birkenstock"
+  non-outfit-items:
 - date: "2025-09-07"
   outfits:
     - items:
