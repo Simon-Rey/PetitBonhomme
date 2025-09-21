@@ -18,6 +18,7 @@ module Jekyll
 
   class ClothingItemGenerator < Generator
     safe true
+    priority :low
 
     def generate(site)
       # Load the clothing items from the YAML file

@@ -10,7 +10,7 @@ module Jekyll
       clothing_items = YAML.load_file(File.join(site.source, '_data', 'clothing_items.yml'))
       color_definitions = YAML.load_file(File.join(site.source, '_data', 'clothing_items_colors.yml'))
       color_definitions.sort_by! { |color| color['order'] }
-      day_logs = YAML.load_file(File.join(site.source, '_data', 'day_logs.yml'))
+      day_logs = site.data["day_logs"]
 
       # Initialize a hash to store color data by family
       wardrobe_color_family_counts = {}

@@ -1,6 +1,7 @@
 module Jekyll
   class MonthlyCalendarGenerator < Generator
     safe true
+    priority :low
 
     def generate(site)
       # Load the day logs data
