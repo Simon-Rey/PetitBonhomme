@@ -35,8 +35,17 @@ def run_sanity_checks
   end
 
   # Check each day log entry for valid outfit and non-outfit item names
-  day_logs_path = File.join(Dir.pwd, '_data', 'day_logs.yml')
-  day_logs = YAML.load_file(day_logs_path)
+
+  # Collect all day_logs_*.yml files
+  day_logs = []
+  Dir.glob(File.join(Dir.pwd, "_data", "day_logs_*.yml")).each do |file|
+    yaml_data = YAML.load_file(file)
+    if yaml_data.is_a?(Array)
+      day_logs.concat(yaml_data)
+    elsif yaml_data.is_a?(Hash)
+      day_logs << yaml_data
+    end
+  end
   item_names = clothing_items.map { |item| item['name'] }
 
   day_logs.each do |entry|
