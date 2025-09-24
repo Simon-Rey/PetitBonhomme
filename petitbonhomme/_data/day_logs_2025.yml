@@ -1,3 +1,16 @@
+- date: "2025-09-24"
+  outfits:
+    - items:
+       - "Balloon Leg Black Levi's"
+       - "Sweater Volcom Blue and Gray"
+       - "T-Shirt Roger Waters"
+    - items:
+       - "Sneakers Karhu"
+       - "Jacket Luka Bonsini"
+       - "Balloon Leg Black Levi's"
+       - "Zara White and Blue T-Shirt"
+       - "Sweater Volcom Blue and Gray"
+  non-outfit-items:
 - date: "2025-09-22"
   outfits:
     - items:
