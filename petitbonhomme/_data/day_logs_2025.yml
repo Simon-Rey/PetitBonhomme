@@ -1,3 +1,22 @@
+- date: "2025-09-27"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Balloon Leg Black Levi's"
+       - "Pink Basic T-Shirt"
+       - "Dark Blue Cos Sweater"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
+- date: "2025-09-28"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Bash Cropped Bomber Pacino"
+       - "Pink Basic T-Shirt"
+       - "Dark Blue Cos Sweater"
+       - "Balloon Leg Black Levi's"
+  non-outfit-items:
+     - "Rain Jacket Schöffel"
 - date: "2025-09-25"
   outfits:
     - items:
