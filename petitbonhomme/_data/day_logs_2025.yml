@@ -1,3 +1,53 @@
+- date: "2025-09-29"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "T-Shirt Zara White with Dots"
+       - "Sweater Olow Beach"
+       - "Balloon Leg Black Levi's"
+       - "Bash Cropped Bomber Pacino"
+  non-outfit-items:
+- date: "2025-09-30"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "T-Shirt Zara White with Dots"
+       - "Sweater Olow Beach"
+       - "Balloon Leg Black Levi's"
+       - "Bash Cropped Bomber Pacino"
+  non-outfit-items:
+- date: "2025-10-01"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Sneakers Karhu"
+       - "Jacket Luka Bonsini"
+       - "Dark Blue Cos Sweater"
+       - "Brown Volcom T-Shirt"
+  non-outfit-items:
+- date: "2025-10-02"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Jacket Luka Bonsini"
+       - "Running Legging Decathlon"
+       - "Skirt IKKS Double Matter"
+       - "Brown Volcom T-Shirt"
+       - "Dark Blue Cos Sweater"
+  non-outfit-items:
+- date: "2025-10-03"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Jacket Luka Bonsini"
+       - "Running Legging Decathlon"
+       - "Brown Volcom T-Shirt"
+       - "Dark Blue Cos Sweater"
+    - items:
+       - "Running Legging Decathlon"
+       - "Sweater Volcom Blue and Gray"
+       - "Zara White and Blue T-Shirt"
+  non-outfit-items:
 - date: "2025-09-27"
   outfits:
     - items:
