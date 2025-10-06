@@ -1,3 +1,28 @@
+- date: "2025-10-04"
+  outfits:
+    - items:
+       - "Running Legging Decathlon"
+       - "Brown Volcom T-Shirt"
+       - "Sweater Volcom Blue and Gray"
+  non-outfit-items:
+- date: "2025-10-05"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Rain Jacket Ayacucho"
+       - "Running Legging Decathlon"
+       - "Brown Volcom T-Shirt"
+       - "Sweater Volcom Blue and Gray"
+  non-outfit-items:
+- date: "2025-10-06"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Uniqlo Underwear Legging"
+       - "Maje Blue Pattern Skort"
+       - "Brown Volcom T-Shirt"
+       - "Pink Basic T-Shirt"
+  non-outfit-items:
 - date: "2025-09-29"
   outfits:
     - items:
