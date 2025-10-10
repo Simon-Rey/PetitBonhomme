@@ -1,3 +1,30 @@
+- date: "2025-10-09"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Running Legging Decathlon"
+       - "Sweater Celio Gray with White Collar"
+       - "White T-Shirt Embroidered Zoé"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
+- date: "2025-10-08"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Jacket Luka Bonsini"
+       - "Sweater Volcom Blue and Gray"
+       - "Uniqlo Underwear Legging"
+       - "Red High Waist Shorts"
+  non-outfit-items:
+- date: "2025-10-07"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Jacket Luka Bonsini"
+       - "Sweater Volcom Blue and Gray"
+       - "Uniqlo Underwear Legging"
+       - "Red High Waist Shorts"
+  non-outfit-items:
 - date: "2025-10-04"
   outfits:
     - items:
