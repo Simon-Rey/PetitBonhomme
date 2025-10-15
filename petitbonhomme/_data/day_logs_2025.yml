@@ -1,3 +1,21 @@
+- date: "2025-10-14"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Sneakers Karhu"
+       - "Teym White Sweater"
+       - "T-Shirt Zara White with Dots"
+  non-outfit-items:
+     - "Gevavi Security Boots"
+- date: "2025-10-13"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Sneakers Karhu"
+       - "Teym White Sweater"
+       - "T-Shirt Zara White with Dots"
+  non-outfit-items:
+     - "Gevavi Security Boots"
 - date: "2025-10-10"
   outfits:
     - items:
