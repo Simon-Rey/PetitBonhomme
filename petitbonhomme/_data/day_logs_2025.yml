@@ -1,3 +1,32 @@
+- date: "2025-10-17"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Teym White Sweater"
+       - "Dark Blue Denim Dungarees"
+       - "T-Shirt Roger Waters"
+  non-outfit-items:
+- date: "2025-10-16"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Denim Dungarees"
+       - "Volcom Dark Gray Sweater"
+       - "T-Shirt Roger Waters"
+  non-outfit-items:
+- date: "2025-10-15"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Denim Dungarees"
+       - "Volcom Dark Gray Sweater"
+       - "T-Shirt Roger Waters"
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Sneakers Karhu"
+       - "Teym White Sweater"
+       - "T-Shirt Zara White with Dots"
+  non-outfit-items:
 - date: "2025-10-14"
   outfits:
     - items:
