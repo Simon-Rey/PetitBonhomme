@@ -1,3 +1,44 @@
+- date: "2025-10-18"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Balloon Leg Black Levi's"
+       - "Sweater Gradient ERL Purple"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+    - items:
+       - "Gevavi Security Boots"
+       - "Balloon Leg Black Levi's"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Volcom Dark Gray Sweater"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
+- date: "2025-10-19"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Balloon Leg Black Levi's"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Volcom Dark Gray Sweater"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
+- date: "2025-10-21"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Gevavi Security Boots"
+       - "Teym White Sweater"
+       - "Pink Basic T-Shirt"
+       - "Rain Jacket Ayacucho"
+  non-outfit-items:
+- date: "2025-10-20"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Balloon Leg Black Levi's"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Volcom Dark Gray Sweater"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
 - date: "2025-10-17"
   outfits:
     - items:
