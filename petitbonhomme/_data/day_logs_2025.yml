@@ -1,3 +1,11 @@
+- date: "2025-10-22"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Levi's Light High Waist Jeans"
+       - "Pink Basic T-Shirt"
+       - "Teym White Sweater"
+  non-outfit-items:
 - date: "2025-10-18"
   outfits:
     - items:
