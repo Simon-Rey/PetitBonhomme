@@ -1,3 +1,31 @@
+- date: "2025-10-25"
+  outfits:
+    - items:
+       - "Black Thick Falke Tights"
+       - "Timberland Boots"
+       - "Dark Blue The Kooples Skirt"
+       - "Wool Gray Turtleneck Sweater & Other Stories"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Rain Jacket Ayacucho"
+  non-outfit-items:
+- date: "2025-10-24"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Sneakers Karhu"
+       - "Rain Jacket Ayacucho"
+       - "Teym White Sweater"
+       - "Pink Basic T-Shirt"
+  non-outfit-items:
+     - "Gevavi Security Boots"
+- date: "2025-10-23"
+  outfits:
+    - items:
+       - "Teym White Sweater"
+       - "Pink Basic T-Shirt"
+       - "Levi's Light High Waist Jeans"
+       - "Gevavi Security Boots"
+  non-outfit-items:
 - date: "2025-10-22"
   outfits:
     - items:
