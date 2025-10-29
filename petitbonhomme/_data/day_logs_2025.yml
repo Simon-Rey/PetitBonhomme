@@ -1,3 +1,31 @@
+- date: "2025-10-26"
+  outfits:
+    - items:
+       - "Wool Gray Turtleneck Sweater & Other Stories"
+       - "Levi's Light High Waist Jeans"
+       - "Timberland Boots"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Rain Jacket Ayacucho"
+  non-outfit-items:
+- date: "2025-10-27"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Levi's Light High Waist Jeans"
+       - "Pink Basic T-Shirt"
+       - "Sweater Volcom Blue and Gray"
+       - "Rain Jacket Schöffel"
+  non-outfit-items:
+- date: "2025-10-28"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Sweater Volcom Blue and Gray"
+       - "Pink Basic T-Shirt"
+       - "Rain Jacket Ayacucho"
+  non-outfit-items:
+     - "Rain Jacket Schöffel"
 - date: "2025-10-25"
   outfits:
     - items:
