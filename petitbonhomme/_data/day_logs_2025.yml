@@ -1,3 +1,26 @@
+- date: "2025-11-01"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Balloon Leg Black Levi's"
+       - "Sweater Olow Beach"
+       - "White T-Shirt Embroidered Zoé"
+       - "Rain Jacket Schöffel"
+  non-outfit-items:
+- date: "2025-10-31"
+  outfits:
+    - items:
+       - "Dark Blue Dickies Pants"
+       - "Gevavi Security Boots"
+       - "Sweater Volcom Blue and Gray"
+       - "T-Shirt Roger Waters"
+       - "Rain Jacket Ayacucho"
+    - items:
+       - "Gevavi Security Boots"
+       - "Levi's Light High Waist Jeans"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Volcom Dark Gray Sweater"
+  non-outfit-items:
 - date: "2025-10-26"
   outfits:
     - items:
