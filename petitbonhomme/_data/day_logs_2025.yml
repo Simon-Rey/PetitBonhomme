@@ -1,3 +1,19 @@
+- date: "2025-10-29"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Rain Jacket Ayacucho"
+       - "Pink Basic T-Shirt"
+       - "Sweater Volcom Blue and Gray"
+  non-outfit-items:
+- date: "2025-10-30"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Rain Jacket Ayacucho"
+  non-outfit-items:
 - date: "2025-11-01"
   outfits:
     - items:
