@@ -1,3 +1,21 @@
+- date: "2025-11-03"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Sweater Volcom Blue and Gray"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
+- date: "2025-11-04"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Volcom Dark Gray Sweater"
+       - "Rain Jacket Ayacucho"
+  non-outfit-items:
 - date: "2025-11-07"
   outfits:
     - items:
