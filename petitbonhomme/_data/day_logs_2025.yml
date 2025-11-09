@@ -1,3 +1,19 @@
+- date: "2025-11-08"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "T-Shirt Roger Waters"
+       - "Pink Sweater with Print"
+       - "Timberland Boots"
+       - "Jacket Luka Bonsini"
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Gevavi Security Boots"
+       - "Volcom Dark Gray Sweater"
+       - "Dark Blue Cos Sweater"
+       - "T-Shirt Roger Waters"
+  non-outfit-items:
+     - "Dark Blue Dickies Pants"
 - date: "2025-11-03"
   outfits:
     - items:
