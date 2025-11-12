@@ -1,3 +1,46 @@
+- date: "2025-11-12"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Dark Blue Cos Sweater"
+       - "Volcom Dark Gray Sweater"
+       - "Blue T-Shirt Cos"
+  non-outfit-items:
+- date: "2025-11-11"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Dark Blue Cos Sweater"
+       - "Brown Volcom T-Shirt"
+       - "Volcom Dark Gray Sweater"
+    - items:
+       - "Black Heel Boots United Nude"
+       - "Black Light Falke Tight"
+       - "White and Gray H&M Skirt"
+       - "Long Sleeve Black T-Shirt Tico"
+       - "Jacket Luka Bonsini"
+       - "Sweater Gradient ERL Purple"
+  non-outfit-items:
+- date: "2025-11-10"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Volcom Dark Gray Sweater"
+       - "Brown Volcom T-Shirt"
+       - "Dark Blue Cos Sweater"
+  non-outfit-items:
+- date: "2025-11-09"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Levi's Light High Waist Jeans"
+       - "Brown Volcom T-Shirt"
+       - "Pink Sweater with Print"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
 - date: "2025-11-08"
   outfits:
     - items:
