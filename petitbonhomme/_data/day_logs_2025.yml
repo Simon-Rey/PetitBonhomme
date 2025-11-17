@@ -1,3 +1,22 @@
+- date: "2025-11-16"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Rain Jacket Ayacucho"
+       - "Balloon Leg Black Levi's"
+       - "Dark Blue Long Sleeve Selected"
+       - "Pink Sweater with Print"
+  non-outfit-items:
+- date: "2025-11-17"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Balloon Leg Black Levi's"
+       - "Rain Jacket Ayacucho"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Pink Sweater with Print"
+       - "Pink Basic T-Shirt"
+  non-outfit-items:
 - date: "2025-11-15"
   outfits:
     - items:
