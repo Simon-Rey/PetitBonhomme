@@ -1,3 +1,27 @@
+- date: "2025-11-18"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Balloon Leg Black Levi's"
+       - "Pink Basic T-Shirt"
+       - "Pink Sweater with Print"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Puff Jacket Rab"
+    - items:
+       - "Balloon Leg Black Levi's"
+       - "Sweater Gradient ERL"
+       - "Long Sleeve Black T-Shirt Tico"
+  non-outfit-items:
+- date: "2025-11-19"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Balloon Leg Black Levi's"
+       - "Rain Jacket Ayacucho"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Long Sleeve Black T-Shirt Tico"
+  non-outfit-items:
+     - "Puff Jacket Rab"
 - date: "2025-11-16"
   outfits:
     - items:
