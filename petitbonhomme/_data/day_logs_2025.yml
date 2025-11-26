@@ -1,12 +1,42 @@
-- date: "2025-11-23"
+- date: "2025-11-24"
   outfits:
     - items:
-       - "Jupe Maje Double Zips"
-       - "Black Thick Falke Tights"
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Puff Jacket Rab"
+       - "Pink Basic T-Shirt"
+       - "Dark Blue Cos Sweater"
+       - "Volcom Dark Gray Sweater"
+  non-outfit-items:
+- date: "2025-11-24"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Puff Jacket Rab"
+       - "Pink Basic T-Shirt"
+       - "Dark Blue Cos Sweater"
+       - "Volcom Dark Gray Sweater"
+  non-outfit-items:
+- date: "2025-11-25"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Puff Jacket Rab"
+       - "Pink Basic T-Shirt"
+       - "Dark Blue Cos Sweater"
+       - "Volcom Dark Gray Sweater"
+  non-outfit-items:
+- date: "2025-11-26"
+  outfits:
+    - items:
        - "Timberland Boots"
-       - "Sweater Gradient ERL Purple"
-       - "Rain Jacket Schöffel"
-       - "Purple Hat"
+       - "Dark Blue Dickies Pants"
+       - "Volcom Dark Gray Sweater"
+       - "Dark Blue Cos Sweater"
+       - "Puff Jacket Rab"
+       - "T-Shirt Roger Waters"
   non-outfit-items:
 - date: "2025-11-20"
   outfits:
