@@ -676,26 +676,6 @@
   worn_image: Worn/2023 - Clothes - 38E6D793-D69F-43B5-85B6-D613773CD40F.webp
   id: 30
   z_index: 2
-- name: Pattern Shirt Abel
-  brand: No Brand
-  colors:
-  - White
-  - ForestGreen
-  - BlueGray
-  materials:
-  - Polyester & Plastics
-  size: Man - M
-  category: Long sleeved shirt
-  multiplicity: 1
-  buying_price: 90
-  buying_place: Amsterdam
-  buying_date: '2023-10-01'
-  bought_new: true
-  not_logged_wear: 0
-  image: Close-Up/2023 - Clothes - 074891B7-91AC-4B7B-A278-F7F35807468A.webp
-  worn_image: Worn/2023 - Clothes - 3915D3A2-5C5E-420E-8D4B-EC3075C822FD.webp
-  id: 31
-  z_index: 4
 - name: Dark Blue Denim Shorts
   brand: No Brand
   colors:
