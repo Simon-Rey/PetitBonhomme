@@ -1,3 +1,27 @@
+- date: "2025-12-02"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Uniqlo Underwear Legging"
+       - "Balloon Leg Black Levi's"
+       - "Puff Jacket Rab"
+       - "Dark Blue Long Sleeve Selected"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "White Ribbed Tank Top Honest Basics"
+  non-outfit-items:
+- date: "2025-12-01"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Uniqlo Underwear Legging"
+       - "Balloon Leg Black Levi's"
+       - "Puff Jacket Rab"
+       - "Dark Blue Long Sleeve Selected"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "White Ribbed Tank Top Honest Basics"
+  non-outfit-items:
+
+
 - date: "2025-12-03"
   outfits:
     - items:
