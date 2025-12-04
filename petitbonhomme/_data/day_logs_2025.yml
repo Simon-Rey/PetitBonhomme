@@ -20,8 +20,19 @@
        - "Dark Blue Sweater V-Neck Celio"
        - "White Ribbed Tank Top Honest Basics"
   non-outfit-items:
-
-
+- date: "2025-12-04"
+  outfits:
+    - items:
+       - "White and Gray H&M Skirt"
+       - "Black Thick Falke Tights"
+       - "Sneakers Karhu"
+       - "Puff Jacket Rab"
+       - "Pink Basic T-Shirt"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Pink Sweater with Print"
+  non-outfit-items:
+     - "Gevavi Security Boots"
+     - "Balloon Leg Black Levi's"
 - date: "2025-12-03"
   outfits:
     - items:
