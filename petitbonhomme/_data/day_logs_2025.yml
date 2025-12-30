@@ -1,3 +1,23 @@
+- date: "2025-12-30"
+  outfits:
+    - items:
+       - "Brown Carhartt Dungarees"
+       - "Beige Cachemire Turtle Neck"
+       - "T-Shirt New-York Celio"
+       - "Timberland Boots"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
+- date: "2025-12-29"
+  outfits:
+    - items:
+       - "Brown Carhartt Dungarees"
+       - "Beige Cachemire Turtle Neck"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+       - "Gray Long Sleeve T-Shirt"
+       - "Sneakers Karhu"
+  non-outfit-items:
 - date: "2025-12-25"
   outfits:
     - items:
