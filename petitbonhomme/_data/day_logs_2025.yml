@@ -1,3 +1,20 @@
+- date: "2025-12-31"
+  outfits:
+    - items:
+       - "Gray Shiny & Other Stories Skirt"
+       - "Black Heel Boots United Nude"
+       - "Black Thick Falke Tights"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "White Ribbed Tank Top Honest Basics"
+       - "Cropped Blazer Cos"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+    - items:
+       - "Timberland Boots"
+       - "Levi's Light High Waist Jeans"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Sweater Gradient ERL Purple"
+  non-outfit-items:
 - date: "2025-12-30"
   outfits:
     - items:
