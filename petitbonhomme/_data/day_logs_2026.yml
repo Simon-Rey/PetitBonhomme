@@ -1,1 +1,21 @@
-t
+- date: "2026-01-01"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Timberland Boots"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+       - "Dark Blue Cos Sweater"
+       - "Blue Polo Volcom"
+  non-outfit-items:
+- date: "2026-01-02"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Levi's Light High Waist Jeans"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+       - "Dark Blue Cos Sweater"
+       - "Blue Polo Volcom"
+       - "Dark Blue Sweater V-Neck Celio"
+  non-outfit-items:
