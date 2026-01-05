@@ -1,3 +1,39 @@
+- date: "2026-01-03"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Uniqlo Underwear Legging"
+       - "Puff Jacket Rab"
+       - "Elements Coat"
+       - "Orange Knitted Scarf"
+       - "Volcom Dark Gray Sweater"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Blue Celio T-Shirt V-Neck"
+  non-outfit-items:
+- date: "2026-01-04"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Uniqlo Underwear Legging"
+       - "Puff Jacket Rab"
+       - "Elements Coat"
+       - "Orange Knitted Scarf"
+       - "Volcom Dark Gray Sweater"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Blue Celio T-Shirt V-Neck"
+  non-outfit-items:
+- date: "2026-01-05"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Uniqlo Underwear Legging"
+       - "Puff Jacket Rab"
+       - "Elements Coat"
+       - "Orange Knitted Scarf"
+       - "Volcom Dark Gray Sweater"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Blue Celio T-Shirt V-Neck"
+  non-outfit-items:
 - date: "2026-01-01"
   outfits:
     - items:
