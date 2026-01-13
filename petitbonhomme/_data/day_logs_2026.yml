@@ -1,3 +1,64 @@
+- date: "2026-01-13"
+  outfits:
+    - items:
+       - "Sneakers Karhu"
+       - "Dark Blue Dickies Pants"
+       - "Puff Jacket Rab"
+       - "Sweater Volcom Blue and Gray"
+       - "White and Blue Light Sweater"
+       - "YMCA Purple Wei T-Shirt"
+  non-outfit-items:
+     - "Gevavi Security Boots"
+- date: "2026-01-11"
+  outfits:
+    - items:
+       - "Dark Blue Dickies Pants"
+       - "Puff Jacket Rab"
+       - "Sweater Volcom Blue and Gray"
+       - "White and Blue Light Sweater"
+       - "YMCA Purple Wei T-Shirt"
+       - "Gevavi Security Boots"
+  non-outfit-items:
+- date: "2026-01-10"
+  outfits:
+    - items:
+       - "Puff Jacket Rab"
+       - "Sweater Volcom Blue and Gray"
+       - "White and Blue Light Sweater"
+       - "Gevavi Security Boots"
+       - "Dark Blue DC Shoes Pants"
+       - "Blue Celio T-Shirt V-Neck"
+  non-outfit-items:
+- date: "2026-01-09"
+  outfits:
+    - items:
+       - "Puff Jacket Rab"
+       - "Sweater Volcom Blue and Gray"
+       - "White and Blue Light Sweater"
+       - "Gevavi Security Boots"
+       - "Dark Blue DC Shoes Pants"
+       - "Blue Celio T-Shirt V-Neck"
+  non-outfit-items:
+- date: "2026-01-08"
+  outfits:
+    - items:
+       - "Puff Jacket Rab"
+       - "Sweater Volcom Blue and Gray"
+       - "White and Blue Light Sweater"
+       - "Gevavi Security Boots"
+       - "Dark Blue DC Shoes Pants"
+       - "Blue Celio T-Shirt V-Neck"
+  non-outfit-items:
+- date: "2026-01-12"
+  outfits:
+    - items:
+       - "Dark Blue Dickies Pants"
+       - "Puff Jacket Rab"
+       - "Sweater Volcom Blue and Gray"
+       - "White and Blue Light Sweater"
+       - "YMCA Purple Wei T-Shirt"
+       - "Gevavi Security Boots"
+  non-outfit-items:
 - date: "2026-01-03"
   outfits:
     - items:
