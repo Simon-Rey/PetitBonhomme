@@ -1,3 +1,34 @@
+- date: "2026-01-18"
+  outfits:
+    - items:
+       - "Timberland Boots"
+       - "Black Light Falke Tight"
+       - "Maje Blue Pattern Skort"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Blue Celio T-Shirt V-Neck"
+       - "Jacket Luka Bonsini"
+       - "Petrol Blue Cropped Sezane Hoodie"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
+     - "Dark Blue Dickies Pants"
+- date: "2026-01-17"
+  outfits:
+    - items:
+       - "Dark Blue Dickies Pants"
+       - "Sneakers Karhu"
+       - "Puff Jacket Rab"
+       - "Teym White Sweater"
+       - "Mango V-Neck White T-Shirt"
+  non-outfit-items:
+- date: "2026-01-16"
+  outfits:
+    - items:
+       - "Dark Blue Dickies Pants"
+       - "Sneakers Karhu"
+       - "Puff Jacket Rab"
+       - "Teym White Sweater"
+       - "Mango V-Neck White T-Shirt"
+  non-outfit-items:
 - date: "2026-01-13"
   outfits:
     - items:
