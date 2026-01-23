@@ -3606,10 +3606,10 @@
   z_index: 3
   image: Close-Up/2023 - Clothes - FC440364-DF0E-43EF-8003-582C7CABAEA0.webp
   worn_image: Worn/
-- name: Sneakers Karhu Trampas Grey
+- name: Sneakers Karhu Trampas Gray
   brand: Karhu
   colors: 
-  - Grey
+  - Gray
   materials:
   - Cotton
   - Polyester & Plastics
