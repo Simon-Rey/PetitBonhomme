@@ -3609,7 +3609,8 @@
 - name: Sneakers Karhu Trampas Gray
   brand: Karhu
   colors: 
-  - Gray
+  - "EmeraldGreen"
+  - "Silver"
   materials:
   - Cotton
   - Polyester & Plastics
