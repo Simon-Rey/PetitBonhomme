@@ -1,3 +1,42 @@
+- date: "2026-01-22"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Teym White Sweater"
+       - "White Tank Top"
+       - "Puff Jacket Rab"
+       - "Dark Blue Dickies Pants"
+  non-outfit-items:
+- date: "2026-01-20"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Teym White Sweater"
+       - "White Ribbed Tank Top Honest Basics"
+       - "Puff Jacket Rab"
+       - "Dark Blue Dickies Pants"
+  non-outfit-items:
+- date: "2026-01-21"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Teym White Sweater"
+       - "White Ribbed Tank Top Honest Basics"
+       - "Puff Jacket Rab"
+       - "Dark Blue Dickies Pants"
+  non-outfit-items:
+- date: "2026-01-19"
+  outfits:
+    - items:
+       - "Sneakers Karhu Trampas Gray"
+       - "Black Light Falke Tight"
+       - "Maje Blue Pattern Skort"
+       - "Blue Celio T-Shirt V-Neck"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Petrol Blue Cropped Sezane Hoodie"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
+     - "Timberland Boots"
 - date: "2026-01-18"
   outfits:
     - items:
