@@ -1,3 +1,30 @@
+- date: "2026-01-27"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Running Legging Decathlon"
+       - "Puff Jacket Rab"
+       - "Sweater Volcom Blue and Gray"
+       - "Long Sleeve Dark Blue Jules T-Shirt"
+  non-outfit-items:
+- date: "2026-01-26"
+  outfits:
+    - items:
+       - "Sweater Gradient ERL"
+       - "Sneakers Karhu Trampas Gray"
+       - "Balloon Leg Black Levi's"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
+- date: "2026-01-25"
+  outfits:
+    - items:
+       - "Sneakers Karhu Trampas Gray"
+       - "Balloon Leg Black Levi's"
+       - "Sweater Gradient ERL"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
 - date: "2026-01-22"
   outfits:
     - items:
