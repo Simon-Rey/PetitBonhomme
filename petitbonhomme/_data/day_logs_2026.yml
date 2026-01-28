@@ -15,7 +15,8 @@
        - "Balloon Leg Black Levi's"
        - "Uniqlo White Long Sleeve Sweatshirt"
        - "Jacket Luka Bonsini"
-  non-outfit-items:
+  non-outfit-items:"
+       - "Teym White Sweater"
 - date: "2026-01-25"
   outfits:
     - items:
