@@ -29,12 +29,12 @@
 - date: "2026-02-01"
   outfits:
     - items:
-       - "Sneakers Karhu Trampas Gray"
-       - "Levi's Light High Waist Jeans"
-       - "Gray Long Sleeve T-Shirt"
-       - "White and Blue Light Sweater"
-       - "Puff Jacket Rab"
-       - "Orange Knitted Scarf"
+      - "Sneakers Karhu Trampas Gray"
+      - "Levi's Light High Waist Jeans"
+      - "Gray Long Sleeve T-Shirt"
+      - "White and Blue Light Sweater"
+      - "Puff Jacket Rab"
+      - "Orange Knitted Scarf"
   non-outfit-items:
 - date: "2026-01-23"
   outfits:
@@ -62,7 +62,7 @@
        - "Balloon Leg Black Levi's"
        - "Uniqlo White Long Sleeve Sweatshirt"
        - "Jacket Luka Bonsini"
-  non-outfit-items:"
+  non-outfit-items:
     - "Teym White Sweater"
 - date: "2026-01-25"
   outfits:
