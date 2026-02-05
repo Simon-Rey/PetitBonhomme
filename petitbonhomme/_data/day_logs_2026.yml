@@ -1,3 +1,44 @@
+- date: "2026-02-05"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Elements Coat"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Dark Blue Cos Sweater"
+       - "Red Polo Volcom"
+  non-outfit-items:
+     - "Sneakers Karhu Trampas Gray"
+- date: "2026-02-04"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Dark Blue Cos Sweater"
+       - "Red Polo Volcom"
+       - "Puff Jacket Rab"
+  non-outfit-items:
+- date: "2026-02-03"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Dark Blue Cos Sweater"
+       - "Red Polo Volcom"
+       - "Puff Jacket Rab"
+  non-outfit-items:
+- date: "2026-02-02"
+  outfits:
+    - items:
+       - "Sneakers Karhu Trampas Gray"
+       - "Puff Jacket Rab"
+       - "Wool Gray Turtleneck Sweater & Other Stories"
+       - "Long Sleeve Black T-Shirt Tico"
+       - "Balloon Leg Black Levi's"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
 - date: "2026-01-29"
   outfits:
     - items:
