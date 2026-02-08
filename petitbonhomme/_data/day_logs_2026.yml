@@ -1,3 +1,36 @@
+- date: "2026-02-08"
+  outfits:
+    - items:
+       - "Vintage Hiking Boot Adidas"
+       - "Balloon Leg Black Levi's"
+       - "Puff Jacket Rab"
+       - "White Ribbed Tank Top Honest Basics"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
+- date: "2026-02-06"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Puff Jacket Rab"
+       - "Dark Blue Cos Sweater"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Red Polo Volcom"
+  non-outfit-items:
+- date: "2026-02-07"
+  outfits:
+    - items:
+       - "Vintage Hiking Boot Adidas"
+       - "Puff Jacket Rab"
+       - "White Ribbed Tank Top Honest Basics"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+       - "White and Gray H&M Skirt"
+       - "Black Thick Falke Tights"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
 - date: "2026-02-05"
   outfits:
     - items:
