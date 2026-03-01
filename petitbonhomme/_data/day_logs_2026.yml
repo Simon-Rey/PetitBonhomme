@@ -1,3 +1,57 @@
+- date: "2026-02-25"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Balloon Leg Black Levi's"
+       - "Green Woolen Sweater"
+       - "Long Sleeve T-Shirt Gray Only & Sons"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+  non-outfit-items:
+- date: "2026-02-26"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Balloon Leg Black Levi's"
+       - "Green Woolen Sweater"
+       - "Long Sleeve T-Shirt Gray Only & Sons"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+       - "Elements Coat"
+  non-outfit-items:
+- date: "2026-02-27"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Balloon Leg Black Levi's"
+       - "Long Sleeve T-Shirt Gray Only & Sons"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+       - "Elements Coat"
+       - "Sweater Volcom Blue and Gray"
+  non-outfit-items:
+- date: "2026-03-01"
+  outfits:
+    - items:
+       - "Balloon Leg Black Levi's"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+       - "Elements Coat"
+       - "Sweater Volcom Blue and Gray"
+       - "Gray Long Sleeve T-Shirt"
+       - "Sneakers Karhu Trampas Gray"
+  non-outfit-items:
+- date: "2026-02-28"
+  outfits:
+    - items:
+       - "Balloon Leg Black Levi's"
+       - "Puff Jacket Rab"
+       - "Orange Knitted Scarf"
+       - "Elements Coat"
+       - "Sweater Volcom Blue and Gray"
+       - "Gray Long Sleeve T-Shirt"
+       - "Sneakers Karhu Trampas Gray"
+  non-outfit-items:
 - date: "2026-02-24"
   outfits:
     - items:
