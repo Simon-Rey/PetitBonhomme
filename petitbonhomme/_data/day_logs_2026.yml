@@ -1,3 +1,31 @@
+- date: "2026-03-13"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Puff Jacket Rab"
+       - "Elements Coat"
+       - "Red Long Sleeve T-Shirt Esprit"
+       - "T-Shirt Celio Red Bordeaux"
+  non-outfit-items:
+- date: "2026-03-12"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Puff Jacket Rab"
+       - "Red Polo Volcom"
+       - "Volcom Dark Gray Sweater"
+  non-outfit-items:
+- date: "2026-03-11"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Puff Jacket Rab"
+       - "Volcom Dark Gray Sweater"
+       - "Red Polo Volcom"
+  non-outfit-items:
 - date: "2026-03-07"
   outfits:
     - items:
