@@ -1,3 +1,21 @@
+- date: "2026-03-18"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Red Polo Volcom"
+       - "Volcom Dark Gray Sweater"
+  non-outfit-items:
+- date: "2026-03-19"
+  outfits:
+    - items:
+       - "Dark Blue Dickies Pants"
+       - "Red Polo Volcom"
+       - "Volcom Dark Gray Sweater"
+       - "Sneakers Karhu Trampas Gray"
+       - "Jacket Luka Bonsini"
+  non-outfit-items:
+     - "Gevavi Security Boots"
 - date: "2026-03-14"
   outfits:
     - items:
