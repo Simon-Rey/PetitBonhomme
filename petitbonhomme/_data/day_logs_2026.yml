@@ -1,3 +1,27 @@
+- date: "2026-03-23"
+  outfits:
+    - items:
+       - "Sneakers Karhu Trampas Gray"
+       - "Balloon Leg Black Levi's"
+       - "Blue Celio T-Shirt V-Neck"
+       - "Volcom Dark Gray Sweater"
+       - "White and Blue Light Sweater"
+       - "Puff Jacket Rab"
+  non-outfit-items:
+- date: "2026-03-22"
+  outfits:
+    - items:
+       - "Sneakers Karhu Trampas Gray"
+       - "Levi's Light High Waist Jeans"
+       - "T-Shirt Celio Red Bordeaux"
+       - "Volcom Dark Gray Sweater"
+       - "Puff Jacket Rab"
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Sneakers Karhu Trampas Gray"
+       - "Blue Celio T-Shirt V-Neck"
+       - "White and Blue Light Sweater"
+  non-outfit-items:
 - date: "2026-03-24"
   outfits:
     - items:
