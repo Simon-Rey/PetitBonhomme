@@ -1,3 +1,23 @@
+- date: "2026-04-17"
+  outfits:
+    - items:
+       - "Sneakers Karhu Trampas Gray"
+       - "Balloon Leg Black Levi's"
+       - "Gray Long Sleeve T-Shirt"
+    - items:
+       - "Birkenstock"
+       - "Red High Waist Shorts"
+       - "Levi's Denim Shirt"
+       - "White T-Shirt Embroidered Zoé"
+  non-outfit-items:
+- date: "2026-04-16"
+  outfits:
+    - items:
+       - "Sneakers Karhu Trampas Gray"
+       - "Balloon Leg Black Levi's"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+       - "Gray Long Sleeve T-Shirt"
+  non-outfit-items:
 - date: "2026-04-03"
   outfits:
     - items:
