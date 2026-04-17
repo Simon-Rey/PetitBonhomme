@@ -1,3 +1,29 @@
+- date: "2026-04-15"
+  outfits:
+    - items:
+       - "Sneakers Karhu Trampas Gray"
+       - "Balloon Leg Black Levi's"
+       - "Gray Long Sleeve T-Shirt"
+       - "Puff Jacket Rab"
+  non-outfit-items:
+- date: "2026-04-12"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Sneakers Karhu Trampas Gray"
+       - "Pink Basic T-Shirt"
+       - "Pink Sweater with Print"
+       - "Puff Jacket Rab"
+  non-outfit-items:
+- date: "2026-04-13"
+  outfits:
+    - items:
+       - "Levi's Light High Waist Jeans"
+       - "Sneakers Karhu Trampas Gray"
+       - "Pink Basic T-Shirt"
+       - "Pink Sweater with Print"
+       - "Levi's Denim Shirt"
+  non-outfit-items:
 - date: "2026-04-17"
   outfits:
     - items:
