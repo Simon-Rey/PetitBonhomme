@@ -1,3 +1,51 @@
+- date: "2026-04-23"
+  outfits:
+    - items:
+       - "Sneakers Karhu Trampas Gray"
+       - "Balloon Leg Black Levi's"
+       - "Cropped Jumper Sezane Orange and Pink/Bordeaux"
+       - "Green Jack & Jones T-Shirt Way West Field"
+    - items:
+       - "Sneakers Karhu Trampas Gray"
+       - "Balloon Leg Black Levi's"
+       - "Green Jack & Jones T-Shirt Way West Field"
+       - "Puff Jacket Rab"
+  non-outfit-items:
+- date: "2026-04-18"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Red High Waist Shorts"
+       - "Levi's Denim Shirt"
+       - "White T-Shirt Embroidered Zoé"
+  non-outfit-items:
+- date: "2026-04-22"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Red High Waist Shorts"
+       - "Green Jack & Jones T-Shirt Way West Field"
+  non-outfit-items:
+- date: "2026-04-21"
+  outfits:
+    - items:
+       - "Sneakers Karhu Trampas Gray"
+       - "Balloon Leg Black Levi's"
+       - "Blue Polo Volcom"
+    - items:
+       - "Pink Basic T-Shirt"
+       - "Red High Waist Shorts"
+       - "Birkenstock"
+       - "Levi's Denim Shirt"
+  non-outfit-items:
+- date: "2026-04-19"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Red High Waist Shorts"
+       - "White Tank Top"
+       - "Levi's Denim Shirt"
+  non-outfit-items:
 - date: "2026-04-15"
   outfits:
     - items:
