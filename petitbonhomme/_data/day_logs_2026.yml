@@ -1,3 +1,49 @@
+- date: "2026-04-27"
+  outfits:
+    - items:
+       - "Sneakers Karhu Trampas Gray"
+       - "Orange Corduroy Maje Shorts"
+       - "Black Light Falke Tight"
+       - "Mango V-Neck White T-Shirt"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Puff Jacket Rab"
+    - items:
+       - "Sneakers Karhu Trampas Gray"
+       - "Levi's Dark Gray Jeans"
+       - "Orange Armedangles Tank Top"
+       - "Dark Blue Sweater V-Neck Celio"
+       - "Puff Jacket Rab"
+  non-outfit-items:
+- date: "2026-04-26"
+  outfits:
+    - items:
+       - "Sneakers Karhu Trampas Gray"
+       - "Maje Blue Pattern Skort"
+       - "Uniqlo White Long Sleeve Sweatshirt"
+       - "Mango V-Neck White T-Shirt"
+       - "Dark Blue Corduroy Jacket"
+  non-outfit-items:
+- date: "2026-04-25"
+  outfits:
+    - items:
+       - "Black Dress Maje with Open Sides"
+       - "Red Oversized Lucy & Yak Shirt"
+       - "Bash Cropped Bomber Pacino"
+       - "Sneakers Karhu Trampas Gray"
+  non-outfit-items:
+- date: "2026-04-24"
+  outfits:
+    - items:
+       - "Black Dress Maje with Open Sides"
+       - "Red Oversized Lucy & Yak Shirt"
+       - "Bash Cropped Bomber Pacino"
+       - "Sneakers Karhu Trampas Gray"
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Dickies Pants"
+       - "Volcom Dark Gray Sweater"
+       - "Puff Jacket Rab"
+  non-outfit-items:
 - date: "2026-04-23"
   outfits:
     - items:
