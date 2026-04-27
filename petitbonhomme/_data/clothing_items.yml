@@ -49,10 +49,12 @@
   multiplicity: 1
   buying_price: 100
   buying_place: Hornbach
-  buying_date: '2025-24-02'
+  buying_date: '2025-02-24'
   z_index: 1
   image: Close-Up/
   worn_image: Worn/
+  bought_new: true
+  not_logged_wear: 0
 - name: "Black Heel Boots United Nude"
   brand: United Nude
   id: 193
@@ -66,6 +68,8 @@
   buying_price: 65
   buying_place: Vinted 
   buying_date: '2024-11-04'
+  bought_new: false
+  not_logged_wear: 0
   z_index: 1
   image: Close-Up/
   worn_image: Worn/
@@ -110,7 +114,7 @@
   - Fawn
   materials:
   - Leather
-  size: EUR 41
+  size: Shoe EUR 41
   category: Sandals
   multiplicity: 1
   buying_price: 20
@@ -255,7 +259,7 @@
   - Fawn
   materials:
   - Leather
-  size: EUR 41
+  size: Shoe EUR 41
   category: Ankle boots
   multiplicity: 1
   buying_price: 170
@@ -666,8 +670,8 @@
   - Cotton
   size: Pants US 28
   category: Jeans
-  multiplicity: 2
-  buying_price: 50
+  multiplicity: 3
+  buying_price: 70
   buying_place: Vinted
   buying_date: '2022-11-01'
   bought_new: false
@@ -3451,7 +3455,7 @@
   not_logged_wear: 0
   z_index: 2
   image: Close-Up/2023 - Clothes - 13546C82-9314-4A59-BAD0-7638D106337F.webp
-  worn_image: null
+  worn_image: Worn/
 - name: Vintage Orange Skirt
   id: 182
   brand: No Brand
@@ -3622,7 +3626,61 @@
   buying_date: '2025-12-27'
   bought_new: false
   not_logged_wear: 0
-  image:
-  worn_image:
-  id: 190
+  image: Close-Up
+  worn_image: Worn/
+  id: 197
   z_index: 1
+- name: Black Dress Maje with Open Sides
+  brand: Maje
+  colors:
+  - "Black"
+  materials:
+  - Polyester & Plastics
+  size: "Woman - 40"
+  category: "Formal dress"
+  multiplicity: 1
+  buying_price: 30
+  buying_place: Vinted
+  buying_date: '2026-04-13'
+  bought_new: false
+  not_logged_wear: 0
+  image: Close-Up/
+  worn_image: Worn/
+  id: 198
+  z_index: 5
+- name: Orange Armedangles Tank Top
+  brand: Armedangels
+  colors:
+  - BrightOrange
+  materials:
+  - Cotton
+  size: Woman - XL
+  category: Tank top
+  multiplicity: 1
+  buying_price: 5
+  buying_place: King's Day
+  buying_date: '2026-04-27'
+  bought_new: false
+  not_logged_wear: 0
+  image: Close-Up/
+  worn_image: Worn/
+  id: 199
+  z_index: 3
+- name: Levi's Dark Gray Jeans
+  brand: Levi's
+  colors:
+    - Charcoal
+  materials:
+    - Cotton
+  size: Pants US 30
+  category: Jeans
+  multiplicity: 1
+  buying_price: 1
+  buying_place: King's Day
+  buying_date: '2026-04-27'
+  bought_new: false
+  not_logged_wear: 0
+  image: Close-Up/
+  worn_image: Worn/
+  id: 200
+  z_index: 2

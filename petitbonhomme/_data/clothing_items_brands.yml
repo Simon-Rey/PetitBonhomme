@@ -192,3 +192,6 @@
 - name: "Another Label"
   country: "The Netherlands"
   url: "https://another-label.com"
+- name: 'Armedangels'
+  country: "Germany"
+  url: 'https://www.armedangels.com/'
