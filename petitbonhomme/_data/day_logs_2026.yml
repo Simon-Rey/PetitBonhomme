@@ -1,3 +1,43 @@
+- date: "2026-06-30"
+  outfits:
+    - items:
+       - "Gevavi Security Boots"
+       - "Dark Blue Denim Shorts"
+       - "Orange Armedangles Tank Top"
+  non-outfit-items:
+- date: "2026-06-29"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Skirt IKKS Double Matter"
+       - "Orange Armedangles Tank Top"
+       - "Green Linen Shirt"
+    - items:
+       - "Birkenstock"
+       - "Skirt IKKS Double Matter"
+       - "White Ribbed Tank Top Honest Basics"
+  non-outfit-items:
+- date: "2026-06-28"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Skirt IKKS Double Matter"
+       - "White Ribbed Tank Top Honest Basics"
+  non-outfit-items:
+- date: "2026-06-27"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Skirt IKKS Double Matter"
+       - "Black Top the Kooples Sport"
+  non-outfit-items:
+- date: "2026-06-26"
+  outfits:
+    - items:
+       - "Birkenstock"
+       - "Skirt IKKS Double Matter"
+       - "Black Top the Kooples Sport"
+  non-outfit-items:
 - date: "2026-05-30"
   outfits:
     - items:
